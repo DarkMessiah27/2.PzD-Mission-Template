@@ -56,15 +56,7 @@
                 [IJA_Mag_Type14,1],
                 [IJA_Weap_Type14],
                 [IJA_Mag_Type14,2,"uniform"]
-            ],[25],
-            [//Type 100/44 SMG and Type 14 Pistol
-                [IJA_Mag_Type100,1],
-                [IJA_Weap_Type10044],
-                [IJA_Mag_Type100,3],
-                [IJA_Mag_Type14,1],
-                [IJA_Weap_Type14],
-                [IJA_Mag_Type14,2,"uniform"]
-            ],[5]
+            ],[30]
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
         //Extra
