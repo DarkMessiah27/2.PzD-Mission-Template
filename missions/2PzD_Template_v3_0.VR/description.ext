@@ -87,3 +87,4 @@ class MissionSQM {
     #include "mission.sqm"
 };
 */
+#undef description_extra_classes
