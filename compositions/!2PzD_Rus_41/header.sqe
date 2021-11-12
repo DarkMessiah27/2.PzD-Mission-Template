@@ -1,0 +1,10 @@
+version=54;
+name="!2PzD_Rus_41";
+author="Thomas Brauer";
+category="EdSubcat_2PzD_Russian";
+requiredAddons[]=
+{
+	"WW2_Assets_c_Characters_Soviets_c_SOV_RKKA",
+	"WW2_Core_c_WW2_EditorPreviews_c",
+	"A3_Characters_F"
+};

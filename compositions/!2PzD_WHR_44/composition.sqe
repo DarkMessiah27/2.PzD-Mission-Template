@@ -1,0 +1,4309 @@
+version=54;
+center[]={6412.4268,5,1410.728};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="!2PzD_WHR_44";
+		class Entities
+		{
+			items=7;
+			class Item0
+			{
+				dataType="Group";
+				side="West";
+				class Entities
+				{
+					items=6;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.472168,0.0014390945,-0.26220703};
+							angles[]={-0,4.712389,0};
+						};
+						side="West";
+						flags=6;
+						class Attributes
+						{
+							rank="LIEUTENANT";
+							init="[this, WHR44_PC] call Olsen_FW_FNC_GearScript;";
+							name="G_1611";
+							description="Zugführer@1. Zug | Zugtrupp";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=352;
+						type="LIB_GER_lieutenant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.05;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.4760742,0.0014390945,-2.2250977};
+							angles[]={-0,4.712389,0};
+						};
+						side="West";
+						flags=4;
+						class Attributes
+						{
+							rank="SERGEANT";
+							init="[this, WHR44_P2] call Olsen_FW_FNC_GearScript;";
+							name="G_1612";
+							description="Stellver. Zugführer@1. Zug | Zugtrupp";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=353;
+						type="LIB_GER_scout_unterofficer";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.01;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.4589844,0.0014390945,-0.32373047};
+							angles[]={0,4.712389,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MedP] call Olsen_FW_FNC_GearScript;" \n "this setVariable [""Ace_medical_medicClass"", 1];";
+							name="G_1614";
+							description="Krankenträger@1. Zug | Zugtrupp";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=354;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.05;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.4453125,0.0014390945,-2.2104492};
+							angles[]={0,4.712389,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MedP] call Olsen_FW_FNC_GearScript;" \n "this setVariable [""Ace_medical_medicClass"", 1];";
+							name="G_1616";
+							description="Krankenträger@1. Zug | Zugtrupp";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=355;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.05;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.5131836,0.0014390945,1.5756836};
+							angles[]={0,4.712389,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							ammo=0.7751143;
+							init="[this, WHR44_RTO] call Olsen_FW_FNC_GearScript;";
+							name="G_1613";
+							description="Funker@1. Zug | Zugtrupp";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=356;
+						type="LIB_GER_radioman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.5083008,0.0014390945,1.4711914};
+							angles[]={0,4.712389,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Mess] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1615";
+							description="Melder@1. Zug | Zugtrupp";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=357;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.05;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+				};
+				class Attributes
+				{
+					combatMode="RED";
+					behaviour="SAFE";
+					speedMode="LIMITED";
+					formation="FILE";
+				};
+				id=351;
+			};
+			class Item1
+			{
+				dataType="Group";
+				side="West";
+				class Entities
+				{
+					items=12;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5830078,0.0014390945,-5.09375};
+							angles[]={-0,1.5707964,0};
+						};
+						side="West";
+						flags=6;
+						class Attributes
+						{
+							rank="SERGEANT";
+							init="[this, WHR44_SL] call Olsen_FW_FNC_GearScript;";
+							name="G_1123";
+							description="Gruppenführer@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=359;
+						type="LIB_GER_unterofficer";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5200195,0.0014390945,-9.3452148};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1124";
+							description="MG-Richtschütze@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=360;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5327148,0.0014390945,-8.378418};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MGA] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1125";
+							description="MG-Hilfsschütze@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=361;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5180664,0.0014390945,-6.2329102};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MedS] call Olsen_FW_FNC_GearScript;  " \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor; " \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1134";
+							description="Hilfs-Krankenträger@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=362;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5375977,0.0014390945,-9.3442383};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Gren] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1129";
+							description="Grenadier@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=363;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male02Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5395508,0.0014390945,-8.3745117};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1130";
+							description="Gewehrschütze@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=364;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5449219,0.0014390945,-7.2954102};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1131";
+							description="Gewehrschütze@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=365;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5302734,0.0014390945,-6.2641602};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1132";
+							description="Gewehrschütze@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=366;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.4780273,0.0014390945,-5.0581055};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1135";
+							description="Gewehrschütze@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=367;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5981445,0.0014390945,-10.466309};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1136";
+							description="Gewehrschütze@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=368;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item10
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5151367,0.0014390945,-7.2871094};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1137";
+							description="Gewehrschütze@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=369;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item11
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.6674805,0.0014390945,-10.503906};
+							angles[]={-0,1.5707964,0};
+						};
+						side="West";
+						flags=4;
+						class Attributes
+						{
+							rank="CORPORAL";
+							init="[this, WHR44_S2] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+							name="G_1133";
+							description="Stellver. Gruppenführer@1. Zug | 1. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=370;
+						type="LIB_GER_scout_smgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+				};
+				class Attributes
+				{
+					combatMode="RED";
+					behaviour="SAFE";
+					speedMode="LIMITED";
+					formation="FILE";
+				};
+				id=358;
+			};
+			class Item2
+			{
+				dataType="Group";
+				side="West";
+				class Entities
+				{
+					items=12;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.3964844,0.0014390945,2.8862305};
+							angles[]={-0,1.5707964,0};
+						};
+						side="West";
+						flags=6;
+						class Attributes
+						{
+							rank="SERGEANT";
+							init="[this, WHR44_SL] call Olsen_FW_FNC_GearScript;";
+							name="G_1223";
+							description="Gruppenführer@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=372;
+						type="LIB_GER_unterofficer";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5102539,0.0014390945,-1.206543};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1224";
+							description="MG-Richtschütze@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=373;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male03Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5151367,0.0014390945,-0.23779297};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MGA] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1225";
+							description="MG-Hilfsschütze@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=374;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5175781,0.0014390945,1.7661133};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MedS] call Olsen_FW_FNC_GearScript;  " \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor; " \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1235";
+							description="Hilfs-Krankenträger@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=375;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5131836,0.0014390945,-1.2084961};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Gren] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1229";
+							description="Grenadier@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=376;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male02Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5209961,0.0014390945,-0.24072266};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1230";
+							description="Gewehrschütze@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=377;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male04Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5141602,0.0014390945,0.75634766};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1231";
+							description="Gewehrschütze@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=378;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5024414,0.0014390945,1.8540039};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1232";
+							description="Gewehrschütze@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=379;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5009766,0.0014390945,2.9057617};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1234";
+							description="Gewehrschütze@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=380;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.543457,0.0014390945,-2.2993164};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1240";
+							description="Gewehrschütze@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=381;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item10
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5625,0.0014390945,0.72021484};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1242";
+							description="Gewehrschütze@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=382;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item11
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5766602,0.0014390945,-2.4013672};
+							angles[]={-0,1.5707964,0};
+						};
+						side="West";
+						flags=4;
+						class Attributes
+						{
+							ammo=0.23335065;
+							rank="CORPORAL";
+							init="[this, WHR44_S2] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+							name="G_1233";
+							description="Stellver. Gruppenführer@1. Zug | 2. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=383;
+						type="LIB_GER_scout_smgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male06Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+				};
+				class Attributes
+				{
+					combatMode="RED";
+					behaviour="SAFE";
+					speedMode="LIMITED";
+					formation="FILE";
+				};
+				id=371;
+			};
+			class Item3
+			{
+				dataType="Group";
+				side="West";
+				class Entities
+				{
+					items=12;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.3735352,0.0014390945,10.780762};
+							angles[]={-0,1.5707964,0};
+						};
+						side="West";
+						flags=6;
+						class Attributes
+						{
+							rank="SERGEANT";
+							init="[this, WHR44_SL] call Olsen_FW_FNC_GearScript;";
+							name="G_1236";
+							description="Gruppenführer@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=385;
+						type="LIB_GER_unterofficer";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.512207,0.0014390945,6.8041992};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1237";
+							description="MG-Richtschütze@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=386;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male03Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5175781,0.0014390945,7.7719727};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MGA] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1238";
+							description="MG-Hilfsschütze@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=387;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5317383,0.0014390945,9.7700195};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MedS] call Olsen_FW_FNC_GearScript;  " \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor; " \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1241";
+							description="Hilfs-Krankenträger@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=388;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5151367,0.0014390945,6.8022461};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Gren] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1243";
+							description="Grenadier@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=389;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male02Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5229492,0.0014390945,7.769043};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1244";
+							description="Gewehrschütze@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=390;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male04Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.5161133,0.0014390945,8.7661133};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1245";
+							description="Gewehrschütze@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=391;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5258789,0.0014390945,10.819336};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1247";
+							description="Gewehrschütze@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=392;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.4072266,0.0014390945,9.777832};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1246";
+							description="Gewehrschütze@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=393;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.6137695,0.0014390945,5.7260742};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1249";
+							description="Gewehrschütze@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=394;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item10
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.5117188,0.0014390945,8.7963867};
+							angles[]={0,1.5707964,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_1250";
+							description="Gewehrschütze@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=395;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item11
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.4648438,0.0014390945,5.6606445};
+							angles[]={-0,1.5707964,0};
+						};
+						side="West";
+						flags=4;
+						class Attributes
+						{
+							ammo=0.23335065;
+							rank="CORPORAL";
+							init="[this, WHR44_S2] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+							name="G_1248";
+							description="Stellver. Gruppenführer@1. Zug | 3. Gruppe";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=396;
+						type="LIB_GER_scout_smgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male06Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+				};
+				class Attributes
+				{
+					combatMode="RED";
+					behaviour="SAFE";
+					speedMode="LIMITED";
+					formation="FILE";
+				};
+				id=384;
+			};
+			class Item4
+			{
+				dataType="Group";
+				side="West";
+				class Entities
+				{
+					items=3;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={8.8671875,0.0014390945,-7.3779297};
+							angles[]={-0,4.7384171,0};
+						};
+						side="West";
+						flags=6;
+						class Attributes
+						{
+							rank="CORPORAL";
+							init="[this, WHR44_HMGSL] call Olsen_FW_FNC_GearScript;";
+							name="G_2236";
+							description="Truppführer@Schwerer Waffentrupp | HMG";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=398;
+						type="LIB_GER_smgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="acex_headless_blacklist";
+								expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={9.902832,0.0014390945,-7.4150391};
+							angles[]={0,4.7384171,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_HMGG] call Olsen_FW_FNC_GearScript;";
+							name="G_2237";
+							description="Richtschütze@Schwerer Waffentrupp | HMG";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=399;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="acex_headless_blacklist";
+								expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male04Ger";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.867676,0.0014390945,-7.4233398};
+							angles[]={0,4.7384171,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_HMGA] call Olsen_FW_FNC_GearScript;";
+							name="G_2238";
+							description="Munitionsträger@Schwerer Waffentrupp | HMG";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=400;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="acex_headless_blacklist";
+								expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=397;
+			};
+			class Item5
+			{
+				dataType="Group";
+				side="West";
+				class Entities
+				{
+					items=3;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={8.8862305,0.0014390945,7.699707};
+							angles[]={-0,4.7251339,0};
+						};
+						side="West";
+						flags=6;
+						class Attributes
+						{
+							init="[this, WHR44_VCom] call Olsen_FW_FNC_GearScript;";
+							name="G_T101_2";
+							description="Panzerbesatzungsführer@Eva";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=402;
+						type="LIB_GER_tank_lieutenant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.944336,0.0014390945,7.2758789};
+							angles[]={-0,4.7251339,0};
+						};
+						side="West";
+						flags=4;
+						class Attributes
+						{
+							init="[this, WHR44_VCrew] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_T103_2";
+							description="Panzerbesatzung@Eva";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=403;
+						type="LIB_GER_tank_crew";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.955078,0.0014390945,8.2729492};
+							angles[]={-0,4.7251339,0};
+						};
+						side="West";
+						flags=4;
+						class Attributes
+						{
+							init="[this, WHR44_VCrew] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_T104_2";
+							description="Panzerbesatzung@Eva";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=404;
+						type="LIB_GER_tank_crew";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+				};
+				class Attributes
+				{
+					combatMode="RED";
+					behaviour="SAFE";
+					speedMode="LIMITED";
+					formation="FILE";
+				};
+				id=401;
+			};
+			class Item6
+			{
+				dataType="Group";
+				side="West";
+				class Entities
+				{
+					items=12;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.54834,0.0014390945,-3.3188477};
+							angles[]={-0,4.7009649,0};
+						};
+						side="West";
+						flags=6;
+						class Attributes
+						{
+							rank="SERGEANT";
+							init="[this, WHR44_SL] call Olsen_FW_FNC_GearScript;";
+							name="G_R01_2";
+							description="Gruppenführer@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=406;
+						type="LIB_GER_unterofficer";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={12.57373,0.0014390945,0.65087891};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R06_2";
+							description="MG-Richtschütze@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=407;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={12.595703,0.0014390945,-0.32177734};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MGA] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R07_2";
+							description="MG-Hilfsschütze@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=408;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male03Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={12.617676,0.0014390945,-2.3325195};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_MedS] call Olsen_FW_FNC_GearScript;  " \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor; " \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R10_3";
+							description="Hilfs-Krankenträger@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=409;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.578125,0.0014390945,0.62548828};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Gren] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R04_2";
+							description="Grenadier@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=410;
+						type="LIB_GER_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male06Ger";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.99000001;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.600098,0.0014390945,-0.34863281};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R05_2";
+							description="Gewehrschütze@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=411;
+						type="LIB_GER_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.59668,0.0014390945,-1.3564453};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R08_2";
+							description="Gewehrschütze@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=412;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={12.562988,0.0014390945,-3.2519531};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R08_4";
+							description="Gewehrschütze@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=413;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.537109,0.0014390945,-2.3637695};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R08_3";
+							description="Gewehrschütze@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=414;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={12.61377,0.0014390945,1.7333984};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R08_5";
+							description="Gewehrschütze@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=415;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item10
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={12.615234,0.0014390945,-1.3891602};
+							angles[]={0,4.7009649,0};
+						};
+						side="West";
+						flags=5;
+						class Attributes
+						{
+							init="[this, WHR44_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							name="G_R08_6";
+							description="Gewehrschütze@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=416;
+						type="LIB_GER_Soldier2_base";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+					class Item11
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.662598,0.0014390945,1.7709961};
+							angles[]={-0,4.7009649,0};
+						};
+						side="West";
+						flags=4;
+						class Attributes
+						{
+							rank="CORPORAL";
+							init="[this, WHR44_S2] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+							name="G_R02_2";
+							description="Stellver. Gruppenführer@1. Kompanie | Ersatztruppen";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_white";
+									isBackpack=0;
+								};
+							};
+						};
+						id=417;
+						type="LIB_GER_scout_smgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=2;
+						};
+					};
+				};
+				class Attributes
+				{
+					combatMode="RED";
+					behaviour="SAFE";
+					speedMode="LIMITED";
+					formation="FILE";
+				};
+				id=405;
+			};
+		};
+		id=418;
+		atlOffset=-0.0390625;
+	};
+};

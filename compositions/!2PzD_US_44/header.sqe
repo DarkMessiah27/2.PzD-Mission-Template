@@ -1,0 +1,10 @@
+version=54;
+name="!2PzD_US_44";
+author="Thomas Brauer";
+category="EdSubcat_2PzD_United_States";
+requiredAddons[]=
+{
+	"WW2_Assets_c_Characters_Americans_c_US_Army",
+	"WW2_Core_c_WW2_EditorPreviews_c",
+	"A3_Characters_F"
+};

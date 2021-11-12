@@ -1,0 +1,12 @@
+version=54;
+name="!2PzD_!Essentials";
+author="Wilhelm Haas";
+category="EdSubcat_2PzD_1_Essentials";
+requiredAddons[]=
+{
+	"A3_Modules_F_Curator_Curator",
+	"A3_Characters_F",
+	"WW2_Assets_c_Characters_Civilians_c_CIV_Civilians",
+	"WW2_Core_c_WW2_EditorPreviews_c",
+	"A3_Modules_F"
+};

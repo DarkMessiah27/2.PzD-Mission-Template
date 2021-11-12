@@ -1,0 +1,9 @@
+version=54;
+name="!2PzD_Jpn_44";
+author="Thomas Brauer";
+category="EdSubcat_2PzD_Japan";
+requiredAddons[]=
+{
+	"fow_characters_c",
+	"A3_Characters_F"
+};
