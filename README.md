@@ -25,6 +25,7 @@ Releases can be found [here](https://github.com/DarkMessiah27/2.PzD-Mission-Temp
 #### Acknowlegements:
 
 Olsen for making the [Olsen Framework](https://github.com/dklollol/Olsen-Framework-Arma-3).
+
 Drofseh (Haas) for making the original version that this template is based on.
 
 If you want a framework for making ARMA missions and aren't a member of 2.PzD I strongly recommend the Olsen Framework.
