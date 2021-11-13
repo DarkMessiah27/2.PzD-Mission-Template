@@ -4,9 +4,9 @@
 // Uncomment the line for the uniforms you want to use.
 // Make sure only one option is uncommented! Otherwise whichever one loads last overwrites the others.
 
-//#define regularUniforms true
+#define regularUniforms true
 //#define winterUniforms true
-#define africaUniforms true
+//#define africaUniforms true
 
 //=== Gear Definitions ===
 
