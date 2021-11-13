@@ -22,7 +22,6 @@
                 Olsen_FW_MissionLoadouts = [];\
                 Olsen_FW_MissionLoadoutsVehicle = [];\
                 '' call compileScript ['customization\gearLoadouts.sqf'];\
-                '' call compileScript ['customization\vehicleGearLoadouts.sqf'];\
                 Olsen_FW_FNC_GearScript = compileScript ['customization\core\gearCore.sqf'];\
                 Olsen_FW_FNC_VehicleGearScript = compileScript ['customization\core\vehGearCore.sqf'];\
             ";

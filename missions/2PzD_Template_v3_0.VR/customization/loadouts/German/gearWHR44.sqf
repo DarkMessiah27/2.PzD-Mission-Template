@@ -6,10 +6,6 @@
 
 /*Loadouts
 
-    //Kompanietrupp
-[this, WHR44_CC] call Olsen_FW_FNC_GearScript;        Kompanieführer
-[this, WHR44_C2] call Olsen_FW_FNC_GearScript;        Kompanietruppführer
-
     //Zugtrupp
 [this, WHR44_PC] call Olsen_FW_FNC_GearScript;        Zugführer
 [this, WHR44_P2] call Olsen_FW_FNC_GearScript;        Zugtruppführer
@@ -23,23 +19,14 @@
 [this, WHR44_S3] call Olsen_FW_FNC_GearScript;        Gefreiter
 [this, WHR44_MG] call Olsen_FW_FNC_GearScript;        MG-Richtschütze
 [this, WHR44_MGA] call Olsen_FW_FNC_GearScript;       MG-Hilfsschütze
-[this, WHR44_MGAB] call Olsen_FW_FNC_GearScript;      MG-Munitionsträger
 [this, WHR44_Gren] call Olsen_FW_FNC_GearScript;      Grenadier
 [this, WHR44_MedS] call Olsen_FW_FNC_GearScript;      Hilfs-Krankenträger
 [this, WHR44_Rif] call Olsen_FW_FNC_GearScript;       Gewehrschütze
 
     //Weapon Truppen
-[this, WHR44_MortSL] call Olsen_FW_FNC_GearScript;    Mortar Truppführer
-[this, WHR44_MortG] call Olsen_FW_FNC_GearScript;     Mortar Granatwerferschützen
-[this, WHR44_MortA] call Olsen_FW_FNC_GearScript;     Mortar Munitionsträger
-
 [this, WHR44_HMGSL] call Olsen_FW_FNC_GearScript;     HMG Truppführer
 [this, WHR44_HMGG] call Olsen_FW_FNC_GearScript;      HMG Richtschütze
 [this, WHR44_HMGA] call Olsen_FW_FNC_GearScript;      HMG Munitionsträger
-
-[this, WHR44_ATRSL] call Olsen_FW_FNC_GearScript;     Panzerbüchse Truppführer
-[this, WHR44_ATRG] call Olsen_FW_FNC_GearScript;      Panzerbüchse Richtschütze
-[this, WHR44_ATRA] call Olsen_FW_FNC_GearScript;      Panzerbüchse Munitionsträger
 
 [this, WHR44_ATSL] call Olsen_FW_FNC_GearScript;      Panzerschreck Truppführer
 [this, WHR44_ATG] call Olsen_FW_FNC_GearScript;       Panzerschreck Richtschütze
@@ -52,7 +39,7 @@
 
 //======================== Definitions ========================
 
-//For Kompanieführer, Kompanietruppführer, Zugführer, Zugtruppführer, and Besatzungsführer
+//For Zugführer, Zugtruppführer, and Besatzungsführer
 #define WHR44_Weapon_Officer \
         [ \
             [ \
@@ -275,50 +262,11 @@
             ],[25] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
+// Uniform 
+#define WHR44_Leader_Uniform \
+
+
 //======================== Loadouts ========================
-
-//Company HQ
-
-    //Kompanieführer
-    WHR44_CC = ["WHR44_CC", {
-        params ["_unit"];
-
-        [Ger_Uni_CC] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_PC] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_Radio] call Olsen_FW_FNC_AddItem;
-        [Ger_Hat_Officer] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
-
-        //Primary Weapon
-        WHR44_Weapon_Officer;
-
-        //Secondary Weapon
-        WHR44_Weapon_Officer_Secondary;
-    }];
-
-    //Kompanietruppführer
-    WHR44_C2 = ["WHR44_C2", {
-        params ["_unit"];
-
-        [Ger_Uni_SL] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_PC] call Olsen_FW_FNC_AddItem;
-        [Ger_Hat] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
-
-        //Primary Weapon
-        WHR44_Weapon_Officer;
-
-        //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
-    }];
 
 //Platoon HQ
 
