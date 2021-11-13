@@ -57,24 +57,6 @@
             ],[30], \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
-//For light riflemen
-#define R41_Weapon_Rifleman_Light \
-        [ \
-            [/*Mosin M91/30*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM9130], \
-                [Rus_Acc_Mos_Bayo], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[70], \
-            [/*SVT*/ \
-                [Rus_Vest_SVT], \
-                [Rus_Mag_SVT40,1], \
-                [Rus_Weap_SVT40], \
-                [Rus_Mag_SVT40,6,"vest"] \
-            ],[30], \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
 //For submachine gunners
 #define R41_Weapon_SMG \
         [Rus_Vest_PPSH_D1] call Olsen_FW_FNC_AddItem; \
@@ -134,7 +116,7 @@
         GEN_Leader_Equipment;
 
         //Primary Weapon & Vest
-        R41_Weapon_Rifleman_Light;
+        R41_Weapon_Rifleman;
 
         //Secondary Weapon
         R41_Weapon_Secondary;
@@ -152,7 +134,7 @@
         [Rus_Uni_Rif] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon & Vest
-        R41_Weapon_Rifleman_Light;
+        R41_Weapon_Rifleman;
 
         [Rus_BP_Med] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
@@ -175,7 +157,7 @@
         GEN_Default_Equipment;
 
         //Primary Weapon & Vest
-        R41_Weapon_Rifleman_Light;
+        R41_Weapon_Rifleman;
 
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -199,7 +181,7 @@
         GEN_Default_Equipment;
 
         //Primary Weapon & Vest
-        R41_Weapon_Rifleman_Light;
+        R41_Weapon_Rifleman;
 
         //Extra
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
@@ -213,7 +195,7 @@
         [Rus_Uni_TL] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon & Vest
-        R41_Weapon_Rifleman_Light;
+        R41_Weapon_Rifleman;
 
         [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
@@ -345,7 +327,7 @@
         [Rus_Uni_Rif] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon & Vest
-        R41_Weapon_Rifleman_Light;
+        R41_Weapon_Rifleman;
 
         [Rus_BP_MG] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
