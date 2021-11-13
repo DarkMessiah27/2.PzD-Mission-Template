@@ -1,0 +1,3 @@
+Seriously, things will explode, and stuff, probably.
+
+Jokes aside though, your game will crash as soon as you load your mission if you delete any of these gearDef files.
