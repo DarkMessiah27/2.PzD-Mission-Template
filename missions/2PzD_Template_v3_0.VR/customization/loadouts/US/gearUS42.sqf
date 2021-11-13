@@ -35,29 +35,17 @@
 #define US42_Weapon_Leader \
         [ \
             [ \
-                [US_Vest_M1T], \
-                [US_Mag_M1T_20,1], \
-                [US_Weap_M1928A1], \
-                [US_Mag_M1T_20,5,"vest"] \
-            ],[50], \
-            [ \
                 [US_Vest_M1C], \
                 [US_Mag_M1C,1], \
                 [US_Weap_M1C], \
                 [US_Mag_M1C,5,"vest"] \
-            ],[30], \
+            ],[25], \
             [ \
                 [US_Vest_M1T], \
                 [US_Mag_M1T_30,1], \
                 [US_Weap_M1T], \
                 [US_Mag_M1T_30,5,"vest"] \
-            ],[10], \
-            [ \
-                [US_Vest_M1T], \
-                [US_Mag_M1T_20,1], \
-                [US_Weap_M1928], \
-                [US_Mag_M1T_20,5,"vest"] \
-            ],[10] \
+            ],[75] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 // For light riflemen
