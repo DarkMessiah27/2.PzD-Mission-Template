@@ -6,11 +6,6 @@
 
 /* Loadouts
 
-    //Company HQ
-[this, R41_CC] call Olsen_FW_FNC_GearScript;          Company Commander
-[this, R41_CSgt] call Olsen_FW_FNC_GearScript;        Company Sergeant
-[this, R41_RTO] call Olsen_FW_FNC_GearScript;         Radio Operator
-
     //Platoon HQ
 [this, R41_PC] call Olsen_FW_FNC_GearScript;          Platoon Commander
 [this, R41_PSgt] call Olsen_FW_FNC_GearScript;        Platoon Sergeant
@@ -53,19 +48,13 @@
                 [Rus_Weap_MosM9130], \
                 [Rus_Acc_Mos_Bayo], \
                 [Rus_Mag_Mosin,12,"vest"] \
-            ],[68], \
+            ],[70], \
             [/*SVT*/ \
                 [Rus_Vest_SVT], \
                 [Rus_Mag_SVT40,1], \
                 [Rus_Weap_SVT40], \
                 [Rus_Mag_SVT40,6,"vest"] \
             ],[30], \
-            [/*Mosin M38*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM38], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[2] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 //For light riflemen
@@ -83,13 +72,7 @@
                 [Rus_Mag_SVT40,1], \
                 [Rus_Weap_SVT40], \
                 [Rus_Mag_SVT40,6,"vest"] \
-            ],[15], \
-            [/*Mosin M38*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM38], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[15] \
+            ],[30], \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 //For submachine gunners
@@ -106,79 +89,15 @@
                 [Rus_Mag_TT33,1], \
                 [Rus_Weap_TT33], \
                 [Rus_Mag_TT33,2,"uniform"] \
-            ],[59], \
+            ],[50], \
             [/*M1895*/ \
                 [Rus_Mag_M1895,1], \
                 [Rus_Weap_M1895], \
                 [Rus_Mag_M1895,2,"uniform"] \
-            ],[41] \
+            ],[50] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 //======================== Loadouts ========================
-
-//Company HQ
-
-    //Company Commander
-    R41_CC = ["R41_CC", {
-        params ["_unit"];
-
-        [Rus_Uni_CC] call Olsen_FW_FNC_AddItem;
-        [Rus_Vest_PC] call Olsen_FW_FNC_AddItem;
-        [Rus_Hat_PC] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
-
-        //Primary Weapon
-
-        //Secondary Weapon
-        R41_Weapon_Secondary;
-    }];
-
-    //Company Sergeant
-    R41_CSgt = ["R41_CSgt", {
-        params ["_unit"];
-
-        [Rus_Uni_CSgt] call Olsen_FW_FNC_AddItem;
-        [Rus_BP] call Olsen_FW_FNC_AddItem;
-        [Rus_Hat] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
-
-        //Primary Weapon & Vest
-        R41_Weapon_Rifleman_Light;
-
-        //Secondary Weapon
-        R41_Weapon_Secondary;
-
-        //Extra
-        [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
-        [Rus_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
-        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Radio Operator
-    R41_RTO = ["R41_RTO", {
-        params ["_unit"];
-
-        [Rus_Uni_Rif] call Olsen_FW_FNC_AddItem;
-
-        //Primary Weapon & Vest
-        R41_Weapon_Rifleman_Light;
-
-        [Rus_BP_Radio] call Olsen_FW_FNC_AddItem;
-        [Rus_Hat] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment;
-        [GEN_Headset] call Olsen_FW_FNC_AddItem;
-    }];
 
 //Platoon HQ
 
