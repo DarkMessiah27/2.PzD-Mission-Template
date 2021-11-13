@@ -15,7 +15,7 @@
 // THE WINTER AND AFRICAN GEARDEF FILES FOR COUNTRIES OTHER THAN GERMANY HAVE NOT YET BEEN CREATED.
 
 #ifdef regularUniforms
-    #include "geardefs\German\gearDefGer.sqf"
+    #include "geardefs\German\gearDefGerRegular.sqf"
     #include "geardefs\British\gearDefUK.sqf"
     #include "geardefs\Russian\gearDefRus.sqf"
     #include "geardefs\US\gearDefUS.sqf"
