@@ -25,11 +25,9 @@
     //Heavy Weapons Teams
 [this, R44_HMGTL] call Olsen_FW_FNC_GearScript;       HMG Team Leader
 [this, R44_HMGG] call Olsen_FW_FNC_GearScript;        HMG Gunner
-[this, R44_HMGA] call Olsen_FW_FNC_GearScript;        HMG Ammo Bearer
 
 [this, R44_ATRTL] call Olsen_FW_FNC_GearScript;       AT Rifle Team Leader
 [this, R44_ATRG] call Olsen_FW_FNC_GearScript;        AT Rifle Gunner
-[this, R44_ATRA] call Olsen_FW_FNC_GearScript;        AT Rifle Ammo Bearer
 
     //Vehicle Crew
 [this, R44_VCom] call Olsen_FW_FNC_GearScript;        Tank Commander
