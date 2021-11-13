@@ -6,11 +6,6 @@
 
 /* Loadouts
 
-    //Company HQ
-[this, R44_CC] call Olsen_FW_FNC_GearScript;          Company Commander
-[this, R44_CSgt] call Olsen_FW_FNC_GearScript;        Company Sergeant
-[this, R44_RTO] call Olsen_FW_FNC_GearScript;         Radio Operator
-
     //Platoon HQ
 [this, R44_PC] call Olsen_FW_FNC_GearScript;          Platoon Commander
 [this, R44_PSgt] call Olsen_FW_FNC_GearScript;        Platoon Sergeant
@@ -30,11 +25,9 @@
     //Heavy Weapons Teams
 [this, R44_HMGTL] call Olsen_FW_FNC_GearScript;       HMG Team Leader
 [this, R44_HMGG] call Olsen_FW_FNC_GearScript;        HMG Gunner
-[this, R44_HMGA] call Olsen_FW_FNC_GearScript;        HMG Ammo Bearer
 
 [this, R44_ATRTL] call Olsen_FW_FNC_GearScript;       AT Rifle Team Leader
 [this, R44_ATRG] call Olsen_FW_FNC_GearScript;        AT Rifle Gunner
-[this, R44_ATRA] call Olsen_FW_FNC_GearScript;        AT Rifle Ammo Bearer
 
     //Vehicle Crew
 [this, R44_VCom] call Olsen_FW_FNC_GearScript;        Tank Commander
@@ -43,32 +36,7 @@
 
 //======================== Definitions ========================
 
-//For leaders
-#define R44_Weapon_Leader \
-        [ \
-            [/*PPSh-41, Stick*/ \
-                [Rus_Mag_PPSH_S,1], \
-                [Rus_Weap_PPSH_S], \
-                [Rus_Mag_PPSH_S,3,"vest"] \
-            ],[48], \
-            [/*PPS-43*/ \
-                [Rus_Mag_PPS43,1], \
-                [Rus_Weap_PPS43], \
-                [Rus_Mag_PPS43,3,"vest"] \
-            ],[30], \
-            [/*PPSh-41, Drum*/ \
-                [Rus_Mag_PPSH_D,1], \
-                [Rus_Weap_PPSH_D], \
-                [Rus_Mag_PPSH_D,3,"vest"] \
-            ],[20], \
-            [/*PPD-40*/ \
-                [Rus_Mag_PPD40,1], \
-                [Rus_Weap_PPD40], \
-                [Rus_Mag_PPD40,1,"vest"] \
-            ],[2] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
-//For team leaders and submachine gunners
+//submachine gunners
 #define R44_Weapon_SMG \
         [ \
             [/*PPSh-41, Stick*/ \
@@ -77,7 +45,7 @@
                 [Rus_Weap_PPSH_S], \
                 [Rus_Mag_PPSH_S,3,"vest"], \
                 [Rus_Mag_PPSH_D,2,"vest"] \
-            ],[48], \
+            ],[50], \
             [/*PPS-43*/ \
                 [Rus_Vest_PPSH_S1], \
                 [Rus_Mag_PPS43,1], \
@@ -90,12 +58,6 @@
                 [Rus_Weap_PPSH_D], \
                 [Rus_Mag_PPSH_D,3,"vest"] \
             ],[20], \
-            [/*PPD-40*/ \
-                [Rus_Vest_PPSH_D1], \
-                [Rus_Mag_PPD40,1], \
-                [Rus_Weap_PPD40], \
-                [Rus_Mag_PPD40,2,"vest"] \
-            ],[2] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 //For riflemen
@@ -107,93 +69,15 @@
                 [Rus_Weap_MosM9130], \
                 [Rus_Acc_Mos_Bayo], \
                 [Rus_Mag_Mosin,12,"vest"] \
-            ],[49.08], \
-            [/*PPSh-41, Stick*/ \
-                [Rus_Vest_PPSH_D1], \
-                [Rus_Mag_PPSH_S,1], \
-                [Rus_Weap_PPSH_S], \
-                [Rus_Mag_PPSH_S,3,"vest"], \
-                [Rus_Mag_PPSH_D,2,"vest"] \
-            ],[16.8], \
-            [/*PPS-43*/ \
-                [Rus_Vest_PPSH_D1], \
-                [Rus_Mag_PPS43,1], \
-                [Rus_Weap_PPS43], \
-                [Rus_Mag_PPS43,6,"vest"] \
-            ],[10.5], \
+            ],[70], \
             [/*SVT*/ \
                 [Rus_Vest_SVT], \
                 [Rus_Mag_SVT40,1], \
                 [Rus_Weap_SVT40], \
                 [Rus_Mag_SVT40,6,"vest"] \
-            ],[9.1], \
-            [/*PPSh-41, Drum*/ \
-                [Rus_Vest_PPSH_D1], \
-                [Rus_Mag_PPSH_D,1], \
-                [Rus_Weap_PPSH_D], \
-                [Rus_Mag_PPSH_D,3,"vest"] \
-            ],[7], \
-            [/*Mosin M44*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM44], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[3.25], \
-            [/*Mosin M38*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM38], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[2.93], \
-            [/*AVT*/ \
-                [Rus_Vest_SVT], \
-                [Rus_Mag_SVT40,1], \
-                [Rus_Weap_AVT40], \
-                [Rus_Mag_SVT40,6,"vest"] \
-            ],[0.65], \
-            [/*PPD-40*/ \
-                [Rus_Vest_PPSH_D1], \
-                [Rus_Mag_PPD40,1], \
-                [Rus_Weap_PPD40], \
-                [Rus_Mag_PPD40,2,"vest"] \
-            ],[0.4] \
+            ],[30], \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
-//For light riflemen
-#define R44_Weapon_Rifleman_Light \
-        [ \
-            [/*Mosin M91/30*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM9130], \
-                [Rus_Acc_Mos_Bayo], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[54], \
-            [/*Mosin M38*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM38], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[30], \
-            [/*Mosin M44*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM44], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[10], \
-            [/*SVT*/ \
-                [Rus_Vest_SVT], \
-                [Rus_Mag_SVT40,1], \
-                [Rus_Weap_SVT40], \
-                [Rus_Mag_SVT40,6,"vest"] \
-            ],[5], \
-            [/*AVT*/ \
-                [Rus_Vest_SVT], \
-                [Rus_Mag_SVT40,1], \
-                [Rus_Weap_AVT40], \
-                [Rus_Mag_SVT40,6,"vest"] \
-            ],[1] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 //For all loadouts with pistols
 #define R44_Weapon_Secondary \
@@ -202,81 +86,15 @@
                 [Rus_Mag_TT33,1], \
                 [Rus_Weap_TT33], \
                 [Rus_Mag_TT33,2,"uniform"] \
-            ],[77], \
+            ],[70], \
             [/*M1895*/ \
                 [Rus_Mag_M1895,1], \
                 [Rus_Weap_M1895], \
                 [Rus_Mag_M1895,2,"uniform"] \
-            ],[23] \
+            ],[30] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 //======================== Loadouts ========================
-
-//Company HQ
-
-    //Company Commander
-    R44_CC = ["R44_CC", {
-        params ["_unit"];
-
-        [Rus_Uni_CC] call Olsen_FW_FNC_AddItem;
-        [Rus_Vest_PC] call Olsen_FW_FNC_AddItem;
-        [Rus_Hat_PC] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
-
-        //Primary Weapon
-        R44_Weapon_Leader;
-
-        //Secondary Weapon
-        R44_Weapon_Secondary;
-    }];
-
-    //Company Sergeant
-    R44_CSgt = ["R44_CSgt", {
-        params ["_unit"];
-
-        [Rus_Uni_CSgt] call Olsen_FW_FNC_AddItem;
-        [Rus_Vest_PPSH_O_r] call Olsen_FW_FNC_AddItemRandom;
-        [Rus_BP] call Olsen_FW_FNC_AddItem;
-        [Rus_Hat] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
-
-        //Primary Weapon
-        R44_Weapon_Leader;
-
-        //Secondary Weapon
-        R44_Weapon_Secondary;
-
-        //Extra
-        [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
-        [Rus_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
-        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Radio Operator
-    R44_RTO = ["R44_RTO", {
-        params ["_unit"];
-
-        [Rus_Uni_Rif] call Olsen_FW_FNC_AddItem;
-
-        //Primary Weapon & Vest
-        R44_Weapon_Rifleman_Light;
-
-        [Rus_BP_Radio] call Olsen_FW_FNC_AddItem;
-        [Rus_Hat] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment;
-        [GEN_Headset] call Olsen_FW_FNC_AddItem;
-    }];
 
 //Platoon HQ
 
@@ -294,7 +112,7 @@
         GEN_Leader_Equipment;
 
         //Primary Weapon
-        R44_Weapon_Leader;
+        R44_Weapon_SMG;
 
         //Secondary Weapon
         R44_Weapon_Secondary;
@@ -315,7 +133,7 @@
         GEN_Leader_Equipment;
 
         //Primary Weapon
-        R44_Weapon_Leader;
+        R44_Weapon_SMG;
 
         //Secondary Weapon
         R44_Weapon_Secondary;
@@ -333,7 +151,7 @@
         [Rus_Uni_Rif] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon & Vest
-        R44_Weapon_Rifleman_Light;
+        R44_Weapon_Rifleman;
 
         [Rus_BP_Med] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
@@ -356,7 +174,7 @@
         GEN_Default_Equipment;
 
         //Primary Weapon & Vest
-        R44_Weapon_Rifleman_Light;
+        R44_Weapon_Rifleman;
 
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -381,7 +199,7 @@
         GEN_Default_Equipment;
 
         //Primary Weapon
-        R44_Weapon_Leader;
+        R44_Weapon_SMG;
 
         //Extra
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
@@ -524,7 +342,7 @@
         [Rus_Uni_Rif] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon & Vest
-        R44_Weapon_Rifleman_Light;
+        R44_Weapon_Rifleman;
 
         [Rus_BP_MG] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
@@ -635,7 +453,7 @@
         GEN_Leader_Equipment;
 
         //Primary Weapon
-        R44_Weapon_Leader;
+        R44_Weapon_SMG;
 
         //Secondary Weapon
         R44_Weapon_Secondary;
