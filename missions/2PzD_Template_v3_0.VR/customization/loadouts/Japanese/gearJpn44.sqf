@@ -40,7 +40,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
         IJA_Leader_Equipment;
 
         [//Weapons
@@ -77,7 +77,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem;
@@ -86,7 +86,7 @@
         [IJA_Mag_Type99_R,6,"vest"] call Olsen_FW_FNC_AddItem;
 
         //Extra
-        GEN_MedicP_Equipment;
+        GEN_MedicP_Equipment_Set;
     }];
 
     //Marksman
@@ -99,7 +99,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem;
@@ -130,7 +130,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
         IJA_Leader_Equipment;
 
         [//Primary Weapon
@@ -180,7 +180,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem;
@@ -217,7 +217,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_M_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
@@ -252,7 +252,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem;
@@ -285,7 +285,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem;
@@ -316,7 +316,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem;
@@ -347,8 +347,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_MedicS_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_MedicS_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem;
@@ -376,7 +376,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem;
@@ -400,7 +400,7 @@
 
         //Assigned Items
         IJA_Leader_Equipment;
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Secondary Weapon
         [IJA_Mag_Type14,1] call Olsen_FW_FNC_AddItem;
@@ -418,7 +418,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Secondary Weapon
         [IJA_Mag_Type14,1] call Olsen_FW_FNC_AddItem;

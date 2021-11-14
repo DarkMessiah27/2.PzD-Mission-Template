@@ -98,8 +98,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Secondary Weapon
         UK44_Webley;
@@ -120,8 +120,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         UK44_SMG;
@@ -144,13 +144,13 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         UK44_LeeEn;
 
         //Extra
-        GEN_MedicP_Equipment;
+        GEN_MedicP_Equipment_Set;
         [UK_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -165,7 +165,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         UK44_LeeEn;
@@ -188,8 +188,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         UK44_SMG;
@@ -212,7 +212,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         UK44_SMG;
@@ -235,7 +235,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [UK_Mag_Bren_30_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
@@ -257,7 +257,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
         [GEN_BinoR] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
@@ -280,8 +280,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_MedicS_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_MedicS_Equipment_Set;
 
         //Primary Weapon
         UK44_LeeEn;
@@ -302,7 +302,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         UK44_LeeEn;
@@ -325,8 +325,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         UK44_LeeEn;
@@ -347,7 +347,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Secondary Weapon
         UK44_Webley;
@@ -364,8 +364,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Secondary Weapon
         UK44_Webley;
@@ -384,7 +384,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         UK44_LeeEn;
@@ -405,8 +405,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         UK44_LeeEn;
@@ -428,7 +428,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Secondary Weapon
         UK44_Webley;
@@ -452,8 +452,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         UK44_SMG;
@@ -478,7 +478,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         UK44_SMG;

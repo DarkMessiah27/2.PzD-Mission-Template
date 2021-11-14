@@ -249,8 +249,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Officer;
@@ -273,8 +273,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Officer;
@@ -308,8 +308,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Officer;
@@ -332,8 +332,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Officer;
@@ -364,7 +364,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Rifle;
@@ -392,7 +392,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Rifle;
@@ -420,14 +420,14 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Rifle;
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        GEN_MedicP_Equipment;
+        GEN_MedicP_Equipment_Set;
     }];
 
 //Squad
@@ -442,8 +442,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_Leader_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_GF;
@@ -464,7 +464,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_SGf;
@@ -487,7 +487,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
         [GEN_BinoG] call Olsen_FW_FNC_AddItem;
 
         //Secondary Weapon
@@ -514,7 +514,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
         [GEN_BinoG] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
@@ -537,7 +537,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         [Ger_Mag_K98,1] call Olsen_FW_FNC_AddItem;
@@ -568,7 +568,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Grenadier;
@@ -587,8 +587,8 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
-        GEN_MedicS_Equipment;
+        GEN_Default_Equipment_Set;
+        GEN_MedicS_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Rifle;
@@ -615,7 +615,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         FSJ44_Weapon_Rifle;
