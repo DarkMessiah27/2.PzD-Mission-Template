@@ -35,7 +35,9 @@
     #include "geardefs\US\gearDefUS.sqf"
 #endif
 
-#include "geardefs\gearDefzGEN.sqf"
+#include "geardefs\Generic\gearDefGEN.sqf"
+
+#include "geardefs\Generic\gearDefEquipmentSets.sqf"
 
 #include "geardefs\gearDefAus.sqf"
 
