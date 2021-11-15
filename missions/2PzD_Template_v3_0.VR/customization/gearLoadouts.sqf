@@ -17,21 +17,21 @@
 #ifdef regularUniforms
     #include "geardefs\German\gearDefGerRegular.sqf"
     #include "geardefs\British\gearDefUK.sqf"
-    #include "geardefs\Russian\gearDefRus.sqf"
+    #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUS.sqf"
 #endif
 
 #ifdef winterUniforms
     #include "geardefs\German\gearDefGerWinter.sqf"
     #include "geardefs\British\gearDefUK.sqf"
-    #include "geardefs\Russian\gearDefRus.sqf"
+    #include "geardefs\Russian\gearDefRusWinter.sqf"
     #include "geardefs\US\gearDefUS.sqf"
 #endif
 
 #ifdef africaUniforms
     #include "geardefs\German\gearDefGerAfrica.sqf"
     #include "geardefs\British\gearDefUK.sqf"
-    #include "geardefs\Russian\gearDefRus.sqf"
+    #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUS.sqf"
 #endif
 
@@ -59,13 +59,17 @@
 
 #include "geardefs\Japanese\gearDefJap.sqf"
 
+#include "geardefs\Russian\gearDefNKVD.sqf"
+
+#include "geardefs\Russian\gearDefRusWeapons.sqf"
+
 #include "geardefs\gearDefNed.sqf"
 
 #include "geardefs\gearDefParti.sqf"
 
 #include "geardefs\gearDefPol.sqf"
 
-//=== Vehicle Loadouts ===
+//============ Vehicle Loadouts ============
 
 // Vehicle Loadouts are in the loadoutsVeh folder.
 // Remove the // at the start of a line to enable that loadout set.
@@ -77,7 +81,7 @@
 
 #include "loadoutsVeh\German\vehGearWHR.sqf"
 
-//=== Loadouts ===
+//============ Loadouts ============
 
 // Loadouts are in the loadouts folder.
 // Remove the // at the start of a line to enable that loadout set.
