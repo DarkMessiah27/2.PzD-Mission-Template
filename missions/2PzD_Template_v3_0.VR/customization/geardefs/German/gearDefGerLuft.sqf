@@ -1,4 +1,4 @@
-//========================Luftwaffe and Fallschirmjäger Equipment Definitions========================
+//======================== Luftwaffe and Fallschirmjäger Equipment Definitions ========================
 
 //===== Luftwaffe Equipment Definitions =====
 

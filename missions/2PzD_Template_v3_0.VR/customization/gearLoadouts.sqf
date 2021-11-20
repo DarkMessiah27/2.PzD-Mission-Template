@@ -23,16 +23,11 @@
 
 #ifdef winterUniforms
     #include "geardefs\German\gearDefGerWinter.sqf"
-    #include "geardefs\British\gearDefUK.sqf"
     #include "geardefs\Russian\gearDefRusWinter.sqf"
-    #include "geardefs\US\gearDefUS.sqf"
 #endif
 
 #ifdef africaUniforms
     #include "geardefs\German\gearDefGerAfrica.sqf"
-    #include "geardefs\British\gearDefUK.sqf"
-    #include "geardefs\Russian\gearDefRusRegular.sqf"
-    #include "geardefs\US\gearDefUS.sqf"
 #endif
 
 #include "geardefs\Generic\gearDefGEN.sqf"
@@ -51,15 +46,17 @@
 
 #include "geardefs\gearDefFrn.sqf"
 
-#include "geardefs\German\gearDefGerLuft.sqf"
+#include "geardefs\German\gearDefGer.sqf"
 
-#include "geardefs\German\gearDefGerMisc.sqf"
+#include "geardefs\German\gearDefGerLuft.sqf"
 
 #include "geardefs\German\gearDefGerWeapons.sqf"
 
 #include "geardefs\Japanese\gearDefJap.sqf"
 
 #include "geardefs\Russian\gearDefNKVD.sqf"
+
+#include "geardefs\Russian\gearDefRus.sqf"
 
 #include "geardefs\Russian\gearDefRusWeapons.sqf"
 
@@ -89,8 +86,8 @@
 
     //=== British ===
     //Army
-//#include "loadouts\British\gearUK40.sqf"
-//#include "loadouts\British\gearUK44.sqf"
+#include "loadouts\British\gearUK40.sqf"
+#include "loadouts\British\gearUK44.sqf"
 
     //=== German ===
     //Fallschirmjäger
@@ -99,11 +96,11 @@
 
     //Fallschirmjäger with Parachutes
 //#include "loadouts\German\gearFSJP40.sqf"
-//#include "loadouts\German\gearFSJP44.sqf"
+//#include "loadouts\German\gearFSJP44Jul.sqf"
 
     //Wehrmacht
 //#include "loadouts\German\gearWHR39.sqf"
-//#include "loadouts\German\gearWHR40.sqf""
+//#include "loadouts\German\gearWHR40.sqf"
 //#include "loadouts\German\gearWHR42.sqf"
 //#include "loadouts\German\gearWHR44.sqf"
 

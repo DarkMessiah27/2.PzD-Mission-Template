@@ -1,4 +1,4 @@
-//========================German Weapon Definitions========================
+//======================== German Weapon Definitions ========================
 
 //Primary
 #define Ger_Weap_FG42                   "LIB_FG42G"

@@ -1,4 +1,4 @@
-//===== NKVD Equipment Definitions =====
+//===== NKVD Equipment/Uniform Definitions =====
 
 //Uniform
 #define NKVD_Uni_LT             "U_LIB_NKVD_StLeutenant"
@@ -7,10 +7,10 @@
 #define NKVD_Uni_Efr            "U_LIB_NKVD_Efreitor"
 #define NKVD_Uni_Stre           "U_LIB_NKVD_Strelok"
 
-    //This JLT uniform has a green jacket and blue pants and is totally different from the other uniforms
+//This JLT uniform has a green jacket and blue pants and is totally different from the other uniforms
 #define NKVD_Uni_JLT            "U_LIB_NKVD_Leutenant"
 
-    //Winter Uniform
+//Winter Uniform
 #define NKVD_UniW_LT            "U_LIB_SOV_Sniper_w"
 #define NKVD_UniW_Star          "U_LIB_SOV_Sniper_w"
 #define NKVD_UniW_Sgt           "U_LIB_SOV_Sniper_w"

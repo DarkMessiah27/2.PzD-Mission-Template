@@ -1,4 +1,4 @@
-//========================Russian Weapon Definitions========================
+//======================== Russian Weapon Definitions ========================
 
 //Primary
 #define Rus_Weap_MosM9130                       "LIB_M9130"
