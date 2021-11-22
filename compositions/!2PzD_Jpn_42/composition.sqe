@@ -1,5 +1,5 @@
 version=54;
-center[]={6803.5762,5,4275.4136};
+center[]={2145.4478,5,2496.5347};
 class items
 {
 	items=1;
@@ -22,7 +22,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.3764648,0.0014390945,-0.43652344};
+							position[]={3.376709,0.0014390945,-0.43603516};
 							angles[]={-0,4.712389,0};
 						};
 						side="West";
@@ -41,7 +41,7 @@ class items
 								};
 							};
 						};
-						id=1669;
+						id=29;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -91,7 +91,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.3696289,0.0014390945,-2.4282227};
+							position[]={3.369873,0.0014390945,-2.4277344};
 							angles[]={-0,4.712389,0};
 						};
 						side="West";
@@ -110,7 +110,7 @@ class items
 								};
 							};
 						};
-						id=1670;
+						id=30;
 						type="fow_s_ija_type99_asst";
 						class CustomAttributes
 						{
@@ -160,14 +160,14 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.3696289,0.0014390945,1.5766602};
+							position[]={3.3703613,0.0014390945,1.5773926};
 							angles[]={-0,4.712389,0};
 						};
 						side="West";
 						flags=4;
 						class Attributes
 						{
-							init="[this, IJA42_Med] call Olsen_FW_FNC_GearScript;";
+							init="[this, IJA42_MedP] call Olsen_FW_FNC_GearScript;";
 							description="Medic@1 Platoon | HQ";
 							isPlayable=1;
 							class Inventory
@@ -179,7 +179,7 @@ class items
 								};
 							};
 						};
-						id=1671;
+						id=31;
 						type="fow_s_ija_medic";
 						class CustomAttributes
 						{
@@ -229,7 +229,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={5.355957,0.0014390945,-2.4453125};
+							position[]={5.3562012,0.0014390945,-2.4448242};
 							angles[]={0,4.712389,0};
 						};
 						side="West";
@@ -248,7 +248,7 @@ class items
 								};
 							};
 						};
-						id=1672;
+						id=32;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -298,7 +298,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={5.3911133,0.0014390945,-0.58447266};
+							position[]={5.3913574,0.0014390945,-0.58398438};
 							angles[]={0,4.712389,0};
 						};
 						side="West";
@@ -317,7 +317,7 @@ class items
 								};
 							};
 						};
-						id=1673;
+						id=33;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -367,14 +367,14 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={5.4506836,0.0014390945,1.5014648};
+							position[]={5.4511719,0.0014390945,1.5024414};
 							angles[]={-0,4.712389,0};
 						};
 						side="West";
 						flags=4;
 						class Attributes
 						{
-							init="[this, IJA42_Med] call Olsen_FW_FNC_GearScript;";
+							init="[this, IJA42_MedP] call Olsen_FW_FNC_GearScript;";
 							description="Medic@1 Platoon | HQ";
 							isPlayable=1;
 							class Inventory
@@ -386,7 +386,7 @@ class items
 								};
 							};
 						};
-						id=1674;
+						id=34;
 						type="fow_s_ija_medic";
 						class CustomAttributes
 						{
@@ -439,7 +439,7 @@ class items
 					speedMode="LIMITED";
 					formation="FILE";
 				};
-				id=1668;
+				id=28;
 			};
 			class Item1
 			{
@@ -453,7 +453,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.4204102,0.0014390945,-6.4863281};
+							position[]={-9.420166,0.0014390945,-6.4858398};
 							angles[]={-0,1.5707964,0};
 						};
 						side="West";
@@ -472,7 +472,7 @@ class items
 								};
 							};
 						};
-						id=1698;
+						id=36;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -522,7 +522,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.4331055,0.0014390945,-8.5268555};
+							position[]={-3.4328613,0.0014390945,-8.5263672};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -541,7 +541,7 @@ class items
 								};
 							};
 						};
-						id=1699;
+						id=37;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -591,7 +591,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.425293,0.0014390945,-6.5273438};
+							position[]={-5.4250488,0.0014390945,-6.5268555};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -610,7 +610,7 @@ class items
 								};
 							};
 						};
-						id=1700;
+						id=38;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -660,7 +660,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.4326172,0.0014390945,-8.5351563};
+							position[]={-5.432373,0.0014390945,-8.534668};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -679,7 +679,7 @@ class items
 								};
 							};
 						};
-						id=1701;
+						id=39;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -729,7 +729,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.440918,0.0014390945,-10.535156};
+							position[]={-5.4406738,0.0014390945,-10.534668};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -748,7 +748,7 @@ class items
 								};
 							};
 						};
-						id=1702;
+						id=40;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -798,7 +798,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.4301758,0.0014390945,-6.527832};
+							position[]={-3.4299316,0.0014390945,-6.5273438};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -817,7 +817,7 @@ class items
 								};
 							};
 						};
-						id=1703;
+						id=41;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -867,7 +867,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.4360352,0.0014390945,-10.533691};
+							position[]={-3.435791,0.0014390945,-10.533203};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -886,7 +886,7 @@ class items
 								};
 							};
 						};
-						id=1704;
+						id=42;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -936,7 +936,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4301758,0.0014390945,-8.527832};
+							position[]={-7.4299316,0.0014390945,-8.5273438};
 							angles[]={-0,1.5707964,0};
 						};
 						side="West";
@@ -955,7 +955,7 @@ class items
 								};
 							};
 						};
-						id=1705;
+						id=43;
 						type="fow_s_ija_nco";
 						class CustomAttributes
 						{
@@ -1005,7 +1005,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.4370117,0.0014390945,-8.4946289};
+							position[]={-9.4367676,0.0014390945,-8.4941406};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1024,7 +1024,7 @@ class items
 								};
 							};
 						};
-						id=1706;
+						id=44;
 						type="fow_s_ija_type99_gunner";
 						class CustomAttributes
 						{
@@ -1074,7 +1074,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.4350586,0.0014390945,-10.524902};
+							position[]={-9.4348145,0.0014390945,-10.524414};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1094,7 +1094,7 @@ class items
 								};
 							};
 						};
-						id=1707;
+						id=45;
 						type="fow_s_ija_type99_asst";
 						class CustomAttributes
 						{
@@ -1144,7 +1144,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4262695,0.0014390945,-6.5268555};
+							position[]={-7.4260254,0.0014390945,-6.5263672};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1163,7 +1163,7 @@ class items
 								};
 							};
 						};
-						id=1708;
+						id=46;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1213,7 +1213,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4160156,0.0014390945,-10.526855};
+							position[]={-7.4157715,0.0014390945,-10.526367};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1232,7 +1232,7 @@ class items
 								};
 							};
 						};
-						id=1709;
+						id=47;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1281,7 +1281,7 @@ class items
 				class Attributes
 				{
 				};
-				id=1697;
+				id=35;
 			};
 			class Item2
 			{
@@ -1295,7 +1295,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.4516602,0.0014390945,1.4355469};
+							position[]={-9.451416,0.0014390945,1.4360352};
 							angles[]={-0,1.5707964,0};
 						};
 						side="West";
@@ -1314,7 +1314,7 @@ class items
 								};
 							};
 						};
-						id=1711;
+						id=49;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1364,7 +1364,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.4379883,0.0014390945,-2.5449219};
+							position[]={-3.4377441,0.0014390945,-2.5444336};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1383,7 +1383,7 @@ class items
 								};
 							};
 						};
-						id=1712;
+						id=50;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1433,7 +1433,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.4335938,0.0014390945,-0.54541016};
+							position[]={-5.4333496,0.0014390945,-0.54492188};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1452,7 +1452,7 @@ class items
 								};
 							};
 						};
-						id=1713;
+						id=51;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1502,7 +1502,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.4267578,0.0014390945,1.4624023};
+							position[]={-5.4265137,0.0014390945,1.4628906};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1521,7 +1521,7 @@ class items
 								};
 							};
 						};
-						id=1714;
+						id=52;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1571,7 +1571,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.4418945,0.0014390945,-2.5454102};
+							position[]={-5.4416504,0.0014390945,-2.5449219};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1590,7 +1590,7 @@ class items
 								};
 							};
 						};
-						id=1715;
+						id=53;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1640,7 +1640,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.434082,0.0014390945,-0.53662109};
+							position[]={-3.4338379,0.0014390945,-0.53613281};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1659,7 +1659,7 @@ class items
 								};
 							};
 						};
-						id=1716;
+						id=54;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1709,7 +1709,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.4316406,0.0014390945,1.4614258};
+							position[]={-3.4313965,0.0014390945,1.4619141};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1728,7 +1728,7 @@ class items
 								};
 							};
 						};
-						id=1717;
+						id=55;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -1778,7 +1778,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4321289,0.0014390945,-0.53759766};
+							position[]={-7.4318848,0.0014390945,-0.53710938};
 							angles[]={-0,1.5707964,0};
 						};
 						side="West";
@@ -1797,7 +1797,7 @@ class items
 								};
 							};
 						};
-						id=1718;
+						id=56;
 						type="fow_s_ija_nco";
 						class CustomAttributes
 						{
@@ -1847,7 +1847,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.4379883,0.0014390945,-0.50683594};
+							position[]={-9.4377441,0.0014390945,-0.50634766};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1866,7 +1866,7 @@ class items
 								};
 							};
 						};
-						id=1719;
+						id=57;
 						type="fow_s_ija_type99_gunner";
 						class CustomAttributes
 						{
@@ -1916,7 +1916,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.4360352,0.0014390945,-2.5356445};
+							position[]={-9.435791,0.0014390945,-2.5351563};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -1935,7 +1935,7 @@ class items
 								};
 							};
 						};
-						id=1720;
+						id=58;
 						type="fow_s_ija_type99_asst";
 						class CustomAttributes
 						{
@@ -1985,7 +1985,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4272461,0.0014390945,1.4633789};
+							position[]={-7.427002,0.0014390945,1.4638672};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2004,7 +2004,7 @@ class items
 								};
 							};
 						};
-						id=1721;
+						id=59;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2054,7 +2054,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4169922,0.0014390945,-2.5366211};
+							position[]={-7.416748,0.0014390945,-2.5361328};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2073,7 +2073,7 @@ class items
 								};
 							};
 						};
-						id=1722;
+						id=60;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2122,7 +2122,7 @@ class items
 				class Attributes
 				{
 				};
-				id=1710;
+				id=48;
 			};
 			class Item3
 			{
@@ -2136,7 +2136,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.5131836,0.0014390945,9.5229492};
+							position[]={-9.5129395,0.0014390945,9.5234375};
 							angles[]={-0,1.5707964,0};
 						};
 						side="West";
@@ -2155,7 +2155,7 @@ class items
 								};
 							};
 						};
-						id=1724;
+						id=62;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2205,7 +2205,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.4389648,0.0014390945,5.4663086};
+							position[]={-3.4387207,0.0014390945,5.4667969};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2224,7 +2224,7 @@ class items
 								};
 							};
 						};
-						id=1725;
+						id=63;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2274,7 +2274,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.4350586,0.0014390945,7.4648438};
+							position[]={-5.4348145,0.0014390945,7.465332};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2293,7 +2293,7 @@ class items
 								};
 							};
 						};
-						id=1726;
+						id=64;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2343,7 +2343,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.4331055,0.0014390945,9.4648438};
+							position[]={-5.4328613,0.0014390945,9.465332};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2362,7 +2362,7 @@ class items
 								};
 							};
 						};
-						id=1727;
+						id=65;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2412,7 +2412,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-5.4433594,0.0014390945,5.4648438};
+							position[]={-5.4431152,0.0014390945,5.465332};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2431,7 +2431,7 @@ class items
 								};
 							};
 						};
-						id=1728;
+						id=66;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2481,7 +2481,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.4355469,0.0014390945,7.4731445};
+							position[]={-3.4353027,0.0014390945,7.4736328};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2500,7 +2500,7 @@ class items
 								};
 							};
 						};
-						id=1729;
+						id=67;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2550,7 +2550,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-3.4326172,0.0014390945,9.4716797};
+							position[]={-3.432373,0.0014390945,9.472168};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2569,7 +2569,7 @@ class items
 								};
 							};
 						};
-						id=1730;
+						id=68;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2619,7 +2619,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4331055,0.0014390945,7.4731445};
+							position[]={-7.4328613,0.0014390945,7.4736328};
 							angles[]={-0,1.5707964,0};
 						};
 						side="West";
@@ -2638,7 +2638,7 @@ class items
 								};
 							};
 						};
-						id=1731;
+						id=69;
 						type="fow_s_ija_nco";
 						class CustomAttributes
 						{
@@ -2688,7 +2688,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.4389648,0.0014390945,7.5053711};
+							position[]={-9.4387207,0.0014390945,7.5058594};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2707,7 +2707,7 @@ class items
 								};
 							};
 						};
-						id=1732;
+						id=70;
 						type="fow_s_ija_type99_gunner";
 						class CustomAttributes
 						{
@@ -2757,7 +2757,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-9.4370117,0.0014390945,5.4750977};
+							position[]={-9.4367676,0.0014390945,5.4755859};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2776,7 +2776,7 @@ class items
 								};
 							};
 						};
-						id=1733;
+						id=71;
 						type="fow_s_ija_type99_asst";
 						class CustomAttributes
 						{
@@ -2826,7 +2826,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4291992,0.0014390945,9.4731445};
+							position[]={-7.4289551,0.0014390945,9.4736328};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2845,7 +2845,7 @@ class items
 								};
 							};
 						};
-						id=1734;
+						id=72;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2895,7 +2895,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={-7.4189453,0.0014390945,5.472168};
+							position[]={-7.4187012,0.0014390945,5.4726563};
 							angles[]={0,1.5707964,0};
 						};
 						side="West";
@@ -2914,7 +2914,7 @@ class items
 								};
 							};
 						};
-						id=1735;
+						id=73;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -2963,7 +2963,7 @@ class items
 				class Attributes
 				{
 				};
-				id=1723;
+				id=61;
 			};
 			class Item4
 			{
@@ -2977,7 +2977,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={10.271484,0.0014390945,7.6274414};
+							position[]={10.271729,0.0014390945,7.6279297};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -2996,7 +2996,7 @@ class items
 								};
 							};
 						};
-						id=1750;
+						id=75;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3046,7 +3046,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={12.274414,0.0014390945,6.6274414};
+							position[]={12.274658,0.0014390945,6.6279297};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3065,7 +3065,7 @@ class items
 								};
 							};
 						};
-						id=1751;
+						id=76;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3115,7 +3115,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={12.306641,0.0014390945,8.6826172};
+							position[]={12.306885,0.0014390945,8.6831055};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3134,7 +3134,7 @@ class items
 								};
 							};
 						};
-						id=1752;
+						id=77;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3183,7 +3183,7 @@ class items
 				class Attributes
 				{
 				};
-				id=1749;
+				id=74;
 			};
 			class Item5
 			{
@@ -3197,7 +3197,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={17.090332,0.0014390945,-2.6196289};
+							position[]={17.090576,0.0014390945,-2.6191406};
 							angles[]={-0,4.7075896,0};
 						};
 						side="West";
@@ -3216,7 +3216,7 @@ class items
 								};
 							};
 						};
-						id=1754;
+						id=79;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3266,7 +3266,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={10.995605,0.0014390945,1.4077148};
+							position[]={10.99585,0.0014390945,1.4082031};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3285,7 +3285,7 @@ class items
 								};
 							};
 						};
-						id=1755;
+						id=80;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3335,7 +3335,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={13.001953,0.0014390945,-0.58203125};
+							position[]={13.002197,0.0014390945,-0.58154297};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3354,7 +3354,7 @@ class items
 								};
 							};
 						};
-						id=1756;
+						id=81;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3404,7 +3404,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={13.010254,0.0014390945,-2.5820313};
+							position[]={13.010498,0.0014390945,-2.581543};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3423,7 +3423,7 @@ class items
 								};
 							};
 						};
-						id=1757;
+						id=82;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3473,7 +3473,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={13.000977,0.0014390945,1.4179688};
+							position[]={13.001221,0.0014390945,1.418457};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3492,7 +3492,7 @@ class items
 								};
 							};
 						};
-						id=1758;
+						id=83;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3542,7 +3542,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={11.00293,0.0014390945,-0.60009766};
+							position[]={11.003174,0.0014390945,-0.59960938};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3561,7 +3561,7 @@ class items
 								};
 							};
 						};
-						id=1759;
+						id=84;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3611,7 +3611,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={11.009277,0.0014390945,-2.5976563};
+							position[]={11.009521,0.0014390945,-2.597168};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3630,7 +3630,7 @@ class items
 								};
 							};
 						};
-						id=1760;
+						id=85;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3680,7 +3680,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={15,0.0014390945,-0.58105469};
+							position[]={15.000244,0.0014390945,-0.58056641};
 							angles[]={-0,4.7075896,0};
 						};
 						side="West";
@@ -3699,7 +3699,7 @@ class items
 								};
 							};
 						};
-						id=1761;
+						id=86;
 						type="fow_s_ija_nco";
 						class CustomAttributes
 						{
@@ -3749,7 +3749,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={17.006348,0.0014390945,-0.60302734};
+							position[]={17.006592,0.0014390945,-0.60253906};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3768,7 +3768,7 @@ class items
 								};
 							};
 						};
-						id=1762;
+						id=87;
 						type="fow_s_ija_type99_gunner";
 						class CustomAttributes
 						{
@@ -3818,7 +3818,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={16.995117,0.0014390945,1.4272461};
+							position[]={16.995361,0.0014390945,1.4277344};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3837,7 +3837,7 @@ class items
 								};
 							};
 						};
-						id=1763;
+						id=88;
 						type="fow_s_ija_type99_asst";
 						class CustomAttributes
 						{
@@ -3887,7 +3887,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={15.006348,0.0014390945,-2.5810547};
+							position[]={15.006592,0.0014390945,-2.5805664};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3906,7 +3906,7 @@ class items
 								};
 							};
 						};
-						id=1764;
+						id=89;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -3956,7 +3956,7 @@ class items
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={14.976074,0.0014390945,1.4199219};
+							position[]={14.976318,0.0014390945,1.4204102};
 							angles[]={0,4.7075896,0};
 						};
 						side="West";
@@ -3975,7 +3975,7 @@ class items
 								};
 							};
 						};
-						id=1765;
+						id=90;
 						type="fow_s_ija_rifleman";
 						class CustomAttributes
 						{
@@ -4024,10 +4024,10 @@ class items
 				class Attributes
 				{
 				};
-				id=1753;
+				id=78;
 			};
 		};
-		id=1692;
+		id=91;
 		atlOffset=-0.078125;
 	};
 };

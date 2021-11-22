@@ -19,6 +19,7 @@
     #include "geardefs\British\gearDefUK.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUS.sqf"
+    #include "geardefs\Japanese\gearDefJapUniforms.sqf"
 #endif
 
 #ifdef winterUniforms
@@ -26,6 +27,7 @@
     #include "geardefs\British\gearDefUK.sqf"
     #include "geardefs\Russian\gearDefRusWinter.sqf"
     #include "geardefs\US\gearDefUS.sqf"
+    #include "geardefs\Japanese\gearDefJapUniforms.sqf"
 #endif
 
 #ifdef africaUniforms
@@ -33,6 +35,7 @@
     #include "geardefs\British\gearDefUK.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUS.sqf"
+    #include "geardefs\Japanese\gearDefJapUniforms.sqf"
 #endif
 
 #include "geardefs\Generic\gearDefGEN.sqf"
@@ -57,7 +60,7 @@
 
 #include "geardefs\German\gearDefGerWeapons.sqf"
 
-#include "geardefs\Japanese\gearDefJap.sqf"
+#include "geardefs\Japanese\gearDefJapWeapons.sqf"
 
 #include "geardefs\Russian\gearDefNKVD.sqf"
 
@@ -109,7 +112,7 @@
 
     //=== Japanese ===
     //Imperial Japanese Army
-//#include "loadouts\Japanese\gearJpn42.sqf"
+#include "loadouts\Japanese\gearJpn42.sqf"
 //#include "loadouts\Japanese\gearJpn44.sqf"
 
     //=== Russian ===
