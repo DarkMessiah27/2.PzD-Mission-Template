@@ -1,4 +1,4 @@
-//========================British Equipment Definitions========================
+//======================== British Equipment Definitions ========================
 
 //=== Weapons ===
 
