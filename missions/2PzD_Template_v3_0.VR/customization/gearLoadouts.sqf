@@ -87,8 +87,8 @@
 
     //=== British ===
     //Army
-#include "loadouts\British\gearUK40.sqf"
-#include "loadouts\British\gearUK44.sqf"
+//#include "loadouts\British\gearUK40.sqf"
+//#include "loadouts\British\gearUK44.sqf"
 
     //=== German ===
     //Fallschirmjäger
@@ -107,7 +107,7 @@
 
     //=== Japanese ===
     //Imperial Japanese Army
-#include "loadouts\Japanese\gearJpn42.sqf"
+//#include "loadouts\Japanese\gearJpn42.sqf"
 //#include "loadouts\Japanese\gearJpn44.sqf"
 
     //=== Russian ===
