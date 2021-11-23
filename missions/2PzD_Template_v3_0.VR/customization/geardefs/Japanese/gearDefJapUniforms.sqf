@@ -1,52 +1,11 @@
 //========================Japanese Equipment Definitions========================
 
-//=== Weapons ===
-
-//Primary
-#define IJA_Weap_Type99_R               "fow_w_type99"
-#define IJA_Weap_Type99_S               "fow_w_type99_sniper"
-#define IJA_Weap_Type100                "fow_w_type100"
-#define IJA_Weap_Type10044              "fow_w_type100_44_2PzD"
-#define IJA_Weap_Type96                 "fow_w_type99_lmg"
-#define IJA_Weap_Type99_M               "fow_w_type99_lmg"
-
-//Secondary
-#define IJA_Weap_Type14                 "fow_w_type14"
-#define IJA_Weap_Type10                 "fow_w_type10"
-
-//Launcher
-
-//Attachments
-#define IJA_Weap_Type99_B               "fow_w_acc_type30_bayo"
-
-//Ammo
-#define IJA_Mag_Type99_R                "fow_5Rnd_77x58"
-#define IJA_Mag_Type99_R_Tracer         "fow_5Rnd_77x58_Tracer_2PzD"
-#define IJA_Mag_Type99_R_Mixed_Ball      "fow_5Rnd_77x58_Mixed_2PzD"
-
-#define IJA_Mag_Type100                 "fow_32Rnd_8x22"
-
-#define IJA_Mag_Type99_M_Mixed_Ball      "fow_30Rnd_77x58"
-#define IJA_Mag_Type99_M_Tracer         "fow_30Rnd_77x58_Tracer_2PzD"
-#define IJA_Mag_Type99_M_Ball           "fow_30Rnd_77x58_noTrace_2PzD"
-
-#define IJA_Mag_Type96                  "fow_30Rnd_77x58"
-#define IJA_Mag_Type96                  "fow_30Rnd_77x58"
-#define IJA_Mag_Type96                  "fow_30Rnd_77x58"
-
-#define IJA_Mag_Type14                  "fow_8Rnd_8x22"
-
-#define IJA_Mag_Type10_W                "fow_1Rnd_type10"
-#define IJA_Mag_RGrn                    "fow_1Rnd_type2_40"
-
-//Grenades
-#define IJA_Gren_Frag                   "fow_e_type97"
-
 //=== Clothes ===
 
 //Uniform
 #define IJA_Uni                         "fow_u_ija_type98"
 #define IJA_Uni_Short                   "fow_u_ija_type98_short"
+#define IJA_Uni_R                       ["fow_u_ija_type98_short"],["fow_u_ija_type98"],["fow_u_ija_type98"],["fow_u_ija_type98"]
     //Officers
 #define IJA_Uni_Khaki                   "fow_u_ija_type98_khakibrown"
     //Snipers
@@ -59,17 +18,17 @@
 //Vests
     //bayonet only
 #define IJA_Vest_Bayo                   "fow_v_ija_bayonet"
-    //one rifle pouch, one grena        de pouch, bayonet
+    //one rifle pouch, one grenade pouch, bayonet
 #define IJA_Vest_Gren                   "fow_v_ija_grenadier"
-    //one rifle pouch, medic sat        chel
+    //one rifle pouch, medic satchel
 #define IJA_Vest_Med                    "fow_v_ija_medic"
-    //pistol holster, MG pouch,         bayonet
+    //pistol holster, MG pouch, bayonet
 #define IJA_Vest_MG                     "fow_v_ija_mg"
-    //two grenade pouches, bayon        et
+    //two grenade pouches, bayonet
 #define IJA_Vest_Mort                   "fow_v_ija_mortar"
-    //pistol holster, rifle pouc        h, sword
+    //pistol holster, rifle pouch, sword
 #define IJA_Vest_NCO                    "fow_v_ija_nco"
-    //pistol holster, sword, map         case
+    //pistol holster, sword, mapcase
 #define IJA_Vest_O                      "fow_v_ija_officer"
     //two rifle pouches, bayonet
 #define IJA_Vest_Rif                    "fow_v_ija_rifle"
@@ -83,12 +42,17 @@
 //Headgear
 #define IJA_Hat_O                       "fow_h_ija_fieldcap_officer"
 #define IJA_Hat_O_N                     "fow_h_ija_fieldcap_neck"
+#define IJA_Hat_O_R                     ["fow_h_ija_fieldcap_neck"],["fow_h_ija_fieldcap_officer"],["fow_h_ija_fieldcap_officer"],["fow_h_ija_fieldcap_officer"]
+
 #define IJA_Hat                         "fow_h_ija_fieldcap"
 #define IJA_Hat_Haki                    "fow_h_ija_hakimachi"
+#define IJA_Hat_R                       ["fow_h_ija_fieldcap"],["fow_h_ija_fieldcap"],["fow_h_ija_fieldcap"],["fow_h_ija_fieldcap"],["fow_h_ija_fieldcap"],["fow_h_ija_fieldcap"],["fow_h_ija_fieldcap"],["fow_h_ija_fieldcap"],["fow_h_ija_fieldcap"],["fow_h_ija_hakimachi"]
+
 #define IJA_Helm                        "fow_h_ija_type90"
 #define IJA_Helm_Net                    "fow_h_ija_type90_net"
 #define IJA_Helm_N_Net                  "fow_h_ija_type90_net_neck"
 #define IJA_Helm_F                      "fow_h_ija_type90_foliage"
+#define IJA_Helm_R                       ["fow_h_ija_type90"],["fow_h_ija_type90_net"],["fow_h_ija_type90_net_neck"],["fow_h_ija_type90"],["fow_h_ija_type90_net"],["fow_h_ija_type90_net_neck"],["fow_h_ija_hakimachi"] 
 
 #define IJA_Hat_M_O                     "fow_h_ija_fieldcap_marine"
 #define IJA_Hat_M_N_O                   "fow_h_ija_fieldcap_marine_neck"

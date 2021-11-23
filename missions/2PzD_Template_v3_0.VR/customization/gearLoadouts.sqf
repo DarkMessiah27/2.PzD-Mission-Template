@@ -19,6 +19,7 @@
     #include "geardefs\British\gearDefUK.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUS.sqf"
+    #include "geardefs\Japanese\gearDefJapUniforms.sqf"
 #endif
 
 #ifdef winterUniforms
@@ -52,7 +53,7 @@
 
 #include "geardefs\German\gearDefGerWeapons.sqf"
 
-#include "geardefs\Japanese\gearDefJap.sqf"
+#include "geardefs\Japanese\gearDefJapWeapons.sqf"
 
 #include "geardefs\Russian\gearDefNKVD.sqf"
 
@@ -86,8 +87,8 @@
 
     //=== British ===
     //Army
-#include "loadouts\British\gearUK40.sqf"
-#include "loadouts\British\gearUK44.sqf"
+//#include "loadouts\British\gearUK40.sqf"
+//#include "loadouts\British\gearUK44.sqf"
 
     //=== German ===
     //Fallschirmjäger
