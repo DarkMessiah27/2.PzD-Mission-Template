@@ -124,5 +124,5 @@
 //#include "loadouts\US\gearUSAB44.sqf"
 
     //Marine Corps
-#include "loadouts\US\gearUSMC42.sqf"
-#include "loadouts\US\gearUSMC44.sqf"
+//#include "loadouts\US\gearUSMC42.sqf"
+//#include "loadouts\US\gearUSMC44.sqf"
