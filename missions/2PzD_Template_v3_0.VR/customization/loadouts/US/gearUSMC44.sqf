@@ -38,39 +38,41 @@
 
 // For Platoon Commander, Squad Leader
 #define USMC44_Weapon_Leader \
-        [ \
-            [ \
-                [US_Vest_M1C], \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1C], \
-                [US_Mag_M1C,5,"vest"] \
-            ],[33], \
-            [ \
-                [US_Vest_M1T], \
-                [US_Mag_M3GG,1], \
-                [US_Weap_M3GG], \
-                [US_Mag_M3GG,5,"vest"] \
-            ],[33], \
-            [ \
-                [US_Vest_M1T], \
-                [US_Mag_M1T_30,1], \
-                [US_Weap_M1A1T], \
-                [US_Mag_M1T_30,5,"vest"] \
-            ],[34] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+                [USMC_Vest_M1T] call Olsen_FW_FNC_AddItem; \
+                [US_Mag_M1T_20,1] call Olsen_FW_FNC_AddItem; \
+                [US_Weap_M1928A1] call Olsen_FW_FNC_AddItem; \
+                [US_Mag_M1T_20,5,"vest"] call Olsen_FW_FNC_AddItem;
 
-// For light riflemen
-#define USMC44_Weapon_Rifle_Light \
-        [US_Mag_M1C,1] call Olsen_FW_FNC_AddItem; \
-        [US_Weap_M1C] call Olsen_FW_FNC_AddItem; \
-        [US_Mag_M1C,10,"backpack"] call Olsen_FW_FNC_AddItem; \
-
-// For riflemen
+// For Riflemen
 #define USMC44_Weapon_Rifle \
         [US_Mag_M1G,1] call Olsen_FW_FNC_AddItem; \
         [US_Acc_M1_Bayo,1,"uniform"] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1G] call Olsen_FW_FNC_AddItem; \
-        [US_Mag_M1G,10,"backpack"] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1G,10,"backpack"] call Olsen_FW_FNC_AddItem;
+
+// For Radiomen and Messengers
+#define USMC44_Weapon_Rifle_Light \
+                [US_Mag_M1C,1], call Olsen_FW_FNC_AddItem; \
+                [US_Weap_M1C], call Olsen_FW_FNC_AddItem; \
+                [US_Mag_M1C,5,"vest"] call Olsen_FW_FNC_AddItem;
+
+// For Automatic Riflemen
+#define USMC42_Weapon_AR \
+        [US_Mag_BAR_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_BAR] call Olsen_FW_FNC_AddItem; \
+        [US_Acc_BAR_Bipod] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_BAR_Mixed_Ball,6,"vest"] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_BAR_Mixed_Ball,9,"backpack"] call Olsen_FW_FNC_AddItem;
+
+// For Machinegunner
+        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
+        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1919_250_Mixed_Ball,3] call Olsen_FW_FNC_AddItem;
+
+#define USMC42_Weapon_Secondary \
+        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1911] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -93,9 +95,7 @@
         USMC44_Weapon_Leader;
 
         //Secondary Weapon
-        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1911] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
+        USMC42_Weapon_Secondary;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
@@ -119,9 +119,7 @@
         USMC44_Weapon_Leader;
 
         //Secondary Weapon
-        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1911] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
+        USMC42_Weapon_Secondary;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
@@ -246,11 +244,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        [US_Mag_BAR_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_BAR] call Olsen_FW_FNC_AddItem;
-        [US_Acc_BAR_Bipod] call Olsen_FW_FNC_AddItem;
-        [US_Mag_BAR_Mixed_Ball,6,"vest"] call Olsen_FW_FNC_AddItem;
-        [US_Mag_BAR_Mixed_Ball,9,"backpack"] call Olsen_FW_FNC_AddItem;
+        USMC42_Weapon_AR;
 
         //Extra
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
@@ -296,7 +290,7 @@
         //Extra
         [GEN_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [US_Mag_BAR_Mixed_Ball,7,"backpack"] call Olsen_FW_FNC_AddItem;
+        [US_Mag_BAR_Mixed_Ball,5,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
     //Rifleman
@@ -317,7 +311,7 @@
         //Extra
         [GEN_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [US_Mag_BAR_Mixed_Ball,7,"backpack"] call Olsen_FW_FNC_AddItem;
+        [US_Mag_BAR_Mixed_Ball,5,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
 //Machine Gun Team
@@ -358,9 +352,7 @@
         GEN_Default_Equipment_Set;
 
         //Secondary Weapon
-        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1911] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
+        USMC42_Weapon_Secondary;
 
         //Primary Weapon
         [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
@@ -432,9 +424,7 @@
         USMC44_Weapon_Leader;
 
         //Secondary Weapon
-        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1911] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
+        USMC42_Weapon_Secondary;
     }];
 
     //Tank Crew

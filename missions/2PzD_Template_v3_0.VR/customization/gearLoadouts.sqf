@@ -76,7 +76,7 @@
 
 //#include "loadoutsVeh\Russian\vehGearRUS.sqf"
 
-#include "loadoutsVeh\German\vehGearWHR.sqf"
+//#include "loadoutsVeh\German\vehGearWHR.sqf"
 
 //============ Loadouts ============
 
@@ -86,8 +86,8 @@
 
     //=== British ===
     //Army
-#include "loadouts\British\gearUK40.sqf"
-#include "loadouts\British\gearUK44.sqf"
+//#include "loadouts\British\gearUK40.sqf"
+//#include "loadouts\British\gearUK44.sqf"
 
     //=== German ===
     //Fallschirmjäger
