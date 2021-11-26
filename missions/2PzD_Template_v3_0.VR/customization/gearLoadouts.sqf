@@ -76,7 +76,7 @@
 
 //#include "loadoutsVeh\Russian\vehGearRUS.sqf"
 
-//#include "loadoutsVeh\German\vehGearWHR.sqf"
+#include "loadoutsVeh\German\vehGearWHR.sqf"
 
 //============ Loadouts ============
 
@@ -124,5 +124,5 @@
 //#include "loadouts\US\gearUSAB44.sqf"
 
     //Marine Corps
-//#include "loadouts\US\gearUSMC42.sqf"
-//#include "loadouts\US\gearUSMC44.sqf"
+#include "loadouts\US\gearUSMC42.sqf"
+#include "loadouts\US\gearUSMC44.sqf"

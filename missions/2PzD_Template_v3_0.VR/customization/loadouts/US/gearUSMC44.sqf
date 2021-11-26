@@ -11,7 +11,7 @@
 [this, USMC44_PSGT] call Olsen_FW_FNC_GearScript;         Platoon Sergeant/Platoon Guide
 [this, USMC44_PRTO] call Olsen_FW_FNC_GearScript;         Platoon Radio Operator
 [this, USMC44_Mess] call Olsen_FW_FNC_GearScript;         Messenger
-[this, USMC44_MedP] call Olsen_FW_FNC_GearScript;          Medic
+[this, USMC44_MedP] call Olsen_FW_FNC_GearScript;         Medic
 
     //Squad
 [this, USMC44_SL] call Olsen_FW_FNC_GearScript;           Squad Leader
@@ -38,38 +38,47 @@
 
 // For Platoon Commander, Squad Leader
 #define USMC44_Weapon_Leader \
-                [USMC_Vest_M1T] call Olsen_FW_FNC_AddItem; \
-                [US_Mag_M1T_20,1] call Olsen_FW_FNC_AddItem; \
-                [US_Weap_M1928A1] call Olsen_FW_FNC_AddItem; \
-                [US_Mag_M1T_20,5,"vest"] call Olsen_FW_FNC_AddItem;
+        [USMC_Vest_M1T] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1T_30,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1A1T] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1T_30,5,"vest"] call Olsen_FW_FNC_AddItem;
 
 // For Riflemen
 #define USMC44_Weapon_Rifle \
+        [USMC_Vest_M1G] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1G,1] call Olsen_FW_FNC_AddItem; \
         [US_Acc_M1_Bayo,1,"uniform"] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1G] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1G,10,"backpack"] call Olsen_FW_FNC_AddItem;
 
-// For Radiomen and Messengers
+// For Radiomen, Messengers and Medics
 #define USMC44_Weapon_Rifle_Light \
-                [US_Mag_M1C,1], call Olsen_FW_FNC_AddItem; \
-                [US_Weap_M1C], call Olsen_FW_FNC_AddItem; \
-                [US_Mag_M1C,5,"vest"] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1C,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1C] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1C,5,"vest"] call Olsen_FW_FNC_AddItem;
 
 // For Automatic Riflemen
-#define USMC42_Weapon_AR \
+#define USMC44_Weapon_AR \
         [US_Mag_BAR_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_BAR] call Olsen_FW_FNC_AddItem; \
         [US_Acc_BAR_Bipod] call Olsen_FW_FNC_AddItem; \
         [US_Mag_BAR_Mixed_Ball,6,"vest"] call Olsen_FW_FNC_AddItem; \
         [US_Mag_BAR_Mixed_Ball,9,"backpack"] call Olsen_FW_FNC_AddItem;
 
-// For Machinegunner
-        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1919_250_Mixed_Ball,3] call Olsen_FW_FNC_AddItem;
+// For Machinegunners
+#define USMC44_Weapon_MG \
+        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1919_250_Mixed_Ball,3,"backpack"] call Olsen_FW_FNC_AddItem;
 
-#define USMC42_Weapon_Secondary \
+// For Tank Crew
+#define USMC44_Weapon_M3GG \
+        [US_Mag_M3GG,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M3GG] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M3GG,3,"vest"] call Olsen_FW_FNC_AddItem;
+
+// Colt M1911 Pistol
+#define USMC44_Weapon_Secondary \
         [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1911] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
@@ -95,7 +104,7 @@
         USMC44_Weapon_Leader;
 
         //Secondary Weapon
-        USMC42_Weapon_Secondary;
+        USMC44_Weapon_Secondary;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
@@ -119,7 +128,7 @@
         USMC44_Weapon_Leader;
 
         //Secondary Weapon
-        USMC42_Weapon_Secondary;
+        USMC44_Weapon_Secondary;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
@@ -130,6 +139,7 @@
     USMC44_PRTO = ["USMC44_PRTO", {
         params ["_unit"];
 
+        [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
         [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
@@ -151,6 +161,7 @@
     USMC44_Mess = ["USMC44_Mess", {
         params ["_unit"];
 
+        [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_PFC] call Olsen_FW_FNC_AddItem;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -244,7 +255,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        USMC42_Weapon_AR;
+        USMC44_Weapon_AR;
 
         //Extra
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
@@ -352,12 +363,10 @@
         GEN_Default_Equipment_Set;
 
         //Secondary Weapon
-        USMC42_Weapon_Secondary;
+        USMC44_Weapon_Secondary;
 
         //Primary Weapon
-        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1919_250_Mixed_Ball,3] call Olsen_FW_FNC_AddItem;
+        USMC44_Weapon_MG;
     }];
 
 //Bazooka Team
@@ -411,6 +420,7 @@
     USMC44_VCom = ["USMC44_VCom", {
         params ["_unit"];
 
+        [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_SGT] call Olsen_FW_FNC_AddItem;
         [USMC_Helm_VCrew] call Olsen_FW_FNC_AddItem;
         [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
@@ -421,16 +431,17 @@
         GEN_Leader_Equipment_Set;
 
         //Primary Weapon
-        USMC44_Weapon_Leader;
+        USMC44_Weapon_M3GG;
 
         //Secondary Weapon
-        USMC42_Weapon_Secondary;
+        USMC44_Weapon_Secondary;
     }];
 
     //Tank Crew
     USMC44_VCrew = ["USMC44_VCrew", {
         params ["_unit"];
 
+        [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_PVT] call Olsen_FW_FNC_AddItemRandom;
         [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_VCrew] call Olsen_FW_FNC_AddItem;
@@ -440,7 +451,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        USMC44_Weapon_Rifle_Light;
+        USMC44_Weapon_M3GG;
 
         //Extra
         [GEN_Toolkit] call Olsen_FW_FNC_AddItem;
