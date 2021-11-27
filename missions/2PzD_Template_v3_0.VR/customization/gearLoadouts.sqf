@@ -19,6 +19,7 @@
     #include "geardefs\German\gearDefGerRegular.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUS.sqf"
+    #include "geardefs\Japanese\gearDefJapUniforms.sqf"
 #endif
 
 #ifdef winterUniforms
@@ -48,7 +49,7 @@
 
 #include "geardefs\German\gearDefGerWeapons.sqf"
 
-#include "geardefs\Japanese\gearDefJap.sqf"
+#include "geardefs\Japanese\gearDefJapWeapons.sqf"
 
 #include "geardefs\Russian\gearDefNKVD.sqf"
 

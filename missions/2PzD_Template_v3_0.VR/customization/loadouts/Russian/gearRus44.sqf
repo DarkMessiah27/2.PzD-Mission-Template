@@ -292,7 +292,7 @@
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Primary Weapon & Vest
-        R41_Weapon_Rifleman;
+        R44_Weapon_Rifleman;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
