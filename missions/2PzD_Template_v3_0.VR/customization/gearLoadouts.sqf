@@ -17,9 +17,9 @@
 #ifdef regularUniforms
     #include "geardefs\British\gearDefUKRegular.sqf"
     #include "geardefs\German\gearDefGerRegular.sqf"
+    #include "geardefs\Japanese\gearDefJapUniforms.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUS.sqf"
-    #include "geardefs\Japanese\gearDefJapUniforms.sqf"
 #endif
 
 #ifdef winterUniforms
