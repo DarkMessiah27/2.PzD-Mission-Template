@@ -12,40 +12,37 @@
 
 //All definitions are in the geardefs folder. These should be always be in your mission.
 
-// THE WINTER AND AFRICAN GEARDEF FILES FOR COUNTRIES OTHER THAN GERMANY HAVE NOT YET BEEN CREATED.
+// THE WINTER AND AFRICAN GEARDEF FILES FOR SOME COUNTRIES HAVE NOT YET BEEN CREATED.
 
 #ifdef regularUniforms
+    #include "geardefs\British\gearDefUKRegular.sqf"
     #include "geardefs\German\gearDefGerRegular.sqf"
-    #include "geardefs\British\gearDefUK.sqf"
+    #include "geardefs\Japanese\gearDefJapUniforms.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUS.sqf"
     #include "geardefs\Japanese\gearDefJapUniforms.sqf"
 #endif
 
 #ifdef winterUniforms
+    #include "geardefs\British\gearDefUKWinter.sqf"
     #include "geardefs\German\gearDefGerWinter.sqf"
     #include "geardefs\Russian\gearDefRusWinter.sqf"
 #endif
 
 #ifdef africaUniforms
+    #include "geardefs\British\gearDefUKAfrica.sqf"
     #include "geardefs\German\gearDefGerAfrica.sqf"
 #endif
+
+#include "geardefs\British\gearDefUK.sqf"
+
+#include "geardefs\British\gearDefUKPara.sqf"
+
+#include "geardefs\British\gearDefUKWeapons.sqf"
 
 #include "geardefs\Generic\gearDefGEN.sqf"
 
 #include "geardefs\Generic\gearDefEquipmentSets.sqf"
-
-#include "geardefs\gearDefAus.sqf"
-
-#include "geardefs\gearDefBel.sqf"
-
-#include "geardefs\gearDefCdn.sqf"
-
-#include "geardefs\gearDefCiv.sqf"
-
-#include "geardefs\gearDefCzech.sqf"
-
-#include "geardefs\gearDefFrn.sqf"
 
 #include "geardefs\German\gearDefGer.sqf"
 
@@ -60,6 +57,20 @@
 #include "geardefs\Russian\gearDefRus.sqf"
 
 #include "geardefs\Russian\gearDefRusWeapons.sqf"
+
+#include "geardefs\US\gearDefUSWeapons.sqf"
+
+#include "geardefs\gearDefAus.sqf"
+
+#include "geardefs\gearDefBel.sqf"
+
+#include "geardefs\gearDefCdn.sqf"
+
+#include "geardefs\gearDefCiv.sqf"
+
+#include "geardefs\gearDefCzech.sqf"
+
+#include "geardefs\gearDefFrn.sqf"
 
 #include "geardefs\gearDefNed.sqf"
 
