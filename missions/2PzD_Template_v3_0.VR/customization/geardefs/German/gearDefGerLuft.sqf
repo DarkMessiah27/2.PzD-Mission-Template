@@ -60,3 +60,6 @@
 
 #define FSJ_Hat_VCom                    ["H_LIB_GER_TankOfficerCap"],["H_LIB_GER_TankOfficerCap2"]
 #define FSJ_Hat_VCrew                   ["H_LIB_GER_TankPrivateCap"],["H_LIB_GER_TankPrivateCap2"]
+
+// We don't have any separete composition for Winter Fallschirmjäger yet. Putting this here for the time being.
+#define FSJ_Helmet_Winter				"H_LIB_GER_FSJ_M44_Helmet_Winter"
