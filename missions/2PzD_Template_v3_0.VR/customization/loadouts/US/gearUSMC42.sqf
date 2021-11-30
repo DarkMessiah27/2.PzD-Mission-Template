@@ -73,8 +73,9 @@
         [US_Mag_BAR_Mixed_Ball,9,"backpack"] call Olsen_FW_FNC_AddItem;
 
 // For Machinegunners
-        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem;
+#define USMC42_Weapon_MG \
+        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1919_250_Mixed_Ball,3] call Olsen_FW_FNC_AddItem;
 
 // Colt M1911 Pistol
@@ -347,9 +348,7 @@
         USMC42_Weapon_Secondary;
 
         //Primary Weapon
-        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1919_250_Mixed_Ball,3] call Olsen_FW_FNC_AddItem;
+        USMC42_Weapon_MG;
     }];
 
 //Bazooka Team
