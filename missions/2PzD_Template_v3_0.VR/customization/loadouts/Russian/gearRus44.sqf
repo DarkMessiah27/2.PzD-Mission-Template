@@ -210,6 +210,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         R44_Weapon_SMG;
@@ -233,6 +234,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+        [GEN_BinoG] call Olsen_FW_FNC_AddItem;
 
         //Extra
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
@@ -416,7 +418,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
+        [GEN_BinoG] call Olsen_FW_FNC_AddItem;
 
         //Extra
         [Rus_Mag_PTRD,20,"backpack"] call Olsen_FW_FNC_AddItem;
@@ -434,7 +436,6 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         R44_Weapon_SMG;
