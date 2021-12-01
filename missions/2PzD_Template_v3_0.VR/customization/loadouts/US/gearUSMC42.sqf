@@ -218,6 +218,7 @@
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
     }];
 
     //Automatic Rifleman
@@ -319,7 +320,6 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
         [US_Weap_M1919A4_T] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
@@ -329,6 +329,7 @@
         [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
     }];
 
     //Machine Gunner
@@ -365,7 +366,6 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         USMC42_Weapon_Rifle_Light;
@@ -374,6 +374,7 @@
         [US_Mag_Bazoo,3,"backpack"] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
     }];
 
     //Bazooka Gunner
