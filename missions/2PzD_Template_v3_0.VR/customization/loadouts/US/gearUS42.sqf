@@ -73,12 +73,12 @@
                 [US_Acc_M1_Bayo,1,"uniform"], \
                 [US_Weap_M1G], \
                 [US_Mag_M1G,10,"vest"] \
-            ],[60], \
+            ],[70], \
             [ \
                 [US_Mag_M1903,1], \
                 [US_Weap_M1903A1], \
                 [US_Mag_M1903,12,"vest"] \
-            ],[40] \
+            ],[30] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 // For Tank Commander
