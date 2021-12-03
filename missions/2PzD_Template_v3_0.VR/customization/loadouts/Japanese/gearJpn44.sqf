@@ -27,34 +27,34 @@
 
 //For Platoon Commanders
 #define IJA42_Weapon_SMG \
-				[IJA_Mag_Type100,1] call Olsen_FW_FNC_AddItem; \
-                [IJA_Weap_Type100] call Olsen_FW_FNC_AddItem; \
-                [IJA_Mag_Type100,5] call Olsen_FW_FNC_AddItem;
+		[IJA_Mag_Type100,1] call Olsen_FW_FNC_AddItem; \
+        [IJA_Weap_Type100] call Olsen_FW_FNC_AddItem; \
+        [IJA_Mag_Type100,5] call Olsen_FW_FNC_AddItem;
 
 #define IJA42_Weapon_Pistol \
-				[IJA_Mag_Type14,1] call Olsen_FW_FNC_AddItem; \
-                [IJA_Weap_Type14] call Olsen_FW_FNC_AddItem; \
-                [IJA_Mag_Type14,3,"uniform"] call Olsen_FW_FNC_AddItem;
+		[IJA_Mag_Type14,1] call Olsen_FW_FNC_AddItem; \
+        [IJA_Weap_Type14] call Olsen_FW_FNC_AddItem; \
+        [IJA_Mag_Type14,3,"uniform"] call Olsen_FW_FNC_AddItem;
 
 // For all men with rifles
 #define IJA42_Weapon_Rifle \
-		       [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem; \
-               [IJA_Weap_Type99_R] call Olsen_FW_FNC_AddItem; \
-               [IJA_Weap_Type99_B] call Olsen_FW_FNC_AddItem; \
-			   [IJA_Mag_Type99_R,12,"vest"] call Olsen_FW_FNC_AddItem;
+		[IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem; \
+        [IJA_Weap_Type99_R] call Olsen_FW_FNC_AddItem; \
+        [IJA_Weap_Type99_B] call Olsen_FW_FNC_AddItem; \
+		[IJA_Mag_Type99_R,12,"vest"] call Olsen_FW_FNC_AddItem;
 
 // For Machine Gunners
 #define IJA42_Weapon_MG \
-    		   [IJA_Mag_Type99_M_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
-               [IJA_Weap_Type99_M] call Olsen_FW_FNC_AddItem; \
-               [IJA_Mag_Type99_M_Mixed_Ball,6,"vest"] call Olsen_FW_FNC_AddItem;
+    	[IJA_Mag_Type99_M_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [IJA_Weap_Type99_M] call Olsen_FW_FNC_AddItem; \
+        [IJA_Mag_Type99_M_Mixed_Ball,6,"vest"] call Olsen_FW_FNC_AddItem;
 
 
 // For Marksmen
 #define IJA42_Weapon_Sniper \
-		      [IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem; \
-              [IJA_Weap_Type99_S] call Olsen_FW_FNC_AddItem; \
-              [IJA_Mag_Type99_R,8,"vest"] call Olsen_FW_FNC_AddItem;
+		[IJA_Mag_Type99_R,1] call Olsen_FW_FNC_AddItem; \
+        [IJA_Weap_Type99_S] call Olsen_FW_FNC_AddItem; \
+        [IJA_Mag_Type99_R,8,"vest"] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
