@@ -61,5 +61,41 @@
 #define FSJ_Hat_VCom                    ["H_LIB_GER_TankOfficerCap"],["H_LIB_GER_TankOfficerCap2"]
 #define FSJ_Hat_VCrew                   ["H_LIB_GER_TankPrivateCap"],["H_LIB_GER_TankPrivateCap2"]
 
+//Backpack
+#define FSJ_BP_Parachute				"B_LIB_GER_LW_Paradrop"
+
+//Parachute or backpack
+#define FSJ_Backpack(unitType) \
+        if (spawnWithParachute) then \
+        { \
+            [FSJ_BP_Parachute] call Olsen_FW_FNC_AddItem; \
+        } \
+        else \
+        { \
+            switch (unitType) do \
+            { \
+                case "RTO": \
+                { \
+                    [Ger_BP_Radio] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+                case "Med": \
+                { \
+                    [Ger_BP_Med] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+                case "MG": \
+                { \
+                    [Ger_BP_MG_r] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+                case "MGA": \
+                { \
+                    [Ger_BP_MG_D] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+                default \
+                { \
+                    [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+            }; \
+        };
+
 // We don't have any separete composition for Winter Fallschirmjäger yet. Putting this here for the time being.
 #define FSJ_Helmet_Winter				"H_LIB_GER_FSJ_M44_Helmet_Winter"
