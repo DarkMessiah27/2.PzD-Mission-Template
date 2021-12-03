@@ -106,10 +106,6 @@
 //#include "loadouts\German\gearFSJ40.sqf"
 //#include "loadouts\German\gearFSJ44.sqf"
 
-    //Fallschirmjäger with Parachutes
-//#include "loadouts\German\gearFSJP40.sqf"
-//#include "loadouts\German\gearFSJP44Jul.sqf"
-
     //Wehrmacht
 //#include "loadouts\German\gearWHR39.sqf"
 //#include "loadouts\German\gearWHR40.sqf"
