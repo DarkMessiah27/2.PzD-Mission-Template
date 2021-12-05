@@ -36,7 +36,7 @@
 
 // For Platoon Commander, Squad Leader
 #define USMC42_Weapon_Leader \
-                [USMC_Vest_M1T] call Olsen_FW_FNC_AddItem; \
+                [US_Vest_M1T] call Olsen_FW_FNC_AddItem; \
                 [US_Mag_M1T_20,1] call Olsen_FW_FNC_AddItem; \
                 [US_Weap_M1T] call Olsen_FW_FNC_AddItem; \
                 [US_Mag_M1T_20,5,"vest"] call Olsen_FW_FNC_AddItem;
@@ -45,13 +45,13 @@
 #define USMC42_Weapon_Rifle \
         [ \
             [/*M1903A1*/ \
-                [USMC_Vest_M1G], \
+                [US_Vest_M1G], \
                 [US_Mag_M1903,1], \
                 [US_Weap_M1903A1], \
                 [US_Mag_M1903,12,"vest"] \
             ],[70], \
             [/*M1 Carbine*/ \
-                [USMC_Vest_M1C], \
+                [US_Vest_M1C], \
                 [US_Mag_M1C,1], \
                 [US_Weap_M1C], \
                 [US_Mag_M1C,5,"vest"] \
@@ -93,7 +93,7 @@
         params ["_unit"];
 
         [USMC_Uni_LT] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_2LT] call Olsen_FW_FNC_AddItem;
+        [US_Helm_2LT] call Olsen_FW_FNC_AddItem;
         [USMC_BP_O] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -161,9 +161,9 @@
         params ["_unit"];
 
         [USMC_Uni_Med] call Olsen_FW_FNC_AddItem;
-        [USMC_Vest_Med] call Olsen_FW_FNC_AddItem;
+        [US_Vest_Med] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_Med_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_Helm_Med_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -226,7 +226,7 @@
         params ["_unit"];
 
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
-        [USMC_Vest_BAR] call Olsen_FW_FNC_AddItem;
+        [US_Vest_BAR] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
         [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -337,7 +337,7 @@
         params ["_unit"];
 
         [USMC_Uni_PFC] call Olsen_FW_FNC_AddItem;
-        [USMC_Vest_MGA] call Olsen_FW_FNC_AddItem;
+        [US_Vest_MGA] call Olsen_FW_FNC_AddItem;
         [US_BP_MG] call Olsen_FW_FNC_AddItem;
         [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;

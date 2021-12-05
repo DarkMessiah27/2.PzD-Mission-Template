@@ -442,7 +442,7 @@
         params ["_unit"];
 
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
-        [US_Uni_SGT] call Olsen_FW_FNC_AddItem;
+        [US_Uni_VCrew1] call Olsen_FW_FNC_AddItem;
         [US_Helm_VCrew] call Olsen_FW_FNC_AddItem;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -462,7 +462,7 @@
         params ["_unit"];
 
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
-        [US_Uni_PVT] call Olsen_FW_FNC_AddItem;
+        [US_Uni_VCrew2] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
         [US_Helm_VCrew] call Olsen_FW_FNC_AddItem;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;

@@ -1,4 +1,3 @@
-
 //=== Uniform options ===
 
 // Uncomment the line for the uniforms you want to use.
@@ -19,7 +18,7 @@
     #include "geardefs\German\gearDefGerRegular.sqf"
     #include "geardefs\Japanese\gearDefJapUniforms.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
-    #include "geardefs\US\gearDefUS.sqf"
+    #include "geardefs\US\gearDefUSRegular.sqf"
     #include "geardefs\Japanese\gearDefJapUniforms.sqf"
 #endif
 
@@ -27,11 +26,13 @@
     #include "geardefs\British\gearDefUKWinter.sqf"
     #include "geardefs\German\gearDefGerWinter.sqf"
     #include "geardefs\Russian\gearDefRusWinter.sqf"
+    #include "geardefs\US\gearDefUSWinter.sqf"
 #endif
 
 #ifdef africaUniforms
     #include "geardefs\British\gearDefUKAfrica.sqf"
     #include "geardefs\German\gearDefGerAfrica.sqf"
+    #include "geardefs\US\gearDefUSAfrica.sqf"
 #endif
 
 #include "geardefs\British\gearDefUK.sqf"
@@ -57,6 +58,14 @@
 #include "geardefs\Russian\gearDefRus.sqf"
 
 #include "geardefs\Russian\gearDefRusWeapons.sqf"
+
+#include "geardefs\US\gearDefUS.sqf"
+
+#include "geardefs\US\gearDefUSAirborne.sqf"
+
+#include "geardefs\US\gearDefUSMC.sqf"
+
+#include "geardefs\US\gearDefUSRanger.sqf"
 
 #include "geardefs\US\gearDefUSWeapons.sqf"
 

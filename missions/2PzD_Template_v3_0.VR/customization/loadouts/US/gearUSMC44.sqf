@@ -38,14 +38,14 @@
 
 // For Platoon Commander, Squad Leader
 #define USMC44_Weapon_Leader \
-        [USMC_Vest_M1T] call Olsen_FW_FNC_AddItem; \
+        [US_Vest_M1T] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1T_30,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1A1T] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1T_30,5,"vest"] call Olsen_FW_FNC_AddItem;
 
 // For Riflemen
 #define USMC44_Weapon_Rifle \
-        [USMC_Vest_M1G] call Olsen_FW_FNC_AddItem; \
+        [US_Vest_M1G] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1G,1] call Olsen_FW_FNC_AddItem; \
         [US_Acc_M1_Bayo,1,"uniform"] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1G] call Olsen_FW_FNC_AddItem; \
@@ -92,7 +92,7 @@
         params ["_unit"];
 
         [USMC_Uni_LT] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_2LT] call Olsen_FW_FNC_AddItem;
+        [US_Helm_2LT] call Olsen_FW_FNC_AddItem;
         [USMC_BP_O] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -182,7 +182,7 @@
         params ["_unit"];
 
         [USMC_Uni_Med] call Olsen_FW_FNC_AddItem;
-        [USMC_Vest_Med] call Olsen_FW_FNC_AddItem;
+        [US_Vest_Med] call Olsen_FW_FNC_AddItem;
         [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -247,7 +247,7 @@
         params ["_unit"];
 
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
-        [USMC_Vest_BAR] call Olsen_FW_FNC_AddItem;
+        [US_Vest_BAR] call Olsen_FW_FNC_AddItem;
         [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -355,7 +355,7 @@
         params ["_unit"];
 
         [USMC_Uni_PFC] call Olsen_FW_FNC_AddItem;
-        [USMC_Vest_MGA] call Olsen_FW_FNC_AddItem;
+        [US_Vest_MGA] call Olsen_FW_FNC_AddItem;
         [US_BP_MG] call Olsen_FW_FNC_AddItem;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
