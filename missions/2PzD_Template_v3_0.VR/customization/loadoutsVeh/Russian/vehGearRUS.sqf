@@ -57,7 +57,7 @@
     [GEN_Flare_Y, 2] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Smoke_B, 2] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Smoke_G, 2] call Olsen_FW_FNC_AddItemVehicle; \
-    [GEN_Gren_Smoke_O, 2] call Olsen_FW_FNC_AddItemVehicle; \ 
+    [GEN_Gren_Smoke_O, 2] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Smoke_P, 2] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Smoke_R, 2] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Smoke_Y, 2] call Olsen_FW_FNC_AddItemVehicle; \
