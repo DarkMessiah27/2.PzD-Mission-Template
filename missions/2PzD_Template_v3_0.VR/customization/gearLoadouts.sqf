@@ -88,7 +88,7 @@
 
 //#include "loadoutsVeh\German\vehGearFSJ.sqf"
 
-#include "loadoutsVeh\Russian\vehGearRUS.sqf"
+//#include "loadoutsVeh\Russian\vehGearRUS.sqf"
 
 #include "loadoutsVeh\German\vehGearWHR.sqf"
 
