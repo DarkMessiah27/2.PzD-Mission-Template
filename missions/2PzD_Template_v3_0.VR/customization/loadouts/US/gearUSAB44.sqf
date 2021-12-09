@@ -24,170 +24,53 @@
 [this, USAB44_Rif] call Olsen_FW_FNC_GearScript;          Rifleman
 
     //Weapons Teams
+[this, USAB42_MGTL] call Olsen_FW_FNC_GearScript;         Machine Gun Team Leader
+[this, USAB42_MG] call Olsen_FW_FNC_GearScript;           Machine Gunner
+
 [this, USAB44_BzkaTL] call Olsen_FW_FNC_GearScript;       Bazooka Team Leader
 [this, USAB44_BzkaG] call Olsen_FW_FNC_GearScript;        Bazooka Gunner
 */
 
 //======================== Definitions ========================
 
-// For Company Commander, Company Executive Officer, Platoon Commander
+// For Platoon Commander, Squad Leader, Assistant Squad Leader
 #define USAB44_Weapon_Leader \
-        [ \
-            [/*M1A1 Carbine*/ \
-                [USAB_Vest_M1C], \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1A1C], \
-                [US_Mag_M1C,4,"vest"] \
-            ],[43], \
-            [/*M1 Carbine*/ \
-                [USAB_Vest_M1C], \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1C], \
-                [US_Mag_M1C,4,"vest"] \
-            ],[20], \
-            [/*M3 Grease Gun*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M3GG,1], \
-                [US_Weap_M3GG], \
-                [US_Mag_M3GG,5,"vest"] \
-            ],[15], \
-            [/*M1A1 Thompson*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M1T_30,1], \
-                [US_Weap_M1A1T], \
-                [US_Mag_M1T_30,5,"vest"] \
-            ],[15], \
-            [/*M1 Thompson*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M1T_30,1], \
-                [US_Weap_M1T], \
-                [US_Mag_M1T_30,5,"vest"] \
-            ],[5], \
-            [/*M1928A1*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M1T_20,1], \
-                [US_Weap_M1928A1], \
-                [US_Mag_M1T_20,5,"vest"] \
-            ],[1], \
-            [/*M1928*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M1T_20,1], \
-                [US_Weap_M1928], \
-                [US_Mag_M1T_20,5,"vest"] \
-            ],[1] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [US_Mag_M3GG,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M3GG] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M3GG,5,"vest"] call Olsen_FW_FNC_AddItem;
 
-// Squad Leader
-#define USAB44_Weapon_SL \
-        [ \
-            [/*M3 Grease Gun*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M3GG,1], \
-                [US_Weap_M3GG], \
-                [US_Mag_M3GG,5,"vest"] \
-            ],[26.5], \
-            [/*M1A1 Thompson*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M1T_30,1], \
-                [US_Weap_M1A1T], \
-                [US_Mag_M1T_30,5,"vest"] \
-            ],[26.5], \
-            [/*M1A1 Carbine*/ \
-                [USAB_Vest_M1C], \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1A1C], \
-                [US_Mag_M1C,4,"vest"] \
-            ],[25], \
-            [/*M1 Carbine*/ \
-                [USAB_Vest_M1C], \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1C], \
-                [US_Mag_M1C,4,"vest"] \
-            ],[15], \
-            [/*M1 Thompson*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M1T_30,1], \
-                [US_Weap_M1T], \
-                [US_Mag_M1T_30,5,"vest"] \
-            ],[5], \
-            [/*M1928A1*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M1T_20,1], \
-                [US_Weap_M1928A1], \
-                [US_Mag_M1T_20,5,"vest"] \
-            ],[1], \
-            [/*M1928*/ \
-                [USAB_Vest_M1T], \
-                [US_Mag_M1T_20,1], \
-                [US_Weap_M1928], \
-                [US_Mag_M1T_20,5,"vest"] \
-            ],[1] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+// For Radiomen, Messengers and Medics
+#define USAB44_Weapon_Rifle_Light \
+        [US_Mag_M1C,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1A1C] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1C,4,"vest"] call Olsen_FW_FNC_AddItem;
 
-// For Assistant Squad Leader
-#define USAB44_Weapon_ASL \
-        [ \
-            [ \
-                [USAB_Vest_M1G], \
-                [US_Mag_M1G,1], \
-                [US_Acc_M1_Bayo,1,"uniform"], \
-                [US_Weap_M1G], \
-                [US_Acc_M1G_GL,1,"vest"], \
-                [US_Mag_M1G,10,"vest"], \
-                [US_Mag_RGrn_AT,10] \
-            ],[73], \
-            [ \
-                [USAB_Vest_M1C], \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1A1C], \
-                [US_Mag_M1C,4,"vest"] \
-            ],[25], \
-            [ \
-                [USAB_Vest_M1C], \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1C], \
-                [US_Mag_M1C,4,"vest"] \
-            ],[1], \
-            [ \
-                [USAB_Vest_M1G], \
-                [US_Mag_M1903,1], \
-                [US_Weap_M1903A3], \
-                [US_Mag_M1903,20,"vest"] \
-            ],[1] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+// For Automatic Riflemen
+#define USAB44_Weapon_AR \
+        [US_Mag_BAR_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_BAR] call Olsen_FW_FNC_AddItem; \
+        [US_Acc_BAR_Bipod] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_BAR_Mixed_Ball,6,"vest"] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_BAR_Mixed_Ball,9,"backpack"] call Olsen_FW_FNC_AddItem;
 
-// For medic
-#define USAB44_Weapon_Rifle_Medic \
-        [ \
-            [ \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1A1C], \
-                [US_Mag_M1C,4,"vest"] \
-            ],[40], \
-            [ \
-                [US_Mag_M1C,1], \
-                [US_Weap_M1C], \
-                [US_Mag_M1C,4,"vest"] \
-            ],[35], \
-            [ \
-                [US_Mag_M1G,1], \
-                [US_Acc_M1_Bayo,1,"uniform"], \
-                [US_Weap_M1G], \
-                [US_Mag_M1G,10,"vest"] \
-            ],[24], \
-            [ \
-                [US_Mag_M1903,1], \
-                [US_Weap_M1903A3], \
-                [US_Mag_M1903,20,"vest"] \
-            ],[1] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
-// For riflemen
+// For Riflemen
 #define USAB44_Weapon_Rifle \
         [US_Mag_M1G,1] call Olsen_FW_FNC_AddItem; \
         [US_Acc_M1_Bayo,1,"uniform"] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1G] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1G,10,"vest"] call Olsen_FW_FNC_AddItem;
+
+// For Machinegunners
+#define USAB44_Weapon_MG \
+        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1919_250_Mixed_Ball,3] call Olsen_FW_FNC_AddItem;
+
+// Colt M1911 Pistol
+#define USAB44_Weapon_Secondary \
+        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1911] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -197,6 +80,7 @@
     USAB44_PC = ["USAB44_PC", {
         params ["_unit"];
 
+        [USAB_Vest_NCO_M1T] call Olsen_FW_FNC_AddItem;
         [USAB_UniG_LT] call Olsen_FW_FNC_AddItem;
         [USAB_Helm_2LT_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -209,9 +93,7 @@
         USAB44_Weapon_Leader;
 
         //Secondary Weapon
-        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1911] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
+        USAB44_Weapon_Secondary;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
@@ -222,6 +104,7 @@
     USAB44_PSGT = ["USAB44_PSGT", {
         params ["_unit"];
 
+        [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [USAB_UniG_SGT] call Olsen_FW_FNC_AddItem;
         [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USAB_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
@@ -235,9 +118,7 @@
         USAB44_Weapon_Rifle;
 
         //Secondary Weapon
-        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1911] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1911,3,"uniform"] call Olsen_FW_FNC_AddItem;
+        USAB44_Weapon_Secondary;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
@@ -248,6 +129,7 @@
     USAB44_PRTO = ["USAB44_PRTO", {
         params ["_unit"];
 
+        [USAB_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USAB_UniG_CPL] call Olsen_FW_FNC_AddItem;
         [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
@@ -257,7 +139,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        USAB44_Weapon_Rifle;
+        USAB44_Weapon_Rifle_Light;
 
         //Extra
         [GEN_Radio_HH] call Olsen_FW_FNC_AddItem;
@@ -269,6 +151,7 @@
     USAB44_Mess = ["USAB44_Mess", {
         params ["_unit"];
 
+        [USAB_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USAB_UniG_PFC] call Olsen_FW_FNC_AddItem;
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -277,7 +160,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        USAB44_Weapon_Rifle;
+        USAB44_Weapon_Rifle_Light;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
@@ -298,7 +181,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        USAB44_Weapon_Rifle_Medic;
+        USAB44_Weapon_Rifle_Light;
 
         //Extra
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
@@ -311,6 +194,7 @@
     USAB44_SL = ["USAB44_SL", {
         params ["_unit"];
 
+        [USAB_Vest_NCO_M1T] call Olsen_FW_FNC_AddItem;
         [USAB_UniG_SGT] call Olsen_FW_FNC_AddItem;
         [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USAB_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
@@ -321,7 +205,7 @@
         GEN_Leader_Equipment_Set;
 
         //Primary Weapon
-        USAB44_Weapon_SL;
+        USAB44_Weapon_Leader;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
@@ -332,6 +216,7 @@
     USAB44_S2 = ["USAB44_S2", {
         params ["_unit"];
 
+        [USAB_Vest_M1T] call Olsen_FW_FNC_AddItem;
         [USAB_UniG_CPL] call Olsen_FW_FNC_AddItem;
         [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USAB_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
@@ -341,56 +226,12 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        USAB44_Weapon_ASL;
+        USAB44_Weapon_Leader;
 
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Machine Gunner
-    USAB44_MG = ["USAB44_MG", {
-        params ["_unit"];
-
-        [USAB_UniG_PFC] call Olsen_FW_FNC_AddItem;
-        [USAB_Vest_MGA] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_MG] call Olsen_FW_FNC_AddItem;
-        [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-
-        //Secondary Weapon
-        [US_Mag_M1911,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1911] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1911,2,"uniform"] call Olsen_FW_FNC_AddItem;
-
-        //Primary Weapon
-        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1919_250_Mixed_Ball,3] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Assistant Machine Gunner
-    USAB44_MGA = ["USAB44_MGA", {
-        params ["_unit"];
-
-        [USAB_UniG_PFC] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_MG] call Olsen_FW_FNC_AddItem;
-        [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
-        [US_Weap_M1919A4_T] call Olsen_FW_FNC_AddItem;
-
-        //Primary Weapon
-        USAB44_Weapon_Rifle;
-
-        //Extra
-        [US_Mag_M1919_250_Mixed_Ball,2] call Olsen_FW_FNC_AddItem;
+        [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
     }];
 
     //Automatic Rifleman
@@ -407,11 +248,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        [US_Mag_BAR_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
-        [US_Weap_BAR] call Olsen_FW_FNC_AddItem;
-        [US_Acc_BAR_Bipod] call Olsen_FW_FNC_AddItem;
-        [US_Mag_BAR_Mixed_Ball,6,"vest"] call Olsen_FW_FNC_AddItem;
-        [US_Mag_BAR_Mixed_Ball,9] call Olsen_FW_FNC_AddItem;
+        USAB44_Weapon_AR;
 
         //Extra
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
@@ -439,18 +276,11 @@
         [US_Mag_BAR_Mixed_Ball,10] call Olsen_FW_FNC_AddItem;
     }];
 
-    //Rifleman
+    //Assistant Medic
     USAB44_MedS = ["USAB44_MedS", {
         params ["_unit"];
 
-        [
-            [
-                [USAB_UniG_PFC]
-            ],[90],
-            [
-                [USAB_UniG_PVT]
-            ],[10]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [USAB_UniG_PVT] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
@@ -472,14 +302,7 @@
     USAB44_Rif = ["USAB44_Rif", {
         params ["_unit"];
 
-        [
-            [
-                [USAB_UniG_PFC]
-            ],[90],
-            [
-                [USAB_UniG_PVT]
-            ],[10]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [USAB_UniG_PVT] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
@@ -496,12 +319,59 @@
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
+//Machine Gun Team
+
+    //Machine Gun Team Leader
+    USAB44_MGTL = ["USAB44_MGTL", {
+        params ["_unit"];
+
+        [USAB_UniG_CPL] call Olsen_FW_FNC_AddItem;
+        [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
+        [USAB_BP_M1928] call Olsen_FW_FNC_AddItem;
+        [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        [US_Weap_M1919A4_T] call Olsen_FW_FNC_AddItem;
+
+        //Primary Weapon
+        USAB44_Weapon_Rifle;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1919_250_Mixed_Ball,2] call Olsen_FW_FNC_AddItem;
+        [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Machine Gunner
+    USAB44_MG = ["USAB44_MG", {
+        params ["_unit"];
+
+        [USAB_UniG_PFC] call Olsen_FW_FNC_AddItem;
+        [USAB_Vest_MGA] call Olsen_FW_FNC_AddItem;
+        [USAB_BP_MG] call Olsen_FW_FNC_AddItem;
+        [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Secondary Weapon
+        USAB44_Weapon_Secondary;
+
+        //Primary Weapon
+        USAB44_Weapon_MG;
+    }];
+
 //Bazooka Team
 
     //Bazooka Team Leader
     USAB44_BzkaTL = ["USAB44_BzkaTL", {
         params ["_unit"];
 
+        [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [USAB_UniG_CPL] call Olsen_FW_FNC_AddItem;
         [USAB_BP_AT] call Olsen_FW_FNC_AddItem;
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
@@ -509,7 +379,6 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         USAB44_Weapon_Rifle;
@@ -518,12 +387,14 @@
         [US_Mag_Bazoo,3,"backpack"] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
     }];
 
     //Bazooka Gunner
     USAB44_BzkaG = ["USAB44_BzkaG", {
         params ["_unit"];
 
+        [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [USAB_UniG_PFC] call Olsen_FW_FNC_AddItem;
         [USAB_BP_AT] call Olsen_FW_FNC_AddItem;
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;

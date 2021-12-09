@@ -132,8 +132,8 @@
 //#include "loadouts\US\gearUS44.sqf"
 
     //Army Airborne
-//#include "loadouts\US\gearUSAB42.sqf"
-//#include "loadouts\US\gearUSAB44.sqf"
+#include "loadouts\US\gearUSAB42.sqf"
+#include "loadouts\US\gearUSAB44.sqf"
 
     //Marine Corps
 //#include "loadouts\US\gearUSMC42.sqf"
