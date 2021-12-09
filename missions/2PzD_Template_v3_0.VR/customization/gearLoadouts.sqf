@@ -84,9 +84,11 @@
 // Remove the // at the start of a line to enable that loadout set.
 // Delete all the loadout files you are not using in order to keep the filesize down.
 
+#include "loadoutsVeh\Generic\vehGearGEN.sqf"
+
 //#include "loadoutsVeh\German\vehGearFSJ.sqf"
 
-//#include "loadoutsVeh\Russian\vehGearRUS.sqf"
+#include "loadoutsVeh\Russian\vehGearRUS.sqf"
 
 #include "loadoutsVeh\German\vehGearWHR.sqf"
 
