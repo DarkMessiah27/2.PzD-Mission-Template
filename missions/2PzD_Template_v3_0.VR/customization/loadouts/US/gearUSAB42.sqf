@@ -168,7 +168,7 @@
         params ["_unit"];
 
         [USAB_UniK_Med] call Olsen_FW_FNC_AddItem;
-        [USAB_Vest_Med] call Olsen_FW_FNC_AddItem;
+        [US_Vest_Med] call Olsen_FW_FNC_AddItem;
         [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [USAB_Helm_Med_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;

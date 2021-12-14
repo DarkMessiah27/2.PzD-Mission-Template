@@ -55,7 +55,7 @@
 #define US42_Weapon_Rifle_Light \
         [US_Mag_M1C,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1C] call Olsen_FW_FNC_AddItem; \
-        [US_Mag_M1C,5,"backpack"] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1C,5,"vest"] call Olsen_FW_FNC_AddItem;
 
 // For Automatic Riflemen
 #define US42_Weapon_AR \
@@ -132,6 +132,7 @@
         params ["_unit"];
 
         [US_Uni_SGT] call Olsen_FW_FNC_AddItem;
+        [US_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
         [US_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -154,9 +155,9 @@
     //Messenger
     US42_Mess = ["US42_Mess", {
         params ["_unit"];
-
-        [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
+        
         [US_Uni_PFC] call Olsen_FW_FNC_AddItem;
+        [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [US_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -211,7 +212,7 @@
         US42_Weapon_Leader;
 
         //Extra
-        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -231,7 +232,7 @@
         US42_Weapon_Leader;
 
         //Extra
-        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
     }];
@@ -421,7 +422,7 @@
     US42_VCom = ["US42_VCom", {
         params ["_unit"];
 
-        [US_Uni_SGT] call Olsen_FW_FNC_AddItem;
+        [US_Uni_VCrew1] call Olsen_FW_FNC_AddItem;
         [US_Helm_VCrew] call Olsen_FW_FNC_AddItem;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -441,7 +442,7 @@
         params ["_unit"];
 
         [US_Vest_Pistol] call Olsen_FW_FNC_AddItem;
-        [US_Uni_PVT] call Olsen_FW_FNC_AddItem;
+        [US_Uni_VCrew2] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
         [US_Helm_VCrew] call Olsen_FW_FNC_AddItem;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
