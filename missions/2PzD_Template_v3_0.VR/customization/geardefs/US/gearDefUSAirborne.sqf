@@ -83,6 +83,7 @@
 #define USAB_Vest_Mort          "V_LIB_US_Vest_Medic"
 
 //Airborne Backpack
+#define USAB_BP_Parachute		"B_LIB_US_Type5"
 #define USAB_BP_r               ["B_LIB_US_M36"],["B_LIB_US_M36"],["B_LIB_US_M36_Rope"],["B_LIB_US_M36_Rope"]
 #define USAB_BP_M1928           "B_LIB_US_Backpack"
 #define USAB_BP_M36             "B_LIB_US_M36"
@@ -91,6 +92,41 @@
 #define USAB_BP_Med             "B_LIB_US_MedicBackpack_Big_Empty"
 #define USAB_BP_MG              "B_LIB_US_MGbag_Big_Empty"
 #define USAB_Bando              "B_LIB_US_Bandoleer"
+
+//Parachute or backpack
+//spawnWithParachute variable is defined in the loadout files.
+#define USAB_Backpack(unitType) \
+        if (spawnWithParachute) then \
+        { \
+            [USAB_BP_Parachute] call Olsen_FW_FNC_AddItem; \
+        } \
+        else \
+        { \
+            switch (unitType) do \
+            { \
+                case "MGTL": \
+                { \
+                    [USAB_BP_M1928] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+                case "MG": \
+                { \
+                    [USAB_BP_MG] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+				case "BzkaTL"; \
+				case "BzkaG": \
+                { \
+                    [USAB_BP_AT] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+				case "RTO": \
+                { \
+                    [US_BP_Radio] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+                default \
+                { \
+                    [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom; \
+                }; \
+            }; \
+        };
 
 //Airborne Headgear
 #define USAB_Helm_CPT_r         ["H_LIB_US_AB_Helmet_CO_1"],["H_LIB_US_AB_Helmet_CO_2"]

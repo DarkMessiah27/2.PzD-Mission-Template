@@ -32,6 +32,11 @@
 
 //======================== Definitions ========================
 
+// ========================= Parachute ========================
+// Set the variable below to "true" or "false" depending on what you want
+
+#define spawnWithParachute false
+
 // For Platoon Commander, Squad Leader, Assistant Squad Leader
 #define USAB42_Weapon_Leader \
         [ \
@@ -101,6 +106,7 @@
         params ["_unit"];
 
         [USAB_UniK_LT] call Olsen_FW_FNC_AddItem;
+        USAB_Backpack("PC");
         [USAB_Helm_2LT_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -124,7 +130,7 @@
         params ["_unit"];
 
         [USAB_UniK_SGT] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        USAB_Backpack("PSGT");
         [USAB_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -149,6 +155,7 @@
 
         [USAB_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USAB_UniK_PFC] call Olsen_FW_FNC_AddItem;
+        USAB_Backpack("Mess");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -169,7 +176,7 @@
 
         [USAB_UniK_Med] call Olsen_FW_FNC_AddItem;
         [US_Vest_Med] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        USAB_Backpack("Med");
         [USAB_Helm_Med_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -191,7 +198,7 @@
         params ["_unit"];
 
         [USAB_UniK_SGT] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        USAB_Backpack("SL");
         [USAB_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -212,7 +219,7 @@
         params ["_unit"];
 
         [USAB_UniK_CPL] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        USAB_Backpack("S2");
         [USAB_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -234,7 +241,7 @@
 
         [USAB_UniK_CPL] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_BAR] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        USAB_Backpack("AR");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -254,7 +261,7 @@
 
         [USAB_UniK_PFC] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        USAB_Backpack("AAR");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -276,7 +283,7 @@
 
         [USAB_UniK_PVT] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        USAB_Backpack("Med");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -298,7 +305,7 @@
 
         [USAB_UniK_PVT] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        USAB_Backpack("Rif");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -316,12 +323,13 @@
 //Machine Gun Team
 
     //Machine Gun Team Leader
+    // ======= WILL BE USELESS WHEN SPAWNED WITH A PARACHUTE =======
     USAB42_MGTL = ["USAB42_MGTL", {
         params ["_unit"];
 
         [USAB_UniK_CPL] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_M1928] call Olsen_FW_FNC_AddItem;
+        USAB_Backpack("MGTL");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -340,12 +348,13 @@
     }];
 
     //Machine Gunner
+    // ======= WILL BE USELESS WHEN SPAWNED WITH A PARACHUTE =======
     USAB42_MG = ["USAB42_MG", {
         params ["_unit"];
 
         [USAB_UniK_PFC] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_MGA] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_MG] call Olsen_FW_FNC_AddItem;
+        USAB_Backpack("MG");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -362,12 +371,13 @@
 //Bazooka Team
 
     //Bazooka Team Leader
+    // ======= SEVERALLY LIMITED IN AMMO WHEN SPAWNED WITH A PARACHUTE =======
     USAB42_BzkaTL = ["USAB42_BzkaTL", {
         params ["_unit"];
 
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [USAB_UniK_CPL] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_AT] call Olsen_FW_FNC_AddItem;
+        USAB_Backpack("BzkaTL");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -385,12 +395,13 @@
     }];
 
     //Bazooka Gunner
+    // ======= SEVERALLY LIMITED IN AMMO WHEN SPAWNED WITH A PARACHUTE =======
     USAB42_BzkaG = ["USAB42_BzkaG", {
         params ["_unit"];
 
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [USAB_UniK_PFC] call Olsen_FW_FNC_AddItem;
-        [USAB_BP_AT] call Olsen_FW_FNC_AddItem;
+        USAB_Backpack("BzkaG");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 

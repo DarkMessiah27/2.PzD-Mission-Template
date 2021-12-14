@@ -65,6 +65,7 @@
 #define FSJ_BP_Parachute				"B_LIB_GER_LW_Paradrop"
 
 //Parachute or backpack
+//spawnWithParachute variable is defined in the loadout files.
 #define FSJ_Backpack(unitType) \
         if (spawnWithParachute) then \
         { \
