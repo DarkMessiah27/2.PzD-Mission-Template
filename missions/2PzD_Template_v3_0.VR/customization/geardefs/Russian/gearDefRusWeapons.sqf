@@ -10,7 +10,6 @@
 #define Rus_Weap_PPD40                          "LIB_PPSh41_d"
 #define Rus_Weap_PPSH_S                         "LIB_PPSh41_m"
 #define Rus_Weap_PPSH_D                         "LIB_PPSh41_d"
-#define Rus_Weap_PPS43                          "LEN_PPS43"
 #define Rus_Weap_DP                             "LIB_DP28"
 #define Rus_Weap_DT                             "LIB_DT"
 #define Rus_Weap_DT_O                           "LIB_DT_OPTIC"
@@ -32,7 +31,6 @@
 //Attachments
 #define Rus_Acc_Mos_Bayo                        "LIB_ACC_M1891_Bayo"
 #define Rus_Acc_Mos_GL                          "LIB_ACC_GL_DYAKONOV_Empty"
-#define Rus_Weap_SVT40_Optic                    "LEN_optic_SVT_PU"
 
 //Ammo
 #define Rus_Mag_Mosin                           "LIB_5Rnd_762x54"
@@ -72,11 +70,6 @@
 #define Rus_Mag_PPSH_D_AP                       "LIB_71Rnd_762x25_ap"
 #define Rus_Mag_PPSH_D_Tracer                   "LIB_71Rnd_762x25_t"
 #define Rus_Mag_PPSH_D_Mixed_Ball               "LIB_71Rnd_762x25_t2"
-
-#define Rus_Mag_PPS43                           "LEN_35Rnd_762x25_2PzD"
-#define Rus_Mag_PPS43_AP                        "LEN_35Rnd_762x25_APT_2PzD"
-#define Rus_Mag_PPS43_Tracer                    "LEN_35Rnd_762x25_Tracer_2PzD"
-#define Rus_Mag_PPS43_Mixed_Ball                "LEN_35Rnd_762x25_Mixed_Ball_Tracer_2PzD"
 
 #define Rus_Mag_DP_Mixed_Ball_Red               "LIB_47Rnd_762x54"
 #define Rus_Mag_DP_Mixed_Heavy_Red              "LIB_47Rnd_762x54d"
