@@ -43,7 +43,6 @@
 #define US_BP_AT                "fow_b_us_rocket_bag"
 #define US_BP_Med               "B_LIB_US_MedicBackpack_Big_Empty"
 #define US_BP_MG                "B_LIB_US_MGbag_Big_Empty"
-#define US_BP_Radio             "fow_b_US_Radio"
 #define US_BP_Flame             "B_LIB_US_M2Flamethrower"
 #define US_BP_Flame_Final       "B_LIB_US_M2Flamethrower_noLoad"
 #define US_Bando                "fow_b_us_bandoleer"
