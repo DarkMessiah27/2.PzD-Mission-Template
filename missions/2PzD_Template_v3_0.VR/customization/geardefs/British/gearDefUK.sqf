@@ -14,7 +14,7 @@
 
 //Backpack
 
-#define UK_BPK_Radio                "fow_b_us_radio"
+#define UK_BPK_Radio                "B_LIB_US_Radio"
 #define UK_BPG_Radio                "fow_b_uk_p37_radio_blanco"
 
 //Headgear

@@ -294,7 +294,7 @@
 
         [UK_Uni_LCpl] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
-        [UK_Weap_HMG_T] call Olsen_FW_FNC_AddItem;
+        [UK_BP] call Olsen_FW_FNC_AddItem; // No vickers in LIB
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -316,7 +316,7 @@
 
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestG_Bren] call Olsen_FW_FNC_AddItem;
-        [UK_Weap_HMG_G] call Olsen_FW_FNC_AddItem;
+        [UK_BP] call Olsen_FW_FNC_AddItem; // No vickers in LIB
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 

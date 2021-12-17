@@ -4,6 +4,7 @@ author="Thomas Brauer";
 category="EdSubcat_2PzD_United_Kingdom";
 requiredAddons[]=
 {
-	"fow_characters_c",
+	"WW2_Core_c_WW2_EditorPreviews_c",
+	"ww2_assets_c_characters_British_c_UK_Army",
 	"A3_Characters_F"
 };

@@ -12,7 +12,7 @@
 #define US_Weap_M1928                   "LIB_M1928_Thompson"
 #define US_Weap_M1928_D                 "LIB_M1928_Thompson_d"
 #define US_Weap_M1928A1                 "LIB_M1928A1_Thompson"
-#define US_Weap_M1T                     "fow_w_m1_thompson"
+#define US_Weap_M1T                     "LIB_M1A1_Thompson"
 #define US_Weap_M1A1T                   "fow_w_m1a1_thompson"
 #define US_Weap_M3GG                    "fow_w_m3"
 #define US_Weap_M50                     "fow_w_m55_reising"
