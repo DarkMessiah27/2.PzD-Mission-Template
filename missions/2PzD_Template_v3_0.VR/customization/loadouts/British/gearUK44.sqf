@@ -55,6 +55,11 @@
         [UK_Weap_EnfieldNo2] call Olsen_FW_FNC_AddItem; \
         [UK_Mag_EnfieldNo2,3,"uniform"] call Olsen_FW_FNC_AddItem;
 
+// For Machinegunners
+#define UK44_Weapon_MG \
+        [US_Mag_M1919_50_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1919_50_Mixed_Ball,6] call Olsen_FW_FNC_AddItem;
 //======================== Loadouts ========================
 
 //Platoon
@@ -300,6 +305,7 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_Leader_Equipment_Set;
+        [US_Weap_M1919A4_T] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
         UK44_LeeEn;
@@ -307,6 +313,7 @@
         //Extra
         [UK_Gren_Frag,1] call Olsen_FW_FNC_AddItem;
         [UK_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1919_50_Mixed_Ball,12] call Olsen_FW_FNC_AddItem;
     }];
 
     //Machine Gunner
@@ -322,8 +329,8 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
 
-        //Secondary Weapon
-        UK44_Webley;
+        //Primary Weapon
+        UK44_Weapon_MG;
     }];
 
 //Boys Rifle Team

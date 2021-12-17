@@ -122,7 +122,7 @@ Letting them keep the large backpack would allow them to put other items in the 
 #define US_Mag_M1919_250_Ball               "LIB_250Rnd_762x63_NoTrace_2PzD"
 #define US_Mag_M1919_250_Heavy              "LIB_250Rnd_762x63_M1_NoTrace_2PzD"
 #define US_Mag_M1919_250_Mixed_AP           "LIB_250Rnd_762x63_AP_2PzD"
-#define US_Mag_M1919_250_Mixed_Ball         "LIB_250Rnd_762x63_2PzD"
+#define US_Mag_M1919_50_Mixed_Ball          "LIB_50Rnd_762x63"
 #define US_Mag_M1919_250_Mixed_Heavy        "LIB_250Rnd_762x63_M1_2PzD"
 #define US_Mag_M1919_250_Trace              "LIB_250Rnd_762x63_TraceOnly_2PzD"
 
