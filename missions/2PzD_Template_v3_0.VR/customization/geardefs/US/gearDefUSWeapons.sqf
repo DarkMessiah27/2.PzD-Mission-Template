@@ -1,20 +1,20 @@
 //======================== US Weapon Definitions ========================
 
 //Primary
-#define US_Weap_M1903A1                 "fow_w_m1903A1"
+#define US_Weap_M1903A1                 "LIB_M1903A3_Springfield"
 #define US_Weap_M1903A1_S               "fow_w_m1903A1_sniper"
 #define US_Weap_M1903A3                 "LIB_M1903A3_Springfield"
 #define US_Weap_M1903A4                 "LIB_M1903A4_Springfield"
 #define US_Weap_M1G                     "LIB_M1_Garand"
-#define US_Weap_M1C                     "fow_w_m1_carbine"
+#define US_Weap_M1C                     "LIB_M1_Carbine"
 #define US_Weap_M1A1C                   "LIB_M1A1_Carbine"
 #define US_Weap_M2C                     "fow_w_m2_carbine_2PzD"
 #define US_Weap_M1928                   "LIB_M1928_Thompson"
 #define US_Weap_M1928_D                 "LIB_M1928_Thompson_d"
 #define US_Weap_M1928A1                 "LIB_M1928A1_Thompson"
 #define US_Weap_M1T                     "LIB_M1A1_Thompson"
-#define US_Weap_M1A1T                   "fow_w_m1a1_thompson"
-#define US_Weap_M3GG                    "fow_w_m3"
+#define US_Weap_M1A1T                   "LIB_M1A1_Thompson"
+#define US_Weap_M3GG                    "LIB_M3_GreaseGun"
 #define US_Weap_M50                     "fow_w_m55_reising"
 #define US_Weap_M55                     "fow_w_m55_reising"
 #define US_Weap_BAR                     "LIB_M1918A2_BAR"
@@ -41,7 +41,7 @@ Letting them keep the large backpack would allow them to put other items in the 
 #define US_Weap_M1911                       "LIB_Colt_M1911"
 
 //Launcher
-#define US_Weap_Bazoo                       "fow_w_m1a1_bazooka"
+#define US_Weap_Bazoo                       "LIB_M1A1_Bazooka"
 #define US_Weap_MortB                       "LIB_M2_60_Barrel"
 #define US_Weap_MortT                       "LIB_M2_60_Tripod"
 #define US_Weap_M1919A4_T                   "LIB_M2_Tripod"
@@ -69,8 +69,8 @@ Letting them keep the large backpack would allow them to put other items in the 
 
 #define US_Mag_M1T_30                       "LIB_30Rnd_45ACP"
 #define US_Mag_M1T_30_Tracer                "LIB_30Rnd_45ACP_t"
-#define US_Mag_M1T_20                       "LIB_20Rnd_45ACP_M1_2PzD"
-#define US_Mag_M1T_20_Tracer                "LIB_20Rnd_45ACP_M1_Tracer_2PzD"
+#define US_Mag_M1T_20                       "LIB_30Rnd_45ACP"
+#define US_Mag_M1T_20_Tracer                "LIB_30Rnd_45ACP_t"
 #define US_Mag_M1T_50                       "LIB_50Rnd_45ACP"
 #define US_Mag_M1T_50_Tracer                "LIB_50Rnd_45ACP_Tracer_2PzD"
 

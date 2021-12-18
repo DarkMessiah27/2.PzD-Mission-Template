@@ -50,7 +50,7 @@
 #define USMC_Helm_VCrew         "H_LIB_US_Helmet_Tank"
 
 //Backpack
-#define US_BP_Radio             "fow_b_US_Radio"
+#define US_BP_Radio             "B_LIB_US_Radio"
 
 //===== US Air Force Equipment Definitions =====
 

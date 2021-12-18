@@ -67,9 +67,9 @@
 
 // For Machinegunners
 #define USMC44_Weapon_MG \
-        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1919_50_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
-        [US_Mag_M1919_250_Mixed_Ball,3,"backpack"] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1919_50_Mixed_Ball,6,"backpack"] call Olsen_FW_FNC_AddItem;
 
 // For Tank Crew
 #define USMC44_Weapon_M3GG \
@@ -344,7 +344,7 @@
         USMC44_Weapon_Leader;
 
         //Extra
-        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1919_50_Mixed_Ball,12] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [GEN_BinoUS] call Olsen_FW_FNC_AddItem;

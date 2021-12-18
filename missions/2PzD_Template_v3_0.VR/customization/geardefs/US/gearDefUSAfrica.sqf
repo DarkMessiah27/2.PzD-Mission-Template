@@ -31,9 +31,9 @@
 #define US_Helm_CPT             "H_LIB_US_Helmet_Cap"
 #define US_Helm_LT              "H_LIB_US_Helmet_First_lieutenant"
 #define US_Helm_2LT             "H_LIB_US_Helmet_Second_lieutenant"
-#define US_Helm_NCO_r           ["fow_h_us_m1_nco"],["fow_h_us_m1_nco_closed"],["fow_h_us_m1_nco_folded"]
-#define US_Helm_r               ["fow_h_us_m1"],["fow_h_us_m1"],["fow_h_us_m1"],["fow_h_us_m1_closed"],["fow_h_us_m1_closed"],["fow_h_us_m1_closed"],["fow_h_us_m1_folded"],["fow_h_us_m1_folded"],["fow_h_us_m1_folded"],["fow_h_us_m1_net"],["fow_h_us_m1_net"],["fow_h_us_m1_net"]
-#define US_Helm_Med_r           ["fow_h_us_m1_medic"],["fow_h_us_m1_medic"]
+#define US_Helm_NCO_r           "H_LIB_US_Helmet_NCO"
+#define US_Helm_r               ["H_LIB_US_Helmet"],["H_LIB_US_Helmet_Net_ns"],["H_LIB_US_Helmet_Net_os"]
+#define US_Helm_Med_r           "H_LIB_US_Helmet_Med"
 
 //Backpack
 #define US_BP_r                 ["B_LIB_US_Backpack"],["B_LIB_US_Backpack"],["B_LIB_US_M36"],["B_LIB_US_M36"]

@@ -1,25 +1,25 @@
 //======================== US Airborne Uniform Definitions ========================
 
 //Airborne Uniform
-#define USAB_UniK_CPT           "fow_u_us_m42_ab_01_private"
-#define USAB_UniK_LT            "fow_u_us_m42_ab_01_private"
-#define USAB_UniK_SSGT          "fow_u_us_m42_ab_01_staffsergeant"
-#define USAB_UniK_SGT           "fow_u_us_m42_ab_01_sergeant"
-#define USAB_UniK_CPL           "fow_u_us_m42_ab_01_corporal"
-#define USAB_UniK_PFC           "fow_u_us_m42_ab_01_private"
-#define USAB_UniK_PVT           "fow_u_us_m42_ab_01_private"
-#define USAB_UniK_Med           "fow_u_us_m42_ab_01_private"
+#define USAB_UniK_CPT           "U_LIB_US_AB_Uniform_M42"
+#define USAB_UniK_LT            "U_LIB_US_AB_Uniform_M42"
+#define USAB_UniK_SSGT          "U_LIB_US_AB_Uniform_M42"
+#define USAB_UniK_SGT           "U_LIB_US_AB_Uniform_M42_NCO"
+#define USAB_UniK_CPL           "U_LIB_US_AB_Uniform_M42_corporal"
+#define USAB_UniK_PFC           "U_LIB_US_AB_Uniform_M42"
+#define USAB_UniK_PVT           "U_LIB_US_AB_Uniform_M42"
+#define USAB_UniK_Med           "U_LIB_US_AB_Uniform_M42_Medic"
 #define USAB_UniK_VCrew1        "fow_u_us_m42_ab_01_private"
 #define USAB_UniK_VCrew2        "fow_u_us_m42_ab_01_private"
 
 #define USAB_UniG_CPT           "fow_u_us_m42_ab_01_private"
-#define USAB_UniG_LT            "fow_u_us_m42_ab_01_private"
+#define USAB_UniG_LT            "U_LIB_US_AB_Uniform_M42"
 #define USAB_UniG_SSGT          "fow_u_us_m42_ab_01_staffsergeant"
-#define USAB_UniG_SGT           "fow_u_us_m42_ab_01_sergeant"
-#define USAB_UniG_CPL           "fow_u_us_m42_ab_01_corporal"
-#define USAB_UniG_PFC           "fow_u_us_m42_ab_01_private"
-#define USAB_UniG_PVT           "fow_u_us_m42_ab_01_private"
-#define USAB_UniG_Med           "fow_u_us_m42_ab_01_private"
+#define USAB_UniG_SGT           "U_LIB_US_AB_Uniform_M42_NCO"
+#define USAB_UniG_CPL           "U_LIB_US_AB_Uniform_M42_corporal"
+#define USAB_UniG_PFC           "U_LIB_US_AB_Uniform_M42"
+#define USAB_UniG_PVT           "U_LIB_US_AB_Uniform_M42"
+#define USAB_UniG_Med           "U_LIB_US_AB_Uniform_M42_Medic"
 #define USAB_UniG_VCrew1        "fow_u_us_m42_ab_01_private"
 #define USAB_UniG_VCrew2        "fow_u_us_m42_ab_01_private"
 
@@ -132,9 +132,9 @@
 #define USAB_Helm_CPT_r         ["H_LIB_US_AB_Helmet_CO_1"],["H_LIB_US_AB_Helmet_CO_2"]
 #define USAB_Helm_LT_r          ["H_LIB_US_AB_Helmet_CO_1"],["H_LIB_US_AB_Helmet_CO_2"]
 #define USAB_Helm_2LT_r         ["H_LIB_US_AB_Helmet_CO_1"],["H_LIB_US_AB_Helmet_CO_2"]
-#define USAB_Helm_Med_r         ["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["H_LIB_US_AB_Helmet_Medic_1"],["fow_h_us_m2"],["fow_h_us_m2_camo_open"],["fow_h_us_m2_camo"],["fow_h_us_m2_fak_camo"],["fow_h_us_m2_fak_net"],["fow_h_us_m2_net"]
+#define USAB_Helm_Med_r         "H_LIB_US_AB_Helmet_Medic_1"
 #define USAB_Helm_NCO_r         ["H_LIB_US_AB_Helmet_NCO_1"],["H_LIB_US_AB_Helmet_NCO_2"]
-#define USAB_Helm_r             ["fow_h_us_m2"],["fow_h_us_m2_camo_open"],["fow_h_us_m2_camo"],["fow_h_us_m2_fak_camo"],["fow_h_us_m2_fak_net"],["fow_h_us_m2_net"]
+#define USAB_Helm_r             ["H_LIB_US_AB_Helmet_Clear_2"],["H_LIB_US_AB_Helmet_Plain_1"]
 
 #define USAB_Helm_VCrew         "H_LIB_US_Helmet_Tank"
 #define USAB_Helm_Air           "fow_h_us_flight_helmet"
