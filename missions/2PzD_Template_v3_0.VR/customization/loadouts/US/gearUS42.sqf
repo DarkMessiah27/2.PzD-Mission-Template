@@ -134,7 +134,7 @@
         [US_Uni_SGT] call Olsen_FW_FNC_AddItem;
         [US_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [US_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_Helm_NCO] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -179,7 +179,7 @@
         [US_Uni_Med] call Olsen_FW_FNC_AddItem;
         [US_Vest_Med] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [US_Helm_Med_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_Helm_Med] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -201,7 +201,7 @@
 
         [US_Uni_SGT] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [US_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_Helm_NCO] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items

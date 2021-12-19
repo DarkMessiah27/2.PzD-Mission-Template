@@ -9,67 +9,67 @@
 #define USAB_UniK_PFC           "U_LIB_US_AB_Uniform_M42"
 #define USAB_UniK_PVT           "U_LIB_US_AB_Uniform_M42"
 #define USAB_UniK_Med           "U_LIB_US_AB_Uniform_M42_Medic"
-#define USAB_UniK_VCrew1        "fow_u_us_m42_ab_01_private"
-#define USAB_UniK_VCrew2        "fow_u_us_m42_ab_01_private"
+#define USAB_UniK_VCrew1        
+#define USAB_UniK_VCrew2        
 
-#define USAB_UniG_CPT           "fow_u_us_m42_ab_01_private"
+#define USAB_UniG_CPT           
 #define USAB_UniG_LT            "U_LIB_US_AB_Uniform_M42"
-#define USAB_UniG_SSGT          "fow_u_us_m42_ab_01_staffsergeant"
+#define USAB_UniG_SSGT          
 #define USAB_UniG_SGT           "U_LIB_US_AB_Uniform_M42_NCO"
 #define USAB_UniG_CPL           "U_LIB_US_AB_Uniform_M42_corporal"
 #define USAB_UniG_PFC           "U_LIB_US_AB_Uniform_M42"
 #define USAB_UniG_PVT           "U_LIB_US_AB_Uniform_M42"
 #define USAB_UniG_Med           "U_LIB_US_AB_Uniform_M42_Medic"
-#define USAB_UniG_VCrew1        "fow_u_us_m42_ab_01_private"
-#define USAB_UniG_VCrew2        "fow_u_us_m42_ab_01_private"
+#define USAB_UniG_VCrew1        
+#define USAB_UniG_VCrew2        
 
 //82nd Airborne Uniform
-#define USAB_Uni82_CPT          "fow_u_us_m42_ab_01_82_private"
-#define USAB_Uni82_LT           "fow_u_us_m42_ab_01_82_private"
-#define USAB_Uni82_SSGT         "fow_u_us_m42_ab_01_82_staffsergeant"
-#define USAB_Uni82_SGT          "fow_u_us_m42_ab_01_82_sergeant"
-#define USAB_Uni82_CPL          "fow_u_us_m42_ab_01_82_corporal"
-#define USAB_Uni82_PFC          "fow_u_us_m42_ab_01_82_private"
-#define USAB_Uni82_PVT          "fow_u_us_m42_ab_01_82_private"
-#define USAB_Uni82_Med          "fow_u_us_m42_ab_01_82_private"
-#define USAB_Uni82_VCrew1       "fow_u_us_m42_ab_01_82_private"
-#define USAB_Uni82_VCrew2       "fow_u_us_m42_ab_01_82_private"
+#define USAB_Uni82_CPT          
+#define USAB_Uni82_LT           
+#define USAB_Uni82_SSGT         
+#define USAB_Uni82_SGT          
+#define USAB_Uni82_CPL          
+#define USAB_Uni82_PFC          
+#define USAB_Uni82_PVT          
+#define USAB_Uni82_Med          
+#define USAB_Uni82_VCrew1       
+#define USAB_Uni82_VCrew2       
 
 //82nd Airborne Uniform w/ Flag
-#define USAB_Uni82F_CPT         "fow_u_us_m42_ab_01_82_flag_private"
-#define USAB_Uni82F_LT          "fow_u_us_m42_ab_01_82_flag_private"
-#define USAB_Uni82F_SSGT        "fow_u_us_m42_ab_01_82_flag_staffsergeant"
-#define USAB_Uni82F_SGT         "fow_u_us_m42_ab_01_82_flag_sergeant"
-#define USAB_Uni82F_CPL         "fow_u_us_m42_ab_01_82_flag_corporal"
-#define USAB_Uni82F_PFC         "fow_u_us_m42_ab_01_82_flag_private"
-#define USAB_Uni82F_PVT         "fow_u_us_m42_ab_01_82_flag_private"
-#define USAB_Uni82F_Med         "fow_u_us_m42_ab_01_82_flag_private"
-#define USAB_Uni82F_VCrew1      "fow_u_us_m42_ab_01_82_flag_private"
-#define USAB_Uni82F_VCrew2      "fow_u_us_m42_ab_01_82_flag_private"
+#define USAB_Uni82F_CPT         
+#define USAB_Uni82F_LT          
+#define USAB_Uni82F_SSGT        
+#define USAB_Uni82F_SGT         
+#define USAB_Uni82F_CPL         
+#define USAB_Uni82F_PFC         
+#define USAB_Uni82F_PVT         
+#define USAB_Uni82F_Med         
+#define USAB_Uni82F_VCrew1      
+#define USAB_Uni82F_VCrew2      
 
 //101st Airborne Uniform
-#define USAB_Uni101_CPT         "fow_u_us_m42_ab_01_101_private"
-#define USAB_Uni101_LT          "fow_u_us_m42_ab_01_101_private"
-#define USAB_Uni101_SSGT        "fow_u_us_m42_ab_01_101_staffsergeant"
-#define USAB_Uni101_SGT         "fow_u_us_m42_ab_01_101_sergeant"
-#define USAB_Uni101_CPL         "fow_u_us_m42_ab_01_101_corporal"
-#define USAB_Uni101_PFC         "fow_u_us_m42_ab_01_101_private"
-#define USAB_Uni101_PVT         "fow_u_us_m42_ab_01_101_private"
-#define USAB_Uni101_Med         "fow_u_us_m42_ab_01_101_private"
-#define USAB_Uni101_VCrew1      "fow_u_us_m42_ab_01_101_private"
-#define USAB_Uni101_VCrew2      "fow_u_us_m42_ab_01_101_private"
+#define USAB_Uni101_CPT         
+#define USAB_Uni101_LT          
+#define USAB_Uni101_SSGT        
+#define USAB_Uni101_SGT         
+#define USAB_Uni101_CPL         
+#define USAB_Uni101_PFC         
+#define USAB_Uni101_PVT         
+#define USAB_Uni101_Med         
+#define USAB_Uni101_VCrew1      
+#define USAB_Uni101_VCrew2      
 
 //101st Airborne Uniform w/ Flag
-#define USAB_Uni101F_CPT        "fow_u_us_m42_ab_01_101_flag_private"
-#define USAB_Uni101F_LT         "fow_u_us_m42_ab_01_101_flag_private"
-#define USAB_Uni101F_SSGT       "fow_u_us_m42_ab_01_101_flag_staffsergeant"
-#define USAB_Uni101F_SGT        "fow_u_us_m42_ab_01_101_flag_sergeant"
-#define USAB_Uni101F_CPL        "fow_u_us_m42_ab_01_101_flag_corporal"
-#define USAB_Uni101F_PFC        "fow_u_us_m42_ab_01_101_flag_private"
-#define USAB_Uni101F_PVT        "fow_u_us_m42_ab_01_101_flag_private"
-#define USAB_Uni101F_Med        "fow_u_us_m42_ab_01_101_flag_private"
-#define USAB_Uni101F_VCrew1     "fow_u_us_m42_ab_01_101_flag_private"
-#define USAB_Uni101F_VCrew2     "fow_u_us_m42_ab_01_101_flag_private"
+#define USAB_Uni101F_CPT        
+#define USAB_Uni101F_LT         
+#define USAB_Uni101F_SSGT       
+#define USAB_Uni101F_SGT        
+#define USAB_Uni101F_CPL        
+#define USAB_Uni101F_PFC        
+#define USAB_Uni101F_PVT        
+#define USAB_Uni101F_Med        
+#define USAB_Uni101F_VCrew1     
+#define USAB_Uni101F_VCrew2     
 
 //Airborne Vests
 #define USAB_Vest_NCO_M1C       "V_LIB_US_AB_Vest_Carbine_nco"
@@ -137,4 +137,4 @@
 #define USAB_Helm_r             ["H_LIB_US_AB_Helmet_Clear_2"],["H_LIB_US_AB_Helmet_Plain_1"]
 
 #define USAB_Helm_VCrew         "H_LIB_US_Helmet_Tank"
-#define USAB_Helm_Air           "fow_h_us_flight_helmet"
+#define USAB_Helm_Air           

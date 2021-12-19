@@ -116,7 +116,7 @@
         params ["_unit"];
 
         [USMC_Uni_SGT] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -141,7 +141,7 @@
 
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -183,7 +183,7 @@
 
         [USMC_Uni_Med] call Olsen_FW_FNC_AddItem;
         [US_Vest_Med] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -205,7 +205,7 @@
         params ["_unit"];
 
         [USMC_Uni_SGT] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -226,7 +226,7 @@
         params ["_unit"];
 
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -248,7 +248,7 @@
 
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
         [US_Vest_BAR] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -267,7 +267,7 @@
         params ["_unit"];
 
         [USMC_Uni_PFC] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -288,7 +288,7 @@
         params ["_unit"];
 
         [USMC_Uni_PVT] call Olsen_FW_FNC_AddItemRandom;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -310,7 +310,7 @@
         params ["_unit"];
 
         [USMC_Uni_PVT] call Olsen_FW_FNC_AddItemRandom;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -333,7 +333,7 @@
         params ["_unit"];
 
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -424,7 +424,7 @@
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_SGT] call Olsen_FW_FNC_AddItem;
         [USMC_Helm_VCrew] call Olsen_FW_FNC_AddItem;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -444,7 +444,7 @@
 
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_PVT] call Olsen_FW_FNC_AddItemRandom;
-        [USMC_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_BP] call Olsen_FW_FNC_AddItemRandom;
         [USMC_Helm_VCrew] call Olsen_FW_FNC_AddItem;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 

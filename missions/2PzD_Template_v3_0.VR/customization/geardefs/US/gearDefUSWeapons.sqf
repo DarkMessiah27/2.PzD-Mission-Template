@@ -1,7 +1,7 @@
 //======================== US Weapon Definitions ========================
 
 //Primary
-#define US_Weap_M1903A1                 "LIB_M1903A3_Springfield"
+#define US_Weap_M1903A1                 
 #define US_Weap_M1903A1_S               
 #define US_Weap_M1903A3                 "LIB_M1903A3_Springfield"
 #define US_Weap_M1903A4                 "LIB_M1903A4_Springfield"
