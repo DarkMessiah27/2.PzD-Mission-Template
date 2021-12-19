@@ -21,8 +21,8 @@
 //Backpack
 #define UK_BP                       "B_LIB_UK_HSack"
 #define UK_BP_S                     "B_LIB_UK_HSack"
-#define UK_BPG_L                    "fow_b_uk_bergenpack"
-#define UK_BP_P                     "fow_b_uk_piat"
+#define UK_BPG_L                    
+#define UK_BP_P                     
 #define UK_BPG_Tea					"B_LIB_UK_HSack_Blanco_Tea" // Yes this exists
 
 //Headgear

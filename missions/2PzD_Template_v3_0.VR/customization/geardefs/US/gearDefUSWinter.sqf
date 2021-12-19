@@ -15,13 +15,13 @@
 
 //Vests
 #define US_Vest_Pistol          "V_LIB_US_Vest_45"
-#define US_Vest_NCO_M1C         "fow_v_us_carbine_nco"
-#define US_Vest_NCO_M1T         "fow_v_us_thompson_nco"
+#define US_Vest_NCO_M1C         
+#define US_Vest_NCO_M1T         
 #define US_Vest_M1G             "V_LIB_US_Vest_Garand"
-#define US_Vest_M1G_Frag        "fow_v_us_Grenade"
-#define US_Vest_M1G_Gren        "fow_v_us_grenade"
+#define US_Vest_M1G_Frag        
+#define US_Vest_M1G_Gren        
 #define US_Vest_M1C             "V_LIB_US_Vest_Carbine"
-#define US_Vest_M1C_Eng         "fow_v_us_carbine_eng"
+#define US_Vest_M1C_Eng         
 #define US_Vest_M1T             "V_LIB_US_Vest_Thompson"
 #define US_Vest_BAR             "V_LIB_US_Vest_Bar"
 #define US_Vest_MGA             "V_LIB_US_Vest_M1919"
@@ -36,13 +36,13 @@
 #define US_Helm_Med_r           ["H_LIB_US_Helmet_Med_w"],["H_LIB_US_Helmet_Med_w"],["H_LIB_US_Helmet_Med_w"]
 
 //Backpack
-#define US_BP_r                 ["fow_b_us_m1928"],["fow_b_us_m1928"],["fow_b_us_m1928"],["fow_b_us_m1944"]
+#define US_BP_r                 
 #define US_BP_M1928             "B_LIB_US_Backpack"
-#define US_BP_M36               "fow_b_us_m1944"
+#define US_BP_M36               
 #define US_BP_M36R              "B_LIB_US_M36_Rope"
 #define US_BP_AT                "B_LIB_US_Backpack_RocketBag_Empty"
 #define US_BP_Med               "B_LIB_US_MedicBackpack_Big_Empty"
 #define US_BP_MG                "B_LIB_US_MGbag_Big_Empty"
 #define US_BP_Flame             "B_LIB_US_M2Flamethrower"
 #define US_BP_Flame_Final       "B_LIB_US_M2Flamethrower_noLoad"
-#define US_Bando                "fow_b_us_bandoleer"
+#define US_Bando                

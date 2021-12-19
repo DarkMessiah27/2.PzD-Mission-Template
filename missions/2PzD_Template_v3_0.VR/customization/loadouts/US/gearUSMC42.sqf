@@ -38,7 +38,7 @@
 #define USMC42_Weapon_Leader \
                 [US_Vest_M1T] call Olsen_FW_FNC_AddItem; \
                 [US_Mag_M1T_20,1] call Olsen_FW_FNC_AddItem; \
-                [US_Weap_M1T] call Olsen_FW_FNC_AddItem; \
+                [US_Weap_M1A1T] call Olsen_FW_FNC_AddItem; \
                 [US_Mag_M1T_20,5,"vest"] call Olsen_FW_FNC_AddItem;
 
 // For Riflemen
@@ -47,7 +47,7 @@
             [/*M1903A1*/ \
                 [US_Vest_M1G], \
                 [US_Mag_M1903,1], \
-                [US_Weap_M1903A1], \
+                [US_Weap_M1903A3], \
                 [US_Mag_M1903,12,"vest"] \
             ],[70], \
             [/*M1 Carbine*/ \
