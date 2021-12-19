@@ -1,24 +1,4 @@
-//======================== British Paratrooper Uniform Definitions ========================
-
-//Uniform
-#define UK_Uni_Para                 
-#define UK_Uni_Com                  
-
-//Vests
-#define UK_VestParaK_LeeEn          
-#define UK_VestParaK_Sten           
-#define UK_VestParaK_Bren           
-#define UK_VestParaK_O              
-
-#define UK_VestParaG_LeeEn          
-#define UK_VestParaG_Sten           
-#define UK_VestParaG_Bren           
-#define UK_VestParaG_O              
-
-//Headgear
-#define UK_Helm_Mk2_P_r             
-#define UK_Helm_P_Mk2               
-#define UK_Helm_P_Mk2_Fol           
+//======================== British Paratrooper Uniform Definitions ========================        
 
 // ====== Winter Equipment ======
 

@@ -3,26 +3,17 @@
 //Uniform
 #define UK_Uni_Lt                   "U_LIB_UK_P37Jerkins_w"
 #define UK_Uni_Sgt                  "U_LIB_UK_P37Jerkins_w"
-#define UK_Uni_Cpl                  "U_LIB_UK_P37_w"
-#define UK_Uni_LCpl                 "U_LIB_UK_P37_w"
-#define UK_Uni_Pte                  "U_LIB_UK_P37_w"
 
 //Vests
 #define UK_VestK_LeeEn              "V_LIB_UK_P37_Rifleman"
 #define UK_VestK_Sten               "V_LIB_UK_P37_Sten"
 #define UK_VestK_Bren               "V_LIB_UK_P37_Heavy"
 #define UK_VestK_O                  "V_LIB_UK_P37_Officer"
-
-#define UK_VestG_LeeEn              "fow_v_uk_base_green"
-#define UK_VestG_Sten               "fow_v_uk_sten_green"
 #define UK_VestG_Bren               "V_LIB_UK_P37_Heavy"
-#define UK_VestG_O                  "fow_v_uk_officer_green"
 
 //Backpack
 #define UK_BP                       "B_LIB_UK_HSack"
 #define UK_BP_S                     "B_LIB_UK_HSack_Blanco"
-#define UK_BPG_L                    "fow_b_uk_bergenpack"
-#define UK_BP_P                     "fow_b_uk_piat"
 #define UK_BPG_Tea					"B_LIB_UK_HSack_Blanco_Tea" // Yes this exists
 
 //Headgear
