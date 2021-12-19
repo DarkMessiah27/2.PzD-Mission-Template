@@ -39,60 +39,11 @@
 
 //======================== Definitions ========================
 
-//For Zugführer, Zugtruppführer, and Besatzungsführer
-#define WHR44_Weapon_Officer \
-        [ \
-            [ \
-                [Ger_Mag_MP40,1], \
-                [Ger_Weap_MP40], \
-                [Ger_Mag_MP40,3,"vest"] \
-            ],[99], \
-            [ \
-                [Ger_Mag_MP40,1], \
-                [Ger_Weap_MP38], \
-                [Ger_Mag_MP40,3,"vest"] \
-            ],[1] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+#define WHR44_Weapon_SMG \
+        [Ger_Mag_MP40,1] call Olsen_FW_FNC_AddItem; \
+        [Ger_Weap_MP40] call Olsen_FW_FNC_AddItem; \
+        [Ger_Mag_MP40,6,"vest"] call Olsen_FW_FNC_AddItem;
 
-// For Gruppenführer
-#define WHR44_Weapon_GF \
-        [ \
-            [ \
-                [Ger_Mag_MP40,1], \
-                [Ger_Weap_MP40], \
-                [Ger_Mag_MP40,6,"vest"] \
-            ],[99], \
-            [ \
-                [Ger_Mag_MP40,1], \
-                [Ger_Weap_MP38], \
-                [Ger_Mag_MP40,6,"vest"] \
-            ],[1] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
-// For Gefreiter
-#define WHR44_Weapon_Gef \
-        [ \
-            [ \
-                [Ger_Vest_MP40], \
-                [Ger_Mag_MP40,1], \
-                [Ger_Weap_MP40], \
-                [Ger_Mag_MP40,6,"vest"] \
-            ],[79], \
-            [ \
-                [Ger_Vest_StG44,1], \
-                [Ger_Mag_StG44,1], \
-                [Ger_Weap_StG44], \
-                [Ger_Mag_StG44,6,"vest"] \
-            ],[20], \
-            [ \
-                [Ger_Vest_MP40], \
-                [Ger_Mag_MP40,1], \
-                [Ger_Weap_MP38], \
-                [Ger_Mag_MP40,6,"vest"] \
-            ],[1] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
-// For all men with rifles except the MG-Hilfsschütze & Grenadier
 #define WHR44_Weapon_Rifleman \
         [ \
             [ \
@@ -101,54 +52,26 @@
                 [Ger_Acc_K98_Bayo,1,"uniform"], \
                 [Ger_Weap_K98], \
                 [Ger_Mag_K98,12,"vest"] \
-            ],[65], \
+            ],[50], \
             [ \
                 [Ger_Vest_G43], \
                 [Ger_Mag_G43,1], \
                 [Ger_Weap_G43], \
                 [Ger_Mag_G43,6,"vest"] \
-            ],[20], \
+            ],[30], \
             [ \
                 [Ger_Vest_StG44], \
                 [Ger_Mag_StG44,1], \
                 [Ger_Weap_StG44], \
                 [Ger_Mag_StG44,6,"vest"] \
-            ],[15] \
+            ],[20] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
-// For MG-Richtschütze
 #define WHR44_Weapon_MG \
-        [ \
-            [ \
-                [Ger_Weap_MG34] \
-            ],[55], \
-            [ \
-                [Ger_Weap_MG42] \
-            ],[45] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem; \
+        [Ger_Weap_MG42] call Olsen_FW_FNC_AddItem; \
+        [Ger_Mag_MG_50_Mixed_SmE,5,"vest"] call Olsen_FW_FNC_AddItem;
 
-// For MG-Hilfsschütze
-#define WHR44_Weapon_MGA \
-        [ \
-            [ \
-                [Ger_Mag_K98,1], \
-                [Ger_Acc_K98_Bayo,1,"uniform"], \
-                [Ger_Weap_K98], \
-                [Ger_Mag_K98,12,"vest"] \
-            ],[65], \
-            [ \
-                [Ger_Mag_G43,1], \
-                [Ger_Weap_G43], \
-                [Ger_Mag_G43,6,"vest"] \
-            ],[20], \
-            [ \
-                [Ger_Mag_StG44,1], \
-                [Ger_Weap_StG44], \
-                [Ger_Mag_StG44,6,"vest"] \
-            ],[15] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
-// For Grenadier
 #define WHR44_Weapon_Grenadier \
         [ \
             [ \
@@ -160,7 +83,7 @@
                 [Ger_Mag_K98,12,"vest"], \
                 [Ger_Mag_RGrn_HE,4], \
                 [Ger_Mag_RGrn_ATL,4] \
-            ],[85], \
+            ],[80], \
             [ \
                 [Ger_Vest_StG44], \
                 [Ger_Mag_StG44,1], \
@@ -169,102 +92,13 @@
                 [Ger_Mag_StG44,6,"vest"], \
                 [Ger_Mag_RGrn_HE,4], \
                 [Ger_Mag_RGrn_ATL,4] \
-            ],[15] \
+            ],[20] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
-//For Kompanieführer, Zugführer and Besatzungsführer
-#define WHR44_Weapon_Officer_Secondary \
-        [ \
-            [ \
-                [Ger_Mag_P38,1], \
-                [Ger_Weap_P38], \
-                [Ger_Mag_P38,2,"uniform"] \
-            ],[71], \
-            [ \
-                [Ger_Mag_P08,1], \
-                [Ger_Weap_P08], \
-                [Ger_Mag_P08,2,"uniform"] \
-            ],[15], \
-            [ \
-                [Ger_Mag_PPK,1], \
-                [Ger_Weap_PPK], \
-                [Ger_Mag_PPK,2,"uniform"] \
-            ],[10], \
-            [ \
-                [Pol_Mag_Radom,1], \
-                [Pol_Weap_Radom], \
-                [Pol_Mag_Radom,2,"uniform"] \
-            ],[2], \
-            [ \
-                [UK_Mag_HiPower,1], \
-                [UK_Weap_HiPower], \
-                [UK_Mag_HiPower,2,"uniform"] \
-            ],[2], \
-            [ \
-                [Ger_Mag_M1916,1], \
-                [Ger_Weap_M1916], \
-                [Ger_Mag_M1916,2,"uniform"] \
-            ],[1], \
-            [ \
-                [Ger_Mag_M172_20,1], \
-                [Ger_Weap_M172], \
-                [Ger_Mag_M172_20,2,"uniform"] \
-            ],[0.5] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
-//For Kompanietruppführer, MG-Richtschütze, Mortar Truppführer, Mortar Granatwerferschützen,
-//HMG Richtschütze, Panzerbüchse Richtschütze, Besatzung
-#define WHR44_Weapon_Enlisted_Secondary \
-        [ \
-            [ \
-                [Ger_Mag_P38,1], \
-                [Ger_Weap_P38], \
-                [Ger_Mag_P38,2,"uniform"] \
-            ],[73], \
-            [ \
-                [Ger_Mag_P08,1], \
-                [Ger_Weap_P08], \
-                [Ger_Mag_P08,2,"uniform"] \
-            ],[23], \
-            [ \
-                [Pol_Mag_Radom,1], \
-                [Pol_Weap_Radom], \
-                [Pol_Mag_Radom,2,"uniform"] \
-            ],[2], \
-            [ \
-                [UK_Mag_HiPower,1], \
-                [UK_Weap_HiPower], \
-                [UK_Mag_HiPower,2,"uniform"] \
-            ],[2], \
-            [ \
-                [Ger_Mag_M1916,1], \
-                [Ger_Weap_M1916], \
-                [Ger_Mag_M1916,2,"uniform"] \
-            ],[1], \
-            [ \
-                [Ger_Mag_M172_20,1], \
-                [Ger_Weap_M172], \
-                [Ger_Mag_M172_20,2,"uniform"] \
-            ],[0.5] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
-// Panzerfaust
-#define WHR44_Weapon_PzFaust \
-        [ \
-            [ \
-                [Ger_Weap_PzFaust_30] \
-            ],[50], \
-            [ \
-                [Ger_Weap_PzFaust_60] \
-            ],[25], \
-            [ \
-                [Ger_Weap_PzFaust_K] \
-            ],[25] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
-
-// Uniform 
-#define WHR44_Leader_Uniform \
-
+#define WHR44_Weapon_Secondary \
+        [Ger_Mag_P38,1] call Olsen_FW_FNC_AddItem; \
+        [Ger_Weap_P38] call Olsen_FW_FNC_AddItem; \
+        [Ger_Mag_P38,1,"uniform"] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -284,10 +118,14 @@
         GEN_Leader_Equipment_Set;
 
         //Primary Weapon
-        WHR44_Weapon_Officer;
+        WHR44_Weapon_SMG;
 
         //Secondary Weapon
-        WHR44_Weapon_Officer_Secondary;
+        WHR44_Weapon_Secondary;
+
+        //Extra
+        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Zugtruppführer
@@ -305,17 +143,10 @@
         GEN_Leader_Equipment_Set;
 
         //Primary Weapon
-        WHR44_Weapon_Officer;
+        WHR44_Weapon_SMG;
 
         //Extra
-        [
-            [//M24
-                [Ger_Gren_HE_SC,1]
-            ],[66],
-            [//M24 Splittering
-                [Ger_Gren_Frag_SF,1]
-            ],[34]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -353,14 +184,7 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [
-            [//M24
-                [Ger_Gren_HE_SC,1]
-            ],[66],
-            [//M24 Splittering
-                [Ger_Gren_Frag_SF,1]
-            ],[34]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -378,7 +202,7 @@
         GEN_Default_Equipment_Set;
 
         //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
+        WHR44_Weapon_Secondary;
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
@@ -402,17 +226,10 @@
         GEN_Leader_Equipment_Set;
 
         //Primary Weapon
-        WHR44_Weapon_GF;
+        WHR44_Weapon_SMG;
 
         //Extra
-        [
-            [//M24
-                [Ger_Gren_HE_SC,1]
-            ],[66],
-            [//M24 Splittering
-                [Ger_Gren_Frag_SF,1]
-            ],[34]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -434,14 +251,7 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [
-            [//M24
-                [Ger_Gren_HE_SC,1]
-            ],[66],
-            [//M24 Splittering
-                [Ger_Gren_Frag_SF,1]
-            ],[34]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -459,17 +269,10 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        WHR44_Weapon_Gef;
+        WHR44_Weapon_SMG;
 
         //Extra
-        [
-            [//M24
-                [Ger_Gren_HE_SC,1]
-            ],[66],
-            [//M24 Splittering
-                [Ger_Gren_Frag_SF,1]
-            ],[34]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -489,12 +292,10 @@
         GEN_Default_Equipment_Set;
 
         //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
+        WHR44_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
         WHR44_Weapon_MG;
-        [Ger_Mag_MG_50_Mixed_SmE,5,"vest"] call Olsen_FW_FNC_AddItem;
 
         //Extra
         [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
@@ -505,7 +306,6 @@
         params ["_unit"];
 
         [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_MGA] call Olsen_FW_FNC_AddItem;
         [Ger_BP_MG_D] call Olsen_FW_FNC_AddItem;
         [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
@@ -516,30 +316,10 @@
         [GEN_ace_sparebarrel] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
-        WHR44_Weapon_MGA;
-
-        //Extra
-        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //MG-Munitionsträger
-    WHR44_MGAB = ["WHR44_MGAB", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_D] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-
-        //Primary Weapon
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
     }];
 
     //Grenadier
@@ -547,7 +327,6 @@
         params ["_unit"];
 
         [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
         [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -576,14 +355,7 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [
-            [//M24
-                [Ger_Gren_HE_SC,1]
-            ],[66],
-            [//M24 Splittering
-                [Ger_Gren_Frag_SF,1]
-            ],[34]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -603,92 +375,15 @@
         WHR44_Weapon_Rifleman;
 
         //Launcher
-        WHR44_Weapon_PzFaust;
+        [Ger_Weap_PzFaust_60] call Olsen_FW_FNC_AddItem;;
 
         //Extra
-        [
-            [//M24
-                [Ger_Gren_HE_SC,1]
-            ],[66],
-            [//M24 Splittering
-                [Ger_Gren_Frag_SF,1]
-            ],[34]
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,3,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
 //Weapon Truppen
-
-    //Mortar Team
-    //Mortar Truppführer
-    WHR44_MortSL = ["WHR44_MortSL", {
-        params ["_unit"];
-
-        [Ger_Uni_S3_L] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_HGun] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_T34] call Olsen_FW_FNC_AddItem;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-        GEN_Mortar_Equipment_Set;
-
-        //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
-
-        //Launcher
-        [Ger_Weap_MortB,1] call Olsen_FW_FNC_AddItem;
-
-        //Extra
-        [Ger_Mag_Mort_HE,4] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Mortar Granatwerferschützen
-    WHR44_MortG = ["WHR44_MortG", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_HGun] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_T34] call Olsen_FW_FNC_AddItem;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-        GEN_Mortar_Equipment_Set;
-
-        //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
-
-        //Launcher
-        [Ger_Weap_MortT,1] call Olsen_FW_FNC_AddItem;
-
-        //Extra
-        [Ger_Mag_Mort_HE,4] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Mortar Munitionsträger
-    WHR44_MortA = ["WHR44_MortA", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_T34] call Olsen_FW_FNC_AddItem;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-        GEN_Mortar_Equipment_Set;
-
-        //Primary Weapon
-        WHR44_Weapon_Rifleman;
-
-        //Extra
-        [Ger_Mag_Mort_HE,4] call Olsen_FW_FNC_AddItem;
-    }];
 
     //HMG Team
     //HMG Truppführer
@@ -696,7 +391,6 @@
         params ["_unit"];
 
         [Ger_Uni_S3_L] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_MGA] call Olsen_FW_FNC_AddItem;
         [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
         [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
@@ -733,7 +427,7 @@
         GEN_Leader_Equipment_Set;
 
         //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
+        WHR44_Weapon_Secondary;
 
         //Primary Weapon
         [Ger_Mag_MG_250_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
@@ -766,72 +460,6 @@
         [Ger_Mag_MG_150_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
 
-    //Panzerbüchse Team
-    //Panzerbüchse Truppführer
-    WHR44_ATRSL = ["WHR44_ATRSL", {
-        params ["_unit"];
-
-        [Ger_Uni_S3_L] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_T34] call Olsen_FW_FNC_AddItem;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
-
-        //Primary Weapon
-        WHR44_Weapon_Rifleman;
-
-        //Extra
-        [Ger_Mag_PzB39,20,"backpack"] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Panzerbüchse Richtschütze
-    WHR44_ATRG = ["WHR44_ATRG", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_T34] call Olsen_FW_FNC_AddItem;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
-
-        //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
-
-        //Primary Weapon
-        [Ger_Mag_PzB39,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Weap_PzB39] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_PzB39,20] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Panzerbüchse Munitionsträger
-    WHR44_ATRAB = ["WHR44_ATRAB", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_T34] call Olsen_FW_FNC_AddItem;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-
-        //Primary Weapon
-        WHR44_Weapon_Rifleman;
-
-        //Extra
-        [Ger_Mag_PzB39,20,"backpack"] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
-    }];
-
     //Panzerschreck Team
     //Panzerschreck Truppführer
     WHR44_ATSL = ["WHR44_ATSL", {
@@ -846,7 +474,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        WHR44_Weapon_Gef;
+        WHR44_Weapon_SMG;
 
         //Extra
         [Ger_Mag_Pzschrck,5] call Olsen_FW_FNC_AddItem;
@@ -867,7 +495,7 @@
         GEN_Default_Equipment_Set;
 
         //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
+        WHR44_Weapon_Secondary;
 
         //Launcher
         [Ger_Weap_Pzschrck] call Olsen_FW_FNC_AddItem;
@@ -912,10 +540,10 @@
         GEN_Leader_Equipment_Set;
 
         //Primary Weapon
-        WHR44_Weapon_Officer;
+        WHR44_Weapon_SMG;
 
         //Secondary Weapon
-        WHR44_Weapon_Officer_Secondary;
+        WHR44_Weapon_Secondary;
     }];
 
     //Besatzung
@@ -932,7 +560,7 @@
         GEN_Default_Equipment_Set;
 
         //Secondary Weapon
-        WHR44_Weapon_Enlisted_Secondary;
+        WHR44_Weapon_Secondary;
 
         //Extra
         [GEN_Toolkit] call Olsen_FW_FNC_AddItem;

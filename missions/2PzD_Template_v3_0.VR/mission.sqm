@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=50;
+		nextID=76;
 	};
 	class Camera
 	{
-		pos[]={1430.6968,26.82159,1487.7537};
+		pos[]={1439.384,26.82159,1487.6559};
 		dir[]={-0.89730722,-0.44129056,0.01012025};
 		up[]={-0.44126248,0.89736426,0.0049767643};
 		aside[]={0.01127775,0,0.9999364};
@@ -565,7 +565,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=14;
+		items=2;
 		class Item0
 		{
 			dataType="Layer";
@@ -948,218 +948,6 @@ class Mission
 			text="Grid lock placement is turned on. Disable it with "";"" if you don't like it";
 			type="mil_dot";
 			id=45902;
-		};
-		class Item2
-		{
-			dataType="Layer";
-			name="!2PzD_Rus_44";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_Rus_44";
-					id=45903;
-					atlOffset=-5;
-				};
-			};
-			id=45973;
-			atlOffset=-5;
-		};
-		class Item3
-		{
-			dataType="Layer";
-			name="!2PzD_Rus_41";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_Rus_41";
-					id=45974;
-					atlOffset=-5;
-				};
-			};
-			id=46044;
-			atlOffset=-5;
-		};
-		class Item4
-		{
-			dataType="Layer";
-			name="!2PzD_WHR_39";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_WHR_39";
-					id=46045;
-					atlOffset=-5;
-				};
-			};
-			id=46113;
-			atlOffset=-5;
-		};
-		class Item5
-		{
-			dataType="Layer";
-			name="!2PzD_WHR_40";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_WHR_40";
-					id=46114;
-					atlOffset=-5;
-				};
-			};
-			id=46182;
-			atlOffset=-5;
-		};
-		class Item6
-		{
-			dataType="Layer";
-			name="!2PzD_WHR_42";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_WHR_42";
-					id=46183;
-					atlOffset=-5;
-				};
-			};
-			id=46251;
-			atlOffset=-5;
-		};
-		class Item7
-		{
-			dataType="Layer";
-			name="!2PzD_WHR_44";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_WHR_44";
-					id=46252;
-					atlOffset=-5;
-				};
-			};
-			id=46320;
-			atlOffset=-5;
-		};
-		class Item8
-		{
-			dataType="Layer";
-			name="!2PzD_FSJ_40";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_FSJ_40";
-					id=46443;
-					atlOffset=-5;
-				};
-			};
-			id=46503;
-			atlOffset=-5;
-		};
-		class Item9
-		{
-			dataType="Layer";
-			name="!2PzD_FSJ_44";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_FSJ_44";
-					id=46504;
-					atlOffset=-5;
-				};
-			};
-			id=46564;
-			atlOffset=-5;
-		};
-		class Item10
-		{
-			dataType="Layer";
-			name="!2PzD_Jpn_42";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_Jpn_42";
-					id=46565;
-					atlOffset=-5;
-				};
-			};
-			id=46629;
-			atlOffset=-5;
-		};
-		class Item11
-		{
-			dataType="Layer";
-			name="!2PzD_Jpn_44";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_Jpn_44";
-					id=46630;
-					atlOffset=-5;
-				};
-			};
-			id=46694;
-			atlOffset=-5;
-		};
-		class Item12
-		{
-			dataType="Layer";
-			name="!2PzD_UK_40";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_UK_40";
-					id=46695;
-				};
-			};
-			id=46766;
-		};
-		class Item13
-		{
-			dataType="Layer";
-			name="!2PzD_UK_44";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Layer";
-					name="!2PzD_UK_44";
-					id=46767;
-				};
-			};
-			id=46838;
 		};
 	};
 };
