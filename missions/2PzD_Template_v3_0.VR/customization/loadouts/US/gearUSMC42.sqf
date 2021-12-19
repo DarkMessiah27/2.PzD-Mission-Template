@@ -118,7 +118,7 @@
 
         [USMC_Uni_SGT] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -142,7 +142,7 @@
 
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_PFC] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -185,7 +185,7 @@
 
         [USMC_Uni_SGT] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -206,7 +206,7 @@
 
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -228,7 +228,7 @@
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
         [US_Vest_BAR] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -247,7 +247,7 @@
 
         [USMC_Uni_PFC] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -269,7 +269,7 @@
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_PVT] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -291,7 +291,7 @@
 
         [USMC_Uni_PVT] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -315,7 +315,7 @@
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
         [USMC_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -339,7 +339,7 @@
         [USMC_Uni_PFC] call Olsen_FW_FNC_AddItem;
         [US_Vest_MGA] call Olsen_FW_FNC_AddItem;
         [US_BP_MG] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_e_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -361,7 +361,7 @@
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_CPL] call Olsen_FW_FNC_AddItem;
         [US_BP_AT] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -384,7 +384,7 @@
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [USMC_Uni_PFC] call Olsen_FW_FNC_AddItem;
         [US_BP_AT] call Olsen_FW_FNC_AddItem;
-        [USMC_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [USMC_Helm] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items

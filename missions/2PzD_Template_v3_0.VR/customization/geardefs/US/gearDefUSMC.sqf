@@ -18,5 +18,4 @@
 #define USMC_BP_O               "B_LIB_US_M36"
 
 //Headgear
-#define USMC_Helm_e_r           "H_LIB_US_Helmet"
-#define USMC_Helm_r             "H_LIB_US_Helmet"
+#define USMC_Helm             "H_LIB_US_Helmet"

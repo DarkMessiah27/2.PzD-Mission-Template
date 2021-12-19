@@ -20,6 +20,5 @@
 #define UK_BPG_Tea					"B_LIB_UK_HSack_Blanco_Tea" // Yes this exists
 
 //Headgear
-#define UK_Helm_r                   ["H_LIB_UK_Helmet_Mk2"],["H_LIB_UK_Helmet_Mk2_Camo"],["H_LIB_UK_Helmet_Mk2_Net"]
 #define UK_Helm_Mk2_r               ["H_LIB_UK_Helmet_Mk2"],["H_LIB_UK_Helmet_Mk2_Camo"],["H_LIB_UK_Helmet_Mk2_Net"]
 #define UK_Helm_Mk3_r               ["H_LIB_UK_Helmet_Mk3"],["H_LIB_UK_Helmet_Mk3_Camo"]           

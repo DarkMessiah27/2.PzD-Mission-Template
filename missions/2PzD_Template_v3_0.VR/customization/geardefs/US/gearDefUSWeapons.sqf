@@ -47,32 +47,24 @@ Letting them keep the large backpack would allow them to put other items in the 
 #define US_Mag_M1G                          "LIB_8Rnd_762x63"
 #define US_Mag_M1G_Heavy                    "LIB_8Rnd_762x63_M1"
 #define US_Mag_M1G_Tracer                   "LIB_8Rnd_762x63_t"
-
 #define US_Mag_M1C                          "LIB_15Rnd_762x33"
 #define US_Mag_M1C_Tracer                   "LIB_15Rnd_762x33_t"
-
 #define US_Mag_M1T_30                       "LIB_30Rnd_45ACP"
 #define US_Mag_M1T_30_Tracer                "LIB_30Rnd_45ACP_t"
 #define US_Mag_M1T_20                       "LIB_30Rnd_45ACP"
 #define US_Mag_M1T_20_Tracer                "LIB_30Rnd_45ACP_t"
 #define US_Mag_M1T_50                       "LIB_50Rnd_45ACP"          
-
 #define US_Mag_M3GG                         "LIB_30Rnd_M3_GreaseGun_45ACP"
 #define US_Mag_M3GG_Tracer                  "LIB_30Rnd_M3_GreaseGun_t_45ACP"
-
-
 #define US_Mag_BAR_Mixed_Ball               "LIB_20Rnd_762x63"
-#define US_Mag_BAR_Mixed_Heavy              "LIB_20Rnd_762x63_M1"         
-         
+#define US_Mag_BAR_Mixed_Heavy              "LIB_20Rnd_762x63_M1"            
 #define US_Mag_M1919_50_Mixed_Ball          "LIB_50Rnd_762x63"
 #define US_Mag_M1919_50_Mixed_Heavy         "LIB_50Rnd_762x63_M1"         
 #define US_Mag_M1919_100_Mixed_Ball         "LIB_100Rnd_762x63"
 #define US_Mag_M1919_100_Mixed_Heavy        "LIB_100Rnd_762x63_M1"        
 #define US_Mag_M1919_50_Mixed_Ball          "LIB_50Rnd_762x63"                        
-
 #define US_Mag_M1911                        "LIB_7Rnd_45ACP"
 #define US_Mag_M1911_Tracer                 "LIB_7Rnd_45ACP_t"
-
 #define US_Mag_RGrn_AT                      "LIB_1Rnd_G_M9A1"
 #define US_Mag_RGrn_HE                      "LIB_1Rnd_G_Mk2"
 #define US_Mag_Bazoo                        "LIB_1Rnd_60mm_M6"

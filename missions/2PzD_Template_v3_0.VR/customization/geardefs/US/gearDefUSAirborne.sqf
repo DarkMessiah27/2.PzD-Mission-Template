@@ -78,8 +78,7 @@
 #define USAB_Helm_CPT_r         ["H_LIB_US_AB_Helmet_CO_1"],["H_LIB_US_AB_Helmet_CO_2"]
 #define USAB_Helm_LT_r          ["H_LIB_US_AB_Helmet_CO_1"],["H_LIB_US_AB_Helmet_CO_2"]
 #define USAB_Helm_2LT_r         ["H_LIB_US_AB_Helmet_CO_1"],["H_LIB_US_AB_Helmet_CO_2"]
-#define USAB_Helm_Med_r         "H_LIB_US_AB_Helmet_Medic_1"
+#define USAB_Helm_Med         "H_LIB_US_AB_Helmet_Medic_1"
 #define USAB_Helm_NCO_r         ["H_LIB_US_AB_Helmet_NCO_1"],["H_LIB_US_AB_Helmet_NCO_2"]
 #define USAB_Helm_r             ["H_LIB_US_AB_Helmet_Clear_2"],["H_LIB_US_AB_Helmet_Plain_1"]
-
 #define USAB_Helm_VCrew         "H_LIB_US_Helmet_Tank"

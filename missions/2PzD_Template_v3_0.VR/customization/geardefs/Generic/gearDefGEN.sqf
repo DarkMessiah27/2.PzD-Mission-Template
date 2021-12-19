@@ -145,6 +145,7 @@
 #define GEN_rangetable          "fow_i_rangeTables_m2"
 #define GEN_Toolkit             "ToolKit"
 #define GEN_Watch               "ItemWatch"
+
 //Triple Misc
 #define GEN_Money_notes         "Money"
 #define GEN_Money_pile          "Money_bunch"
