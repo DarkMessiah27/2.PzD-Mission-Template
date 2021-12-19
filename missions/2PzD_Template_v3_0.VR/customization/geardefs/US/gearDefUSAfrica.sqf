@@ -31,9 +31,9 @@
 #define US_Helm_CPT             "H_LIB_US_Helmet_Cap"
 #define US_Helm_LT              "H_LIB_US_Helmet_First_lieutenant"
 #define US_Helm_2LT             "H_LIB_US_Helmet_Second_lieutenant"
-#define US_Helm_NCO_r           "H_LIB_US_Helmet_NCO"
+#define US_Helm_NCO             "H_LIB_US_Helmet_NCO"
 #define US_Helm_r               ["H_LIB_US_Helmet"],["H_LIB_US_Helmet_Net_ns"],["H_LIB_US_Helmet_Net_os"]
-#define US_Helm_Med_r           "H_LIB_US_Helmet_Med"
+#define US_Helm_Med             "H_LIB_US_Helmet_Med"
 
 //Backpack
 #define US_BP_r                 ["B_LIB_US_Backpack"],["B_LIB_US_Backpack"],["B_LIB_US_M36"],["B_LIB_US_M36"]

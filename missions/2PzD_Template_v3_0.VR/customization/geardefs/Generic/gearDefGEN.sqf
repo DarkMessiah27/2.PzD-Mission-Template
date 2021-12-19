@@ -109,8 +109,7 @@
 #define GEN_BandageElastic      "ACE_elasticBandage"
 #define GEN_BandagePacking      "ACE_packingBandage"
 #define GEN_BandageQClot        "ACE_quikclot"
-#define GEN_TQ                  "ACE_tourniquet"
-#define GEN_Pain                
+#define GEN_TQ                  "ACE_tourniquet"       
 #define GEN_Morp                "ACE_morphine"
 #define GEN_Epi                 "ACE_epinephrine"
 #define GEN_SurgKit             "ACE_surgicalKit"
@@ -146,8 +145,6 @@
 #define GEN_rangetable          "fow_i_rangeTables_m2"
 #define GEN_Toolkit             "ToolKit"
 #define GEN_Watch               "ItemWatch"
-#define GEN_Whistle             
-
 //Triple Misc
 #define GEN_Money_notes         "Money"
 #define GEN_Money_pile          "Money_bunch"
