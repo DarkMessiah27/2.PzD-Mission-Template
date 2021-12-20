@@ -89,7 +89,6 @@ Ger42_SdKfz_Zug = ["Ger42_SdKfz_Zug", {
     [GEN_BandageField, 40] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 20] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandagePacking, 40] call Olsen_FW_FNC_AddItemVehicle;
-    [GEN_Pain, 20] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Morp, 10] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Saline500, 15] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Saline1000, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -151,7 +150,6 @@ Ger42_Pzr = ["Ger42_Pzr", {
     [GEN_Gren_Smoke_Y, 2] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 12] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 4] call Olsen_FW_FNC_AddItemVehicle;
-    [GEN_Pain, 4] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_TQ, 4] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
@@ -215,7 +213,6 @@ Ger43_SdKfz_Zug = ["Ger43_SdKfz_Zug", {
     [GEN_BandageField, 40] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 20] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandagePacking, 40] call Olsen_FW_FNC_AddItemVehicle;
-    [GEN_Pain, 20] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Morp, 10] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Saline500, 15] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Saline1000, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -279,7 +276,6 @@ Ger43_Pzr = ["Ger43_Pzr", {
     [GEN_Gren_Smoke_Y, 2] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageField, 12] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 4] call Olsen_FW_FNC_AddItemVehicle;
-    [GEN_Pain, 4] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_TQ, 4] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
@@ -352,7 +348,6 @@ Ger43_EF_SdKfz_Zug = ["Ger43_EF_SdKfz_Zug", {
     [GEN_BandageField, 40] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 20] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandagePacking, 40] call Olsen_FW_FNC_AddItemVehicle;
-    [GEN_Pain, 20] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Morp, 10] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Saline500, 15] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Saline1000, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -435,7 +430,6 @@ Ger43_EF_Pzr = ["Ger43_EF_Pzr", {
     [GEN_Gren_Smoke_Y, 2] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageField, 12] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 4] call Olsen_FW_FNC_AddItemVehicle;
-    [GEN_Pain, 4] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_TQ, 4] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
@@ -509,7 +503,6 @@ Ger44_SdKfz_Zug = ["Ger44_SdKfz_Zug", {
     [GEN_BandageField, 40] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 20] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandagePacking, 40] call Olsen_FW_FNC_AddItemVehicle;
-    [GEN_Pain, 20] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Morp, 10] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Saline500, 15] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Saline1000, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -584,7 +577,6 @@ Ger44_Pzr = ["Ger44_Pzr", {
     [GEN_Gren_Smoke_Y, 2] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageField, 12] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_BandageElastic, 4] call Olsen_FW_FNC_AddItemVehicle;
-    [GEN_Pain, 4] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_TQ, 4] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;

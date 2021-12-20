@@ -63,8 +63,6 @@
 
 #include "geardefs\US\gearDefUSAirborne.sqf"
 
-#include "geardefs\US\gearDefUSMC.sqf"
-
 #include "geardefs\US\gearDefUSRanger.sqf"
 
 #include "geardefs\US\gearDefUSWeapons.sqf"
@@ -141,7 +139,3 @@
     //Army Airborne
 //#include "loadouts\US\gearUSAB42.sqf"
 //#include "loadouts\US\gearUSAB44.sqf"
-
-    //Marine Corps
-//#include "loadouts\US\gearUSMC42.sqf"
-//#include "loadouts\US\gearUSMC44.sqf"

@@ -46,7 +46,7 @@
             [ \
                 [US_Vest_M1T], \
                 [US_Mag_M1T_20,1], \
-                [US_Weap_M1T], \
+                [US_Weap_M1A1T], \
                 [US_Mag_M1T_20,5,"vest"] \
             ],[70] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
@@ -76,7 +76,7 @@
             ],[70], \
             [ \
                 [US_Mag_M1903,1], \
-                [US_Weap_M1903A1], \
+                [US_Weap_M1903A3], \
                 [US_Mag_M1903,12,"vest"] \
             ],[30] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
@@ -85,14 +85,14 @@
 #define US42_Weapon_VCom \
         [US_Vest_M1T] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1T_20,1] call Olsen_FW_FNC_AddItem; \
-        [US_Weap_M1T] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1A1T] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1T_20,5,"vest"] call Olsen_FW_FNC_AddItem; \
 
 // For Machinegunners
 #define US42_Weapon_MG \
-        [US_Mag_M1919_250_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1919_50_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
-        [US_Mag_M1919_250_Mixed_Ball,3] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1919_50_Mixed_Ball,6] call Olsen_FW_FNC_AddItem;
 
 // Colt M1911 Pistol
 #define US42_Weapon_Secondary \
@@ -134,7 +134,7 @@
         [US_Uni_SGT] call Olsen_FW_FNC_AddItem;
         [US_Vest_M1G] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [US_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_Helm_NCO] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -179,7 +179,7 @@
         [US_Uni_Med] call Olsen_FW_FNC_AddItem;
         [US_Vest_Med] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [US_Helm_Med_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_Helm_Med] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -201,7 +201,7 @@
 
         [US_Uni_SGT] call Olsen_FW_FNC_AddItem;
         [US_BP_M1928] call Olsen_FW_FNC_AddItem;
-        [US_Helm_NCO_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_Helm_NCO] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -345,7 +345,7 @@
         //Extra
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [US_Mag_M1919_250_Mixed_Ball,2] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1919_50_Mixed_Ball,12] call Olsen_FW_FNC_AddItem;
         [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
     }];
 

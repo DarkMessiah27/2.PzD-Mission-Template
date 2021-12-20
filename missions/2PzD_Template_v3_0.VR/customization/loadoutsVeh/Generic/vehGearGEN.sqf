@@ -22,7 +22,6 @@
 #define GEN_Pzr \
     [GEN_BandageElastic, 12] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_BandageElastic, 4] call Olsen_FW_FNC_AddItemVehicle; \
-    [GEN_Pain, 4] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_TQ, 4] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_ace_firing_device, 1] call Olsen_FW_FNC_AddItemVehicle; \
@@ -34,7 +33,6 @@
     [GEN_BandageField, 40] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_BandageElastic, 20] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_BandagePacking, 40] call Olsen_FW_FNC_AddItemVehicle; \
-    [GEN_Pain, 20] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Morp, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Saline500, 15] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Saline1000, 5] call Olsen_FW_FNC_AddItemVehicle; \

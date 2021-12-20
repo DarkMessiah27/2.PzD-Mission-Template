@@ -42,7 +42,7 @@ class items
 							};
 						};
 						id=3617;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -130,7 +130,7 @@ class items
 							};
 						};
 						id=3618;
-						type="fow_s_uk_section_commander";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -180,7 +180,7 @@ class items
 							};
 						};
 						id=3619;
-						type="fow_s_uk_bren_asst";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -230,7 +230,7 @@ class items
 							};
 						};
 						id=3620;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -280,7 +280,7 @@ class items
 							};
 						};
 						id=3621;
-						type="fow_s_uk_medic";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -349,7 +349,7 @@ class items
 							};
 						};
 						id=3622;
-						type="fow_s_uk_medic";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -435,7 +435,7 @@ class items
 							};
 						};
 						id=3624;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -485,7 +485,7 @@ class items
 							};
 						};
 						id=3625;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -554,7 +554,7 @@ class items
 							};
 						};
 						id=3626;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item3
 					{
@@ -581,7 +581,7 @@ class items
 							};
 						};
 						id=3627;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item4
 					{
@@ -608,7 +608,7 @@ class items
 							};
 						};
 						id=3628;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item5
 					{
@@ -635,7 +635,7 @@ class items
 							};
 						};
 						id=3629;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -704,7 +704,7 @@ class items
 							};
 						};
 						id=3630;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -773,7 +773,7 @@ class items
 							};
 						};
 						id=3631;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item8
 					{
@@ -800,7 +800,7 @@ class items
 							};
 						};
 						id=3632;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item9
 					{
@@ -827,7 +827,7 @@ class items
 							};
 						};
 						id=3633;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item10
 					{
@@ -854,7 +854,7 @@ class items
 							};
 						};
 						id=3634;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item11
 					{
@@ -881,7 +881,7 @@ class items
 							};
 						};
 						id=3635;
-						type="fow_s_uk_teamleader";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -948,7 +948,7 @@ class items
 							};
 						};
 						id=3637;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -998,7 +998,7 @@ class items
 							};
 						};
 						id=3638;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item2
 					{
@@ -1025,7 +1025,7 @@ class items
 							};
 						};
 						id=3639;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1094,7 +1094,7 @@ class items
 							};
 						};
 						id=3640;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item4
 					{
@@ -1121,7 +1121,7 @@ class items
 							};
 						};
 						id=3641;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item5
 					{
@@ -1148,7 +1148,7 @@ class items
 							};
 						};
 						id=3642;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1217,7 +1217,7 @@ class items
 							};
 						};
 						id=3643;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1286,7 +1286,7 @@ class items
 							};
 						};
 						id=3644;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item8
 					{
@@ -1313,7 +1313,7 @@ class items
 							};
 						};
 						id=3645;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item9
 					{
@@ -1340,7 +1340,7 @@ class items
 							};
 						};
 						id=3646;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item10
 					{
@@ -1367,7 +1367,7 @@ class items
 							};
 						};
 						id=3647;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item11
 					{
@@ -1394,7 +1394,7 @@ class items
 							};
 						};
 						id=3648;
-						type="fow_s_uk_teamleader";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1461,7 +1461,7 @@ class items
 							};
 						};
 						id=3650;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1511,7 +1511,7 @@ class items
 							};
 						};
 						id=3651;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1580,7 +1580,7 @@ class items
 							};
 						};
 						id=3652;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1649,7 +1649,7 @@ class items
 							};
 						};
 						id=3653;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1718,7 +1718,7 @@ class items
 							};
 						};
 						id=3654;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item5
 					{
@@ -1745,7 +1745,7 @@ class items
 							};
 						};
 						id=3655;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item6
 					{
@@ -1772,7 +1772,7 @@ class items
 							};
 						};
 						id=3656;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item7
 					{
@@ -1799,7 +1799,7 @@ class items
 							};
 						};
 						id=3657;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item8
 					{
@@ -1826,7 +1826,7 @@ class items
 							};
 						};
 						id=3658;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item9
 					{
@@ -1853,7 +1853,7 @@ class items
 							};
 						};
 						id=3659;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item10
 					{
@@ -1880,7 +1880,7 @@ class items
 							};
 						};
 						id=3660;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 					};
 					class Item11
 					{
@@ -1907,7 +1907,7 @@ class items
 							};
 						};
 						id=3661;
-						type="fow_s_uk_teamleader";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -1974,7 +1974,7 @@ class items
 							};
 						};
 						id=3663;
-						type="fow_s_uk_teamleader";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2062,7 +2062,7 @@ class items
 							};
 						};
 						id=3664;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2190,7 +2190,7 @@ class items
 							};
 						};
 						id=3666;
-						type="fow_s_uk_teamleader";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2278,7 +2278,7 @@ class items
 							};
 						};
 						id=3667;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2366,7 +2366,7 @@ class items
 							};
 						};
 						id=3668;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2494,7 +2494,7 @@ class items
 							};
 						};
 						id=3670;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2582,7 +2582,7 @@ class items
 							};
 						};
 						id=3671;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2632,7 +2632,7 @@ class items
 							};
 						};
 						id=3672;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2699,7 +2699,7 @@ class items
 							};
 						};
 						id=3674;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2768,7 +2768,7 @@ class items
 							};
 						};
 						id=3675;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2837,7 +2837,7 @@ class items
 							};
 						};
 						id=3676;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2906,7 +2906,7 @@ class items
 							};
 						};
 						id=3677;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -2975,7 +2975,7 @@ class items
 							};
 						};
 						id=3678;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -3044,7 +3044,7 @@ class items
 							};
 						};
 						id=3679;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -3132,7 +3132,7 @@ class items
 							};
 						};
 						id=3680;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -3220,7 +3220,7 @@ class items
 							};
 						};
 						id=3681;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -3289,7 +3289,7 @@ class items
 							};
 						};
 						id=3682;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -3358,7 +3358,7 @@ class items
 							};
 						};
 						id=3683;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -3427,7 +3427,7 @@ class items
 							};
 						};
 						id=3684;
-						type="fow_s_uk_rifleman";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0
@@ -3496,7 +3496,7 @@ class items
 							};
 						};
 						id=3685;
-						type="fow_s_uk_teamleader";
+						type="LIB_UK_Rifleman";
 						class CustomAttributes
 						{
 							class Attribute0

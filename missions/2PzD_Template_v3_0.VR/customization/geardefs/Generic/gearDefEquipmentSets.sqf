@@ -16,14 +16,12 @@
 #define GEN_Leader_Equipment_Set \
     [GEN_Bino] call Olsen_FW_FNC_AddItem; \
     [GEN_ace_maptools,1,"uniform"] call Olsen_FW_FNC_AddItem; \
-    [GEN_Whistle,1,"uniform"] call Olsen_FW_FNC_AddItem;
 
 #define GEN_MedicP_Equipment_Set \
     [GEN_BandageField,10,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_BandageElastic,20,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_BandagePacking,20,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_Morp,5,"backpack"] call Olsen_FW_FNC_AddItem; \
-    [GEN_Pain,10,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_Epi,5,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_TQ,4,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_SurgKit,1,"backpack"] call Olsen_FW_FNC_AddItem; \
@@ -35,7 +33,6 @@
     [GEN_BandageField,5,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_BandageElastic,10,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_BandagePacking,10,"backpack"] call Olsen_FW_FNC_AddItem; \
-    [GEN_Pain,10,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_TQ,5,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_Gren_Smoke_B,1,"backpack"] call Olsen_FW_FNC_AddItem;
 

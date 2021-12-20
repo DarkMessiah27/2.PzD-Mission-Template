@@ -55,6 +55,11 @@
         [UK_Weap_EnfieldNo2] call Olsen_FW_FNC_AddItem; \
         [UK_Mag_EnfieldNo2,3,"uniform"] call Olsen_FW_FNC_AddItem;
 
+// For Machinegunners
+#define UK44_Weapon_MG \
+        [US_Mag_M1919_50_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1919_50_Mixed_Ball,6] call Olsen_FW_FNC_AddItem;
 //======================== Loadouts ========================
 
 //Platoon
@@ -65,7 +70,7 @@
 
         [UK_Uni_Lt] call Olsen_FW_FNC_AddItem;
         [UK_VestK_O] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -90,7 +95,7 @@
         [UK_Uni_Sgt] call Olsen_FW_FNC_AddItem;
         [UK_VestK_Sten] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -113,7 +118,7 @@
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -133,8 +138,8 @@
 
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
-        [UK_BPK_Radio] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -157,7 +162,7 @@
         [UK_Uni_Cpl] call Olsen_FW_FNC_AddItem;
         [UK_VestK_Sten] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -181,7 +186,7 @@
         [UK_Uni_LCpl] call Olsen_FW_FNC_AddItem;
         [UK_VestK_Sten] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -204,7 +209,7 @@
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestK_Bren] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -226,7 +231,7 @@
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestK_Bren] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -271,7 +276,7 @@
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -293,13 +298,14 @@
 
         [UK_Uni_LCpl] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
-        [UK_Weap_HMG_T] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_BP] call Olsen_FW_FNC_AddItem;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_Leader_Equipment_Set;
+        [US_Weap_M1919A4_T] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
         UK44_LeeEn;
@@ -307,6 +313,7 @@
         //Extra
         [UK_Gren_Frag,1] call Olsen_FW_FNC_AddItem;
         [UK_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1919_50_Mixed_Ball,12] call Olsen_FW_FNC_AddItem;
     }];
 
     //Machine Gunner
@@ -315,15 +322,15 @@
 
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestG_Bren] call Olsen_FW_FNC_AddItem;
-        [UK_Weap_HMG_G] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_BP] call Olsen_FW_FNC_AddItem;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
 
-        //Secondary Weapon
-        UK44_Webley;
+        //Primary Weapon
+        UK44_Weapon_MG;
     }];
 
 //Boys Rifle Team
@@ -335,7 +342,7 @@
         [UK_Uni_Cpl] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -358,7 +365,7 @@
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestK_O] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -382,7 +389,7 @@
         [UK_Uni_Sgt] call Olsen_FW_FNC_AddItem;
         [UK_VestK_Sten] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -408,7 +415,7 @@
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestK_Sten] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
-        [UK_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
