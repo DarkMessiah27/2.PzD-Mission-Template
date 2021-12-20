@@ -37,3 +37,4 @@
 #define US_BP_MG                "B_LIB_US_MGbag_Big_Empty"
 #define US_BP_Flame             "B_LIB_US_M2Flamethrower"
 #define US_BP_Flame_Final       "B_LIB_US_M2Flamethrower_noLoad"             
+#define US_Bando                "B_LIB_US_Bandoleer"

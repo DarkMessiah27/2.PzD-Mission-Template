@@ -20,8 +20,3 @@
 #define UK_Helm_Mk2_r               ["H_LIB_UK_Helmet_Mk2_w"],["H_LIB_UK_Helmet_Mk2_Cover_w"],["H_LIB_UK_Helmet_Mk2_Net_w"]
 #define UK_Helm_Mk3_r               ["H_LIB_UK_Helmet_Mk3_w"],["H_LIB_UK_Helmet_Mk3_w"]
 #define UK_Helm_Mk2                 "H_LIB_UK_Helmet_Mk2_w"
-#define UK_Helm_Mk2_Net             "H_LIB_UK_Helmet_Mk2_Net_w";
-#define UK_Helm_Mk2_NetC            "H_LIB_UK_Helmet_Mk2_Net_w"
-#define UK_Helm_Mk2_NetF            "H_LIB_UK_Helmet_Mk2_Net_w"
-#define UK_Helm_Mk3                 "H_LIB_UK_Helmet_Mk3_w"
-#define UK_Helm_Mk3_Net             "H_LIB_UK_Helmet_Mk3_w"

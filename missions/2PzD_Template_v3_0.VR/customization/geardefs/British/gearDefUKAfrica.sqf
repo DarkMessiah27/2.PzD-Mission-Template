@@ -27,8 +27,3 @@
 #define UK_Helm_Mk2_r               ["H_LIB_UK_Helmet_Mk2_Desert"],["H_LIB_UK_Helmet_Mk2_Desert_Bowed"]
 #define UK_Helm_Mk3_r               ["H_LIB_UK_Helmet_Mk2_Desert"],["H_LIB_UK_Helmet_Mk2_Desert_Bowed"]
 #define UK_Helm_Mk2                 "H_LIB_UK_Helmet_Mk2_Desert"
-#define UK_Helm_Mk2_Net             "H_LIB_UK_Helmet_Mk2_Desert"
-#define UK_Helm_Mk2_NetC            "H_LIB_UK_Helmet_Mk2_Desert"
-#define UK_Helm_Mk2_NetF            "H_LIB_UK_Helmet_Mk2_Desert"
-#define UK_Helm_Mk3                 "H_LIB_UK_Helmet_Mk2_Desert_Bowed"
-#define UK_Helm_Mk3_Net             "H_LIB_UK_Helmet_Mk2_Desert_Bowed"
