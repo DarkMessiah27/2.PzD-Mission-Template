@@ -71,6 +71,8 @@
 
 #include "geardefs\gearDefNor.sqf"
 
+#include "geardefs\gearDefCzech.sqf"
+
 //============ Vehicle Loadouts ============
 
 // Vehicle Loadouts are in the loadoutsVeh folder.
