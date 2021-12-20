@@ -199,7 +199,7 @@ switch (playerSide) do { // Checks what team the player is on
 case west : {
 // ===== West =====
 // If player is Blufor (Blue) they receive this briefing
-// This normally includes German and Japanese units
+// This normally includes German units
 
 NEWTAB("I. Lage (Situation):")
 // Generally should give an idea of why this mission is happening.
