@@ -26,7 +26,7 @@
 //Backpack
 #define Parti_BP                "B_LIB_SOV_RA_GasBag"
 #define Parti_BP_r              ["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["B_LIB_SOV_RA_GasBag"],["B_LIB_SOV_RA_Rucksack"],["B_LIB_SOV_RA_Rucksack2"],["B_LIB_SOV_RA_Rucksack_Green"],["B_LIB_SOV_RA_Rucksack2_Green"],["B_LIB_SOV_RA_Shinel"],["B_LIB_GER_Tonister34_cowhide"]
-#define Parti_BP_MGG_r          ["fow_b_heer_ammo_belt"],["fow_b_heer_ammo_belt"],["B_LIB_SOV_RA_MGAmmoBag_Big_Empty"],["B_LIB_SOV_RA_MGAmmoBag_Big_Empty"],["B_LIB_SOV_RA_Rucksack"],["B_LIB_SOV_RA_Rucksack2"],["B_LIB_SOV_RA_Rucksack_Green"],["B_LIB_SOV_RA_Rucksack2_Green"],["B_LIB_GER_Tonister34_cowhide"]
+#define Parti_BP_MGG_r          ["B_LIB_SOV_RA_MGAmmoBag_Big_Empty"],["B_LIB_SOV_RA_MGAmmoBag_Big_Empty"],["B_LIB_SOV_RA_Rucksack"],["B_LIB_SOV_RA_Rucksack2"],["B_LIB_SOV_RA_Rucksack_Green"],["B_LIB_SOV_RA_Rucksack2_Green"],["B_LIB_GER_Tonister34_cowhide"]
 #define Parti_BP_MGR_r          ["B_LIB_SOV_RA_MGAmmoBag_Big_Empty"],["B_LIB_SOV_RA_MGAmmoBag_Big_Empty"],["B_LIB_SOV_RA_Rucksack"],["B_LIB_SOV_RA_Rucksack2"],["B_LIB_SOV_RA_Rucksack_Green"],["B_LIB_SOV_RA_Rucksack2_Green"],["B_LIB_GER_Tonister34_cowhide"]
 #define Parti_BP_Med            "B_LIB_SOV_RA_MedicalBag_Big_Empty"
 

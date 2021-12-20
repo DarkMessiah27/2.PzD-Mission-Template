@@ -61,18 +61,8 @@
 
 //Face
 #define Civ_Face_r              ["G_LIB_Dienst_Brille"],["G_LIB_Dienst_Brille2"], \
-                                ["fow_g_glasses2"],["fow_g_glasses3"], \
                                 ["G_Spectacles"],["G_Spectacles_Tinted"], \
                                 ["G_Squares"],["G_Squares_Tinted"], \
-                                ["fow_g_watch1"],["fow_g_watch2"], \
-                                ["G_LIB_Watch2"],["G_LIB_Watch1"], \
-                                ["fow_g_watch1"],["fow_g_watch2"], \
-                                ["G_LIB_Watch2"],["G_LIB_Watch1"], \
-                                ["fow_g_watch1"],["fow_g_watch2"], \
-                                ["G_LIB_Watch2"],["G_LIB_Watch1"], \
-                                ["fow_g_watch1"],["fow_g_watch2"], \
-                                ["G_LIB_Watch2"],["G_LIB_Watch1"], \
-                                ["fow_g_watch1"],["fow_g_watch2"], \
                                 ["G_LIB_Watch2"],["G_LIB_Watch1"]
 
 #define Civ_Face_Bino          "G_LIB_Binoculars"
