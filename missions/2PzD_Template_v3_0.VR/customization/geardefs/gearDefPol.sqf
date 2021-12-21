@@ -26,6 +26,7 @@
 //Uniform
 #define Pol_Uni_r                   ["U_LIB_WP_Soldier_camo_1"],["U_LIB_WP_Soldier_camo_2"],["U_LIB_WP_Soldier_camo_3"]
 #define Pol_Uni_Civ_r               ["U_LIB_CIV_Citizen_1"],["U_LIB_CIV_Citizen_2"],["U_LIB_CIV_Citizen_3"],["U_LIB_CIV_Citizen_4"],["U_LIB_CIV_Citizen_5"],["U_LIB_CIV_Citizen_6"],["U_LIB_CIV_Citizen_7"],["U_LIB_CIV_Citizen_8"],["U_LIB_CIV_Woodlander_1"],["U_LIB_CIV_Woodlander_2"],["U_LIB_CIV_Woodlander_3"],["U_LIB_CIV_Woodlander_4"],["U_LIB_CIV_Villager_1"],["U_LIB_CIV_Villager_2"],["U_LIB_CIV_Villager_3"],["U_LIB_CIV_Villager_4"]
+
 //Vests
 #define Pol_Vest_Pistol             "V_LIB_GER_PrivateBelt"
 #define Pol_Vest_MP40_O             "V_LIB_WP_OfficerVest"
@@ -48,6 +49,6 @@
 //Headgear
 #define Pol_Head_r                  ["H_LIB_WP_Helmet"],["H_LIB_WP_Helmet"],["H_LIB_WP_Helmet"],["H_LIB_WP_Helmet_camo"],["H_LIB_WP_Helmet_camo"],["H_LIB_WP_Helmet_camo"],["H_LIB_WP_Cap"],["H_Beret_blk"],["H_LIB_CIV_Villager_Cap_1"],["H_LIB_CIV_Villager_Cap_2"],["H_LIB_CIV_Villager_Cap_4"]
 #define Pol_Helmet_Med              "H_LIB_WP_Helmet_med"
-#define Pol_Hat_Civ_r               ["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["ACE_Banana"],["H_LIB_CIV_Worker_Cap_2"],["H_LIB_CIV_Worker_Cap_3"],["H_LIB_CIV_Worker_Cap_4"],["H_LIB_CIV_Villager_Cap_1"],["H_LIB_CIV_Villager_Cap_2"],["H_LIB_CIV_Villager_Cap_4"]
+#define Pol_Hat_Civ_r               ["H_LIB_CIV_Worker_Cap_2"],["H_LIB_CIV_Worker_Cap_3"],["H_LIB_CIV_Worker_Cap_4"],["H_LIB_CIV_Villager_Cap_1"],["H_LIB_CIV_Villager_Cap_2"],["H_LIB_CIV_Villager_Cap_4"]
 #define Pol_Beret_P                 
 #define Pol_Beret_C                 
