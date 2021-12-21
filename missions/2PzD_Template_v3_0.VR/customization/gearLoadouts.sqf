@@ -65,13 +65,13 @@
 
 #include "geardefs\gearDefCiv.sqf"
 
-#include "geardefs\gearDefParti.sqf"
-
-#include "geardefs\gearDefPol.sqf"
+#include "geardefs\gearDefCzech.sqf"
 
 #include "geardefs\gearDefNor.sqf"
 
-#include "geardefs\gearDefCzech.sqf"
+#include "geardefs\gearDefParti.sqf"
+
+#include "geardefs\gearDefPol.sqf"
 
 //============ Vehicle Loadouts ============
 
