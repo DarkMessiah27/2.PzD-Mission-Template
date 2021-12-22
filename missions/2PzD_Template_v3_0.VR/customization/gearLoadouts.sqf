@@ -63,19 +63,11 @@
 
 #include "geardefs\US\gearDefUSWeapons.sqf"
 
-#include "geardefs\gearDefAus.sqf"
-
-#include "geardefs\gearDefBel.sqf"
-
-#include "geardefs\gearDefCdn.sqf"
-
 #include "geardefs\gearDefCiv.sqf"
 
 #include "geardefs\gearDefCzech.sqf"
 
-#include "geardefs\gearDefFrn.sqf"
-
-#include "geardefs\gearDefNed.sqf"
+#include "geardefs\gearDefNor.sqf"
 
 #include "geardefs\gearDefParti.sqf"
 
