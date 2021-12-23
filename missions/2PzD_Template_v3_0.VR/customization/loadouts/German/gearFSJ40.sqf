@@ -91,7 +91,7 @@
     FSJ40_P2 = ["FSJ40_P2", {
         params ["_unit"];
 
-        [FSJ_Uni_SL] call Olsen_FW_FNC_AddItem;
+        [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("P2");
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -180,7 +180,7 @@
     FSJ40_SL = ["FSJ40_SL", {
         params ["_unit"];
 
-        [FSJ_Uni_SL] call Olsen_FW_FNC_AddItem;
+        [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("SL");
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -202,7 +202,7 @@
     FSJ40_S2 = ["FSJ40_S2", {
         params ["_unit"];
 
-        [FSJ_Uni_S2] call Olsen_FW_FNC_AddItem;
+        [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("S2");
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -226,7 +226,6 @@
         [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("MG");
-        _unit removeItemFromBackpack "fow_50Rnd_792x57";
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -249,9 +248,8 @@
         params ["_unit"];
 
         [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_MGA] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_K98IFA] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("MGA");
-        _unit removeItemFromBackpack "fow_50Rnd_792x57";
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -264,7 +262,6 @@
         //Extra
         [GEN_ace_sparebarrel] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_sS,5] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
     }];
 
     //Scharfschütze
