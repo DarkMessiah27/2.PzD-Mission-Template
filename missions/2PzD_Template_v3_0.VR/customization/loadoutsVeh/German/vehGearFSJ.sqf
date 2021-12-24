@@ -5,7 +5,7 @@
 
     //Loadout Calls
     //These are special and the won't work properly if you just put them in the init of the container.
-    //If you're going to make an FSJ mission where the FSJ paradrop let Haas know and he will advise you.
+    //If you're going to make an FSJ mission where the FSJ paradrop let Brauer know and he will advise you.
     /*
     call compileScript ["scripts\DropCan.sqf"];
 
