@@ -147,7 +147,7 @@
         WHR39_Weapon_Secondary;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,2] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -169,8 +169,7 @@
         WHR39_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -209,7 +208,7 @@
         WHR39_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -253,7 +252,7 @@
         WHR39_Weapon_Leader;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         WHR39_Weapon_MG_Ammo(1);
     }];
@@ -276,7 +275,7 @@
         WHR39_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         WHR39_Weapon_MG_Ammo(1);
     }];
@@ -298,7 +297,7 @@
         WHR39_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         WHR39_Weapon_MG_Ammo(1);
     }];
@@ -309,8 +308,7 @@
 
         [Ger_Uni_Rif_E] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_D] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_MG_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -329,9 +327,8 @@
         params ["_unit"];
 
         [Ger_Uni_Rif_E] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_MGA] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_D] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_MG_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -352,7 +349,7 @@
 
         [Ger_Uni_Rif_E] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_Gren] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -363,7 +360,7 @@
         WHR39_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,8,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,8,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
     //Hilfs-Krankenträger
@@ -384,8 +381,7 @@
         WHR39_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Gewehrschütze
@@ -405,8 +401,7 @@
         WHR39_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
         WHR39_Weapon_MG_Ammo(1);
     }];
 
@@ -418,9 +413,8 @@
         params ["_unit"];
 
         [Ger_Uni_S3_E] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_MGA] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -436,7 +430,7 @@
         [Ger_Weap_MG_T,1] call Olsen_FW_FNC_AddItem;
 
         //Extra
-        [Ger_Mag_MG_250_Mixed_sS,2,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_sS,10,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
     //HMG Richtschütze
@@ -445,8 +439,7 @@
 
         [Ger_Uni_Rif_E] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -458,9 +451,9 @@
         WHR39_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_250_Mixed_sS,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_sS,5] call Olsen_FW_FNC_AddItem;
         [Ger_Weap_MG34] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_250_Mixed_sS,4,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_sS,20,"backpack"] call Olsen_FW_FNC_AddItem;
 
         //Extra
     }];
@@ -471,8 +464,7 @@
 
         [Ger_Uni_Rif_E] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -483,7 +475,7 @@
         WHR39_Weapon_Rifleman;
 
         //Extra
-        [Ger_Mag_MG_250_Mixed_sS,3,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_sS,15,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
 //Tank Crew

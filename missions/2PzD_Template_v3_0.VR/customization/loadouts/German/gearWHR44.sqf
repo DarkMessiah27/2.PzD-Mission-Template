@@ -124,7 +124,7 @@
         WHR44_Weapon_Secondary;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,2] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -146,16 +146,15 @@
         WHR44_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Funker
     WHR44_RTO = ["WHR44_RTO", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_BP_Radio] call Olsen_FW_FNC_AddItem;
         [Ger_Hat] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -172,7 +171,7 @@
     WHR44_Mess = ["WHR44_Mess", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -184,7 +183,7 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -229,7 +228,7 @@
         WHR44_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -251,7 +250,7 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -272,7 +271,7 @@
         WHR44_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -281,10 +280,9 @@
     WHR44_MG = ["WHR44_MG", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_D] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -305,9 +303,8 @@
     WHR44_MGA = ["WHR44_MGA", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_D] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -326,7 +323,7 @@
     WHR44_Gren = ["WHR44_Gren", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -342,7 +339,7 @@
     WHR44_MedS = ["WHR44_MedS", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_BP_Med] call Olsen_FW_FNC_AddItem;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -355,15 +352,14 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Gewehrschütze
     WHR44_Rif = ["WHR44_Rif", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -378,8 +374,7 @@
         [Ger_Weap_PzFaust_60] call Olsen_FW_FNC_AddItem;;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,3,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -391,8 +386,7 @@
         params ["_unit"];
 
         [Ger_Uni_S3_L] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -408,17 +402,16 @@
         [Ger_Weap_MG_T,1] call Olsen_FW_FNC_AddItem;
 
         //Extra
-        [Ger_Mag_MG_250_Mixed_SmE,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
     }];
 
     //HMG Richtschütze
     WHR44_HMGG = ["WHR44_HMGG", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -430,22 +423,21 @@
         WHR44_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_250_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
         WHR44_Weapon_MG;
-        [Ger_Mag_MG_250_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_150_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
 
         //Extra
-        [Ger_Mag_MG_250_Mixed_SmE,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
     }];
 
     //HMG Munitionsträger
     WHR44_HMGA = ["WHR44_HMGA", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -456,8 +448,8 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [Ger_Mag_MG_250_Mixed_SmE,2] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_150_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
     }];
 
     //Panzerschreck Team
@@ -485,7 +477,7 @@
     WHR44_ATG = ["WHR44_ATG", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_HGun] call Olsen_FW_FNC_AddItem;
         [Ger_BP_Pzr] call Olsen_FW_FNC_AddItem;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
@@ -508,7 +500,7 @@
     WHR44_ATA = ["WHR44_ATA", {
         params ["_unit"];
 
-        [Ger_Uni_Rif_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_BP_Pzr] call Olsen_FW_FNC_AddItem;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;

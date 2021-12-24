@@ -91,7 +91,7 @@
     FSJ40_P2 = ["FSJ40_P2", {
         params ["_unit"];
 
-        [FSJ_Uni_SL] call Olsen_FW_FNC_AddItem;
+        [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("P2");
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -108,7 +108,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Funker
@@ -129,7 +129,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Melder
@@ -150,7 +150,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Krankenträger
@@ -180,7 +180,7 @@
     FSJ40_SL = ["FSJ40_SL", {
         params ["_unit"];
 
-        [FSJ_Uni_SL] call Olsen_FW_FNC_AddItem;
+        [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("SL");
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -193,7 +193,7 @@
         FSJ40_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_sS,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -202,7 +202,7 @@
     FSJ40_S2 = ["FSJ40_S2", {
         params ["_unit"];
 
-        [FSJ_Uni_S2] call Olsen_FW_FNC_AddItem;
+        [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("S2");
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -214,7 +214,7 @@
         FSJ40_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_sS,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -226,7 +226,6 @@
         [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("MG");
-        _unit removeItemFromBackpack "fow_50Rnd_792x57";
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -249,9 +248,8 @@
         params ["_unit"];
 
         [FSJ_Uni_Rif] call Olsen_FW_FNC_AddItem;
-        [Ger_Vest_MGA] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_K98IFA] call Olsen_FW_FNC_AddItem;
         FSJ_Backpack("MGA");
-        _unit removeItemFromBackpack "fow_50Rnd_792x57";
         [FSJ_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -264,7 +262,6 @@
         //Extra
         [GEN_ace_sparebarrel] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_sS,5] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
     }];
 
     //Scharfschütze
@@ -285,7 +282,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Grenadier
@@ -306,7 +303,7 @@
 
         //Extra
         [Ger_Acc_K98_GL,1,"vest"] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,12] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,12] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -328,7 +325,7 @@
         FSJ40_Weapon_Rifle;
 
         //Extra
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Gewehrschütze
@@ -349,6 +346,6 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_sS,1,"backpack"] call Olsen_FW_FNC_AddItem;
     }];

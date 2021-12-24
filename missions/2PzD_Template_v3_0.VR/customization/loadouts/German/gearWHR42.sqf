@@ -97,7 +97,7 @@
         WHR42_Weapon_Secondary;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,2] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -119,9 +119,8 @@
         WHR42_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Funker
@@ -159,7 +158,7 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -204,7 +203,7 @@
         WHR42_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -227,7 +226,7 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -236,7 +235,7 @@
     WHR42_S3 = ["WHR42_S3", {
         params ["_unit"];
 
-        [Ger_Uni_S3_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Uni_S2_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_MP40] call Olsen_FW_FNC_AddItem;
         [Ger_BP_T34] call Olsen_FW_FNC_AddItem;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
@@ -249,7 +248,7 @@
         WHR42_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -260,8 +259,7 @@
 
         [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_D] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -283,9 +281,8 @@
         params ["_unit"];
 
         [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Vest_MGA] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_D] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -317,8 +314,7 @@
         WHR42_Weapon_Grenadier;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Hilfs-Krankenträger
@@ -339,8 +335,7 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Gewehrschütze
@@ -360,8 +355,7 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_HE_SC,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,2,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -373,9 +367,8 @@
         params ["_unit"];
 
         [Ger_Uni_S3_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Vest_MGA] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -391,7 +384,7 @@
         [Ger_Weap_MG_T,1] call Olsen_FW_FNC_AddItem;
 
         //Extra
-        [Ger_Mag_MG_250_Mixed_SmE,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //HMG Richtschütze
@@ -400,8 +393,7 @@
 
         [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -413,13 +405,13 @@
         WHR42_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_250_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
         WHR42_Weapon_MG;
-        [Ger_Mag_MG_250_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_150_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
 
         //Extra
-        [Ger_Mag_MG_250_Mixed_SmE,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
     }];
 
     //HMG Munitionsträger
@@ -428,8 +420,7 @@
 
         [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_MG_B] call Olsen_FW_FNC_AddItem;
-        [Ger_mg_neck] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -440,8 +431,8 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Mag_MG_250_Mixed_SmE,2] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_150_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
     }];
 
 //Tank Crew
