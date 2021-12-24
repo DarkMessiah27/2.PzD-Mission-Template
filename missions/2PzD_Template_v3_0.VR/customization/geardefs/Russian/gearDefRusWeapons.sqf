@@ -8,7 +8,10 @@
 #define Rus_Weap_MosM44                         "LIB_M44"
 #define Rus_Weap_SVT38                          "NORTH_SVT38"
 #define Rus_Weap_SVT40                          "NORTH_SVT40"
+#define Rus_Weap_SVT40_S                        "NORTH_SVT40PU"
 #define Rus_Weap_AVT40                          "NORTH_AVT40"
+#define Rus_Weap_PPD34                          "NORTH_PPD34"
+#define Rus_Weap_PPD34_38                       "NORTH_PPD34_38"
 #define Rus_Weap_PPD40                          "NORTH_PPD40"
 #define Rus_Weap_PPSH                           "NORTH_ppsh41"
 #define Rus_Weap_DP                             "NORTH_dp27"
@@ -39,6 +42,10 @@
 
 #define Rus_Mag_SVT40                           "NORTH_10rnd_SVT_mag"
 
+#define Rus_Mag_PPD34                           "NORTH_34rnd_PPD_mag"
+
+#define Rus_Mag_PPD34_38                        "NORTH_71rnd_PPD34_38_mag"
+
 #define Rus_Mag_PPD40                           "NORTH_71rnd_PPD40_mag"
 
 #define Rus_Mag_PPSH_S                          "NORTH_35rnd_ppsh41_mag"
@@ -50,15 +57,6 @@
 
 #define Rus_Mag_DT_Mixed_Ball_Red               "LIB_63Rnd_762x54"
 #define Rus_Mag_DT_Mixed_Heavy_Red              "LIB_63Rnd_762x54d"
-#define Rus_Mag_DT_Mixed_AP_Red                 "LIB_63Rnd_762x54_Mixed_AP_t46_2PzD"
-#define Rus_Mag_DT_Mixed_Ball_White             "LIB_63Rnd_762x54_Mixed_Ball_t30_2PzD"
-#define Rus_Mag_DT_Mixed_Heavy_White            "LIB_63Rnd_762x54_Mixed_HeavyBall_t30_2PzD"
-#define Rus_Mag_DT_Mixed_AP_White               "LIB_63Rnd_762x54_Mixed_AP_t30_2PzD"
-#define Rus_Mag_DT_Ball                         "LIB_63Rnd_762x54_noTrace_2PzD"
-#define Rus_Mag_DT_Heavy                        "LIB_63Rnd_762x54d_noTrace_2PzD"
-#define Rus_Mag_DT_AP                           "LIB_63Rnd_762x54_AP_noTrace_2PzD"
-#define Rus_Mag_DT_Tracer_White                 "LIB_63Rnd_762x54_t30_2PzD"
-#define Rus_Mag_DT_Tracer_Red                   "LIB_63Rnd_762x54_t46_2PzD"
 
 #define Rus_Mag_PTRD                            "LIB_1Rnd_145x114"
 
