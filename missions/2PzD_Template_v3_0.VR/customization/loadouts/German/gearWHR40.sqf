@@ -150,7 +150,7 @@
 
         [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -216,7 +216,7 @@
 
         [Ger_Uni_S2_E] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -261,7 +261,7 @@
 
         [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -284,7 +284,7 @@
 
         [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -305,7 +305,7 @@
 
         [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -348,7 +348,7 @@
 
         [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -372,7 +372,7 @@
 
         [Ger_Uni_S3_E] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -397,7 +397,7 @@
 
         [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -424,7 +424,7 @@
 
         [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 

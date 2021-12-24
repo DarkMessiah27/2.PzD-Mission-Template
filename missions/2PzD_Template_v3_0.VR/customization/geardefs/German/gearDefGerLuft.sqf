@@ -55,11 +55,11 @@
                 }; \
                 case "MG": \
                 { \
-                    [Ger_BP_MG_R] call Olsen_FW_FNC_AddItemRandom; \
+                    [Ger_BP_MG_r] call Olsen_FW_FNC_AddItemRandom; \
                 }; \
                 case "MGA": \
                 { \
-                    [Ger_BP_MG_R] call Olsen_FW_FNC_AddItemRandom; \
+                    [Ger_BP_MG_r] call Olsen_FW_FNC_AddItemRandom; \
                 }; \
                 default \
                 { \

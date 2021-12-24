@@ -27,6 +27,5 @@
 #define Ger_Hat                         "H_LIB_GER_Cap"
 #define Ger_Helmet_r                    ["H_LIB_GER_Helmet"],["H_LIB_GER_HelmetCamo2"],["H_LIB_GER_HelmetCamo"],["H_LIB_GER_Helmet_net"],["H_LIB_GER_Helmet_ns"],["H_LIB_GER_Helmet_painted"],["H_LIB_GER_Helmet_net_painted"],["H_LIB_GER_Helmet_ns_painted"]
 #define Ger_Helmet                      "H_LIB_GER_Helmet"
-
 #define Ger_Hat_VCom_r                  ["H_LIB_GER_TankOfficerCap"],["H_LIB_GER_TankOfficerCap2"]
 #define Ger_Hat_VCrew_r                 ["H_LIB_GER_TankPrivateCap"],["H_LIB_GER_TankPrivateCap2"]

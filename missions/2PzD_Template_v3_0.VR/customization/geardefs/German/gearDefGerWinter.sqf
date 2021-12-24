@@ -33,6 +33,5 @@
 #define Ger_Helmet_n                    "H_LIB_GER_Helmet_net_w"
 #define Ger_Helmet_c                    "H_LIB_GER_HelmetCamo_w"
 #define Ger_Helmet_l                    "H_LIB_GER_HelmetCamo4_w"
-
 #define Ger_Hat_VCom_r                  ["H_LIB_GER_TankOfficerCap"],["H_LIB_GER_TankOfficerCap2"]
 #define Ger_Hat_VCrew_r                 ["H_LIB_GER_TankPrivateCap"],["H_LIB_GER_TankPrivateCap2"]

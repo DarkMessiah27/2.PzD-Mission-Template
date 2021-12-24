@@ -14,12 +14,12 @@
 #define Ger_Vest_VCrew                  "V_LIB_GER_TankPrivateBelt"
 
 //Backpack
-#define Ger_BP_R                        ["B_LIB_GER_A_frame"],["B_LIB_GER_A_frame_kit"],["B_LIB_GER_A_frame_zeltbahn"],["csa38_GEBatoh5"],["B_LIB_GER_Tonister34_cowhide"]
+#define Ger_BP_r                        ["B_LIB_GER_A_frame"],["B_LIB_GER_A_frame_kit"],["B_LIB_GER_A_frame_zeltbahn"],["csa38_GEBatoh5"],["B_LIB_GER_Tonister34_cowhide"]
 #define Ger_BP_AF                       "B_LIB_GER_A_frame"
 #define Ger_BP_AF_Kit                   "B_LIB_GER_A_frame_kit"
 #define Ger_BP_AF_ZB                    "B_LIB_GER_A_frame_zeltbahn"
 #define Ger_BP_T34                      "B_LIB_GER_Tonister34_cowhide"
-#define Ger_BP_MG_R                     ["B_LIB_GER_A_frame"],["B_LIB_GER_A_frame_kit"],["B_LIB_GER_Tonister34_cowhide"]
+#define Ger_BP_MG_r                     ["B_LIB_GER_A_frame"],["B_LIB_GER_A_frame_kit"],["B_LIB_GER_Tonister34_cowhide"]
 #define Ger_BP_Pzr                      "B_LIB_GER_Panzer_Empty"
 #define Ger_BP_Radio                    "B_LIB_GER_Radio"
 #define Ger_BP_VCrew                    "B_LIB_GER_SapperBackpack_empty"
