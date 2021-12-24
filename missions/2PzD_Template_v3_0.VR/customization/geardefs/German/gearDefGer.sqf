@@ -1,11 +1,4 @@
-//======================== German Misc Equipment/Uniform Definitions ========================
-
-// Items in this file do not belong to any of the more specific uniform definition files.
-
-//=== MISC ===
-
-
-//========= Uniforms =========
+//======================== German Misc Equipment Definitions ========================
 
 //Vests
 #define Ger_Vest_CC                     "V_LIB_GER_PrivateBelt"

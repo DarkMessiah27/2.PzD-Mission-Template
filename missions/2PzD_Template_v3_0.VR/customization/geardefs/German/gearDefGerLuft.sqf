@@ -21,7 +21,6 @@
 
 //Vests
 #define FSJ_Vest_Band                   "V_LIB_GER_FSJ_VestKar98"
-
 #define FSJ_Vest_VCrew                  "V_LIB_GER_TankPrivateBelt"
 
 //Headgear
@@ -29,7 +28,6 @@
 #define FSJ_Hat                         "H_LIB_GER_Cap"
 #define FSJ_Helmet                      "H_LIB_GER_FSJ_M38_Helmet"
 #define FSJ_Helmet_r                    ["H_LIB_GER_FSJ_M44_Helmet"],["H_LIB_GER_FSJ_M44_HelmetCamo1"]
-
 #define FSJ_Hat_VCom                    ["H_LIB_GER_TankOfficerCap"],["H_LIB_GER_TankOfficerCap2"]
 #define FSJ_Hat_VCrew                   ["H_LIB_GER_TankPrivateCap"],["H_LIB_GER_TankPrivateCap2"]
 
