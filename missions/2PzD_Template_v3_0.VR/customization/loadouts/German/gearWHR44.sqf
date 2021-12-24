@@ -124,7 +124,7 @@
         WHR44_Weapon_Secondary;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,2] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -147,7 +147,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Funker
@@ -183,7 +183,7 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -228,7 +228,7 @@
         WHR44_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -250,7 +250,7 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -271,7 +271,7 @@
         WHR44_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -352,7 +352,7 @@
         WHR44_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Gewehrschütze
@@ -374,7 +374,7 @@
         [Ger_Weap_PzFaust_60] call Olsen_FW_FNC_AddItem;;
 
         //Extra
-        [Ger_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,3,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 

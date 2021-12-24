@@ -110,8 +110,8 @@
 #define Ger_Mag_Mort_Illum              "LIB_1Rnd_81mm_Mo_Illum"
 
 //Grenades
-#define Ger_Gren_Frag_P                 "LIB_M39"
-#define Ger_Gren_Frag_SF                "LIB_Shg24"
+#define Ger_Gren_Frag_M24               "LIB_Shg24"
+#define Ger_Gren_Frag_M39               "LIB_M39"
 #define Ger_Gren_Smoke_W                "LIB_NB39"
 
 //Mines

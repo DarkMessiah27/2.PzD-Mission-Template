@@ -138,7 +138,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Zugtruppführer
@@ -162,7 +162,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Funker
@@ -182,7 +182,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Melder
@@ -202,7 +202,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Krankenträger
@@ -244,7 +244,7 @@
         FSJ44_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -265,7 +265,7 @@
         FSJ44_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -332,7 +332,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -372,7 +372,7 @@
         FSJ44_Weapon_Rifle;
 
         //Extra
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Gewehrschütze
@@ -395,6 +395,6 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_SF,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1,"backpack"] call Olsen_FW_FNC_AddItem;
     }];

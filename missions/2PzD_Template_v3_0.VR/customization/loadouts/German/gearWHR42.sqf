@@ -97,7 +97,7 @@
         WHR42_Weapon_Secondary;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,2] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -120,7 +120,7 @@
 
         //Extra
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
-        [Ger_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Funker
@@ -158,7 +158,7 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -203,7 +203,7 @@
         WHR42_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -226,7 +226,7 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -248,7 +248,7 @@
         WHR42_Weapon_SMG;
 
         //Extra
-        [Ger_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,1] call Olsen_FW_FNC_AddItem;
         [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
     }];
@@ -314,7 +314,7 @@
         WHR42_Weapon_Grenadier;
 
         //Extra
-        [Ger_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Hilfs-Krankenträger
@@ -335,7 +335,7 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
     }];
 
     //Gewehrschütze
@@ -355,7 +355,7 @@
         WHR42_Weapon_Rifleman;
 
         //Extra
-        [Ger_Gren_Frag_P,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,2,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 

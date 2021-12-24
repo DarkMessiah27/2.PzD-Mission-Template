@@ -59,7 +59,7 @@ Ger42_SdKfz = ["Ger42_SdKfz", {
     [Ger_Mag_K98, 50] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 30] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 30] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATS, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATL, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_HE, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -96,7 +96,7 @@ Ger42_SdKfz_Zug = ["Ger42_SdKfz_Zug", {
     [Ger_Mag_K98, 15] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 10] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 30] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 30] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P08, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_PPK, 2] call Olsen_FW_FNC_AddItemVehicle;
@@ -121,7 +121,7 @@ Ger42_SdKfz_SWT = ["Ger42_SdKfz_SWT", {
     [Ger_Mag_K98, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 30] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 30] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 15] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P08, 5] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Toolkit, 1] call Olsen_FW_FNC_AddItemVehicle;
@@ -151,7 +151,7 @@ Ger42_Pzr = ["Ger42_Pzr", {
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 15] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 15] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 12] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P08, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_PPK, 2] call Olsen_FW_FNC_AddItemVehicle;
@@ -178,8 +178,8 @@ Ger43_SdKfz = ["Ger43_SdKfz", {
     [Ger_Mag_K98, 50] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_SF, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 20] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M39, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATS, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATL, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_HE, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -216,8 +216,8 @@ Ger43_SdKfz_Zug = ["Ger43_SdKfz_Zug", {
     [Ger_Mag_K98, 15] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 10] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_SF, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 20] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M39, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P08, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_PPK, 2] call Olsen_FW_FNC_AddItemVehicle;
@@ -242,8 +242,8 @@ Ger43_SdKfz_SWT = ["Ger43_SdKfz_SWT", {
     [Ger_Mag_K98, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_SF, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 20] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M39, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P08, 5] call Olsen_FW_FNC_AddItemVehicle;
     [GEN_Toolkit, 1] call Olsen_FW_FNC_AddItemVehicle;
@@ -273,8 +273,8 @@ Ger43_Pzr = ["Ger43_Pzr", {
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 10] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_SF, 5] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M39, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 12] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P08, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_PPK, 2] call Olsen_FW_FNC_AddItemVehicle;
@@ -302,7 +302,7 @@ Ger43_EF_SdKfz = ["Ger43_EF_SdKfz", {
     [Ger_Mag_K98, 50] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Gren_Frag_SKF, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Gren_HE_SCK, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATS, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -349,7 +349,7 @@ Ger43_EF_SdKfz_Zug = ["Ger43_EF_SdKfz_Zug", {
     [Ger_Mag_K98, 15] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 10] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Gren_Frag_SKF, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Gren_HE_SCK, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATS, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -387,7 +387,7 @@ Ger43_EF_SdKfz_SWT = ["Ger43_EF_SdKfz_SWT", {
     [Ger_Mag_K98, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Gren_Frag_SKF, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Gren_HE_SCK, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 10] call Olsen_FW_FNC_AddItemVehicle;
@@ -426,7 +426,7 @@ Ger43_EF_Pzr = ["Ger43_EF_Pzr", {
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 5] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Gren_Frag_SKF, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Gren_HE_SCK, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 12] call Olsen_FW_FNC_AddItemVehicle;
@@ -462,8 +462,8 @@ Ger44_SdKfz = ["Ger44_SdKfz", {
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_StG44, 10] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_SF, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 20] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M39, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATS, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATL, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_HE, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -504,8 +504,8 @@ Ger44_SdKfz_Zug = ["Ger44_SdKfz_Zug", {
     [Ger_Mag_MG_50_Mixed_SmE, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_StG44, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_SF, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 20] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M39, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATS, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_ATL, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_RGrn_HE, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -537,8 +537,8 @@ Ger44_SdKfz_SWT = ["Ger44_SdKfz_SWT", {
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_StG44, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 20] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_SF, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 20] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M39, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 10] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P08, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmK, 5] call Olsen_FW_FNC_AddItemVehicle;
@@ -570,8 +570,8 @@ Ger44_Pzr = ["Ger44_Pzr", {
     [GEN_Epi, 4] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MG_50_Mixed_SmE, 20] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_MP40, 5] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_P, 10] call Olsen_FW_FNC_AddItemVehicle;
-    [Ger_Gren_Frag_SF, 5] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M24, 10] call Olsen_FW_FNC_AddItemVehicle;
+    [Ger_Gren_Frag_M39, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P38, 12] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_P08, 5] call Olsen_FW_FNC_AddItemVehicle;
     [Ger_Mag_PPK, 2] call Olsen_FW_FNC_AddItemVehicle;
