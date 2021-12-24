@@ -53,7 +53,7 @@ Make sure to put the images in a new annex tab instead of cluttering the normal 
 
 // ===== Admin Tab =====
 // Displays the Admin Tab, which provides some techinical controls for respawn, mission ending, and similar.
-// It appears for the Admin, the Zeus, Brauer, Falk, Haas, Madsen, Sauer, Schuttler
+// It appears for the Admin, the Zeus, Brauer, Falk, Feld, Madsen, Sauer, Schuttler
 
 private _adminState = call BIS_fnc_admin;
 private _uid = getPlayerUID player;
