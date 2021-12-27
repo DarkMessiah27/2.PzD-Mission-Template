@@ -27,7 +27,7 @@ if (!local _unit) exitWith {};
 _unit setVariable ["BIS_enableRandomization", false];
 _unit setVariable ["FW_Loadout", _type, true];
 
-#include "..\gearSettings.sqf" //DO NOT REMOVE
+#include "..\loadoutSettings.sqf" //DO NOT REMOVE
 
 _unit call Olsen_FW_FNC_RemoveAllGear;
 
