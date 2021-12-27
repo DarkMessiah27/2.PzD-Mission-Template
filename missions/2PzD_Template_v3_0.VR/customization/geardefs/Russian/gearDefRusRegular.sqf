@@ -1,21 +1,36 @@
 //======================== Russian Regular Uniform Definitions ========================
 
-//Uniform
-#define Rus_Uni_BC                              "U_LIB_SOV_Kapitan"
-#define Rus_Uni_CC                              "U_LIB_SOV_Stleutenant"
-#define Rus_Uni_CSgt                            "U_LIB_SOV_Starshina"
-#define Rus_Uni_PC                              ["U_LIB_SOV_Leutenant"],["U_LIB_SOV_Leutenant_inset_pocket"]
-#define Rus_Uni_PSgt                            "U_LIB_SOV_Stsergeant"
-#define Rus_Uni_SL                              "U_LIB_SOV_Sergeant_inset_pocket"
-#define Rus_Uni_TL                              "U_LIB_SOV_Efreitor"
-#define Rus_Uni_Rif                             "U_LIB_SOV_Strelok"
+//1941 Uniforms
+#define Rus_Uni41_CC                            "U_NORTH_SOV_Obr35_Uniform_Cpt"
+#define Rus_Uni41_CSgt                          "U_NORTH_SOV_Obr35_Uniform_Sergeant_Major"
+#define Rus_Uni41_PC                            "U_NORTH_SOV_Obr35_Uniform_2ndLt"
+#define Rus_Uni41_PSgt                          "U_NORTH_SOV_Obr35_Uniform_Staff_Sergeant"
+#define Rus_Uni41_SL                            "U_NORTH_SOV_Obr35_Uniform_Sergeant"
+#define Rus_Uni41_TL                            "U_NORTH_SOV_Obr35_Uniform_Corporal"
+#define Rus_Uni41_Rif                           "U_NORTH_SOV_Obr35_Uniform_Private_3"
 
+//1944 Uniforms
+#define Rus_Uni44_CC                            "U_NORTH_SOV_Obr43_Uniform_Cpt"
+#define Rus_Uni44_CSgt                          "U_NORTH_SOV_Obr43_Uniform_Sergeant_Major_2"
+#define Rus_Uni44_PC                            "U_NORTH_SOV_Obr43_Uniform_2ndLt"
+#define Rus_Uni44_PSgt                          "U_NORTH_SOV_Obr43_Uniform_Staff_Sergeant"
+#define Rus_Uni44_SL                            "U_NORTH_SOV_Obr43_Uniform_Sergeant"
+#define Rus_Uni44_TL                            "U_NORTH_SOV_Obr43_Uniform_Corporal"
+#define Rus_Uni44_Rif                           "U_NORTH_SOV_Obr43_Uniform_Private_2"
+
+//Tank Crew
 #define Rus_Uni_VCom                            "U_LIB_SOV_Tank_leutenant"
 #define Rus_Uni_VCrew                           "U_LIB_SOV_Tank_ryadovoi"
 
 //Headgear
-#define Rus_Hat_PC                              "H_LIB_SOV_RA_OfficerCap"
-#define Rus_Hat                                 "H_LIB_SOV_RA_PrivateCap"
-#define Rus_Helmet                              "H_LIB_SOV_RA_Helmet"
+#define Rus_Hat_PC                              "H_NORTH_SOV_Obr35_Furazhka"
+#define Rus_Hat                                 "H_NORTH_SOV_Obr35_Pilotka"
+#define Rus_Helmet                              "H_NORTH_SOV_SSh39_Helmet_Moss_2"
 
-#define Rus_Hat_VCrew                           "H_LIB_SOV_TankHelmet"
+#define Rus_Helmet_r			        ["H_NORTH_SOV_SSh39_Helmet_Star"],["H_NORTH_SOV_SSh39_Helmet_Moss_2"],["H_NORTH_SOV_SSh40_Helmet_3"],["H_NORTH_SOV_SSh39_Helmet_Moss_2"],["H_NORTH_SOV_SSh40_Helmet_3"]
+
+#define Rus_Hat_VCrew_r                         ["H_NORTH_SOV_Tankerhelmet"],["H_NORTH_SOV_Tankerhelmet_open"]
+
+//Faceware
+#define Rus_Face \
+        [GEN_Face_WatchBlack] call Olsen_FW_FNC_AddItem;
