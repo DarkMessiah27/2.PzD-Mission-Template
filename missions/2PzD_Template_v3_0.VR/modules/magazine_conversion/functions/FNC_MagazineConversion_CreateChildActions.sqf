@@ -21,7 +21,7 @@ Olsen_FW_FNC_MagazineConversion_CreateChildActions = {
             // Skip OLD MAG magazines for the following reasons and do not create interaction points for them.
             // Scope 1 is allowed as they may be in inventory from scripts or similar
             // Count > 1 and initSpeed >= 180 should filter most non-bullet magazines such as grenades and launcher mags.
-            // 180 was chosen for minimum initSpeed as that was the lowest speed I could find on a bullet magazine, fow_6Rnd_455 from the Faces of War mod
+            // 180 was chosen for minimum initSpeed as that was the lowest speed I could find on a bullet magazine.
             // If an undesirable type slips through those then additional hard checks by kind should catch the rest.
             if (((getNumber (configFile >> "CfgMagazines" >> _OldMag >> "scope")) > 0)
                 && {getNumber (configFile >> "CfgMagazines" >> _OldMag >> "count") > 1}
