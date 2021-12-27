@@ -39,7 +39,7 @@ switch (_unit call Olsen_FW_FNC_getOriginalSide) do {
             "G_LIB_Watch1","G_LIB_Watch2", //watches
             "G_Aviator", //glasses
             "G_LIB_GER_Gloves1","G_LIB_GER_Gloves2","G_LIB_GER_Gloves3", //wool gloves
-            "G_LIB_GER_Gloves4","G_LIB_GER_Gloves5", //leather gloves
+            "G_LIB_GER_Gloves4","G_LIB_GER_Gloves5" //leather gloves
         ];
     };
     default {
@@ -48,7 +48,7 @@ switch (_unit call Olsen_FW_FNC_getOriginalSide) do {
             "G_LIB_Watch1","G_LIB_Watch2", //watches
             "G_Aviator","G_Spectacles","G_Squares_Tinted","G_Squares","G_Spectacles_Tinted","G_LIB_Dienst_Brille","G_LIB_Dienst_Brille2", //glasses
             "G_LIB_GER_Gloves1","G_LIB_GER_Gloves2","G_LIB_GER_Gloves3", //wool gloves
-            "G_LIB_GER_Gloves4", //leather gloves
+            "G_LIB_GER_Gloves4" //leather gloves
         ];
     };
 };

@@ -27,8 +27,6 @@ if (!local _vehicle) exitWith {};
 _vehicle setVariable ["BIS_enableRandomization", false];
 _vehicle setVariable ["FW_Loadout", _type, true];
 
-#include "..\vehicleGearSettings.sqf" //DO NOT REMOVE
-
 _vehicle call Olsen_FW_FNC_RemoveAllVehicleGear;
 
 Olsen_FW_FNC_AddItemVehicle = {([_vehicle, _loadoutName] + _this) call Olsen_FW_FNC_AddItemVehicleOrg;};

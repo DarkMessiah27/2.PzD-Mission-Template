@@ -19,7 +19,7 @@
     [GEN_Flare_R, 2] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Flare_Y, 2] call Olsen_FW_FNC_AddItemVehicle;
 
-#define GEN_Pzr \
+#define GEN_Tank \
     [GEN_BandageElastic, 12] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_BandageElastic, 4] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_TQ, 4] call Olsen_FW_FNC_AddItemVehicle; \
