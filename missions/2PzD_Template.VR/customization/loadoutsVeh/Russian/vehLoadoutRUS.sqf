@@ -21,6 +21,7 @@
     [Rus_Mag_SVT, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Frag_P, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [Rus_Gren_Frag_S, 10] call Olsen_FW_FNC_AddItemVehicle; \
+    [Rus_Mag_PTRD, 10] call Olsen_FW_FNC_AdditemVehicle; \
     [GEN_Toolkit, 1] call Olsen_FW_FNC_AddItemVehicle;
 
 #define Rus_Tank_Supplies \
