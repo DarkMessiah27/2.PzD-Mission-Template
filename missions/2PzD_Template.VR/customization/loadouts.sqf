@@ -42,8 +42,12 @@
 
 #include "loadoutsVeh\Generic\vehLoadoutGEN.sqf"
 
+//#include "loadoutsVeh\British\vehLoadoutUK.sqf"
+
+#include "loadoutsVeh\German\vehLoadoutWHR.sqf"
+
 //#include "loadoutsVeh\German\vehLoadoutFSJ.sqf"
 
 //#include "loadoutsVeh\Russian\vehLoadoutRUS.sqf"
 
-#include "loadoutsVeh\German\vehLoadoutWHR.sqf"
+//#include "loadoutsVeh\US\vehLoadoutUS.sqf"
