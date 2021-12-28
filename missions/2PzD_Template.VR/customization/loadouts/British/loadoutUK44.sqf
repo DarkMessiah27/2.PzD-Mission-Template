@@ -64,6 +64,7 @@
         [US_Mag_M1919_50_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1919_50_Mixed_Ball,6] call Olsen_FW_FNC_AddItem;
+
 //======================== Loadouts ========================
 
 //Platoon
