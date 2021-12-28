@@ -1,16 +1,13 @@
-// add this this file to your vehGear.sqf inside the switch like this.
-// #include "vehLoadoutUS.sqf"
-// then add the appropriate calls to the vehicle inits
-// then delete any loadouts you aren't using to save space.
-
 //Loadout Calls
 /*
 All years
     [this, US_Resupply] call Olsen_FW_FNC_VehicleGearScript;         US Resupply Vehicle
     [this, US_Squad] call Olsen_FW_FNC_VehicleGearScript;            US Squad Vehicle
     [this, US_Platoon] call Olsen_FW_FNC_VehicleGearScript;          US Platoon Vehicle
+
 Tank 1942
     [this, US_Tank_Early] call Olsen_FW_FNC_VehicleGearScript;       US Tank Early
+
 Tank 1944
     [this, US_Tank_Late] call Olsen_FW_FNC_VehicleGearScript;        US Tank Late
 */
