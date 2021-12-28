@@ -8,16 +8,16 @@
 All years
     [this, UK_Resupply] call Olsen_FW_FNC_VehicleGearScript;         British Resupply Vehicle
     [this, UK_Squad] call Olsen_FW_FNC_VehicleGearScript;            British Squad Vehicle
-    [this, UK_Section] call Olsen_FW_FNC_VehicleGearScript;          British Section Vehicle
+    [this, UK_Platoon] call Olsen_FW_FNC_VehicleGearScript;          British Section Vehicle
     [this, UK_Tank] call Olsen_FW_FNC_VehicleGearScript;             British Tank
 */
 
 //======================== Definitions ========================
 
 #define UK_Infantry_Supplies \
-    [US_Mag_M1T_30, 25] call Olsen_FW_FNC_AddItemVehicle; \
+    [US_Mag_M1T_30, 15] call Olsen_FW_FNC_AddItemVehicle; \
 	[UK_Mag_LeeEn, 15] call Olsen_FW_FNC_AddItemVehicle; \
-    [US_Mag_M1919_50_Mixed_Ball, 20] call Olsen_FW_FNC_AddItemVehicle; \
+    [US_Mag_M1919_50_Mixed_Ball, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [UK_Mag_Sten, 6] call Olsen_FW_FNC_AddItemVehicle; \
 	[UK_Mag_Boys, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [UK_Gren_Frag, 20] call Olsen_FW_FNC_AddItemVehicle; \
@@ -52,18 +52,16 @@ UK_Squad = ["UK_squad", {
     GEN_Flare;
 
     UK_Infantry_Supplies;
-    UK_Infantry_Supplies;
 
 }];
 
-UK_Section = ["UK_Section", {
+UK_Section = ["UK_Platoon", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
     GEN_Flare;
     GEN_Medical;
 
-    UK_Infantry_Supplies;
     UK_Infantry_Supplies;
 
 }];

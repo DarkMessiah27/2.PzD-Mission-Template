@@ -20,7 +20,7 @@ Tank 1944
 #define US_Infantry_Supplies \
     [US_Mag_M1C, 6] call Olsen_FW_FNC_AddItemVehicle; \
 	[US_Mag_M1T_20, 6] call Olsen_FW_FNC_AddItemVehicle; \
-    [US_Mag_BAR_Mixed_Ball, 20] call Olsen_FW_FNC_AddItemVehicle; \
+    [US_Mag_BAR_Mixed_Ball, 25] call Olsen_FW_FNC_AddItemVehicle; \
 	[US_Mag_M1G, 25] call Olsen_FW_FNC_AddItemVehicle; \
     [US_Mag_M1903, 15] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Frag_P, 20] call Olsen_FW_FNC_AddItemVehicle; \

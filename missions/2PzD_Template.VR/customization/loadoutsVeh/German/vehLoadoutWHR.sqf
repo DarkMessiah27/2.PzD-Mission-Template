@@ -106,7 +106,7 @@ Ger_Gruppe_Late = ["Ger_Gruppe_Late", {
     GEN_Flare;
 
     Ger_Infantry_Supplies;
-    Ger_Infantry_Supplies;
+    Ger_Late_War_Supplies;
 
 }];
 
@@ -118,7 +118,7 @@ Ger_Zug_Late = ["Ger_Zug_Late", {
     GEN_Medical;
 
     Ger_Infantry_Supplies;
-    Ger_Infantry_Supplies;
+    Ger_Late_War_Supplies;
 
 }];
 
