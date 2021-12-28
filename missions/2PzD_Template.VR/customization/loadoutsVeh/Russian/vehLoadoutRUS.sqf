@@ -1,9 +1,4 @@
-﻿// add this this file to your vehGear.sqf inside the switch like this.
-// #include "vehGearRUS.sqf"
-// then add the appropriate calls to the vehicle inits
-// then delete any loadouts you aren't using to save space.
-
-//Loadout Calls
+﻿//Loadout Calls
 /*
     1941 / 1944
     [this, Rus_Resupply] call Olsen_FW_FNC_VehicleGearScript;       Russian Resupply Vehicle

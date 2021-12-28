@@ -1,9 +1,4 @@
-// add this this file to your vehGear.sqf inside the switch like this.
-// #include "vehGearFSJ.sqf"
-// then add the appropriate calls to the vehicle inits
-// then delete any loadouts you aren't using to save space.
-
-    //Loadout Calls
+//Loadout Calls
     //These are special and the won't work properly if you just put them in the init of the container.
     //If you're going to make an FSJ mission where the FSJ paradrop let Brauer know and he will advise you.
     /*
