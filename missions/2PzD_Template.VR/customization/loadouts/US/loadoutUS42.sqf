@@ -110,6 +110,7 @@
 
         [US_Uni_LT] call Olsen_FW_FNC_AddItem;
         [US_Helm_2LT] call Olsen_FW_FNC_AddItem;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -152,12 +153,13 @@
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
-    //Messenger
+    //Radio Operator
     US42_Mess = ["US42_Mess", {
         params ["_unit"];
         
         [US_Uni_PFC] call Olsen_FW_FNC_AddItem;
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
         [US_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 

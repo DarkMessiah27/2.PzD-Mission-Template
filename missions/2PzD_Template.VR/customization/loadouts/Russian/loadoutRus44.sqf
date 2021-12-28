@@ -99,6 +99,7 @@
 
         [Rus_Uni44_PC] call Olsen_FW_FNC_AddItemRandom;
         [Rus_Hat_PC] call Olsen_FW_FNC_AddItem;
+        [Rus_BP_Radio] call Olsen_FW_FNC_AddItem;
         Rus_Face;
 
         //Assigned Items

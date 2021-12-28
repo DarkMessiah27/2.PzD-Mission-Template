@@ -84,6 +84,7 @@
         [Ger_Uni_PC] call Olsen_FW_FNC_AddItem;
         [Ger_Vest_PC] call Olsen_FW_FNC_AddItem;
         [Ger_Hat_Officer] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_Radio] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items

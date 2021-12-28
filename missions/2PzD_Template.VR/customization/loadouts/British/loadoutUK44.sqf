@@ -76,6 +76,7 @@
         [UK_Uni_Lt] call Olsen_FW_FNC_AddItem;
         [UK_VestK_O] call Olsen_FW_FNC_AddItem;
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
