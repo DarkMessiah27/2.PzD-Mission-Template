@@ -7,7 +7,7 @@
 /*
 All years
     [this, UK_Resupply] call Olsen_FW_FNC_VehicleGearScript;         British Resupply Vehicle
-    [this, UK_Squad] call Olsen_FW_FNC_VehicleGearScript;            British Squad Vehicle
+    [this, UK_Section] call Olsen_FW_FNC_VehicleGearScript;          British Section Vehicle
     [this, UK_Platoon] call Olsen_FW_FNC_VehicleGearScript;          British Platoon Vehicle
     [this, UK_Tank] call Olsen_FW_FNC_VehicleGearScript;             British Tank
 */
@@ -45,7 +45,7 @@ UK_Resupply = ["UK_Resupply", {
 
 }];
 
-UK_Squad = ["UK_squad", {
+UK_Section = ["UK_Section", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
@@ -55,7 +55,7 @@ UK_Squad = ["UK_squad", {
 
 }];
 
-UK_Section = ["UK_Platoon", {
+UK_Platoon = ["UK_Platoon", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
