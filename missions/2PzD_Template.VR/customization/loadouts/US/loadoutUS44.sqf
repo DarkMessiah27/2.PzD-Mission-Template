@@ -167,7 +167,6 @@
         US44_Weapon_Rifle_Light;
 
         //Extra
-        [GEN_Radio_HH] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
