@@ -108,6 +108,7 @@
 
         [US_Uni_LT] call Olsen_FW_FNC_AddItem;
         [US_Helm_2LT] call Olsen_FW_FNC_AddItem;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
@@ -156,7 +157,7 @@
 
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
         [US_Uni_CPL] call Olsen_FW_FNC_AddItem;
-        [US_BP_M1928] call Olsen_FW_FNC_AddItem;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
         [US_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -167,7 +168,6 @@
         US44_Weapon_Rifle_Light;
 
         //Extra
-        [GEN_Radio_HH] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];

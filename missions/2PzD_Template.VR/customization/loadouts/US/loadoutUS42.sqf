@@ -110,6 +110,7 @@
 
         [US_Uni_LT] call Olsen_FW_FNC_AddItem;
         [US_Helm_2LT] call Olsen_FW_FNC_AddItem;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items

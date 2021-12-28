@@ -40,7 +40,7 @@
         [ \
             [ \
                 [US_Mag_M1T_30,1], \
-                [US_Weap_M1T], \
+                [US_Weap_M1A1T], \
                 [US_Mag_M1T_30,6,"vest"] \
             ],[60], \
             [ \
@@ -76,6 +76,7 @@
         [UK_Uni_Lt] call Olsen_FW_FNC_AddItem;
         [UK_VestK_O] call Olsen_FW_FNC_AddItem;
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
