@@ -40,7 +40,7 @@
         [ \
             [ \
                 [US_Mag_M1T_30,1], \
-                [US_Weap_M1T], \
+                [US_Weap_M1A1T], \
                 [US_Mag_M1T_30,6,"vest"] \
             ],[60], \
             [ \
