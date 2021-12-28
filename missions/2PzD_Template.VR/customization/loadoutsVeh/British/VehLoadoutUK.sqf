@@ -8,7 +8,7 @@
 All years
     [this, UK_Resupply] call Olsen_FW_FNC_VehicleGearScript;         British Resupply Vehicle
     [this, UK_Squad] call Olsen_FW_FNC_VehicleGearScript;            British Squad Vehicle
-    [this, UK_Platoon] call Olsen_FW_FNC_VehicleGearScript;          British Section Vehicle
+    [this, UK_Platoon] call Olsen_FW_FNC_VehicleGearScript;          British Platoon Vehicle
     [this, UK_Tank] call Olsen_FW_FNC_VehicleGearScript;             British Tank
 */
 
