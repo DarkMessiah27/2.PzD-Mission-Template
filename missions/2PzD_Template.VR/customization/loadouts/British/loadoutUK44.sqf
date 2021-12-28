@@ -55,11 +55,16 @@
         [UK_Weap_EnfieldNo2] call Olsen_FW_FNC_AddItem; \
         [UK_Mag_EnfieldNo2,3,"uniform"] call Olsen_FW_FNC_AddItem;
 
-// For Machinegunners
+#define UK44_Bren \
+        [UK_Mag_Bren_30_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
+        [UK_Weap_BrenMkII] call olsen_FW_FNC_AddItem; \
+        [UK_Mag_Bren_30_Mixed_Ball,10,"vest"] call Olsen_FW_FNC_AddItem;
+
 #define UK44_Weapon_MG \
         [US_Mag_M1919_50_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1919_50_Mixed_Ball,6] call Olsen_FW_FNC_AddItem;
+
 //======================== Loadouts ========================
 
 //Platoon
@@ -216,9 +221,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        [UK_Mag_Bren_30_Mixed_Ball,1] call Olsen_FW_FNC_AddItem;
-        [UK_Weap_BrenMkII] call Olsen_FW_FNC_AddItem;
-        [UK_Mag_Bren_30_Mixed_Ball,10,"vest"] call Olsen_FW_FNC_AddItem;
+        UK44_Bren;
 
         //Secondary Weapon
         UK44_Webley;
@@ -242,7 +245,6 @@
         UK44_LeeEn;
 
         //Extra
-        [GEN_ace_sparebarrel,1,"backpack"] call Olsen_FW_FNC_AddItem;
         [UK_Mag_Bren_30_Mixed_Ball,5,"backpack"] call Olsen_FW_FNC_AddItem;
         [UK_Gren_Frag,1] call Olsen_FW_FNC_AddItem;
     }];
