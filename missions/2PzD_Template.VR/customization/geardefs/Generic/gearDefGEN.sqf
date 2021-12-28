@@ -140,5 +140,4 @@
 #define GEN_Wallet              "Wallet_ID"
 
 //Radio
-#define GEN_Radio_HH            "ACRE_PRC343"
 #define GEN_Radio_BP            "ACRE_PRC77"
