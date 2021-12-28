@@ -15,8 +15,8 @@ All years
 //======================== Definitions ========================
 
 #define UK_Infantry_Supplies \
-    [US_Mag_M1T_30, 15] call Olsen_FW_FNC_AddItemVehicle; \
-	[UK_Mag_LeeEn, 15] call Olsen_FW_FNC_AddItemVehicle; \
+    [US_Mag_M1T_30, 6] call Olsen_FW_FNC_AddItemVehicle; \
+	[UK_Mag_LeeEn, 25] call Olsen_FW_FNC_AddItemVehicle; \
     [US_Mag_M1919_50_Mixed_Ball, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [UK_Mag_Sten, 6] call Olsen_FW_FNC_AddItemVehicle; \
 	[UK_Mag_Boys, 10] call Olsen_FW_FNC_AddItemVehicle; \
