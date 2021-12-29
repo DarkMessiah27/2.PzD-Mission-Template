@@ -1,7 +1,7 @@
 version=54;
 name="!2PzD_FSJ_40";
 author="Thomas Brauer";
-category="EdSubcat_2PzD_German";
+category="!2PzD_German";
 requiredAddons[]=
 {
 	"WW2_Assets_c_Characters_Germans_c_GER_Wehrmacht",
