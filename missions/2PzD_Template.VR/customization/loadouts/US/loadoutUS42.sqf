@@ -447,7 +447,6 @@
         params ["_unit"];
 
         [US_Uni_VCrew1] call Olsen_FW_FNC_AddItem;
-        [US_Vest_Pistol] call Olsen_FW_FNC_AddItem;
         [US_Helm_VCrew] call Olsen_FW_FNC_AddItem;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 

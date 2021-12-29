@@ -378,7 +378,7 @@
 
         //Primary Weapon
         [Rus_Weap_PPSH] call Olsen_FW_FNC_AddItem;
-        [Rus_Mag_PPSH_D,3,"vest"] call Olsen_FW_FNC_AddItem;
+        [Rus_Mag_PPSH_D,3,"vest"] call Olsen_FW_FNC_AddItem; //Reduced ammo due to backpack
 
         //Secondary Weapon
         R44_Weapon_Secondary;
@@ -400,7 +400,7 @@
 
         //Primary Weapon
         [Rus_Weap_PPSH] call Olsen_FW_FNC_AddItem;
-        [Rus_Mag_PPSH_D,3,"vest"] call Olsen_FW_FNC_AddItem;
+        [Rus_Mag_PPSH_D,3,"vest"] call Olsen_FW_FNC_AddItem; //Reduced ammo due to backpack
 
         //Secondary Weapon
         R44_Weapon_Secondary;

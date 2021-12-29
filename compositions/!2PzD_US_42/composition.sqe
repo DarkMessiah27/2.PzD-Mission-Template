@@ -205,7 +205,7 @@ class items
 						flags=4;
 						class Attributes
 						{
-							init="[this, US42_RTO] call Olsen_FW_FNC_GearScript;"
+							init="[this, US42_RTO] call Olsen_FW_FNC_GearScript;";
 							description="Radio Operator@1 Platoon | Platoon HQ";
 							isPlayable=1;
 							class Inventory
@@ -293,7 +293,7 @@ class items
 						flags=4;
 						class Attributes
 						{
-							init="[this, US42_Mess] call Olsen_FW_FNC_GearScript;"
+							init="[this, US42_Mess] call Olsen_FW_FNC_GearScript;";
 							description="Messenger@1 Platoon | Platoon HQ";
 							isPlayable=1;
 							class Inventory
