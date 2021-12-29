@@ -90,8 +90,8 @@
         UK44_Webley;
 
         //Extra
-        [UK_Gren_Frag,1] call Olsen_FW_FNC_AddItem;
-        [UK_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [UK_Gren_Frag,1,"vest"] call Olsen_FW_FNC_AddItem;
+        [UK_Gren_Smoke_W,1,"vest"] call Olsen_FW_FNC_AddItem;
     }];
 
     //Sergeant
@@ -301,7 +301,7 @@
 
         [UK_Uni_LCpl] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
-        [UK_BP] call Olsen_FW_FNC_AddItem;
+        [UK_BP] call Olsen_FW_FNC_AddItem; // No vickers in LIB
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -325,7 +325,7 @@
 
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestG_Bren] call Olsen_FW_FNC_AddItem;
-        [UK_BP] call Olsen_FW_FNC_AddItem;
+        [UK_BP] call Olsen_FW_FNC_AddItem; // No vickers in LIB
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 

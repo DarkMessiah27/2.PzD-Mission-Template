@@ -9,6 +9,7 @@
     //Platoon HQ
 [this, US42_PC] call Olsen_FW_FNC_GearScript;         Platoon Commander
 [this, US42_PSGT] call Olsen_FW_FNC_GearScript;       Platoon Sergeant/Platoon Guide
+[this, US42_RTO] call Olsen_FW_FNC_GearScript;        Radio Operator
 [this, US42_Mess] call Olsen_FW_FNC_GearScript;       Messenger
 [this, US42_MedP] call Olsen_FW_FNC_GearScript;       Medic
 
@@ -153,12 +154,34 @@
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
+    //Radio Operator
+    US42_RTO = ["US42_RTO", {
+        params ["_unit"];
+        
+        [US_Uni_PFC] call Olsen_FW_FNC_AddItem;
+        [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
+        [US_BP_Radio] call Olsen_FW_FNC_AddItem;
+        [US_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        US42_Weapon_Rifle_Light;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+    }];
+
     //Messenger
     US42_Mess = ["US42_Mess", {
         params ["_unit"];
         
         [US_Uni_PFC] call Olsen_FW_FNC_AddItem;
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
+        [US_BP_M1928] call Olsen_FW_FNC_AddItem;
         [US_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
