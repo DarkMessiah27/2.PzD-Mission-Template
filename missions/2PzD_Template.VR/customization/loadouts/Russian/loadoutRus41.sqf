@@ -319,7 +319,7 @@
         params ["_unit"];
 
         [Rus_Uni41_Rif] call Olsen_FW_FNC_AddItem;
-        [Rus_Vest_MG] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_Vest_MG] call Olsen_FW_FNC_AddItem;
         [Rus_BP_MG] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
         Rus_Face;
