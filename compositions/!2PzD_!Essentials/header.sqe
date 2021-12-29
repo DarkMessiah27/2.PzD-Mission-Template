@@ -1,7 +1,7 @@
 version=54;
 name="!2PzD_!Essentials";
 author="Thomas Brauer";
-category="w39_PLArty";
+category="!2PzD_Essentials";
 requiredAddons[]=
 {
 	"WW2_Assets_c_Characters_Civilians_c_CIV_Civilians",

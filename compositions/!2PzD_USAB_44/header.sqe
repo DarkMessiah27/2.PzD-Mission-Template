@@ -1,7 +1,7 @@
 version=54;
 name="!2PzD_USAB_44";
 author="Thomas Brauer";
-category="EdSubcat_2PzD_United_States";
+category="!2PzD_United_States";
 requiredAddons[]=
 {
 	"WW2_Assets_c_Characters_Americans_c_US_Army",

@@ -1,7 +1,7 @@
 version=54;
 name="!2PzD_UK_40";
 author="Thomas Brauer";
-category="EdSubcat_2PzD_United_Kingdom";
+category="!2PzD_British";
 requiredAddons[]=
 {
 	"WW2_Core_c_WW2_EditorPreviews_c",
