@@ -130,7 +130,7 @@ class items
 						class Attributes
 						{
 							skill=0.40000001;
-							init="[this, R44_RTO] call Olsen_FW_FNC_GearScript;";
+							init="[this, R44_RTO] call Olsen_FW_FNC_GearScript;"
 							description="Radio Operator@1 Platoon | Platoon HQ";
 							isPlayable=1;
 							class Inventory

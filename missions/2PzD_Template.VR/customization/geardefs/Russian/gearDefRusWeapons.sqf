@@ -28,8 +28,8 @@
 #define Rus_Weap_MortT                          "LIB_BM37_Tripod"
 
 //Maxim Backpacks
-#define Rus_Weap_HMG_G                          "LIB_Maxim_Bar"
-#define Rus_Weap_HMG_T                          "LIB_Maxim_Bag"
+#define Rus_Weap_HMG_G                          "NORTH_Maxim_Gun_Bag"
+#define Rus_Weap_HMG_T                          "NORTH_Maxim_Tripod_Bag"
 
 //Attachments
 #define Rus_Acc_Mos_Bayo                        "LIB_ACC_M1891_Bayo"

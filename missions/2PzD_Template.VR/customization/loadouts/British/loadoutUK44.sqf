@@ -90,8 +90,8 @@
         UK44_Webley;
 
         //Extra
-        [UK_Gren_Frag,1] call Olsen_FW_FNC_AddItem;
-        [UK_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [UK_Gren_Frag,1,"vest"] call Olsen_FW_FNC_AddItem;
+        [UK_Gren_Smoke_W,1,"vest"] call Olsen_FW_FNC_AddItem;
     }];
 
     //Sergeant

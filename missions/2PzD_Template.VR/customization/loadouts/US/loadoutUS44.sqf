@@ -9,7 +9,7 @@
     //Platoon HQ
 [this, US44_PC] call Olsen_FW_FNC_GearScript;         Platoon Commander
 [this, US44_PSGT] call Olsen_FW_FNC_GearScript;       Platoon Sergeant/Platoon Guide
-[this, US44_PRTO] call Olsen_FW_FNC_GearScript;       Radio Operator
+[this, US44_RTO] call Olsen_FW_FNC_GearScript;       Radio Operator
 [this, US44_Mess] call Olsen_FW_FNC_GearScript;       Messenger
 [this, US44_MedP] call Olsen_FW_FNC_GearScript;       Medic
 
@@ -56,7 +56,7 @@
 #define US44_Weapon_Rifle_Light \
         [US_Mag_M1C,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1C] call Olsen_FW_FNC_AddItem; \
-        [US_Mag_M1C,5,"backpack"] call Olsen_FW_FNC_AddItem;
+        [US_Mag_M1C,5] call Olsen_FW_FNC_AddItem;
 
 // For Automatic Riflemen
 #define US44_Weapon_AR \
@@ -152,7 +152,7 @@
     }];
 
     //Radio Operator
-    US44_PRTO = ["US44_PRTO", {
+    US44_RTO = ["US44_RTO", {
         params ["_unit"];
 
         [US_Vest_M1C] call Olsen_FW_FNC_AddItem;
@@ -366,6 +366,7 @@
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [US_Mag_M1919_50_Mixed_Ball,12] call Olsen_FW_FNC_AddItem;
         [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
+        [US_Weap_M1919A4_T] call Olsen_FW_FNC_AddItem;
     }];
 
     //Machine Gunner

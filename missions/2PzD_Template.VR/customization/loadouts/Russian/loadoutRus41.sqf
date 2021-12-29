@@ -177,7 +177,7 @@
         R41_Weapon_Rifleman;
 
         //Assigned Items
-        GEN_Default_Equipment;
+        GEN_Default_Equipment_Set;
         [GEN_Headset] call Olsen_FW_FNC_AddItem;
     }];
 
@@ -319,7 +319,7 @@
         params ["_unit"];
 
         [Rus_Uni41_Rif] call Olsen_FW_FNC_AddItem;
-        [Rus_Vest_MG_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_Vest_MG] call Olsen_FW_FNC_AddItemRandom;
         [Rus_BP_MG] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
         Rus_Face;
@@ -369,6 +369,9 @@
         [Rus_Weap_HMG_T] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
+        
+        //Primary Weapon
+        R41_Weapon_SMG;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
@@ -387,6 +390,9 @@
         [Rus_Weap_HMG_G] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
+
+        //Primary Weapon
+        R41_Weapon_SMG;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
@@ -469,7 +475,7 @@
 
         [Rus_Uni_VCrew] call Olsen_FW_FNC_AddItem;
         [Rus_Vest_VCrew] call Olsen_FW_FNC_AddItem;
-        [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_BP] call Olsen_FW_FNC_AddItem;
         [Rus_Hat_VCrew_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -480,5 +486,5 @@
         R41_Weapon_Secondary;
 
         //Extra
-        [Rus_Toolkit] call Olsen_FW_FNC_AddItem;
+        [GEN_Toolkit] call Olsen_FW_FNC_AddItem;
     }];

@@ -868,7 +868,7 @@ class items
 						flags=4;
 						class Attributes
 						{
-							init="[this, UK44_LCpl] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+							init="[this, UK44_LCpl] call Olsen_FW_FNC_GearScript;"
 							description="Gun Team Leader@1 Platoon | 1 Section";
 							isPlayable=1;
 							class Inventory
@@ -1381,7 +1381,7 @@ class items
 						flags=4;
 						class Attributes
 						{
-							init="[this, UK44_LCpl] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+							init="[this, UK44_LCpl] call Olsen_FW_FNC_GearScript;"
 							description="Gun Team Leader@1 Platoon | 2 Section";
 							isPlayable=1;
 							class Inventory
@@ -1894,7 +1894,7 @@ class items
 						flags=4;
 						class Attributes
 						{
-							init="[this, UK44_LCpl] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+							init="[this, UK44_LCpl] call Olsen_FW_FNC_GearScript;"
 							description="Gun Team Leader@1 Platoon | 3 Section";
 							isPlayable=1;
 							class Inventory
@@ -3483,7 +3483,7 @@ class items
 						flags=4;
 						class Attributes
 						{
-							init="[this, UK44_LCpl] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+							init="[this, UK44_LCpl] call Olsen_FW_FNC_GearScript;"
 							description="Gun Team Leader@1 Platoon | Reserve Section";
 							isPlayable=1;
 							class Inventory
