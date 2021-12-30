@@ -43,3 +43,9 @@
 //Backpack
 #define Nor_BP_Telemark                 "NORTH_nor_Telemark"
 #define Nor_BP_Madsen                   "NORTH_nor_MadsenBag"
+
+
+//MISC
+
+#define Nor_Rokboks						"NORTH_NOR_IMPROV_SMOKE"
+#define Nor_Tin_Grenade					"NORTH_NOR_IMPROV_GRENADE"
