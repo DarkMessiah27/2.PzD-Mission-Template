@@ -28,6 +28,9 @@
 [this, US44_BzkaTL] call Olsen_FW_FNC_GearScript;     Bazooka Team Leader
 [this, US44_BzkaG] call Olsen_FW_FNC_GearScript;      Bazooka Gunner
 
+[this, US44_RCTL] call Olsen_FW_FNC_GearScript;       Recon Team Leader
+[this, US44_RCTS] call Olsen_FW_FNC_GearScript;       Recon Team Sniper
+
     //Tank Crew
 [this, US44_VCom] call Olsen_FW_FNC_GearScript;       Tank Commander
 [this, US44_VCrew] call Olsen_FW_FNC_GearScript;      Tank Crew
@@ -85,6 +88,12 @@
         [US_Mag_M1919_50_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1919_50_Mixed_Ball,6] call Olsen_FW_FNC_AddItem;
+
+// For Recon Sniper
+#define US44_Weapon_Recon \
+        [US_Mag_M1903,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1903A4,1] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1903,5,"vest"] call Olsen_FW_FNC_AddItem; 
 
 // Colt M1911 Pistol
 #define US44_Weapon_Secondary \
@@ -434,6 +443,41 @@
         [US_Mag_Bazoo,1] call Olsen_FW_FNC_AddItem;
         [US_Weap_Bazoo] call Olsen_FW_FNC_AddItem;
         [US_Mag_Bazoo,3,"backpack"] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team leader
+    US44_RCTL = ["US44_RCTL", {
+        params ["_unit"];
+
+        [US_Uni_CPL] call Olsen_FW_FNC_AddItem;
+        [US_Vest_M1G] call Olsen_FW_FNC_AddItem;
+        [US_BP_M1928] call Olsen_FW_FNC_AddItem;
+        [US_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        US44_Weapon_Rifle;
+    }];
+
+    //Recon Team Sniper
+    US44_RCTS = ["US44_RCTS", {
+        params ["_unit"];
+
+        [US_Uni_PFC] call Olsen_FW_FNC_AddItem;
+        [US_Vest_M1G] call Olsen_FW_FNC_AddItem;
+        [US_BP_M1928] call Olsen_FW_FNC_AddItem;
+        [US_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        US44_Weapon_Recon;
     }];
 
 //Tank Crew

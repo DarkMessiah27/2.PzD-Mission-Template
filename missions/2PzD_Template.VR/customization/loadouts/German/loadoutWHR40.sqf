@@ -28,6 +28,10 @@
 [this, WHR40_HMGG] call Olsen_FW_FNC_GearScript;      HMG Richtschütze
 [this, WHR40_HMGA] call Olsen_FW_FNC_GearScript;      HMG Munitionsträger
 
+    //Recon
+[this, WHR40_RCTL] call Olsen_FW_FNC_GearScript;      Recon Truppführer
+[this, WHR40_RCTS] call Olsen_FW_FNC_GearScript;      Recon Scharfschüte
+
     //Tank Crew
 [this, WHR40_VCom] call Olsen_FW_FNC_GearScript;      Besatzungsführer
 [this, WHR40_VCrew] call Olsen_FW_FNC_GearScript;     Besatzung
@@ -76,6 +80,11 @@
         [Ger_Mag_P08,1] call Olsen_FW_FNC_AddItem; \
         [Ger_Weap_P08] call Olsen_FW_FNC_AddItem; \
         [Ger_Mag_P08,1,"uniform"] call Olsen_FW_FNC_AddItem;
+
+#define WHR40_Recon_Primary \
+        [Ger_Mag_K98,1] call Olsen_FW_FNC_AddItem; \
+        [Ger_Weap_K98_Zf39] call Olsen_FW_FNC_AddItem; \
+        [Ger_Mag_K98,12] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -438,6 +447,41 @@
         //Extra
         [Ger_Mag_MG_50_Mixed_sS,10] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_sS,5] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team leader
+    WHR40_RCTL = ["WHR40_RCTL", {
+        params ["_unit"];
+
+        [Ger_Uni_S3_E] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Helmet] call Olsen_FW_FNC_AddItem;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        WHR40_Weapon_Rifleman;
+    }];
+
+    //Recon Team Sniper
+    WHR40_RCTS = ["WHR40_RCTS", {
+        params ["_unit"];
+
+        [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Helmet] call Olsen_FW_FNC_AddItem;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        WHR40_Recon_Primary;
     }];
 
 //Tank Crew

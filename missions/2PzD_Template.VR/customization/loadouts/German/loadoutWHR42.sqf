@@ -23,9 +23,14 @@
 [this, WHR42_MedS] call Olsen_FW_FNC_GearScript;      Hilfs-Krankenträger
 [this, WHR42_Rif] call Olsen_FW_FNC_GearScript;       Gewehrschütze
 
+    //HMG Team
 [this, WHR42_HMGSL] call Olsen_FW_FNC_GearScript;     HMG Truppführer
 [this, WHR42_HMGG] call Olsen_FW_FNC_GearScript;      HMG Richtschütze
 [this, WHR42_HMGA] call Olsen_FW_FNC_GearScript;      HMG Munitionsträger
+
+    //Recon
+[this, WHR42_RCTL] call Olsen_FW_FNC_GearScript;      Recon Truppführer
+[this, WHR42_RCTS] call Olsen_FW_FNC_GearScript;      Recon Scharfschüte
 
     //Tank Crew
 [this, WHR42_VCom] call Olsen_FW_FNC_GearScript;      Besatzungsführer
@@ -72,6 +77,11 @@
         [Ger_Mag_P38,1] call Olsen_FW_FNC_AddItem; \
         [Ger_Weap_P38] call Olsen_FW_FNC_AddItem; \
         [Ger_Mag_P38,1,"uniform"] call Olsen_FW_FNC_AddItem;
+
+#define WHR42_Recon_Primary \
+        [Ger_Mag_K98,1] call Olsen_FW_FNC_AddItem; \
+        [Ger_Weap_K98_Zf41] call Olsen_FW_FNC_AddItem; \
+        [Ger_Mag_K98,12] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -434,6 +444,41 @@
         //Extra
         [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team leader
+    WHR42_RCTL = ["WHR42_RCTL", {
+        params ["_unit"];
+
+        [Ger_Uni_S3_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Helmet] call Olsen_FW_FNC_AddItem;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        WHR42_Weapon_Rifleman;
+    }];
+
+    //Recon Team Member
+    WHR42_RCTS = ["WHR42_RCTS", {
+        params ["_unit"];
+
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Helmet] call Olsen_FW_FNC_AddItem;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        WHR42_Recon_Primary;
     }];
 
 //Tank Crew
