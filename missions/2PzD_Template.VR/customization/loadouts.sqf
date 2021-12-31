@@ -20,6 +20,10 @@
 //#include "loadouts\German\loadoutWHR42.sqf"
 //#include "loadouts\German\loadoutWHR44.sqf"
 
+    //=== Norwegian ===
+    //Army
+//#include "loadouts\Norwegian\loadoutNOR40.sqf"
+
     //=== Russian ===
     //Red Army
 //#include "loadouts\Russian\loadoutRus41.sqf"

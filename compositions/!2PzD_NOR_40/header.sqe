@@ -1,0 +1,10 @@
+version=54;
+name="!2PzD_NOR_40";
+author="Heinrich Falk";
+category="!2PzD_Norwegian";
+requiredAddons[]=
+{
+	"WW2_Assets_c_Characters_British_c_UK_Army",
+	"WW2_Core_c_WW2_EditorPreviews_c",
+	"A3_Characters_F"
+};
