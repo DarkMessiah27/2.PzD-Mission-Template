@@ -24,8 +24,11 @@
 [this, USAB44_Rif] call Olsen_FW_FNC_GearScript;          Rifleman
 
     //Weapons Teams
-[this, USAB42_MGTL] call Olsen_FW_FNC_GearScript;         Machine Gun Team Leader
-[this, USAB42_MG] call Olsen_FW_FNC_GearScript;           Machine Gunner
+[this, USAB44_MGTL] call Olsen_FW_FNC_GearScript;         Machine Gun Team Leader
+[this, USAB44_MG] call Olsen_FW_FNC_GearScript;           Machine Gunner
+
+[this, USAB44_RCTL] call Olsen_FW_FNC_GearScript;         Recon Team Leader
+[this, USAB44_RCTS] call Olsen_FW_FNC_GearScript;         Recon Team Sniper
 
 [this, USAB44_BzkaTL] call Olsen_FW_FNC_GearScript;       Bazooka Team Leader
 [this, USAB44_BzkaG] call Olsen_FW_FNC_GearScript;        Bazooka Gunner
@@ -70,6 +73,12 @@
         [US_Mag_M1919_50_Mixed_Ball,1] call Olsen_FW_FNC_AddItem; \
         [US_Weap_M1919A4] call Olsen_FW_FNC_AddItem; \
         [US_Mag_M1919_50_Mixed_Ball,6] call Olsen_FW_FNC_AddItem;
+
+// For Recon Sniper
+#define USAB44_Weapon_Recon \
+        [US_Mag_M1903,1] call Olsen_FW_FNC_AddItem; \
+        [US_Weap_M1903A4,1] call Olsen_FW_FNC_AddItem; \
+        [US_Mag_M1903,5,"vest"] call Olsen_FW_FNC_AddItem;
 
 // Colt M1911 Pistol
 #define USAB44_Weapon_Secondary \
@@ -420,4 +429,47 @@
         [US_Mag_Bazoo,1] call Olsen_FW_FNC_AddItem;
         [US_Weap_Bazoo] call Olsen_FW_FNC_AddItem;
         [US_Mag_Bazoo,3,"backpack"] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team leader
+    USAB44_RCTL = ["USAB44_RCTL", {
+        params ["_unit"];
+
+        [USAB_UniK_CPL] call Olsen_FW_FNC_AddItem;
+        [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
+        USAB_Backpack("RCTL");
+        [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        USAB44_Weapon_Rifle;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team Sniper
+    USAB44_RCTS = ["USAB44_RCTS", {
+        params ["_unit"];
+
+        [USAB_UniK_PFC] call Olsen_FW_FNC_AddItem;
+        [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
+        USAB_Backpack("RCTS");
+        [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        USAB44_Weapon_Recon;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];

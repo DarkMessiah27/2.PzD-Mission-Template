@@ -30,6 +30,10 @@
 [this, R44_ATRTL] call Olsen_FW_FNC_GearScript;       AT Rifle Team Leader
 [this, R44_ATRG] call Olsen_FW_FNC_GearScript;        AT Rifle Gunner
 
+    //Recon
+[this, R44_RCTL] call Olsen_FW_FNC_GearScript;        Recon Team Leader
+[this, R44_RCTS] call Olsen_FW_FNC_GearScript;        Recon Member
+
     //Vehicle Crew
 [this, R44_VCom] call Olsen_FW_FNC_GearScript;        Tank Commander
 [this, R44_VCrew] call Olsen_FW_FNC_GearScript;       Tank Crew
@@ -88,6 +92,12 @@
                 [Rus_Mag_M1895,2,"uniform"] \
             ],[30] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
+
+//Recon Team Weapon
+#define R44_Recon_Primary \
+        [Rus_Mag_Mosin_Tracer,1] call Olsen_FW_FNC_AddItem; \
+        [Rus_Weap_MosM9130_S] call Olsen_FW_FNC_AddItem; \
+        [Rus_Mag_Mosin_Tracer,12] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -445,6 +455,50 @@
         //Anti-Tank Rifle
         [Rus_Weap_PTRD,1,"backpack"] call Olsen_FW_FNC_AddItem;
         [Rus_Mag_PTRD,20,"backpack"] call Olsen_FW_FNC_AddItem;
+    }];
+
+     //Recon Team leader
+    R44_RCTL = ["R44_RCTL", {
+        params ["_unit"];
+
+        [Rus_Uni44_TL] call Olsen_FW_FNC_AddItem;
+        [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
+        Rus_Face;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        R44_Weapon_Rifleman;
+
+        //Extra
+        [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team Sniper
+    R44_RCTS = ["R44_RCTS", {
+        params ["_unit"];
+
+        [Rus_Uni44_Rif] call Olsen_FW_FNC_AddItem;
+        [Rus_Vest_Mosin] call Olsen_FW_FNC_AddItem;
+        [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
+        Rus_Face;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        R44_Recon_Primary;
+
+        //Extra
+        [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Vehicle Crew

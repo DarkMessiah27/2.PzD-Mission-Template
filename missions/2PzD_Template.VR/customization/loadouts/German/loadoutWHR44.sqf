@@ -28,9 +28,14 @@
 [this, WHR44_HMGG] call Olsen_FW_FNC_GearScript;      HMG Richtschütze
 [this, WHR44_HMGA] call Olsen_FW_FNC_GearScript;      HMG Munitionsträger
 
+    //Panzerschreck
 [this, WHR44_ATSL] call Olsen_FW_FNC_GearScript;      Panzerschreck Truppführer
 [this, WHR44_ATG] call Olsen_FW_FNC_GearScript;       Panzerschreck Richtschütze
 [this, WHR44_ATA] call Olsen_FW_FNC_GearScript;       Panzerschreck Munitionsträger
+
+    //Recon
+[this, WHR44_RCTL] call Olsen_FW_FNC_GearScript;      Recon Truppführer
+[this, WHR44_RCTS] call Olsen_FW_FNC_GearScript;      Recon Scharfschütze
 
     //Tank Crew
 [this, WHR44_VCom] call Olsen_FW_FNC_GearScript;      Besatzungsführer
@@ -99,6 +104,11 @@
         [Ger_Mag_P38,1] call Olsen_FW_FNC_AddItem; \
         [Ger_Weap_P38] call Olsen_FW_FNC_AddItem; \
         [Ger_Mag_P38,1,"uniform"] call Olsen_FW_FNC_AddItem;
+
+#define WHR44_Recon_Primary \
+        [Ger_Mag_K98,1] call Olsen_FW_FNC_AddItem; \
+        [Ger_Weap_K98_Zf41] call Olsen_FW_FNC_AddItem; \
+        [Ger_Mag_K98,12] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -514,6 +524,49 @@
 
         //Extra
         [Ger_Mag_Pzschrck,5] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team
+    //Recon Team leader
+    WHR44_RCTL = ["WHR44_RCTL", {
+        params ["_unit"];
+
+        [Ger_Uni_S3_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Helmet] call Olsen_FW_FNC_AddItem;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        WHR44_Weapon_Rifleman;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team Member
+    WHR44_RCTS = ["WHR44_RCTS", {
+        params ["_unit"];
+
+        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Helmet] call Olsen_FW_FNC_AddItem;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        WHR44_Recon_Primary;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Tank Crew

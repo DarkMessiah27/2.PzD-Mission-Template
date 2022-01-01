@@ -28,6 +28,10 @@
 [this, WHR39_HMGG] call Olsen_FW_FNC_GearScript;         HMG Richtschütze
 [this, WHR39_HMGA] call Olsen_FW_FNC_GearScript;         HMG Munitionsträger
 
+    //Recon
+[this, WHR39_RCTL] call Olsen_FW_FNC_GearScript;         Recon Truppführer
+[this, WHR39_RCTS] call Olsen_FW_FNC_GearScript;         Recon Scharfschütze
+
     //Tank Crew
 [this, WHR39_VCom] call Olsen_FW_FNC_GearScript;         Besatzungsführer
 [this, WHR39_VCrew] call Olsen_FW_FNC_GearScript;        Besatzung
@@ -123,6 +127,11 @@
         [Ger_Mag_P08,1] call Olsen_FW_FNC_AddItem; \
         [Ger_Weap_P08] call Olsen_FW_FNC_AddItem; \
         [Ger_Mag_P08,1,"uniform"] call Olsen_FW_FNC_AddItem;
+
+#define WHR39_Recon_Primary \
+        [Ger_Mag_K98,1] call Olsen_FW_FNC_AddItem; \
+        [Ger_Weap_K98_Zf39] call Olsen_FW_FNC_AddItem; \
+        [Ger_Mag_K98,12] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -459,8 +468,30 @@
         //Extra
     }];
 
-    //HMG Munitionsträger
-    WHR39_HMGA = ["WHR39_HMGA", {
+    //Recon Team leader
+    WHR39_RCTL = ["WHR39_RCTL", {
+        params ["_unit"];
+
+        [Ger_Uni_S3_E] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
+        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
+        [Ger_Helmet] call Olsen_FW_FNC_AddItem;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        WHR39_Weapon_Rifleman;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team Sniper
+    WHR39_RCTS = ["WHR39_RCTS", {
         params ["_unit"];
 
         [Ger_Uni_Rif_E] call Olsen_FW_FNC_AddItem;
@@ -473,11 +504,13 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        WHR39_Weapon_Rifleman;
+        WHR39_Recon_Primary;
 
-        //Extra
-        [Ger_Mag_MG_50_Mixed_sS,15,"backpack"] call Olsen_FW_FNC_AddItem;
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
+
 
 //Tank Crew
 

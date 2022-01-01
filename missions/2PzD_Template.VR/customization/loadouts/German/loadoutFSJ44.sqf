@@ -398,3 +398,24 @@
         [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
         [Ger_Mag_MG_50_Mixed_SmE,1,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
+
+    //Recon Team Leader
+    FSJ44_RCTL = ["FSJ44_RCTL", {
+        params ["_unit"];
+
+        [FSJ_Unic_Rif] call Olsen_FW_FNC_AddItem;
+        FSJ_Backpack("S2");
+        [FSJ_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
+        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        FSJ44_Weapon_Rifle;
+
+        //Extra
+        [Ger_Gren_Frag_M39,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+    }];
