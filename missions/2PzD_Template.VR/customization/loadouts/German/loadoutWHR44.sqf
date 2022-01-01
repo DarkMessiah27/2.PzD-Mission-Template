@@ -35,7 +35,7 @@
 
     //Recon
 [this, WHR44_RCTL] call Olsen_FW_FNC_GearScript;      Recon Truppführer
-[this, WHR44_RCTS] call Olsen_FW_FNC_GearScript;      Recon Gewehrschütze
+[this, WHR44_RCTS] call Olsen_FW_FNC_GearScript;      Recon Scharfschütze
 
     //Tank Crew
 [this, WHR44_VCom] call Olsen_FW_FNC_GearScript;      Besatzungsführer
@@ -109,7 +109,6 @@
         [Ger_Mag_K98,1] call Olsen_FW_FNC_AddItem; \
         [Ger_Weap_K98_Zf41] call Olsen_FW_FNC_AddItem; \
         [Ger_Mag_K98,12] call Olsen_FW_FNC_AddItem;
-
 
 //======================== Loadouts ========================
 
@@ -543,6 +542,10 @@
 
         //Primary Weapon
         WHR44_Weapon_Rifleman;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Member
@@ -560,6 +563,10 @@
 
         //Primary Weapon
         WHR44_Recon_Primary;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Tank Crew

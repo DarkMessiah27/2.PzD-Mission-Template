@@ -465,6 +465,10 @@
 
         //Primary Weapon
         US42_Weapon_Rifle;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Sniper
@@ -482,6 +486,10 @@
 
         //Primary Weapon
         US42_Weapon_Recon;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Tank Crew

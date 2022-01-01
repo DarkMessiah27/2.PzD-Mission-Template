@@ -31,8 +31,8 @@
 [this, R44_ATRG] call Olsen_FW_FNC_GearScript;        AT Rifle Gunner
 
     //Recon
-[this, R44_RCTL] call Olsen_FW_FNC_GearScript;      Recon Team Leader
-[this, R44_RCTS] call Olsen_FW_FNC_GearScript;      Recon Member
+[this, R44_RCTL] call Olsen_FW_FNC_GearScript;        Recon Team Leader
+[this, R44_RCTS] call Olsen_FW_FNC_GearScript;        Recon Member
 
     //Vehicle Crew
 [this, R44_VCom] call Olsen_FW_FNC_GearScript;        Tank Commander
@@ -472,6 +472,11 @@
 
         //Primary Weapon
         R44_Weapon_Rifleman;
+
+        //Extra
+        [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Sniper
@@ -489,6 +494,11 @@
 
         //Primary Weapon
         R44_Recon_Primary;
+
+        //Extra
+        [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Vehicle Crew

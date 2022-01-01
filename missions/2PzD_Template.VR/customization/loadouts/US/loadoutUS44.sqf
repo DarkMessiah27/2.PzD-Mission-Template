@@ -9,7 +9,7 @@
     //Platoon HQ
 [this, US44_PC] call Olsen_FW_FNC_GearScript;         Platoon Commander
 [this, US44_PSGT] call Olsen_FW_FNC_GearScript;       Platoon Sergeant/Platoon Guide
-[this, US44_RTO] call Olsen_FW_FNC_GearScript;       Radio Operator
+[this, US44_RTO] call Olsen_FW_FNC_GearScript;        Radio Operator
 [this, US44_Mess] call Olsen_FW_FNC_GearScript;       Messenger
 [this, US44_MedP] call Olsen_FW_FNC_GearScript;       Medic
 
@@ -461,6 +461,10 @@
 
         //Primary Weapon
         US44_Weapon_Rifle;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Sniper
@@ -478,6 +482,10 @@
 
         //Primary Weapon
         US44_Weapon_Recon;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Tank Crew

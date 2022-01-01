@@ -30,7 +30,7 @@
 
     //Recon
 [this, WHR40_RCTL] call Olsen_FW_FNC_GearScript;      Recon Truppführer
-[this, WHR40_RCTS] call Olsen_FW_FNC_GearScript;      Recon Scharfschüte
+[this, WHR40_RCTS] call Olsen_FW_FNC_GearScript;      Recon Scharfschütze
 
     //Tank Crew
 [this, WHR40_VCom] call Olsen_FW_FNC_GearScript;      Besatzungsführer
@@ -465,6 +465,10 @@
 
         //Primary Weapon
         WHR40_Weapon_Rifleman;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Sniper
@@ -482,6 +486,10 @@
 
         //Primary Weapon
         WHR40_Recon_Primary;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Tank Crew

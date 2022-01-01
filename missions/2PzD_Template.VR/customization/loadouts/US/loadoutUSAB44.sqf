@@ -27,8 +27,8 @@
 [this, USAB44_MGTL] call Olsen_FW_FNC_GearScript;         Machine Gun Team Leader
 [this, USAB44_MG] call Olsen_FW_FNC_GearScript;           Machine Gunner
 
-[this, USAB44_RCTL] call Olsen_FW_FNC_GearScript;       Recon Team Leader
-[this, USAB44_RCTS] call Olsen_FW_FNC_GearScript;       Recon Team Sniper
+[this, USAB44_RCTL] call Olsen_FW_FNC_GearScript;         Recon Team Leader
+[this, USAB44_RCTS] call Olsen_FW_FNC_GearScript;         Recon Team Sniper
 
 [this, USAB44_BzkaTL] call Olsen_FW_FNC_GearScript;       Bazooka Team Leader
 [this, USAB44_BzkaG] call Olsen_FW_FNC_GearScript;        Bazooka Gunner
@@ -437,7 +437,7 @@
 
         [USAB_UniK_CPL] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
-        USAB_Backpack("Rif");
+        USAB_Backpack("RCTL");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -447,6 +447,10 @@
 
         //Primary Weapon
         USAB44_Weapon_Rifle;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Sniper
@@ -455,7 +459,7 @@
 
         [USAB_UniK_PFC] call Olsen_FW_FNC_AddItem;
         [USAB_Vest_M1G] call Olsen_FW_FNC_AddItem;
-        USAB_Backpack("Rif");
+        USAB_Backpack("RCTS");
         [USAB_Helm_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -464,4 +468,8 @@
 
         //Primary Weapon
         USAB44_Weapon_Recon;
+
+        //Extra
+        [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];

@@ -425,27 +425,6 @@
         [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
     }];
 
-    //HMG Munitionsträger
-    WHR42_HMGA = ["WHR42_HMGA", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-
-        //Primary Weapon
-        WHR42_Weapon_Rifleman;
-
-        //Extra
-        [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
-    }];
-
     //Recon Team leader
     WHR42_RCTL = ["WHR42_RCTL", {
         params ["_unit"];
@@ -462,6 +441,10 @@
 
         //Primary Weapon
         WHR42_Weapon_Rifleman;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Member
@@ -479,6 +462,10 @@
 
         //Primary Weapon
         WHR42_Recon_Primary;
+
+        //Extra        
+        [Ger_Gren_Frag_M24,2] call Olsen_FW_FNC_AddItem;
+        [Ger_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Tank Crew

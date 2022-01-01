@@ -395,7 +395,7 @@
     UK40_RCTL = ["UK40_RCTL", {
         params ["_unit"];
 
-        [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
+        [UK_Uni_Cpl] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
         [UK_BP] call Olsen_FW_FNC_AddItem;
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
@@ -407,6 +407,10 @@
 
         //Primary Weapon
         UK40_LeeEn;
+
+        //Extra
+        [UK_Gren_Frag,1] call Olsen_FW_FNC_AddItem;
+        [UK_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
         //Recon Team Sniper
@@ -424,6 +428,10 @@
 
         //Primary Weapon
         UK40_Weapon_Recon;
+
+        //Extra
+        [UK_Gren_Frag,1] call Olsen_FW_FNC_AddItem;
+        [UK_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Vehicle Crew
