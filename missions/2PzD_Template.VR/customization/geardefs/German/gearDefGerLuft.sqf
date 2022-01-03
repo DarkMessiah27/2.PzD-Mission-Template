@@ -63,7 +63,7 @@
                 }; \
                 default \
                 { \
-                    [Ger_BP_R] call Olsen_FW_FNC_AddItemRandom; \
+                    [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom; \
                 }; \
             }; \
         };
