@@ -197,7 +197,6 @@
         NOR_Krag;
 
         //Extra
-		[GEN_Bino] call Olsen_FW_FNC_AddItem;
         [Nor_Tin_Grenade,1,"vest"] call Olsen_FW_FNC_AddItem;
         [Nor_Mag_M1914,4,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
