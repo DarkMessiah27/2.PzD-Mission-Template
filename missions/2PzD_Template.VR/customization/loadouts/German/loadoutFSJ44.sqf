@@ -260,6 +260,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+        [GEN_Bino] call Olsen_FW_FNC_Additem;
 
         //Primary Weapon
         FSJ44_Weapon_SMG;
