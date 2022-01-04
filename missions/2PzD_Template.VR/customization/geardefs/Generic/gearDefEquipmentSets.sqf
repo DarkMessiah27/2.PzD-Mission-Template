@@ -3,7 +3,7 @@
 //=== EQUIPMENT SETS ===
 
 #define GEN_Default_Equipment_Set \
-    [GEN_Map] call Olsen_FW_FNC_AddItem; \ //needed for briefing
+    [GEN_Map] call Olsen_FW_FNC_AddItem; /* Needed for briefing*/ \
     [GEN_Compass] call Olsen_FW_FNC_AddItem; \
     [GEN_Watch] call Olsen_FW_FNC_AddItem; \
     [GEN_ace_shovel,1,"uniform"] call Olsen_FW_FNC_AddItem; \
