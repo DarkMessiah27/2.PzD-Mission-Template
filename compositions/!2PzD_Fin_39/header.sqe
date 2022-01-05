@@ -1,0 +1,10 @@
+version=54;
+name="!2PzD_Fin_39";
+author="Konrad Feld";
+category="!2PzD_Finnish";
+requiredAddons[]=
+{
+	"WW2_Assets_c_Characters_Soviets_c_SOV_RKKA",
+	"WW2_Core_c_WW2_EditorPreviews_c",
+	"A3_Characters_F"
+};

@@ -1,0 +1,5548 @@
+version=54;
+center[]={1404.9431,5,1499.4596};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="!2PzD_Fin_39";
+		class Entities
+		{
+			items=8;
+			class Item0
+			{
+				dataType="Group";
+				side="Independent";
+				class Entities
+				{
+					items=2;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.8277588,0.0014390945,7.2370605};
+							angles[]={-0,4.7640505,0};
+						};
+						side="Independent";
+						flags=6;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_ATRTL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+							description="Team Leader@1 Platoon | Anti-Tank Rifle Team";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47358;
+						type="LIB_SOV_LC_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={3.8746338,0.0014390945,7.1848145};
+							angles[]={-0,4.7176075,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_ATRG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="Gunner@1 Platoon | Anti-Tank Rifle Team";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47359;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.02;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=47357;
+			};
+			class Item1
+			{
+				dataType="Group";
+				side="Independent";
+				class Entities
+				{
+					items=2;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.8406982,0.0014390945,4.9309082};
+							angles[]={-0,4.7640505,0};
+						};
+						side="Independent";
+						flags=6;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_HMGTL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+							description="Team Leader@1 Platoon | HMG Team";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47361;
+						type="LIB_SOV_LC_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={3.8878174,0.0014390945,4.8796387};
+							angles[]={-0,4.7176075,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_HMGG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="Gunner@1 Platoon | HMG Team";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47362;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.02;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=47360;
+			};
+			class Item2
+			{
+				dataType="Group";
+				side="Independent";
+				class Entities
+				{
+					items=6;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.4447021,0.0014390945,-0.089111328};
+							angles[]={0,4.7123713,0};
+						};
+						side="Independent";
+						flags=7;
+						class Attributes
+						{
+							init="[this, F39_PC] call Olsen_FW_FNC_GearScript;";
+							description="Platoon Commander@1 Platoon | Platoon HQ";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47381;
+						type="LIB_SOV_lieutenant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.4466553,0.0014390945,1.9118652};
+							angles[]={0,4.7123713,0};
+						};
+						side="Independent";
+						flags=5;
+						class Attributes
+						{
+							init="[this, F39_PSgt] call Olsen_FW_FNC_GearScript;";
+							description="Platoon Sergeant@1 Platoon | Platoon HQ";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47382;
+						type="LIB_SOV_staff_sergeant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.4437256,0.0014390945,-2.0939941};
+							angles[]={-0,4.7123713,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_RTO] call Olsen_FW_FNC_GearScript;";
+							description="Radio Operator@1 Platoon | Platoon HQ";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47383;
+						type="LIB_SOV_operator";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.4708252,0.0014390945,1.9387207};
+							angles[]={-0,4.712389,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Mess] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="Messenger@1 Platoon | Platoon HQ";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47384;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.4136963,0.0014390945,-0.082275391};
+							angles[]={-0,4.712389,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MedP] call Olsen_FW_FNC_GearScript;" \n "this setVariable [""Ace_medical_medicClass"", 1];";
+							description="Medic@1 Platoon | Platoon HQ";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47385;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.3787842,0.0014390945,-2.026123};
+							angles[]={-0,4.712389,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MedP] call Olsen_FW_FNC_GearScript;" \n "this setVariable [""Ace_medical_medicClass"", 1];";
+							description="Medic@1 Platoon | Platoon HQ";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47386;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=47380;
+			};
+			class Item3
+			{
+				dataType="Group";
+				side="Independent";
+				class Entities
+				{
+					items=3;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={2.6436768,0.0014390945,-6.236084};
+							angles[]={0,4.7796717,0};
+						};
+						side="Independent";
+						flags=7;
+						class Attributes
+						{
+							init="[this, F39_VCom] call Olsen_FW_FNC_GearScript;";
+							description="Tank Commander@Tank";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47364;
+						type="LIB_SOV_tank_lieutenant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.4906006,0.0014390945,-7.373291};
+							angles[]={0,4.7796717,0};
+						};
+						side="Independent";
+						flags=5;
+						class Attributes
+						{
+							init="[this, F39_VCrew] call Olsen_FW_FNC_GearScript;";
+							description="Crewman@Tank";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47365;
+						type="LIB_SOV_tank_crew";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.01;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.6107178,0.0014390945,-5.1032715};
+							angles[]={0,4.7796717,0};
+						};
+						side="Independent";
+						flags=5;
+						class Attributes
+						{
+							init="[this, F39_VCrew] call Olsen_FW_FNC_GearScript;";
+							description="Crewman@Tank";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47366;
+						type="LIB_SOV_tank_crew";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.01;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=47363;
+			};
+			class Item4
+			{
+				dataType="Group";
+				side="Independent";
+				class Entities
+				{
+					items=12;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-2.9903564,0.0014390945,4.9724121};
+							angles[]={-0,1.6168381,0};
+						};
+						side="Independent";
+						flags=6;
+						class Attributes
+						{
+							skill=0.44999999;
+							rank="CORPORAL";
+							init="[this, F39_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+							description="1st Team | Squad Leader@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47368;
+						type="LIB_SOV_sergeant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-4.0133057,0.0014390945,4.9499512};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_SMG] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Submachine Gunner@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47369;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.01;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-4.9832764,0.0014390945,4.9782715};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_SMG] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Submachine Gunner@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47370;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.9703369,0.0014390945,4.9631348};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Gren] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Grenadier@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47371;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-6.9750977,0.0014390945,4.9484863};
+							angles[]={0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Rifleman@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47372;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-8.1912842,0.0014390945,4.9592285};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MedS] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Assistant Medic@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47373;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-4.0582275,0.0014390945,6.9333496};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47374;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.02;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.0280762,0.0014390945,6.9604492};
+							angles[]={0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47375;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-6.0152588,0.0014390945,6.9460449};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47376;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.024292,0.0014390945,6.9533691};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Machine Gunner@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47377;
+						type="LIB_SOV_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item10
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-8.1864014,0.0014390945,6.9899902};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MGA] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Machine Gun Assistant@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47378;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item11
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-3.0982666,0.0014390945,6.920166};
+							angles[]={-0,1.6168381,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+							description="2nd Team | Team Leader@1 Platoon | 3rd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47379;
+						type="LIB_SOV_LC_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=47367;
+			};
+			class Item5
+			{
+				dataType="Group";
+				side="Independent";
+				class Entities
+				{
+					items=12;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-3.0128174,0.0014390945,-1.0866699};
+							angles[]={-0,1.6168381,0};
+						};
+						side="Independent";
+						flags=6;
+						class Attributes
+						{
+							skill=0.44999999;
+							rank="CORPORAL";
+							init="[this, F39_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+							description="1st Team | Squad Leader@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47388;
+						type="LIB_SOV_sergeant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-4.0360107,0.0014390945,-1.1086426};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_SMG] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Submachine Gunner@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47389;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.01;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.0059814,0.0014390945,-1.0808105};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_SMG] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Submachine Gunner@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47390;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.9927979,0.0014390945,-1.095459};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Gren] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Grenadier@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47391;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-6.9981689,0.0014390945,-1.1105957};
+							angles[]={0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Rifleman@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47392;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-8.2139893,0.0014390945,-1.0993652};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MedS] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Assistant Medic@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47393;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-4.0809326,0.0014390945,0.87426758};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47394;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.02;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.0509033,0.0014390945,0.90161133};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47395;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-6.0379639,0.0014390945,0.88745117};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47396;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.0469971,0.0014390945,0.89428711};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Machine Gunner@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47397;
+						type="LIB_SOV_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item10
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-8.2088623,0.0014390945,0.93139648};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MGA] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Machine Gun Assistant@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47398;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item11
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-3.1209717,0.0014390945,0.86157227};
+							angles[]={-0,1.6168381,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+							description="2nd Team | Team Leader@1 Platoon | 2nd Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47399;
+						type="LIB_SOV_LC_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=47387;
+			};
+			class Item6
+			{
+				dataType="Group";
+				side="Independent";
+				class Entities
+				{
+					items=12;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-3.0159912,0.0014390945,-7.161377};
+							angles[]={-0,1.6168381,0};
+						};
+						side="Independent";
+						flags=6;
+						class Attributes
+						{
+							skill=0.44999999;
+							rank="CORPORAL";
+							init="[this, F39_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+							description="1st Team | Squad Leader@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47401;
+						type="LIB_SOV_sergeant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-4.0389404,0.0014390945,-7.1833496};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_SMG] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Submachine Gunner@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47402;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.01;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.0089111,0.0014390945,-7.1555176};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_SMG] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Submachine Gunner@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47403;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.9959717,0.0014390945,-7.170166};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Gren] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Grenadier@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47404;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.0010986,0.0014390945,-7.1855469};
+							angles[]={0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Rifleman@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47405;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-8.2169189,0.0014390945,-7.1745605};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MedS] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Assistant Medic@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47406;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-4.0838623,0.0014390945,-5.2004395};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47407;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.02;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.053833,0.0014390945,-5.1730957};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47408;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-6.0408936,0.0014390945,-5.1872559};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47409;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-7.0499268,0.0014390945,-5.1804199};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Machine Gunner@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47410;
+						type="LIB_SOV_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item10
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-8.2120361,0.0014390945,-5.1433105};
+							angles[]={-0,1.5703949,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MGA] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Machine Gun Assistant@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47411;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item11
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-3.1239014,0.0014390945,-5.2131348};
+							angles[]={-0,1.6168381,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+							description="2nd Team | Team Leader@1 Platoon | 1st Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47412;
+						type="LIB_SOV_LC_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=47400;
+			};
+			class Item7
+			{
+				dataType="Group";
+				side="Independent";
+				class Entities
+				{
+					items=12;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={9.3758545,0.0014390945,0.85961914};
+							angles[]={-0,4.7480984,0};
+						};
+						side="Independent";
+						flags=6;
+						class Attributes
+						{
+							skill=0.44999999;
+							rank="CORPORAL";
+							init="[this, F39_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+							description="1st Team | Squad Leader@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47414;
+						type="LIB_SOV_sergeant";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.398804,0.0014390945,0.89233398};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_SMG] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Submachine Gunner@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47415;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.01;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={11.368774,0.0014390945,0.87426758};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_SMG] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Submachine Gunner@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47416;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.97000003;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={12.355835,0.0014390945,0.8996582};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Gren] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Grenadier@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47417;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={13.36084,0.0014390945,0.92443848};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Rifleman@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47418;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={14.576782,0.0014390945,0.92651367};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MedS] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="1st Team | Assistant Medic@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47419;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={10.463745,0.0014390945,-1.0905762};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47420;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.02;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={11.434692,0.0014390945,-1.107666};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47421;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={12.420776,0.0014390945,-1.0837402};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_Rif] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Rifleman@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47422;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.04;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={13.430786,0.0014390945,-1.0793457};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MG] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Machine Gunner@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47423;
+						type="LIB_SOV_mgunner";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item10
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={14.592651,0.0014390945,-1.1047363};
+							angles[]={-0,4.7016554,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_MGA] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;" \n "this call Olsen_FW_FNC_removeMap;";
+							description="2nd Team | Machine Gun Assistant@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47424;
+						type="LIB_SOV_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0.94999999;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+					class Item11
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={9.5037842,0.0014390945,-1.0876465};
+							angles[]={-0,4.7480984,0};
+						};
+						side="Independent";
+						flags=4;
+						class Attributes
+						{
+							skill=0.40000001;
+							init="[this, F39_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+							description="2nd Team | Team Leader@1 Platoon | Reserve Squad";
+							isPlayable=1;
+							class Inventory
+							{
+								class uniform
+								{
+									typeName="U_C_Driver_1_green";
+									isBackpack=0;
+								};
+							};
+						};
+						id=47425;
+						type="LIB_SOV_LC_rifleman";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="NORTH_vehIdents_init";
+								expression="_this call compile _value";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="speaker";
+								expression="_this setspeaker _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="Male01_FIN";
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="pitch";
+								expression="_this setpitch _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1.03;
+									};
+								};
+							};
+							nAttributes=3;
+						};
+					};
+				};
+				class Attributes
+				{
+				};
+				id=47413;
+			};
+		};
+		id=47426;
+	};
+};
