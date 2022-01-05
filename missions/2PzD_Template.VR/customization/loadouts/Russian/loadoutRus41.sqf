@@ -19,7 +19,6 @@
 [this, R41_SMG] call Olsen_FW_FNC_GearScript;         Submachine Gunner
 [this, R41_Gren] call Olsen_FW_FNC_GearScript;        Grenadier
 [this, R41_MedS] call Olsen_FW_FNC_GearScript;        Assistant Medic
-
 [this, R41_Rif] call Olsen_FW_FNC_GearScript;         Rifleman
 [this, R41_MG] call Olsen_FW_FNC_GearScript;          Machine Gunner
 [this, R41_MGA] call Olsen_FW_FNC_GearScript;         MG Assistant

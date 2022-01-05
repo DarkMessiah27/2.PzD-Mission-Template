@@ -19,7 +19,6 @@
 [this, R39_SMG] call Olsen_FW_FNC_GearScript;         Submachine Gunner
 [this, R39_Gren] call Olsen_FW_FNC_GearScript;        Grenadier
 [this, R39_MedS] call Olsen_FW_FNC_GearScript;        Assistant Medic
-
 [this, R39_Rif] call Olsen_FW_FNC_GearScript;         Rifleman
 [this, R39_AutoRif] call Olsen_FW_FNC_GearScript;     Automatic Rifleman
 [this, R39_MG] call Olsen_FW_FNC_GearScript;          Machine Gunner
