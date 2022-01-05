@@ -38,6 +38,11 @@
 //#include "loadouts\US\loadoutUSAB42.sqf"
 //#include "loadouts\US\loadoutUSAB44.sqf"
 
+    //=== Finnish ===
+    //Army
+//#include "loadouts\Finnish\loadoutFin39.sqf"
+//#include "loadouts\Finnish\loadoutFin41.sqf"
+
 //============ Vehicle Loadouts ============
 
 // Vehicle Loadouts are in the loadoutsVeh folder.
@@ -55,3 +60,5 @@
 //#include "loadoutsVeh\Russian\vehLoadoutRUS.sqf"
 
 //#include "loadoutsVeh\US\vehLoadoutUS.sqf"
+
+//#include "loadoutsVeh\Finnish\vehLoadoutFIN.sqf"

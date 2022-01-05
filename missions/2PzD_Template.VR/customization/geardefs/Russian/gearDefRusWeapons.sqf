@@ -66,6 +66,7 @@
 #define Rus_Gren_Frag_S2                        "NORTH_RGD33Grenade_mag"
 #define Rus_Gren_Frag_P                         "NORTH_F1Grenade_mag"
 #define Rus_Gren_AT                             "LIB_rpg6"
+#define Rus_Gren_Smoke							"LIB_RDG"
 
 //Mines
 #define Rus_Mine_AP_Box                         "LIB_PMD6_MINE_mag"

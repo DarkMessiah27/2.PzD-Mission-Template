@@ -15,6 +15,7 @@
 
 #ifdef regularUniforms
     #include "geardefs\British\gearDefUKRegular.sqf"
+    #include "geardefs\Finnish\gearDefFinRegular.sqf"
     #include "geardefs\German\gearDefGerRegular.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUSRegular.sqf"
@@ -22,6 +23,7 @@
 
 #ifdef winterUniforms
     #include "geardefs\British\gearDefUKWinter.sqf"
+    #include "geardefs\Finnish\gearDefFinWinter.sqf"
     #include "geardefs\German\gearDefGerWinter.sqf"
     #include "geardefs\Russian\gearDefRusWinter.sqf"
     #include "geardefs\US\gearDefUSWinter.sqf"
@@ -38,6 +40,10 @@
 #include "geardefs\British\gearDefUKPara.sqf"
 
 #include "geardefs\British\gearDefUKWeapons.sqf"
+
+#include "geardefs\Finnish\gearDefFin.sqf"
+
+#include "geardefs\Finnish\gearDefFinWeapons.sqf"
 
 #include "geardefs\Generic\gearDefGEN.sqf"
 
