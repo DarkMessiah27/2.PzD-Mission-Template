@@ -19,7 +19,6 @@
 [this, F39_SMG] call Olsen_FW_FNC_GearScript;         Submachine Gunner
 [this, F39_Gren] call Olsen_FW_FNC_GearScript;        Grenadier
 [this, F39_MedS] call Olsen_FW_FNC_GearScript;        Assistant Medic
-
 [this, F39_Rif] call Olsen_FW_FNC_GearScript;         Rifleman
 [this, F39_MG] call Olsen_FW_FNC_GearScript;          Machine Gunner
 [this, F39_MGA] call Olsen_FW_FNC_GearScript;         MG Assistant
@@ -46,13 +45,13 @@
                 [Fin_Mag_Mos,1], \
                 [Fin_Weap_MosM27], \
                 [Fin_Mag_Mos,12,"vest"] \
-            ],[40], \
+            ],[50], \
             [ \
                 [Fin_Vest_Mosin], \
                 [Fin_Mag_Mos,1], \
                 [Fin_Weap_MosM91], \
                 [Fin_Mag_Mos,12,"vest"] \
-            ],[40] \
+            ],[50] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
 //For Submachine Gunners
