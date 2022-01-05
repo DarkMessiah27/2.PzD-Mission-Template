@@ -41,7 +41,25 @@
 
 //======================== Definitions ========================
 
-//submachine gunners
+//For Riflemen
+#define R44_Weapon_Rifleman \
+        [ \
+            [/*Mosin M91/30*/ \
+                [Rus_Vest_Mosin], \
+                [Rus_Mag_Mosin,1], \
+                [Rus_Weap_MosM9130], \
+                [Rus_Acc_Mos_Bayo], \
+                [Rus_Mag_Mosin,12,"vest"] \
+            ],[70], \
+            [/*SVT*/ \
+                [Rus_Vest_SVT], \
+                [Rus_Mag_SVT,1], \
+                [Rus_Weap_SVT40], \
+                [Rus_Mag_SVT,6,"vest"] \
+            ],[30] \
+        ] call Olsen_FW_FNC_AddItemRandomPercent;
+
+//For Submachine Gunners
 #define R44_Weapon_SMG \
         [ \
             [/*PPSh-41, Stick*/ \
@@ -59,23 +77,13 @@
             ],[50] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
 
-//For riflemen
-#define R44_Weapon_Rifleman \
-        [ \
-            [/*Mosin M91/30*/ \
-                [Rus_Vest_Mosin], \
-                [Rus_Mag_Mosin,1], \
-                [Rus_Weap_MosM9130], \
-                [Rus_Acc_Mos_Bayo], \
-                [Rus_Mag_Mosin,12,"vest"] \
-            ],[70], \
-            [/*SVT*/ \
-                [Rus_Vest_SVT], \
-                [Rus_Mag_SVT,1], \
-                [Rus_Weap_SVT40], \
-                [Rus_Mag_SVT,6,"vest"] \
-            ],[30] \
-        ] call Olsen_FW_FNC_AddItemRandomPercent;
+//For Machine Gunners 
+#define R44_Weapon_DP \
+                [Rus_Vest_MG] call Olsen_FW_FNC_AddItem; \
+                [Rus_Mag_DP_Tracer,1] call Olsen_FW_FNC_AddItem; \
+                [Rus_Weap_DP] call Olsen_FW_FNC_AddItem; \
+                [Rus_Mag_DP_Tracer,3,"vest"] call Olsen_FW_FNC_AddItem; \
+                [Rus_Mag_DP_Tracer,6,"backpack"] call Olsen_FW_FNC_AddItem;
 
 
 //For all loadouts with pistols
@@ -157,11 +165,11 @@
         [Rus_Hat] call Olsen_FW_FNC_AddItem;
         Rus_Face;
 
-        //Primary Weapon & Vest
-        R44_Weapon_Rifleman;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
+
+        //Primary Weapon & Vest
+        R44_Weapon_Rifleman;
 
         //Extra
         GEN_MedicP_Equipment_Set;
@@ -193,12 +201,12 @@
         [Rus_BP_Radio] call Olsen_FW_FNC_AddItem;
         [Rus_Hat] call Olsen_FW_FNC_AddItem;
 
-        //Primary Weapon & Vest
-        R44_Weapon_Rifleman
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         [GEN_Headset] call Olsen_FW_FNC_AddItem;
+        
+        //Primary Weapon & Vest
+        R44_Weapon_Rifleman
     }];
 
 //Squad
@@ -233,12 +241,12 @@
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
         Rus_Face;
 
-        //Primary Weapon
-        R44_Weapon_SMG;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         [GEN_BinoG] call Olsen_FW_FNC_AddItem;
+
+        //Primary Weapon
+        R44_Weapon_SMG;
 
         //Extra
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
@@ -254,11 +262,11 @@
         [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
 
-        //Primary Weapon
-        R44_Weapon_SMG;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
+        
+        //Primary Weapon
+        R44_Weapon_SMG;
 
         //Extra
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
@@ -297,12 +305,12 @@
         [Rus_Hat] call Olsen_FW_FNC_AddItem;
         Rus_Face;
 
-        //Primary Weapon & Vest
-        R44_Weapon_Rifleman;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_MedicS_Equipment_Set;
+        
+        //Primary Weapon & Vest
+        R44_Weapon_Rifleman;
 
         //Extra
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
@@ -318,11 +326,11 @@
         [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
 
-        //Primary Weapon & Vest
-        R44_Weapon_Rifleman;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
+
+        //Primary Weapon & Vest
+        R44_Weapon_Rifleman;
 
         //Extra
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
@@ -335,7 +343,6 @@
         params ["_unit"];
 
         [Rus_Uni44_Rif] call Olsen_FW_FNC_AddItem;
-        [Rus_Vest_MG] call Olsen_FW_FNC_AddItem;
         [Rus_BP_MG] call Olsen_FW_FNC_AddItem;
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
         Rus_Face;
@@ -343,11 +350,11 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
 
-        //Primary Weapon
-        [Rus_Mag_DP_Tracer,1] call Olsen_FW_FNC_AddItem;
-        [Rus_Weap_DP] call Olsen_FW_FNC_AddItem;
-        [Rus_Mag_DP_Tracer,3,"vest"] call Olsen_FW_FNC_AddItem;
-        [Rus_Mag_DP_Tracer,6,"backpack"] call Olsen_FW_FNC_AddItem;
+        //Primary Weapon & Vest
+        R44_Weapon_DP;
+
+        //Secondary Weapon
+        R44_Weapon_Secondary;
     }];
 
     //MG Assistant
@@ -359,12 +366,12 @@
         [Rus_Helmet] call Olsen_FW_FNC_AddItem;
         Rus_Face;
 
-        //Primary Weapon & Vest
-        R44_Weapon_Rifleman;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
+
+        //Primary Weapon & Vest
+        R44_Weapon_Rifleman;
 
         //Extra
         [Rus_Mag_DP_Tracer,6,"backpack"] call Olsen_FW_FNC_AddItem;
@@ -425,12 +432,12 @@
         [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
 
-        //Primary Weapon
-        R44_Weapon_SMG;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         [GEN_BinoG] call Olsen_FW_FNC_AddItem;
+
+        //Primary Weapon
+        R44_Weapon_SMG;
 
         //Extra
         [Rus_Mag_PTRD,20,"backpack"] call Olsen_FW_FNC_AddItem;
@@ -452,7 +459,7 @@
         //Primary Weapon
         R44_Weapon_SMG;
 
-        //Anti-Tank Rifle
+        //Extra
         [Rus_Weap_PTRD,1,"backpack"] call Olsen_FW_FNC_AddItem;
         [Rus_Mag_PTRD,20,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
@@ -461,7 +468,7 @@
     R44_RCTL = ["R44_RCTL", {
         params ["_unit"];
 
-        [Rus_Uni44_TL] call Olsen_FW_FNC_AddItem;
+        [Rus_Uni44_Snip] call Olsen_FW_FNC_AddItem;
         [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
@@ -483,7 +490,7 @@
     R44_RCTS = ["R44_RCTS", {
         params ["_unit"];
 
-        [Rus_Uni44_Rif] call Olsen_FW_FNC_AddItem;
+        [Rus_Uni44_Snip] call Olsen_FW_FNC_AddItem;
         [Rus_Vest_Mosin] call Olsen_FW_FNC_AddItem;
         [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;

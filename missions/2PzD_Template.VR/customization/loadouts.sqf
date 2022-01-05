@@ -26,8 +26,9 @@
 
     //=== Russian ===
     //Red Army
-//#include "loadouts\Russian\loadoutRus41.sqf"
-//#include "loadouts\Russian\loadoutRus44.sqf"
+#include "loadouts\Russian\loadoutRus39.sqf"
+#include "loadouts\Russian\loadoutRus41.sqf"
+#include "loadouts\Russian\loadoutRus44.sqf"
 
     //=== United States ===
     //Army
