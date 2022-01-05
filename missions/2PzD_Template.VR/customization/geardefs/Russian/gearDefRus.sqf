@@ -20,6 +20,7 @@
 
 //Backpack
 #define Rus_BP                                  "NORTH_SOV_Veshmeshok"
+#define Rus_BP39								"NORTH_SOV_M35bpk"
 
 #define Rus_BP_r                                ["NORTH_SOV_Veshmeshok"],["NORTH_SOV_Veshmeshok_Gasmaskbag"],["NORTH_SOV_Veshmeshok_2"],["NORTH_SOV_Veshmeshok_Gasmaskbag_2"],["NORTH_SOV_Veshmeshok_Shinel"],["NORTH_SOV_Veshmeshok_Gasmaskbag_Shinel"]
 
