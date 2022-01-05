@@ -17,7 +17,6 @@
     [Fin_Mag_Suomi_S20, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [Rus_Mag_SVT, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [Fin_Gren_Frag_M32, 10] call Olsen_FW_FNC_AddItemVehicle; \
-    [Rus_Gren_Smoke, 5] call Olsen_FW_FNC_AddItem;
     [Fin_Mag_AT_Rifle, 6] call Olsen_FW_FNC_AdditemVehicle; \
     [GEN_Toolkit, 1] call Olsen_FW_FNC_AddItemVehicle;
 
