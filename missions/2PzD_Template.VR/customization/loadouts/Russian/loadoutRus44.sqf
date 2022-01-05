@@ -85,6 +85,12 @@
                 [Rus_Mag_DP_Tracer,3,"vest"] call Olsen_FW_FNC_AddItem; \
                 [Rus_Mag_DP_Tracer,6,"backpack"] call Olsen_FW_FNC_AddItem;
 
+//For Grenadiers
+#define R44_Weapon_Gren \
+                [Rus_Mag_Mosin,1] call Olsen_FW_FNC_AddItem; \
+                [Rus_Weap_MosM9130_LIB] call Olsen_FW_FNC_AddItem; \
+                [Rus_Acc_Mos_GL] call Olsen_FW_FNC_AddItem; \
+                [Rus_Mag_Mosin,12,"vest"] call Olsen_FW_FNC_AddItem;
 
 //For all loadouts with pistols
 #define R44_Weapon_Secondary \
@@ -287,10 +293,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon & Vest
-        [Rus_Mag_Mosin,1] call Olsen_FW_FNC_AddItem;
-        [Rus_Weap_MosM9130] call Olsen_FW_FNC_AddItem;
-        [Rus_Acc_Mos_GL] call Olsen_FW_FNC_AddItem;
-        [Rus_Mag_Mosin,12,"vest"] call Olsen_FW_FNC_AddItem;
+        R44_Weapon_Gren;
 
         //Extra
         [Rus_Mag_RGrn_HE,8] call Olsen_FW_FNC_AddItem;

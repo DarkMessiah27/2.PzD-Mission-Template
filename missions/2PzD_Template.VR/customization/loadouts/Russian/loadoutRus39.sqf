@@ -122,6 +122,7 @@
         GEN_Leader_Equipment_Set;
 
         //Primary Weapon
+        R39_Weapon_SMG;
 
         //Secondary Weapon
         R39_Weapon_Secondary;
