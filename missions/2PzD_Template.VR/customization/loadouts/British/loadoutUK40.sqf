@@ -205,6 +205,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+        [GEN_Bino] call Olsen_FW_FNC_Additem;
 
         //Primary Weapon
         UK40_LeeEn;
@@ -248,8 +249,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        [GEN_BinoR] call Olsen_FW_FNC_AddItem;
-
+        
         //Primary Weapon
         UK40_LeeEn;
 
