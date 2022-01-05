@@ -73,7 +73,8 @@
 		[Fin_Vest_MG] call Olsen_FW_FNC_AddItem; \
         [Rus_Mag_DP_Tracer,1] call Olsen_FW_FNC_AddItem; \
         [Rus_Weap_DP] call Olsen_FW_FNC_AddItem; \
-        [Rus_Mag_DP_Tracer,4,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Rus_Mag_DP_Tracer,3,"vest"] call Olsen_FW_FNC_AddItem;
+        [Rus_Mag_DP_Tracer,6,"backpack"] call Olsen_FW_FNC_AddItem;
 
 //For Assistant Machinegunners
 #define F41_Weapon_MGA \
@@ -230,7 +231,6 @@
         //Extra
         [Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
 		[Rus_Gren_Smoke,1,"vest"] call Olsen_FW_FNC_AddItem;
-        [Rus_Mag_DP_Tracer,1,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
 	//Team Leader
@@ -294,6 +294,7 @@
 
         //Extra
         //The molotov backpack automatically comes with 3 molotovs, don't add more!
+        [Rus_Mag_DP_Tracer,1,"backpack"] call Olsen_FW_FNC_AddItem;
 		Remove_Helm_If_Needed;
     }];
 

@@ -80,7 +80,8 @@
 		[Fin_Vest_MG] call Olsen_FW_FNC_AddItem; \
         [Fin_Mag_Lahti_S_T,1] call Olsen_FW_FNC_AddItem; \
         [Fin_Weap_Lahti_S] call Olsen_FW_FNC_AddItem; \
-        [Fin_Mag_Lahti_S_T,7,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Fin_Mag_Lahti_S_T,3,"vest"] call Olsen_FW_FNC_AddItem;
+        [Fin_Mag_Lahti_S_T,8,"backpack"] call Olsen_FW_FNC_AddItem;
 
 //For Assistant Machinegunners
 #define F39_Weapon_MGA \
@@ -237,7 +238,6 @@
         //Extra
         [Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
 		[Rus_Gren_Smoke,1,"vest"] call Olsen_FW_FNC_AddItem;
-        [Fin_Mag_Lahti_S_T,1,"backpack"] call Olsen_FW_FNC_AddItem;
 		Remove_Helm_If_Needed;
     }];
 
@@ -303,6 +303,7 @@
 
         //Extra
         //The molotov backpack automatically comes with 3 molotovs, don't add more!
+        [Fin_Mag_Lahti_S_T,1,"backpack"] call Olsen_FW_FNC_AddItem;
 		Remove_Helm_If_Needed;
     }];
 
@@ -387,7 +388,7 @@
         //Extra
 		[Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
 		[Fin_Gren_Molotov,1,"vest"] call Olsen_FW_FNC_AddItem;
-        [Fin_Mag_Lahti_S_T,8,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Fin_Mag_Lahti_S_T,6,"backpack"] call Olsen_FW_FNC_AddItem;
 		Remove_Helm_If_Needed;
     }];
 
