@@ -155,15 +155,14 @@
         params ["_unit"];
 
         [Fin_Uni_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Primary Weapon & Vest
-        F41_Weapon_Rifleman;
-
         [Fin_BP_Med] call Olsen_FW_FNC_AddItem;
         [Fin_Hat] call Olsen_FW_FNC_AddItem;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+
+        //Primary Weapon & Vest
+        F41_Weapon_Rifleman;
 
         //Extra
 		[Fin_MedicalBand] call Olsen_FW_FNC_AddItem;
@@ -177,15 +176,14 @@
         params ["_unit"];
 
         [Fin_Uni_r] call Olsen_FW_FNC_AddItemRandom;
+        [Fin_Hat] call Olsen_FW_FNC_AddItem;
+        Fin_Face;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
 
         //Primary Weapon & Vest
         F41_Weapon_Rifleman;
-
-        [Fin_Hat] call Olsen_FW_FNC_AddItem;
-        Fin_Face;
 
         //Extra
         [Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
@@ -200,13 +198,12 @@
         [Rus_BP_Radio] call Olsen_FW_FNC_AddItem;
         [Fin_Hat] call Olsen_FW_FNC_AddItem;
 
-        //Primary Weapon & Vest
-        F41_Weapon_Rifleman;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         [GEN_Headset] call Olsen_FW_FNC_AddItem;
 
+        //Primary Weapon & Vest
+        F41_Weapon_Rifleman;
     }];
 
 //Squad 
@@ -238,10 +235,6 @@
         params ["_unit"];
 
         [Fin_Uni_TL] call Olsen_FW_FNC_AddItemRandom;
-
-        //Primary Weapon & Vest
-        F41_Weapon_Rifleman;
-
         [Fin_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Fin_Helmet_Late_r] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
@@ -249,6 +242,9 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
         [GEN_BinoG] call Olsen_FW_FNC_AddItem;
+
+        //Primary Weapon & Vest
+        F41_Weapon_Rifleman;
 
         //Extra
         [Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
@@ -265,11 +261,11 @@
         [Fin_Helmet_Late_r] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
 
-        //Primary Weapon
-        F41_Weapon_SMG;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        F41_Weapon_SMG;
 
         //Extra
         [Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
@@ -303,10 +299,6 @@
         params ["_unit"];
 
         [Fin_Uni_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Primary Weapon & Vest
-        F41_Weapon_Rifleman;
-
         [Fin_BP_Med] call Olsen_FW_FNC_AddItemRandom;
         [Fin_Hat] call Olsen_FW_FNC_AddItem;
         Fin_Face;
@@ -314,6 +306,9 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_MedicS_Equipment_Set;
+
+        //Primary Weapon & Vest
+        F41_Weapon_Rifleman;
 
         //Extra
         [Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
@@ -325,16 +320,15 @@
         params ["_unit"];
 
         [Fin_Uni_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Primary Weapon & Vest
-        F41_Weapon_Rifleman;
-
         [Fin_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Fin_Helmet_Late_r] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+
+        //Primary Weapon & Vest
+        F41_Weapon_Rifleman;
 
         //Extra
         [Fin_Gren_Frag_M32,2,"vest"] call Olsen_FW_FNC_AddItem;
@@ -351,14 +345,17 @@
         [Fin_Helmet_Late_r] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
 
-        //Secondary Weapon
-        F41_Weapon_Secondary;
+        //Assigned Items
+        GEN_Default_Equipment_Set;
 
         //Primary Weapon
         F41_Weapon_MG;
 
-		//Assigned Items
-        GEN_Default_Equipment_Set;
+        //Secondary Weapon
+        F41_Weapon_Secondary;
+
+        //Extra
+        [Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
     }];
 
 	//MG Assistant
@@ -370,11 +367,11 @@
         [Fin_Helmet_Late_r] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
 
-        //Primary Weapon
-        F41_Weapon_MGA;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        F41_Weapon_MGA;
         
         //Extra
 		[Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
@@ -395,12 +392,12 @@
         [Fin_Hat] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
         
-        //Primary Weapon
-        F41_Weapon_SMG;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        F41_Weapon_SMG;
 
 		//Extra
 		[Fin_Gren_Frag_M32,1,"vest"] call Olsen_FW_FNC_AddItem;
@@ -417,12 +414,12 @@
         [Fin_Helmet_Late_r] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
 
-        //Primary Weapon
-        F41_Weapon_SMG;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_Leader_Equipment_Set;
+
+        //Primary Weapon
+        F41_Weapon_SMG;
 
         //Secondary Weapon
         F41_Weapon_Secondary;
@@ -441,12 +438,12 @@
         [Fin_Hat] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
 
-        //Primary Weapon
-        F41_Weapon_SMG;
-
         //Assigned Items
         GEN_Default_Equipment_Set;
         [GEN_BinoG] call Olsen_FW_FNC_AddItem;
+
+        //Primary Weapon
+        F41_Weapon_SMG;
 
         //Extra
         [Fin_Gren_Frag_M32,1] call Olsen_FW_FNC_AddItem;
