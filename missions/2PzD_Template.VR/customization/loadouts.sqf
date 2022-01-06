@@ -22,7 +22,7 @@
 
     //=== Norwegian ===
     //Army
-//#include "loadouts\Norwegian\loadoutNOR40.sqf"
+//#include "loadouts\Norwegian\loadoutNor40.sqf"
 
     //=== Russian ===
     //Red Army
