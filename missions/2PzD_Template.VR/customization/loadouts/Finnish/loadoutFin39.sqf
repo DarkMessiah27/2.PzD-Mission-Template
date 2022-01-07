@@ -251,6 +251,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+        [GEN_BinoG] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon & Vest
         F39_Weapon_Rifleman;
