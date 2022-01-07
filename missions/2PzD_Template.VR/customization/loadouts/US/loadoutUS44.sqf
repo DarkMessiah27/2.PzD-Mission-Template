@@ -28,6 +28,7 @@
 [this, US44_BzkaTL] call Olsen_FW_FNC_GearScript;     Bazooka Team Leader
 [this, US44_BzkaG] call Olsen_FW_FNC_GearScript;      Bazooka Gunner
 
+    //Recon
 [this, US44_RCTL] call Olsen_FW_FNC_GearScript;       Recon Team Leader
 [this, US44_RCTS] call Olsen_FW_FNC_GearScript;       Recon Team Sniper
 
@@ -366,6 +367,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         US44_Weapon_Rifle;
@@ -374,7 +376,6 @@
         [GEN_Gren_Frag_P,1] call Olsen_FW_FNC_AddItem;
         [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
         [US_Mag_M1919_50_Mixed_Ball,12] call Olsen_FW_FNC_AddItem;
-        [GEN_BinoUS] call Olsen_FW_FNC_AddItem;
         [US_Weap_M1919A4_T] call Olsen_FW_FNC_AddItem;
     }];
 

@@ -412,7 +412,6 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         R41_Weapon_SMG;
@@ -433,7 +432,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        [GEN_BinoG] call Olsen_FW_FNC_AddItem;
+        GEN_Leader_Equipment_Set;
         
         //Primary Weapon
         R41_Weapon_SMG;

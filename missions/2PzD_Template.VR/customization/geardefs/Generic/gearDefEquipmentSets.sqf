@@ -15,7 +15,7 @@
     this removeItemfrombackpack "itemRadio";
 
 #define GEN_Leader_Equipment_Set \
-    [GEN_Bino] call Olsen_FW_FNC_AddItem; \
+    [GEN_BinoG] call Olsen_FW_FNC_AddItem; \
     [GEN_ace_maptools,1,"uniform"] call Olsen_FW_FNC_AddItem; \
 
 #define GEN_MedicP_Equipment_Set \

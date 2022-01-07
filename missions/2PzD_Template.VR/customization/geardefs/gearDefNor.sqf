@@ -46,6 +46,5 @@
 
 
 //MISC
-
 #define Nor_Rokboks						"NORTH_NOR_IMPROV_SMOKE"
 #define Nor_Tin_Grenade					"NORTH_NOR_IMPROV_GRENADE"

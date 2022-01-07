@@ -6,7 +6,7 @@
 
 /*Loadouts
 
-    Platoon
+    //Platoon
 [this, UK44_Lt] call Olsen_FW_FNC_GearScript;         Lieutenant
 [this, UK44_Sgt] call Olsen_FW_FNC_GearScript;        Sergeant
 [this, UK44_MedP] call Olsen_FW_FNC_GearScript;       Medic
@@ -17,17 +17,18 @@
 [this, UK44_AAR] call Olsen_FW_FNC_GearScript;        Bren Gun Assistant
 [this, UK44_Rif] call Olsen_FW_FNC_GearScript;        Rifleman
 
-    Weapons Teams
+    //Weapons Teams
 [this, UK44_MGTL] call Olsen_FW_FNC_GearScript;       Machine Gun Team Leader
 [this, UK44_MG] call Olsen_FW_FNC_GearScript;         Machine Gunner
 
 [this, UK44_ATRTL] call Olsen_FW_FNC_GearScript;      Boys Rifle Team Leader
 [this, UK44_ATRG] call Olsen_FW_FNC_GearScript;       Boys Rifle Gunner
 
+    //Recon
 [this, UK44_RCTL] call Olsen_FW_FNC_GearScript;       Recon Team Leader
 [this, UK44_RCTS] call Olsen_FW_FNC_GearScript;       Recon Team Sniper
 
-    Vehicle Crew
+    //Vehicle Crew
 [this, UK44_VCom] call Olsen_FW_FNC_GearScript;       Tank Commander
 [this, UK44_VCrew] call Olsen_FW_FNC_GearScript;      Tank Crew
 */
@@ -391,7 +392,7 @@
         [UK_Mag_Boys,5] call Olsen_FW_FNC_AddItem;
     }];
 
-    //Recon Team leader
+    //Recon Team Leader
     UK44_RCTL = ["UK44_RCTL", {
         params ["_unit"];
 

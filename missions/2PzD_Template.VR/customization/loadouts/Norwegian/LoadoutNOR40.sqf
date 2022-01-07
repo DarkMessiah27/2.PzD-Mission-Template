@@ -39,6 +39,11 @@
 		[Nor_Wep_M1914_P] call Olsen_FW_FNC_AddItem; \
 		[Nor_Mag_M1914_P,10,"vest"] call Olsen_FW_FNC_AddItem;
 
+#define Nor_Sniper \
+        [Ger_Mag_K98,1] call Olsen_FW_FNC_AddItem; \
+        [Ger_Weap_K98_Zf41] call Olsen_FW_FNC_AddItem; \
+        [Ger_Mag_K98,10,"vest"] call Olsen_FW_FNC_AddItem;
+
 //======================== Loadouts ========================
 
 	//Platoon
@@ -244,7 +249,7 @@
 
 //Recon Team
 
-		//Recon Team leader
+		//Recon Team Leader
 		Nor40_RCTL = ["Nor40_RCTL", {
         params ["_unit"];
 
@@ -266,7 +271,7 @@
         [Nor_Mag_M1894,2,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 	
-		//Recon Team Snioer
+		//Recon Team Sniper
 		Nor40_RCTS = ["Nor40_RCTS", {
         params ["_unit"];
 
@@ -278,13 +283,12 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-		GEN_Leader_Equipment_Set;
 
         //Primary Weapon
-        Nor_Krag;
+        Nor_Sniper;
 
         //Extra
         [Nor_Tin_Grenade,1,"vest"] call Olsen_FW_FNC_AddItem;
 		[Nor_Rokboks,1,"vest"] call Olsen_FW_FNC_AddItem;
-        [Nor_Mag_M1894,2,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_K98,2,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
