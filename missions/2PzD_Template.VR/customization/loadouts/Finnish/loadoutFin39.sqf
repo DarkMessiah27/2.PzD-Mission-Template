@@ -30,6 +30,10 @@
 [this, F39_ATRTL] call Olsen_FW_FNC_GearScript;       AT Rifle Team Leader
 [this, F39_ATRG] call Olsen_FW_FNC_GearScript;        AT Rifle Gunner
 
+    //Recon 
+[this, F39_RCTL] call Olsen_FW_FNC_GearScript;        Recon Team Leader
+[this, F39_RCTS] call Olsen_FW_FNC_GearScript;        Recon Member
+
     //Vehicle Crew
 [this, F39_VCom] call Olsen_FW_FNC_GearScript;        Tank Commander
 [this, F39_VCrew] call Olsen_FW_FNC_GearScript;       Tank Crew
@@ -98,6 +102,12 @@
                 [Fin_Mag_SIG,4,"vest"] \
             ],[30] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
+
+//For Marksmen
+#define F39_Weapon_Mosin_Scoped \
+        [Fin_Mag_Mos,1] call Olsen_FW_FNC_AddItem; \
+        [Fin_Weap_MosM39_S] call Olsen_FW_FNC_AddItem; \
+        [Fin_Mag_Mos,12,"vest"] call Olsen_FW_FNC_AddItem;
 
 //Pistol
 #define F39_Weapon_Secondary \
@@ -481,7 +491,50 @@
 		Remove_Helm_If_Needed;
     }];
 
-	//Vehicle Crew
+    //Recon
+
+    //Recon Team leader
+        F39_RCTL = ["F39_RCTL", {
+        params ["_unit"];
+
+        [Fin_Uni_TL] call Olsen_FW_FNC_AddItem;
+        [Fin_BP] call Olsen_FW_FNC_AddItem;
+        [Fin_Hat] call Olsen_FW_FNC_AddItemRandom;
+        Fin_Face;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon & Vest
+        F39_Weapon_Rifleman;
+
+        //Extra
+        [Fin_Gren_Frag_M32,2] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Smoke,1] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team Sniper
+    F39_RCTS = ["F39_RCTS", {
+        params ["_unit"];
+
+        [Fin_Uni_r] call Olsen_FW_FNC_AddItem;
+        [Fin_Vest_Mosin] call Olsen_FW_FNC_AddItem;
+        [Fin_BP] call Olsen_FW_FNC_AddItem;
+        [Fin_Hat] call Olsen_FW_FNC_AddItemRandom;
+        Fin_Face;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        F39_Weapon_Mosin_Scoped;
+
+        //Extra
+        [Rus_Gren_Smoke,1] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Vehicle Crew
 
     //Tank Commander
     F39_VCom = ["F39_VCom", {

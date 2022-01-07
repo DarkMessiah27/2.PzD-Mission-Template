@@ -30,6 +30,10 @@
 [this, F41_ATRTL] call Olsen_FW_FNC_GearScript;       AT Rifle Team Leader
 [this, F41_ATRG] call Olsen_FW_FNC_GearScript;        AT Rifle Gunner
 
+    //Recon 
+[this, F41_RCTL] call Olsen_FW_FNC_GearScript;        Recon Team Leader
+[this, F41_RCTS] call Olsen_FW_FNC_GearScript;        Recon Member
+
     //Vehicle Crew
 [this, F41_VCom] call Olsen_FW_FNC_GearScript;        Tank Commander
 [this, F41_VCrew] call Olsen_FW_FNC_GearScript;       Tank Crew
@@ -91,6 +95,12 @@
                 [Fin_Mag_Suomi_S20,5,"vest"] \
             ],[30] \
         ] call Olsen_FW_FNC_AddItemRandomPercent;
+
+//For Marksmen
+#define F41_Weapon_Mosin_Scoped \
+        [Fin_Mag_Mos,1] call Olsen_FW_FNC_AddItem; \
+        [Fin_Weap_MosM39_S] call Olsen_FW_FNC_AddItem; \
+        [Fin_Mag_Mos,12,"vest"] call Olsen_FW_FNC_AddItem;
 
 //Pistol
 #define F41_Weapon_Secondary \
@@ -467,6 +477,49 @@
 		//Extra
 		[Fin_Mag_AT_Rifle,3,"vest"] call Olsen_FW_FNC_AddItem;
 		Remove_Helm_If_Needed;
+    }];
+
+//Recon
+
+    //Recon Team leader
+        F41_RCTL = ["F41_RCTL", {
+        params ["_unit"];
+
+        [Fin_Uni_TL] call Olsen_FW_FNC_AddItem;
+        [Fin_BP] call Olsen_FW_FNC_AddItem;
+        [Fin_Hat] call Olsen_FW_FNC_AddItemRandom;
+        Fin_Face;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+        GEN_Leader_Equipment_Set;
+
+        //Primary Weapon & Vest
+        F41_Weapon_Rifleman;
+
+        //Extra
+        [Fin_Gren_Frag_M32,2] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Smoke,1] call Olsen_FW_FNC_AddItem;
+    }];
+
+    //Recon Team Sniper
+    F41_RCTS = ["F41_RCTS", {
+        params ["_unit"];
+
+        [Fin_Uni_r] call Olsen_FW_FNC_AddItem;
+        [Fin_Vest_Mosin] call Olsen_FW_FNC_AddItem;
+        [Fin_BP] call Olsen_FW_FNC_AddItem;
+        [Fin_Hat] call Olsen_FW_FNC_AddItemRandom;
+        Fin_Face;
+
+        //Assigned Items
+        GEN_Default_Equipment_Set;
+
+        //Primary Weapon
+        F41_Weapon_Mosin_Scoped;
+
+        //Extra
+        [Rus_Gren_Smoke,1] call Olsen_FW_FNC_AddItem;
     }];
 
 	//Vehicle Crew

@@ -21,6 +21,7 @@
 #define Fin_Hat_SL			      "H_NORTH_FIN_M36_fieldcap_worn_officer"
 #define Fin_Hat                               "H_NORTH_FIN_M36_fieldcap_worn"
 
+#define Fin_Helmet_Early_r                    ["H_NORTH_FIN_M36_fieldcap_worn"],["H_NORTH_FIN_M36_fieldcap_worn"],["H_NORTH_FIN_M16_Helmet"],["H_NORTH_FIN_M16_Helmet"],["H_NORTH_FIN_M37_Helmet_Moss_2"]
 #define Fin_Helmet_Late_r                     ["H_NORTH_FIN_M38_Helmet"],["H_NORTH_FIN_M38_Helmet"],["H_NORTH_FIN_M16_Helmet"],["H_NORTH_FIN_M16_Helmet"],["H_NORTH_FIN_M16_Helmet_Moss"],["H_NORTH_FIN_M36_fieldcap_worn"],["H_NORTH_FIN_M37_Helmet_Moss_2"]
 
 //Facewear                  
