@@ -479,7 +479,7 @@
 		Remove_Helm_If_Needed;
     }];
 
-//Recon
+    //Recon
 
     //Recon Team leader
     F41_RCTL = ["F41_RCTL", {
