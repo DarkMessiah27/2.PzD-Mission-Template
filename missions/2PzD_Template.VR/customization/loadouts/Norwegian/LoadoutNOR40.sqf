@@ -244,7 +244,7 @@
 
 //Recon Team
 
-		//Recon Team leader
+		//Recon Team Leader
 		Nor40_RCTL = ["Nor40_RCTL", {
         params ["_unit"];
 
@@ -266,7 +266,7 @@
         [Nor_Mag_M1894,2,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 	
-		//Recon Team Snioer
+		//Recon Team Sniper
 		Nor40_RCTS = ["Nor40_RCTS", {
         params ["_unit"];
 

@@ -437,7 +437,7 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        [GEN_BinoG] call Olsen_FW_FNC_AddItem;
+        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         R44_Weapon_SMG;

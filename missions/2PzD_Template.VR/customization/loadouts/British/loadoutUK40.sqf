@@ -6,7 +6,7 @@
 
 /*Loadouts
 
-    Platoon
+    //Platoon
 [this, UK40_Lt] call Olsen_FW_FNC_GearScript;         Lieutenant
 [this, UK40_Sgt] call Olsen_FW_FNC_GearScript;        Sergeant
 [this, UK40_MedP] call Olsen_FW_FNC_GearScript;       Medic
@@ -17,17 +17,18 @@
 [this, UK40_AAR] call Olsen_FW_FNC_GearScript;        Bren Gun Assistant
 [this, UK40_Rif] call Olsen_FW_FNC_GearScript;        Rifleman
 
-    Weapons Teams
+    //Weapons Teams
 [this, UK40_MGTL] call Olsen_FW_FNC_GearScript;       Machine Gun Team Leader
 [this, UK40_MG] call Olsen_FW_FNC_GearScript;         Machine Gunner
 
 [this, UK40_ATRTL] call Olsen_FW_FNC_GearScript;      Boys Rifle Team Leader
 [this, UK40_ATRG] call Olsen_FW_FNC_GearScript;       Boys Rifle Gunner
 
+    //Recon
 [this, UK40_RCTL] call Olsen_FW_FNC_GearScript;       Recon Team Leader
 [this, UK40_RCTS] call Olsen_FW_FNC_GearScript;       Recon Team Sniper
 
-    Vehicle Crew
+    //Vehicle Crew
 [this, UK40_VCom] call Olsen_FW_FNC_GearScript;       Tank Commander
 [this, UK40_VCrew] call Olsen_FW_FNC_GearScript;      Tank Crew
 */
