@@ -416,7 +416,6 @@
 
         //Assigned Items
         GEN_Default_Equipment_Set;
-        GEN_Leader_Equipment_Set;
 
         //Primary Weapon
         [Rus_Weap_PPSH] call Olsen_FW_FNC_AddItem;
