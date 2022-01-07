@@ -494,7 +494,7 @@
     //Recon
 
     //Recon Team leader
-        F39_RCTL = ["F39_RCTL", {
+    F39_RCTL = ["F39_RCTL", {
         params ["_unit"];
 
         [Fin_Uni_TL] call Olsen_FW_FNC_AddItem;
