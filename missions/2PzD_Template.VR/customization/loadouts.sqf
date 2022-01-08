@@ -58,6 +58,8 @@
 
 //#include "loadoutsVeh\German\vehLoadoutFSJ.sqf"
 
+//#include "loadoutsVeh\Norwegian\vehLoadoutNOR.sqf"
+
 //#include "loadoutsVeh\Russian\vehLoadoutRUS.sqf"
 
 //#include "loadoutsVeh\US\vehLoadoutUS.sqf"
