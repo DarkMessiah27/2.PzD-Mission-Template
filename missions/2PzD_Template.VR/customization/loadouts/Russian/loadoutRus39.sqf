@@ -158,16 +158,15 @@
         params ["_unit"];
 
         [Rus_Uni39_Rif] call Olsen_FW_FNC_AddItem;
+        [Rus_BP_Med] call Olsen_FW_FNC_AddItem;
+        [Rus_Hat39] call Olsen_FW_FNC_AddItem;
+        Rus_Face;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
 
         //Primary Weapon & Vest
         R39_Weapon_Rifleman;
-
-        [Rus_BP_Med] call Olsen_FW_FNC_AddItem;
-        [Rus_Hat39] call Olsen_FW_FNC_AddItem;
-        Rus_Face;
 
         //Extra
         GEN_MedicP_Equipment_Set;
@@ -178,15 +177,14 @@
         params ["_unit"];
 
         [Rus_Uni39_Rif] call Olsen_FW_FNC_AddItem;
+        [Rus_Hat39] call Olsen_FW_FNC_AddItem;
+        Rus_Face;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
 
         //Primary Weapon & Vest
         R39_Weapon_Rifleman;
-
-        [Rus_Hat39] call Olsen_FW_FNC_AddItem;
-        Rus_Face;
 
         //Extra
         [Rus_Gren_Frag_S,1] call Olsen_FW_FNC_AddItem;
