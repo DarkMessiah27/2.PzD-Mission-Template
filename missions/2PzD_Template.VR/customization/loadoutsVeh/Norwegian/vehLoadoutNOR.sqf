@@ -15,7 +15,6 @@
     [Ger_Mag_K98, 5] call Olsen_FW_FNC_AdditemVehicle; \
     [GEN_Toolkit, 1] call Olsen_FW_FNC_AddItemVehicle;
 
-
 //======================== Loadouts ========================
 
 Nor_Resupply = ["Nor_Resupply", {
