@@ -3,7 +3,7 @@
 //1939 Uniforms
 #define Rus_Uni39_CC                              "U_NORTH_SOV_Obr35_W_Greatcoat_Cpt"
 #define Rus_Uni39_CSgt                            "U_NORTH_SOV_Obr35_W_Greatcoat_Sergeant_Major"
-#define Rus_Uni39_PC                              "U_NORTH_SOV_Obr35_W_Greatcoat_2ndLt"
+#define Rus_Uni39_PC                              "U_NORTH_SOV_Obr35_W_Greatcoat_1stLt"
 #define Rus_Uni39_PSgt                            "U_NORTH_SOV_Obr35_W_Greatcoat_Staff_Sergeant"
 #define Rus_Uni39_SL                              "U_NORTH_SOV_Obr35_W_Greatcoat_Sergeant"
 #define Rus_Uni39_TL                              "U_NORTH_SOV_Obr41_W_Greatcoat_Corporal"
@@ -11,9 +11,9 @@
 #define Rus_Uni39_Snip							  "U_NORTH_SOV_Obr37_W_MKK_2"
 
 //1941 Uniforms
-#define Rus_Uni41_CC                              "U_NORTH_SOV_Obr31_W_Polushubuk"
-#define Rus_Uni41_CSgt                            "U_NORTH_SOV_Obr31_W_Polushubuk"
-#define Rus_Uni41_PC                              "U_NORTH_SOV_Obr41_W_Greatcoat_2ndLt"
+#define Rus_Uni41_CC                              "U_NORTH_SOV_Obr41_W_Greatcoat_Cpt"
+#define Rus_Uni41_CSgt                            "U_NORTH_SOV_Obr41_W_Greatcoat_Sergeant_Major"
+#define Rus_Uni41_PC                              "U_NORTH_SOV_Obr41_W_Greatcoat_1stLt"
 #define Rus_Uni41_PSgt                            "U_NORTH_SOV_Obr41_W_Greatcoat_Staff_Sergeant"
 #define Rus_Uni41_SL                              "U_NORTH_SOV_Obr41_W_Greatcoat_Sergeant"
 #define Rus_Uni41_TL                              "U_NORTH_SOV_Obr41_W_Greatcoat_Corporal"
@@ -21,13 +21,13 @@
 #define Rus_Uni41_Snip							  "U_NORTH_SOV_Obr37_W_MKK_2"
 
 //1944 Uniforms
-#define Rus_Uni44_CC                              "U_NORTH_SOV_Obr31_W_Polushubuk"
-#define Rus_Uni44_CSgt                            "U_NORTH_SOV_Obr31_W_Polushubuk"
-#define Rus_Uni44_PC                              "U_NORTH_SOV_Obr37_43_W_MKK_5"
-#define Rus_Uni44_PSgt                            "U_NORTH_SOV_Obr37_43_W_MKK_5"
-#define Rus_Uni44_SL                              "U_NORTH_SOV_Obr37_43_W_MKK_5"
-#define Rus_Uni44_TL                              "U_NORTH_SOV_Obr37_43_W_MKK_5"
-#define Rus_Uni44_Rif                             "U_NORTH_SOV_Obr37_43_W_MKK_5"
+#define Rus_Uni44_CC                              "U_NORTH_SOV_Obr41_W_Greatcoat_Cpt"
+#define Rus_Uni44_CSgt                            "U_NORTH_SOV_Obr41_W_Greatcoat_Sergeant_Major"
+#define Rus_Uni44_PC                              "U_NORTH_SOV_Obr41_W_Greatcoat_1stLt"
+#define Rus_Uni44_PSgt                            "U_NORTH_SOV_Obr41_W_Greatcoat_Staff_Sergeant"
+#define Rus_Uni44_SL                              "U_NORTH_SOV_Obr41_W_Greatcoat_Sergeant"
+#define Rus_Uni44_TL                              "U_NORTH_SOV_Obr41_W_Greatcoat_Corporal"
+#define Rus_Uni44_Rif                             "U_NORTH_SOV_Obr41_W_Greatcoat_Private_4"
 #define Rus_Uni44_Snip							  "U_NORTH_SOV_Obr37_W_MKK_2"
 
 //Tank Crew
