@@ -156,7 +156,7 @@
 
         //Extra
         [Rus_Gren_Frag_S2,2] call Olsen_FW_FNC_AddItem;
-        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Smoke,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Medic
@@ -481,7 +481,7 @@
 
         //Extra
         [Rus_Gren_Frag_S2,2] call Olsen_FW_FNC_AddItem;
-        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Smoke,1] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Sniper
@@ -502,7 +502,7 @@
 
         //Extra
         [Rus_Gren_Frag_S2,2] call Olsen_FW_FNC_AddItem;
-        [GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [Rus_Gren_Smoke,1] call Olsen_FW_FNC_AddItem;
     }];
 
 //Vehicle Crew
