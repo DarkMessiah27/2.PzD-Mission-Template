@@ -37,4 +37,5 @@
     [GEN_Saline500, 15] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Saline1000, 5] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_TQ, 20] call Olsen_FW_FNC_AddItemVehicle; \
-    [GEN_Epi, 20] call Olsen_FW_FNC_AddItemVehicle;
+    [GEN_Epi, 20] call Olsen_FW_FNC_AddItemVehicle; \
+    [GEN_Painkiller, 20] call Olsen_FW_FNC_AddItemVehicle;

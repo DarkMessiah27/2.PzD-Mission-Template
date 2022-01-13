@@ -102,6 +102,7 @@
 #define GEN_Saline500           "ACE_salineIV_500"
 #define GEN_Saline250           "ACE_salineIV_250"
 #define GEN_PAK                 "ACE_personalAidKit"
+#define GEN_Painkiller          "FF_Painkiller"
 
 //Demo & Mines
 #define GEN_DemoLarge           "SatchelCharge_Remote_Mag"  //Can only be used with GEN_ace_firing_device
