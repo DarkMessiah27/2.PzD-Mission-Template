@@ -1,4 +1,4 @@
-// Automatically delete any map markers placed after the mission starts unless they are in the vehicle or direct channels.
+// Automatically delete any map markers placed after the mission starts unless they are in the vehicle,direct or group channels.
 // Informs the placing player that map markers are forbidden in that channel.
 
 addMissionEventHandler ["MarkerCreated", {
