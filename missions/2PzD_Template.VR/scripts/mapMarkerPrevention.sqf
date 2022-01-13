@@ -1,4 +1,4 @@
-// Automatically delete any map markers placed after the mission starts unless they are in the vehicle,direct or group channels.
+// Automatically delete any map markers placed after the mission starts unless they are in the vehicle, direct or group channels.
 // Informs the placing player that map markers are forbidden in that channel.
 
 addMissionEventHandler ["MarkerCreated", {
@@ -7,7 +7,7 @@ addMissionEventHandler ["MarkerCreated", {
     if (CBA_missionTime > 1 && {_channelNumber in [0,1,2] && {_owner == player}}) then {
         if (!isNil "God" && {God isEqualTo _owner || {group _owner isEqualTo group God}}) exitWith {}; //Zeuses can always place new markers
 
-        systemChat "Placing map markers during the mission is forbidden in this channel. You must use the Vehicle,Direct or Group channels.";
+        systemChat "Placing map markers during the mission is forbidden in this channel. You must use the Vehicle, Direct or Group channels.";
 
         [
             {
