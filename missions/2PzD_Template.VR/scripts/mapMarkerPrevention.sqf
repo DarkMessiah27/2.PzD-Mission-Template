@@ -4,10 +4,10 @@
 addMissionEventHandler ["MarkerCreated", {
     params ["_marker", "_channelNumber", "_owner"];
 
-    if (CBA_missionTime > 1 && {_channelNumber in [0,1,2,3] && {_owner == player}}) then {
+    if (CBA_missionTime > 1 && {_channelNumber in [0,1,2] && {_owner == player}}) then {
         if (!isNil "God" && {God isEqualTo _owner || {group _owner isEqualTo group God}}) exitWith {}; //Zeuses can always place new markers
 
-        systemChat "Placing map markers during the mission is forbidden in this channel. You must use the Vehicle or Direct channels.";
+        systemChat "Placing map markers during the mission is forbidden in this channel. You must use the Vehicle,Direct or Group channels.";
 
         [
             {
@@ -42,7 +42,7 @@ Olsen_FW_FNC_removeForbiddenMarkers = {
                     case "0" : { _delete = True };    // Global
                     case "1" : { _delete = True };    // Side
                     case "2" : { _delete = True };    // Command
-                    case "3" : { _delete = True };    // Group
+                    // case "3" : { _delete = True };    // Group
                     // case "4" : { _delete = True };    // Vehicle
                     // case "5" : { _delete = True };    // Direct
                 };
