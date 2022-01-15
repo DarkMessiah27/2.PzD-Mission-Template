@@ -1,4 +1,4 @@
-//=== Weapons ===
+//======================== Norwegian Weapon Definitions ========================
 
 //Primary
 #define Nor_Wep_M1894                   "NORTH_nor_krag1894"
