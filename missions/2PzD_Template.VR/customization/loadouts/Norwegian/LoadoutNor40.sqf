@@ -104,16 +104,16 @@
         [Nor_Vest_Rifleman] call Olsen_FW_FNC_AddItem;
 		[Nor_BP_Telemark] call Olsen_FW_FNC_AddItem;
         [Nor_Hat_Fieldcap] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
+        GEN_MedicP_Equipment_Set;
 
         //Primary Weapon
         Nor_Krag;
 
         //Extra
-        GEN_MedicP_Equipment_Set;
+        [Nor_MedicalBand] call Olsen_FW_FNC_AddItem;
         [Nor_Rokboks,1] call Olsen_FW_FNC_AddItem;
     }];
 

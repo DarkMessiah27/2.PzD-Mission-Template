@@ -699,7 +699,7 @@ class items
 				class Attributes
 				{
 					init="[this, Nor40_AR] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Bren Gunner@1 Platoon | 1 Section";
+					description="Madsen Gunner@1 Platoon | 1 Section";
 					isPlayable=1;
 					class Inventory
 					{
@@ -768,7 +768,7 @@ class items
 				class Attributes
 				{
 					init="[this, Nor40_AAR] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Bren Gun Assistant@1 Platoon | 1 Section";
+					description="Madsen Gun Assistant@1 Platoon | 1 Section";
 					isPlayable=1;
 					class Inventory
 					{
@@ -1212,7 +1212,7 @@ class items
 				class Attributes
 				{
 					init="[this, Nor40_AR] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Bren Gunner@1 Platoon | 2 Section";
+					description="Madsen Gunner@1 Platoon | 2 Section";
 					isPlayable=1;
 					class Inventory
 					{
@@ -1281,7 +1281,7 @@ class items
 				class Attributes
 				{
 					init="[this, Nor40_AAR] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Bren Gun Assistant@1 Platoon | 2 Section";
+					description="Madsen Gun Assistant@1 Platoon | 2 Section";
 					isPlayable=1;
 					class Inventory
 					{
@@ -1575,7 +1575,7 @@ class items
 				class Attributes
 				{
 					init="[this, Nor40_AR] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Bren Gunner@1 Platoon | 3 Section";
+					description="Madsen Gunner@1 Platoon | 3 Section";
 					isPlayable=1;
 					class Inventory
 					{
@@ -1644,7 +1644,7 @@ class items
 				class Attributes
 				{
 					init="[this, Nor40_AAR] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Bren Gun Assistant@1 Platoon | 3 Section";
+					description="Madsen Gun Assistant@1 Platoon | 3 Section";
 					isPlayable=1;
 					class Inventory
 					{
@@ -2637,7 +2637,7 @@ class items
 				class Attributes
 				{
 					init="[this, Nor40_AR] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Bren Gunner@1 Platoon | Reserve Section";
+					description="Madsen Gunner@1 Platoon | Reserve Section";
 					isPlayable=1;
 					class Inventory
 					{
@@ -2725,7 +2725,7 @@ class items
 				class Attributes
 				{
 					init="[this, Nor40_AAR] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Bren Gun Assistant@1 Platoon | Reserve Section";
+					description="Madsen Gun Assistant@1 Platoon | Reserve Section";
 					isPlayable=1;
 					class Inventory
 					{
