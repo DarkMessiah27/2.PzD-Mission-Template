@@ -37,15 +37,15 @@
 #define Rus_Uni44_VCrew                           "U_NORTH_SOV_Obr32_W_Telogreika_3"
 
 //Headgear
-#define Rus_Hat_PC                               "H_NORTH_SOV_Obr40_Ushanka_fancy"
-#define Rus_Hat                                  "H_NORTH_SOV_Obr40_Ushanka"
-#define Rus_Hat39								 "H_NORTH_SOV_Obr31_Finka"
-#define Rus_Helmet                               "H_LIB_SOV_RA_Helmet_w"
+#define Rus_Hat_PC                                "H_NORTH_SOV_Obr40_Ushanka_fancy"
+#define Rus_Hat                                   "H_NORTH_SOV_Obr40_Ushanka"
+#define Rus_Hat39								  "H_NORTH_SOV_Obr31_Finka"
+#define Rus_Helmet                                "H_LIB_SOV_RA_Helmet_w"
 
-#define Rus_Helmet_r						     ["H_LIB_SOV_RA_Helmet_w"],["H_NORTH_SOV_Obr40_Ushanka_2"],["H_NORTH_SOV_Obr31_Finka_2"],["H_NORTH_SOV_SSh40_Helmet_Winter_2"],["H_NORTH_SOV_SSh40_Helmet_Winter_2"]
-#define Rus_Helmet39_r							 ["H_NORTH_SOv_Obr27_Budenovka"],["H_NORTH_SOv_Obr27_Budenovka"],["H_NORTH_SOv_Obr27_Budenovka"],["H_NORTH_SOv_Obr27_Budenovka"],["H_NORTH_SOv_Obr27_Budenovka_unfolded"],["H_NORTH_SOV_SSh36_Helmet_empty"]
+#define Rus_Helmet_r						      ["H_LIB_SOV_RA_Helmet_w"],["H_NORTH_SOV_Obr40_Ushanka_2"],["H_NORTH_SOV_Obr31_Finka_2"],["H_NORTH_SOV_SSh40_Helmet_Winter_2"],["H_NORTH_SOV_SSh40_Helmet_Winter_2"]
+#define Rus_Helmet39_r							  ["H_NORTH_SOv_Obr27_Budenovka"],["H_NORTH_SOv_Obr27_Budenovka"],["H_NORTH_SOv_Obr27_Budenovka"],["H_NORTH_SOv_Obr27_Budenovka"],["H_NORTH_SOv_Obr27_Budenovka_unfolded"],["H_NORTH_SOV_SSh36_Helmet_empty"]
 
-#define Rus_Hat_VCrew_r                          ["H_NORTH_SOV_Tankerhelmet"],["H_NORTH_SOV_Tankerhelmet_open"]
+#define Rus_Hat_VCrew_r                           ["H_NORTH_SOV_Tankerhelmet"],["H_NORTH_SOV_Tankerhelmet_open"]
 
 //Facewear
 #define Rus_Face \
