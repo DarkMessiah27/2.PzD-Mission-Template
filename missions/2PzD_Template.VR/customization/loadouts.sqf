@@ -50,18 +50,18 @@
 // Remove the // at the start of a line to enable that loadout set.
 // Delete all the loadout files you are not using in order to keep the filesize down.
 
-#include "loadoutsVeh\Generic\vehLoadoutGEN.sqf"
+//#include "loadoutsVeh\vehLoadoutFIN.sqf"
 
-//#include "loadoutsVeh\British\vehLoadoutUK.sqf"
+//#include "loadoutsVeh\vehLoadoutFSJ.sqf"
 
-#include "loadoutsVeh\German\vehLoadoutWHR.sqf"
+#include "loadoutsVeh\vehLoadoutGEN.sqf"
 
-//#include "loadoutsVeh\German\vehLoadoutFSJ.sqf"
+//#include "loadoutsVeh\vehLoadoutNor.sqf"
 
-//#include "loadoutsVeh\Norwegian\vehLoadoutNor.sqf"
+//#include "loadoutsVeh\vehLoadoutRUS.sqf"
 
-//#include "loadoutsVeh\Russian\vehLoadoutRUS.sqf"
+//#include "loadoutsVeh\vehLoadoutUK.sqf"
 
-//#include "loadoutsVeh\US\vehLoadoutUS.sqf"
+//#include "loadoutsVeh\vehLoadoutUS.sqf"
 
-//#include "loadoutsVeh\Finnish\vehLoadoutFIN.sqf"
+#include "loadoutsVeh\vehLoadoutWHR.sqf"
