@@ -71,7 +71,7 @@
             [/*PPD40*/ \
                 [Rus_Mag_PPD40,1], \
                 [Rus_Weap_PPD40], \
-                [RRus_Mag_PPD40,2,"vest"] \
+                [RRus_Mag_PPD40,3,"vest"] \
             ],[70], \
             [/*PPSh41*/ \
                 [Rus_Mag_PPSH_D,1], \
@@ -469,7 +469,7 @@
 
         [Rus_Uni41_Snip] call Olsen_FW_FNC_AddItem;
         [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
-        [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_Hat] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
 
         //Assigned Items
@@ -491,7 +491,7 @@
         [Rus_Uni41_Snip] call Olsen_FW_FNC_AddItem;
         [Rus_Vest_Mosin] call Olsen_FW_FNC_AddItem;
         [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
-        [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_Hat] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
 
         //Assigned Items
@@ -511,8 +511,8 @@
     R41_VCom = ["R41_VCom", {
         params ["_unit"];
 
-        [Rus_Uni_VCrew] call Olsen_FW_FNC_AddItem;
-        [Rus_Vest_PC] call Olsen_FW_FNC_AddItem;
+        [Rus_Uni41_VCom] call Olsen_FW_FNC_AddItem;
+        [Rus_Vest_VCom] call Olsen_FW_FNC_AddItem;
         [Rus_Hat_VCrew_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -521,9 +521,7 @@
         GEN_Leader_Equipment_Set;
 
         //Primary Weapon
-        [Rus_Mag_PPD40,1] call Olsen_FW_FNC_AddItem;
-        [Rus_Weap_PPD40] call Olsen_FW_FNC_AddItem;
-        [Rus_Mag_PPD40,1,"vest"] call Olsen_FW_FNC_AddItem;
+        R41_Weapon_SMG;
 
         //Secondary Weapon
         R41_Weapon_Secondary;
@@ -533,9 +531,8 @@
     R41_VCrew = ["R41_VCrew", {
         params ["_unit"];
 
-        [Rus_Uni_VCrew] call Olsen_FW_FNC_AddItem;
+        [Rus_Uni41_VCrew] call Olsen_FW_FNC_AddItem;
         [Rus_Vest_VCrew] call Olsen_FW_FNC_AddItem;
-        [Rus_BP] call Olsen_FW_FNC_AddItem;
         [Rus_Hat_VCrew_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
