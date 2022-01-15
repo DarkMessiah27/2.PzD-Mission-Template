@@ -17,6 +17,7 @@
     #include "geardefs\British\gearDefUKRegular.sqf"
     #include "geardefs\Finnish\gearDefFinRegular.sqf"
     #include "geardefs\German\gearDefGerRegular.sqf"
+    #include "geardefs\Norwegian\gearDefNorRegular.sqf"
     #include "geardefs\Russian\gearDefRusRegular.sqf"
     #include "geardefs\US\gearDefUSRegular.sqf"
 #endif
@@ -25,6 +26,7 @@
     #include "geardefs\British\gearDefUKWinter.sqf"
     #include "geardefs\Finnish\gearDefFinWinter.sqf"
     #include "geardefs\German\gearDefGerWinter.sqf"
+    #include "geardefs\Norwegian\gearDefNorWinter.sqf"
     #include "geardefs\Russian\gearDefRusWinter.sqf"
     #include "geardefs\US\gearDefUSWinter.sqf"
 #endif
@@ -55,6 +57,10 @@
 
 #include "geardefs\German\gearDefGerWeapons.sqf"
 
+#include "geardefs\Norwegian\gearDefNor.sqf"
+
+#include "geardefs\Norwegian\gearDefNorWeapons.sqf"
+
 #include "geardefs\Russian\gearDefNKVD.sqf"
 
 #include "geardefs\Russian\gearDefRus.sqf"
@@ -72,8 +78,6 @@
 #include "geardefs\gearDefCiv.sqf"
 
 #include "geardefs\gearDefCzech.sqf"
-
-#include "geardefs\gearDefNor.sqf"
 
 #include "geardefs\gearDefParti.sqf"
 
