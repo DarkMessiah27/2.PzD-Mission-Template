@@ -514,8 +514,8 @@
     R39_VCom = ["R39_VCom", {
         params ["_unit"];
 
-        [Rus_Uni_VCrew] call Olsen_FW_FNC_AddItem;
-        [Rus_Vest_PC] call Olsen_FW_FNC_AddItem;
+        [Rus_Uni39_VCom] call Olsen_FW_FNC_AddItem;
+        [Rus_Vest_VCom] call Olsen_FW_FNC_AddItem;
         [Rus_Hat_VCrew_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -531,9 +531,8 @@
     R39_VCrew = ["R39_VCrew", {
         params ["_unit"];
 
-        [Rus_Uni_VCrew] call Olsen_FW_FNC_AddItem;
+        [Rus_Uni39_VCrew] call Olsen_FW_FNC_AddItem;
         [Rus_Vest_VCrew] call Olsen_FW_FNC_AddItem;
-        [Rus_BP39] call Olsen_FW_FNC_AddItem;
         [Rus_Hat_VCrew_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 

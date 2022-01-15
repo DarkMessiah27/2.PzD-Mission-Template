@@ -16,7 +16,8 @@
 #define Rus_Vest_MG                             "V_NORTH_SOV_Belt_Pistol_4"
 #define Rus_Vest_HGun                           "V_NORTH_SOV_Belt_Pistol_3"
 
-#define Rus_Vest_VCrew                          "V_LIB_GER_TankPrivateBelt"
+#define Rus_Vest_VCom                           "V_NORTH_SOV_Belt_Officer_3"
+#define Rus_Vest_VCrew                          "V_NORTH_SOV_Belt_Pistol"
 
 //Backpack
 #define Rus_BP                                  "NORTH_SOV_Veshmeshok"

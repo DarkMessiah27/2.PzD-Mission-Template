@@ -66,8 +66,7 @@
                 [Rus_Vest_PPSH_S1], \
                 [Rus_Mag_PPSH_S,1], \
                 [Rus_Weap_PPSH], \
-                [Rus_Mag_PPSH_S,3,"vest"], \
-                [Rus_Mag_PPSH_D,2,"vest"] \
+                [Rus_Mag_PPSH_S,5,"vest"], \
             ],[50], \
             [/*PPSh-41, Drum*/ \
                 [Rus_Vest_PPSH_D1], \
@@ -472,7 +471,7 @@
 
         [Rus_Uni44_Snip] call Olsen_FW_FNC_AddItem;
         [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
-        [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_Hat] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
 
         //Assigned Items
@@ -495,7 +494,7 @@
         [Rus_Uni44_Snip] call Olsen_FW_FNC_AddItem;
         [Rus_Vest_Mosin] call Olsen_FW_FNC_AddItem;
         [Rus_BP_r] call Olsen_FW_FNC_AddItemRandom;
-        [Rus_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_Hat] call Olsen_FW_FNC_AddItemRandom;
         Rus_Face;
 
         //Assigned Items
@@ -516,7 +515,7 @@
     R44_VCom = ["R44_VCom", {
         params ["_unit"];
 
-        [Rus_Uni_VCrew] call Olsen_FW_FNC_AddItem;
+        [Rus_Uni44_VCom] call Olsen_FW_FNC_AddItem;
         [Rus_Hat_VCrew_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -535,9 +534,8 @@
     R44_VCrew = ["R44_VCrew", {
         params ["_unit"];
 
-        [Rus_Uni_VCrew] call Olsen_FW_FNC_AddItem;
+        [Rus_Uni44_VCrew] call Olsen_FW_FNC_AddItem;
         [Rus_Vest_VCrew] call Olsen_FW_FNC_AddItem;
-        [Rus_BP] call Olsen_FW_FNC_AddItem;
         [Rus_Hat_VCrew_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
 
