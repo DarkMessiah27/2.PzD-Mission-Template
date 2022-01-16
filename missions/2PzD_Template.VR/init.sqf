@@ -1,10 +1,6 @@
 
 #define framework
 
-if (isDedicated) then {
-    ['Mission Started', 'info'] call MAR_fnc_log;
-};
-
 #include "core\script_macros.hpp"
 #include "core\init.sqf" //DO NOT REMOVE
 #include "customization\settings.sqf" //DO NOT REMOVE
