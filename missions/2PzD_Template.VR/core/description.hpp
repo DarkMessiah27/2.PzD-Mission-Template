@@ -14,7 +14,7 @@
     enableTargetDebug = 1; //Enable CBA Target Debugging - This allows debugging on non-local machines.
     unsafeCVL = 1;
     cba_settings_whitelist[] = {"76561198006804011","76561198028284438","76561197983143701","76561197985738940","76561198096113294","76561197989925440"};
-    // This locks Server and mission CBA_Settings to only be changed by the UID that is listed. Changing this requires Council permision.
+    // This locks Server and mission CBA_Settings to only be changed by the UID that is listed.
 
     class Extended_PreInit_EventHandlers {
         class Mission {
