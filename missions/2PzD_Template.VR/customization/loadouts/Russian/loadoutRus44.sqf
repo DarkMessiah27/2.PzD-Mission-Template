@@ -66,7 +66,7 @@
                 [Rus_Vest_PPSH_S1], \
                 [Rus_Mag_PPSH_S,1], \
                 [Rus_Weap_PPSH], \
-                [Rus_Mag_PPSH_S,5,"vest"], \
+                [Rus_Mag_PPSH_S,5,"vest"] \
             ],[50], \
             [/*PPSh-41, Drum*/ \
                 [Rus_Vest_PPSH_D1], \
