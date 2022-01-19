@@ -13,8 +13,8 @@
     // enableDebugConsole = 1; // 1 = Only for logged-in admins - This setting is superseded by the array above.
     enableTargetDebug = 1; //Enable CBA Target Debugging - This allows debugging on non-local machines.
     unsafeCVL = 1;
+    // This locks Server and mission CBA_Settings to only be changed by the UID that is listed. This is enabled for Brauer, Feld, Madsen, Sauer, Schuttler, and Falk by default.
     cba_settings_whitelist[] = {"76561198006804011","76561198028284438","76561197983143701","76561197985738940","76561198096113294","76561197989925440"};
-    // This locks Server and mission CBA_Settings to only be changed by the UID that is listed.
 
     class Extended_PreInit_EventHandlers {
         class Mission {
