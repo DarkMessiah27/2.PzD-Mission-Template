@@ -1,5 +1,5 @@
 version=54;
-center[]={1400.7982,5,1494.1486};
+center[]={1377.3518,5,1480.7885};
 class items
 {
 	items=8;
@@ -15,7 +15,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.2017822,0.0014390945,-0.098510742};
+					position[]={3.2017822,0.0014390945,-0.099243164};
 					angles[]={-0,4.712389,0};
 				};
 				side="West";
@@ -36,7 +36,7 @@ class items
 						};
 					};
 				};
-				id=47132;
+				id=49533;
 				type="LIB_GER_lieutenant";
 				class CustomAttributes
 				{
@@ -86,7 +86,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.2056885,0.0014390945,-2.0614014};
+					position[]={3.2056885,0.0014390945,-2.0621338};
 					angles[]={-0,4.712389,0};
 				};
 				side="West";
@@ -107,7 +107,7 @@ class items
 						};
 					};
 				};
-				id=47133;
+				id=49534;
 				type="LIB_GER_scout_unterofficer";
 				class CustomAttributes
 				{
@@ -138,7 +138,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.1885986,0.0014390945,-0.16003418};
+					position[]={5.1885986,0.0014390945,-0.1607666};
 					angles[]={0,4.712389,0};
 				};
 				side="West";
@@ -158,7 +158,7 @@ class items
 						};
 					};
 				};
-				id=47134;
+				id=49535;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -208,7 +208,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.1749268,0.0014390945,-2.0467529};
+					position[]={5.1749268,0.0014390945,-2.0474854};
 					angles[]={0,4.712389,0};
 				};
 				side="West";
@@ -228,7 +228,7 @@ class items
 						};
 					};
 				};
-				id=47135;
+				id=49536;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -278,7 +278,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.2427979,0.0014390945,1.7393799};
+					position[]={3.2427979,0.0014390945,1.7386475};
 					angles[]={0,4.712389,0};
 				};
 				side="West";
@@ -299,7 +299,7 @@ class items
 						};
 					};
 				};
-				id=47136;
+				id=49537;
 				type="LIB_GER_radioman";
 				class CustomAttributes
 				{
@@ -349,7 +349,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.237915,0.0014390945,1.6348877};
+					position[]={5.237915,0.0014390945,1.6341553};
 					angles[]={0,4.712389,0};
 				};
 				side="West";
@@ -369,7 +369,7 @@ class items
 						};
 					};
 				};
-				id=47137;
+				id=49538;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -403,7 +403,7 @@ class items
 			speedMode="LIMITED";
 			formation="FILE";
 		};
-		id=47131;
+		id=49532;
 	};
 	class Item1
 	{
@@ -417,7 +417,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8533936,0.0014390945,-4.9300537};
+					position[]={-4.8533936,0.0014390945,-4.9307861};
 					angles[]={-0,1.5707964,0};
 				};
 				side="West";
@@ -438,7 +438,7 @@ class items
 						};
 					};
 				};
-				id=47139;
+				id=49540;
 				type="LIB_GER_unterofficer";
 				class CustomAttributes
 				{
@@ -469,7 +469,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7904053,0.0014390945,-9.1815186};
+					position[]={-6.7904053,0.0014390945,-9.182251};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -489,7 +489,7 @@ class items
 						};
 					};
 				};
-				id=47140;
+				id=49541;
 				type="LIB_GER_mgunner";
 				class CustomAttributes
 				{
@@ -539,7 +539,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.8031006,0.0014390945,-8.2147217};
+					position[]={-6.8031006,0.0014390945,-8.2154541};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -559,7 +559,7 @@ class items
 						};
 					};
 				};
-				id=47141;
+				id=49542;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -609,7 +609,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7884521,0.0014390945,-6.0692139};
+					position[]={-6.7884521,0.0014390945,-6.0699463};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -629,7 +629,7 @@ class items
 						};
 					};
 				};
-				id=47142;
+				id=49543;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -679,7 +679,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8079834,0.0014390945,-9.180542};
+					position[]={-4.8079834,0.0014390945,-9.1812744};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -699,7 +699,7 @@ class items
 						};
 					};
 				};
-				id=47143;
+				id=49544;
 				type="LIB_GER_mgunner";
 				class CustomAttributes
 				{
@@ -749,7 +749,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8099365,0.0014390945,-8.2108154};
+					position[]={-4.8099365,0.0014390945,-8.2115479};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -769,7 +769,7 @@ class items
 						};
 					};
 				};
-				id=47144;
+				id=49545;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -819,7 +819,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8153076,0.0014390945,-7.1317139};
+					position[]={-4.8153076,0.0014390945,-7.1324463};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -839,7 +839,7 @@ class items
 						};
 					};
 				};
-				id=47145;
+				id=49546;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -889,7 +889,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8006592,0.0014390945,-6.1004639};
+					position[]={-4.8006592,0.0014390945,-6.1011963};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -909,7 +909,7 @@ class items
 						};
 					};
 				};
-				id=47146;
+				id=49547;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -959,7 +959,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7484131,0.0014390945,-4.8944092};
+					position[]={-6.7484131,0.0014390945,-4.8951416};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -979,7 +979,7 @@ class items
 						};
 					};
 				};
-				id=47147;
+				id=49548;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -1029,7 +1029,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.8685303,0.0014390945,-10.302612};
+					position[]={-6.8685303,0.0014390945,-10.303345};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1049,7 +1049,7 @@ class items
 						};
 					};
 				};
-				id=47148;
+				id=49549;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -1099,7 +1099,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7855225,0.0014390945,-7.1234131};
+					position[]={-6.7855225,0.0014390945,-7.1241455};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1119,7 +1119,7 @@ class items
 						};
 					};
 				};
-				id=47149;
+				id=49550;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -1169,7 +1169,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.9378662,0.0014390945,-10.34021};
+					position[]={-4.9378662,0.0014390945,-10.340942};
 					angles[]={-0,1.5707964,0};
 				};
 				side="West";
@@ -1190,7 +1190,7 @@ class items
 						};
 					};
 				};
-				id=47150;
+				id=49551;
 				type="LIB_GER_scout_smgunner";
 				class CustomAttributes
 				{
@@ -1243,7 +1243,7 @@ class items
 			speedMode="LIMITED";
 			formation="FILE";
 		};
-		id=47138;
+		id=49539;
 	};
 	class Item2
 	{
@@ -1257,7 +1257,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.6668701,0.0014390945,3.0499268};
+					position[]={-4.6668701,0.0014390945,3.0491943};
 					angles[]={-0,1.5707964,0};
 				};
 				side="West";
@@ -1278,7 +1278,7 @@ class items
 						};
 					};
 				};
-				id=47152;
+				id=49553;
 				type="LIB_GER_unterofficer";
 				class CustomAttributes
 				{
@@ -1309,7 +1309,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7806396,0.0014390945,-1.0428467};
+					position[]={-6.7806396,0.0014390945,-1.0435791};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1329,7 +1329,7 @@ class items
 						};
 					};
 				};
-				id=47153;
+				id=49554;
 				type="LIB_GER_mgunner";
 				class CustomAttributes
 				{
@@ -1379,7 +1379,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7855225,0.0014390945,-0.07409668};
+					position[]={-6.7855225,0.0014390945,-0.074829102};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1399,7 +1399,7 @@ class items
 						};
 					};
 				};
-				id=47154;
+				id=49555;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -1449,7 +1449,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7879639,0.0014390945,1.9298096};
+					position[]={-6.7879639,0.0014390945,1.9290771};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1469,7 +1469,7 @@ class items
 						};
 					};
 				};
-				id=47155;
+				id=49556;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -1519,7 +1519,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.7835693,0.0014390945,-1.0447998};
+					position[]={-4.7835693,0.0014390945,-1.0455322};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1539,7 +1539,7 @@ class items
 						};
 					};
 				};
-				id=47156;
+				id=49557;
 				type="LIB_GER_mgunner";
 				class CustomAttributes
 				{
@@ -1589,7 +1589,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.7913818,0.0014390945,-0.077026367};
+					position[]={-4.7913818,0.0014390945,-0.077758789};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1609,7 +1609,7 @@ class items
 						};
 					};
 				};
-				id=47157;
+				id=49558;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -1659,7 +1659,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.7845459,0.0014390945,0.92004395};
+					position[]={-4.7845459,0.0014390945,0.91931152};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1679,7 +1679,7 @@ class items
 						};
 					};
 				};
-				id=47158;
+				id=49559;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -1729,7 +1729,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.7728271,0.0014390945,2.0177002};
+					position[]={-4.7728271,0.0014390945,2.0169678};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1749,7 +1749,7 @@ class items
 						};
 					};
 				};
-				id=47159;
+				id=49560;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -1799,7 +1799,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7713623,0.0014390945,3.069458};
+					position[]={-6.7713623,0.0014390945,3.0687256};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1819,7 +1819,7 @@ class items
 						};
 					};
 				};
-				id=47160;
+				id=49561;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -1869,7 +1869,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.8138428,0.0014390945,-2.1356201};
+					position[]={-6.8138428,0.0014390945,-2.1363525};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1889,7 +1889,7 @@ class items
 						};
 					};
 				};
-				id=47161;
+				id=49562;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -1939,7 +1939,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.8328857,0.0014390945,0.88391113};
+					position[]={-6.8328857,0.0014390945,0.88317871};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -1959,7 +1959,7 @@ class items
 						};
 					};
 				};
-				id=47162;
+				id=49563;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -2009,7 +2009,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.8470459,0.0014390945,-2.2376709};
+					position[]={-4.8470459,0.0014390945,-2.2384033};
 					angles[]={-0,1.5707964,0};
 				};
 				side="West";
@@ -2031,7 +2031,7 @@ class items
 						};
 					};
 				};
-				id=47163;
+				id=49564;
 				type="LIB_GER_scout_smgunner";
 				class CustomAttributes
 				{
@@ -2084,7 +2084,7 @@ class items
 			speedMode="LIMITED";
 			formation="FILE";
 		};
-		id=47151;
+		id=49552;
 	};
 	class Item3
 	{
@@ -2098,7 +2098,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.6439209,0.0014390945,10.944458};
+					position[]={-4.6439209,0.0014390945,10.943726};
 					angles[]={-0,1.5707964,0};
 				};
 				side="West";
@@ -2119,7 +2119,7 @@ class items
 						};
 					};
 				};
-				id=47165;
+				id=49566;
 				type="LIB_GER_unterofficer";
 				class CustomAttributes
 				{
@@ -2169,7 +2169,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7825928,0.0014390945,6.9678955};
+					position[]={-6.7825928,0.0014390945,6.9671631};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2189,7 +2189,7 @@ class items
 						};
 					};
 				};
-				id=47166;
+				id=49567;
 				type="LIB_GER_mgunner";
 				class CustomAttributes
 				{
@@ -2239,7 +2239,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7879639,0.0014390945,7.9356689};
+					position[]={-6.7879639,0.0014390945,7.9349365};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2259,7 +2259,7 @@ class items
 						};
 					};
 				};
-				id=47167;
+				id=49568;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -2309,7 +2309,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.802124,0.0014390945,9.9337158};
+					position[]={-6.802124,0.0014390945,9.9329834};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2329,7 +2329,7 @@ class items
 						};
 					};
 				};
-				id=47168;
+				id=49569;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -2379,7 +2379,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.7855225,0.0014390945,6.9659424};
+					position[]={-4.7855225,0.0014390945,6.96521};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2399,7 +2399,7 @@ class items
 						};
 					};
 				};
-				id=47169;
+				id=49570;
 				type="LIB_GER_mgunner";
 				class CustomAttributes
 				{
@@ -2449,7 +2449,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.793335,0.0014390945,7.9327393};
+					position[]={-4.793335,0.0014390945,7.9320068};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2469,7 +2469,7 @@ class items
 						};
 					};
 				};
-				id=47170;
+				id=49571;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -2519,7 +2519,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.786499,0.0014390945,8.9298096};
+					position[]={-4.786499,0.0014390945,8.9290771};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2539,7 +2539,7 @@ class items
 						};
 					};
 				};
-				id=47171;
+				id=49572;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -2589,7 +2589,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7962646,0.0014390945,10.983032};
+					position[]={-6.7962646,0.0014390945,10.9823};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2609,7 +2609,7 @@ class items
 						};
 					};
 				};
-				id=47172;
+				id=49573;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -2659,7 +2659,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.6776123,0.0014390945,9.9415283};
+					position[]={-4.6776123,0.0014390945,9.9407959};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2679,7 +2679,7 @@ class items
 						};
 					};
 				};
-				id=47173;
+				id=49574;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -2729,7 +2729,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.8841553,0.0014390945,5.8897705};
+					position[]={-6.8841553,0.0014390945,5.8890381};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2749,7 +2749,7 @@ class items
 						};
 					};
 				};
-				id=47174;
+				id=49575;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -2799,7 +2799,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.7821045,0.0014390945,8.960083};
+					position[]={-6.7821045,0.0014390945,8.9593506};
 					angles[]={0,1.5707964,0};
 				};
 				side="West";
@@ -2819,7 +2819,7 @@ class items
 						};
 					};
 				};
-				id=47175;
+				id=49576;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -2869,7 +2869,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.7352295,0.0014390945,5.8243408};
+					position[]={-4.7352295,0.0014390945,5.8236084};
 					angles[]={-0,1.5707964,0};
 				};
 				side="West";
@@ -2891,7 +2891,7 @@ class items
 						};
 					};
 				};
-				id=47176;
+				id=49577;
 				type="LIB_GER_scout_smgunner";
 				class CustomAttributes
 				{
@@ -2944,431 +2944,9 @@ class items
 			speedMode="LIMITED";
 			formation="FILE";
 		};
-		id=47164;
+		id=49565;
 	};
 	class Item4
-	{
-		dataType="Group";
-		side="West";
-		class Entities
-		{
-			items=2;
-			class Item0
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={4.7199707,0.0014390945,-7.1468506};
-					angles[]={-0,4.7384171,0};
-				};
-				side="West";
-				flags=6;
-				class Attributes
-				{
-					rank="CORPORAL";
-					init="[this, WHR39_HMGSL] call Olsen_FW_FNC_GearScript;";
-					name="G_2236";
-					description="Truppführer@Schwerer Waffentrupp | HMG";
-					isPlayable=1;
-					class Inventory
-					{
-						class uniform
-						{
-							typeName="U_C_Driver_1_white";
-							isBackpack=0;
-						};
-					};
-				};
-				id=47178;
-				type="LIB_GER_smgunner";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="acex_headless_blacklist";
-						expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"BOOL"
-									};
-								};
-								value=0;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="";
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=3;
-				};
-			};
-			class Item1
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={6.7199707,0.0014390945,-7.1468506};
-					angles[]={0,4.7384171,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, WHR39_HMGG] call Olsen_FW_FNC_GearScript;";
-					name="G_2237";
-					description="Richtschütze@Schwerer Waffentrupp | HMG";
-					isPlayable=1;
-					class Inventory
-					{
-						class uniform
-						{
-							typeName="U_C_Driver_1_white";
-							isBackpack=0;
-						};
-					};
-				};
-				id=47179;
-				type="LIB_GER_mgunner";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="acex_headless_blacklist";
-						expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"BOOL"
-									};
-								};
-								value=0;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04Ger";
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=3;
-				};
-			};
-		};
-		class Attributes
-		{
-		};
-		id=47177;
-	};
-	class Item5
-	{
-		dataType="Group";
-		side="West";
-		class Entities
-		{
-			items=2;
-			class Item0
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={4.7196045,0.0014390945,-9.1470947};
-					angles[]={-0,4.7384119,0};
-				};
-				side="West";
-				flags=6;
-				class Attributes
-				{
-					rank="CORPORAL";
-					init="[this, WHR39_RCTL] call Olsen_FW_FNC_GearScript;";
-					name="G_2238";
-					description="Truppführer@Schwerer Waffentrupp | Recon";
-					isPlayable=1;
-					class Inventory
-					{
-						class uniform
-						{
-							typeName="U_C_Driver_1_white";
-							isBackpack=0;
-						};
-					};
-				};
-				id=47181;
-				type="LIB_GER_smgunner";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="acex_headless_blacklist";
-						expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"BOOL"
-									};
-								};
-								value=0;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="NORTH_vehIdents_init";
-						expression="_this call compile _value";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="";
-							};
-						};
-					};
-					class Attribute3
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=4;
-				};
-			};
-			class Item1
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={6.7196045,0.0014390945,-9.1470947};
-					angles[]={0,4.7384119,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, WHR39_RCTS] call Olsen_FW_FNC_GearScript;";
-					name="G_2239";
-					description="Gewehrschütze@Schwerer Waffentrupp | Recon";
-					isPlayable=1;
-					class Inventory
-					{
-						class uniform
-						{
-							typeName="U_C_Driver_1_white";
-							isBackpack=0;
-						};
-					};
-				};
-				id=47182;
-				type="LIB_GER_mgunner";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="acex_headless_blacklist";
-						expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"BOOL"
-									};
-								};
-								value=0;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="NORTH_vehIdents_init";
-						expression="_this call compile _value";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="true";
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04Ger";
-							};
-						};
-					};
-					class Attribute3
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=4;
-				};
-			};
-		};
-		class Attributes
-		{
-		};
-		id=47180;
-	};
-	class Item6
 	{
 		dataType="Group";
 		side="West";
@@ -3380,7 +2958,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.7199707,0.0014390945,6.8531494};
+					position[]={4.7199707,0.0014390945,6.852417};
 					angles[]={-0,4.7251339,0};
 				};
 				side="West";
@@ -3400,7 +2978,7 @@ class items
 						};
 					};
 				};
-				id=47185;
+				id=49579;
 				type="LIB_GER_tank_lieutenant";
 				class CustomAttributes
 				{
@@ -3450,7 +3028,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={6.7780762,0.0014390945,6.4293213};
+					position[]={6.7780762,0.0014390945,6.4285889};
 					angles[]={-0,4.7251339,0};
 				};
 				side="West";
@@ -3470,7 +3048,7 @@ class items
 						};
 					};
 				};
-				id=47186;
+				id=49580;
 				type="LIB_GER_tank_crew";
 				class CustomAttributes
 				{
@@ -3520,7 +3098,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={6.7888184,0.0014390945,7.4263916};
+					position[]={6.7888184,0.0014390945,7.4256592};
 					angles[]={-0,4.7251339,0};
 				};
 				side="West";
@@ -3540,7 +3118,7 @@ class items
 						};
 					};
 				};
-				id=47187;
+				id=49581;
 				type="LIB_GER_tank_crew";
 				class CustomAttributes
 				{
@@ -3593,7 +3171,429 @@ class items
 			speedMode="LIMITED";
 			formation="FILE";
 		};
-		id=47184;
+		id=49578;
+	};
+	class Item5
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.7199707,0.0014390945,-7.147583};
+					angles[]={-0,4.7384171,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="CORPORAL";
+					init="[this, WHR39_HMGSL] call Olsen_FW_FNC_GearScript;";
+					name="G_2236";
+					description="Truppführer@Schwerer Waffentrupp | HMG";
+					isPlayable=1;
+					class Inventory
+					{
+						class uniform
+						{
+							typeName="U_C_Driver_1_white";
+							isBackpack=0;
+						};
+					};
+				};
+				id=49583;
+				type="LIB_GER_smgunner";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="acex_headless_blacklist";
+						expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.7199707,0.0014390945,-7.147583};
+					angles[]={0,4.7384171,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, WHR39_HMGG] call Olsen_FW_FNC_GearScript;";
+					name="G_2237";
+					description="Richtschütze@Schwerer Waffentrupp | HMG";
+					isPlayable=1;
+					class Inventory
+					{
+						class uniform
+						{
+							typeName="U_C_Driver_1_white";
+							isBackpack=0;
+						};
+					};
+				};
+				id=49584;
+				type="LIB_GER_mgunner";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="acex_headless_blacklist";
+						expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04Ger";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=49582;
+	};
+	class Item6
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.7196045,0.0014390945,-9.1478271};
+					angles[]={-0,4.7384119,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					rank="CORPORAL";
+					init="[this, WHR39_RCTL] call Olsen_FW_FNC_GearScript;";
+					name="G_2238";
+					description="Truppführer@Schwerer Waffentrupp | Recon";
+					isPlayable=1;
+					class Inventory
+					{
+						class uniform
+						{
+							typeName="U_C_Driver_1_white";
+							isBackpack=0;
+						};
+					};
+				};
+				id=49586;
+				type="LIB_GER_smgunner";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="acex_headless_blacklist";
+						expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="NORTH_vehIdents_init";
+						expression="_this call compile _value";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="true";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.7196045,0.0014390945,-9.1478271};
+					angles[]={0,4.7384119,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, WHR39_RCTS] call Olsen_FW_FNC_GearScript;";
+					name="G_2239";
+					description="Gewehrschütze@Schwerer Waffentrupp | Recon";
+					isPlayable=1;
+					class Inventory
+					{
+						class uniform
+						{
+							typeName="U_C_Driver_1_white";
+							isBackpack=0;
+						};
+					};
+				};
+				id=49587;
+				type="LIB_GER_mgunner";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="acex_headless_blacklist";
+						expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="NORTH_vehIdents_init";
+						expression="_this call compile _value";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="true";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04Ger";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=49585;
 	};
 	class Item7
 	{
@@ -3607,7 +3607,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={9.7199707,0.0014390945,-2.1468506};
+					position[]={9.7199707,0.0014390945,-2.147583};
 					angles[]={-0,4.7009649,0};
 				};
 				side="West";
@@ -3628,7 +3628,7 @@ class items
 						};
 					};
 				};
-				id=47189;
+				id=49589;
 				type="LIB_GER_unterofficer";
 				class CustomAttributes
 				{
@@ -3659,7 +3659,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={11.745361,0.0014390945,1.822876};
+					position[]={11.745361,0.0014390945,1.8221436};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -3679,7 +3679,7 @@ class items
 						};
 					};
 				};
-				id=47190;
+				id=49590;
 				type="LIB_GER_mgunner";
 				class CustomAttributes
 				{
@@ -3729,7 +3729,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={11.767334,0.0014390945,0.85021973};
+					position[]={11.767334,0.0014390945,0.8494873};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -3749,7 +3749,7 @@ class items
 						};
 					};
 				};
-				id=47191;
+				id=49591;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -3799,7 +3799,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={11.789307,0.0014390945,-1.1605225};
+					position[]={11.789307,0.0014390945,-1.1612549};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -3819,7 +3819,7 @@ class items
 						};
 					};
 				};
-				id=47192;
+				id=49592;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -3869,7 +3869,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={9.7497559,0.0014390945,1.7974854};
+					position[]={9.7497559,0.0014390945,1.7967529};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -3889,7 +3889,7 @@ class items
 						};
 					};
 				};
-				id=47193;
+				id=49593;
 				type="LIB_GER_mgunner";
 				class CustomAttributes
 				{
@@ -3939,7 +3939,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={9.7717285,0.0014390945,0.82336426};
+					position[]={9.7717285,0.0014390945,0.82263184};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -3960,7 +3960,7 @@ class items
 						};
 					};
 				};
-				id=47194;
+				id=49594;
 				type="LIB_GER_rifleman";
 				class CustomAttributes
 				{
@@ -4010,7 +4010,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={9.7683105,0.0014390945,-0.18444824};
+					position[]={9.7683105,0.0014390945,-0.18518066};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -4030,7 +4030,7 @@ class items
 						};
 					};
 				};
-				id=47195;
+				id=49595;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -4080,7 +4080,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={11.734619,0.0014390945,-2.0799561};
+					position[]={11.734619,0.0014390945,-2.0806885};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -4100,7 +4100,7 @@ class items
 						};
 					};
 				};
-				id=47196;
+				id=49596;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -4150,7 +4150,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={9.7087402,0.0014390945,-1.1917725};
+					position[]={9.7087402,0.0014390945,-1.1925049};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -4170,7 +4170,7 @@ class items
 						};
 					};
 				};
-				id=47197;
+				id=49597;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -4220,7 +4220,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={11.7854,0.0014390945,2.9053955};
+					position[]={11.7854,0.0014390945,2.9046631};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -4240,7 +4240,7 @@ class items
 						};
 					};
 				};
-				id=47198;
+				id=49598;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -4290,7 +4290,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={11.786865,0.0014390945,-0.21716309};
+					position[]={11.786865,0.0014390945,-0.21789551};
 					angles[]={0,4.7009649,0};
 				};
 				side="West";
@@ -4310,7 +4310,7 @@ class items
 						};
 					};
 				};
-				id=47199;
+				id=49599;
 				type="LIB_GER_Soldier2_base";
 				class CustomAttributes
 				{
@@ -4360,7 +4360,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={9.8342285,0.0014390945,2.9429932};
+					position[]={9.8342285,0.0014390945,2.9422607};
 					angles[]={-0,4.7009649,0};
 				};
 				side="West";
@@ -4381,7 +4381,7 @@ class items
 						};
 					};
 				};
-				id=47200;
+				id=49600;
 				type="LIB_GER_scout_smgunner";
 				class CustomAttributes
 				{
@@ -4434,6 +4434,6 @@ class items
 			speedMode="LIMITED";
 			formation="FILE";
 		};
-		id=47188;
+		id=49588;
 	};
 };
