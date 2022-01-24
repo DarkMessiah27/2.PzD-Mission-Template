@@ -13,6 +13,7 @@
     [Rus_Mag_Mosin, 25] call Olsen_FW_FNC_AddItemVehicle; \
     [Rus_Mag_DP_Tracer, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [Rus_Mag_PPSH_S, 6] call Olsen_FW_FNC_AddItemVehicle; \
+    [Rus_Mag_PPD40, 6] call Olsen_FW_FNC_AddItemVehicle; \
     [Rus_Mag_SVT, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Frag_P, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [Rus_Gren_Frag_S, 10] call Olsen_FW_FNC_AddItemVehicle; \
