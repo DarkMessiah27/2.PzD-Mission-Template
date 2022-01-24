@@ -48,7 +48,6 @@
                 [Rus_Vest_Mosin], \
                 [Rus_Mag_Mosin,1], \
                 [Rus_Weap_MosM9130], \
-                [Rus_Acc_Mos_Bayo], \
                 [Rus_Mag_Mosin,12,"vest"] \
             ],[70], \
             [/*SVT*/ \
@@ -538,6 +537,7 @@
         [Rus_Vest_VCrew] call Olsen_FW_FNC_AddItem;
         [Rus_Hat_VCrew_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_Tank_r] call Olsen_FW_FNC_AddItemRandom;
+        [Rus_BP39] call Olsen_FW_FNC_AddItem;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
