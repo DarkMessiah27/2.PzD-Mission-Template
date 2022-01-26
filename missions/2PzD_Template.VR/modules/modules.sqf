@@ -16,7 +16,6 @@
 #include "magazine_conversion\root.sqf"
 #include "shot_count\root.sqf"
 #include "squad_vics\root.sqf"
-#include "stamina_boost\root.sqf"
 #include "start_on_safe\root.sqf"
 #include "start_on_team_color\root.sqf"
 //#include "start_text\root.sqf"
