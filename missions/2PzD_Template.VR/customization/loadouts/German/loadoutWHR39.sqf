@@ -459,7 +459,7 @@
 
         //Primary Weapon
         [Ger_Weap_MG34] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_sS,1,] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_sS,1] call Olsen_FW_FNC_AddItem;
 
         //Extra
         [Ger_Mag_MG_50_Mixed_sS,10] call Olsen_FW_FNC_AddItem;
