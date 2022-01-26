@@ -26,7 +26,6 @@
     //HMG Team
 [this, WHR42_HMGSL] call Olsen_FW_FNC_GearScript;     HMG Truppführer
 [this, WHR42_HMGG] call Olsen_FW_FNC_GearScript;      HMG Richtschütze
-[this, WHR42_HMGA] call Olsen_FW_FNC_GearScript;      HMG Munitionsträger
 
     //Recon
 [this, WHR42_RCTL] call Olsen_FW_FNC_GearScript;      Recon Truppführer
@@ -386,7 +385,6 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_Leader_Equipment_Set;
-        [GEN_ace_sparebarrel] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
         WHR42_Weapon_Rifleman;
@@ -415,10 +413,7 @@
         WHR42_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
         WHR42_Weapon_MG;
-        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
 
         //Extra
         [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;

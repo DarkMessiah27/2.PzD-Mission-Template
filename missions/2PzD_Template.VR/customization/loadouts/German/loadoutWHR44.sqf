@@ -26,12 +26,10 @@
     //Weapon Truppen
 [this, WHR44_HMGSL] call Olsen_FW_FNC_GearScript;     HMG Truppführer
 [this, WHR44_HMGG] call Olsen_FW_FNC_GearScript;      HMG Richtschütze
-[this, WHR44_HMGA] call Olsen_FW_FNC_GearScript;      HMG Munitionsträger
 
     //Panzerschreck
 [this, WHR44_ATSL] call Olsen_FW_FNC_GearScript;      Panzerschreck Truppführer
 [this, WHR44_ATG] call Olsen_FW_FNC_GearScript;       Panzerschreck Richtschütze
-[this, WHR44_ATA] call Olsen_FW_FNC_GearScript;       Panzerschreck Munitionsträger
 
     //Recon
 [this, WHR44_RCTL] call Olsen_FW_FNC_GearScript;      Recon Truppführer
@@ -404,7 +402,6 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_Leader_Equipment_Set;
-        [GEN_ace_sparebarrel] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
         WHR44_Weapon_Rifleman;
@@ -433,33 +430,11 @@
         WHR44_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
+        [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
         WHR44_Weapon_MG;
-        [Ger_Mag_MG_50_Mixed_SmE,5] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
 
         //Extra
         [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //HMG Munitionsträger
-    WHR44_HMGA = ["WHR44_HMGA", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-
-        //Primary Weapon
-        WHR44_Weapon_Rifleman;
-
-        //Extra
-        [Ger_Mag_MG_50_Mixed_SmE,10] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_SmE,3] call Olsen_FW_FNC_AddItem;
     }];
 
     //Panzerschreck Team
@@ -468,6 +443,7 @@
         params ["_unit"];
 
         [Ger_Uni_S3_L] call Olsen_FW_FNC_AddItem;
+        [Ger_Vest_SL] call Olsen_FW_FNC_AddItem;
         [Ger_BP_Pzr] call Olsen_FW_FNC_AddItem;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -489,29 +465,6 @@
         params ["_unit"];
 
         [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Vest_HGun] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_Pzr] call Olsen_FW_FNC_AddItem;
-        [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-
-        //Secondary Weapon
-        WHR44_Weapon_Secondary;
-
-        //Launcher
-        [Ger_Weap_Pzschrck] call Olsen_FW_FNC_AddItem;
-
-        //Extra
-        [Ger_Mag_Pzschrck,5] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //Panzerschreck Munitionsträger
-    WHR44_ATA = ["WHR44_ATA", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_BP_Pzr] call Olsen_FW_FNC_AddItem;
         [Ger_Helmet_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -521,6 +474,9 @@
 
         //Primary Weapon
         WHR44_Weapon_Rifleman;
+
+        //Launcher
+        [Ger_Weap_Pzschrck] call Olsen_FW_FNC_AddItem;
 
         //Extra
         [Ger_Mag_Pzschrck,5] call Olsen_FW_FNC_AddItem;
