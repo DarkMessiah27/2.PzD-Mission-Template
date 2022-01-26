@@ -15,7 +15,7 @@
 //#include "loadouts\German\loadoutFSJ44.sqf"
 
     //Wehrmacht
-#include "loadouts\German\loadoutWHR39.sqf"
+//#include "loadouts\German\loadoutWHR39.sqf"
 //#include "loadouts\German\loadoutWHR40.sqf"
 //#include "loadouts\German\loadoutWHR42.sqf"
 //#include "loadouts\German\loadoutWHR44.sqf"
