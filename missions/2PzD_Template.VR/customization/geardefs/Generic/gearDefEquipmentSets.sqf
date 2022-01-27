@@ -11,7 +11,6 @@
     [GEN_TQ,1,"uniform"] call Olsen_FW_FNC_AddItem; \
     [GEN_ace_flashlightNA,1,"uniform"] call Olsen_FW_FNC_AddItem; \
     [GEN_ace_cabletie,1,"uniform"] call Olsen_FW_FNC_AddItem; \
-    [GEN_ace_canteen_F,1,"uniform"] call Olsen_FW_FNC_AddItem; \
     this removeItemfrombackpack "itemRadio";
 
 #define GEN_Leader_Equipment_Set \
