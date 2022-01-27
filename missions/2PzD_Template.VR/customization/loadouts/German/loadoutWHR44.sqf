@@ -430,7 +430,6 @@
         WHR44_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_50_Mixed_SmE,1] call Olsen_FW_FNC_AddItem;
         WHR44_Weapon_MG;
 
         //Extra

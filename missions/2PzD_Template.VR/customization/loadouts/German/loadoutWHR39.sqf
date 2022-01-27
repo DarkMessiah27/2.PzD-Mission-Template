@@ -458,7 +458,7 @@
         WHR39_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Weap_MG34] call Olsen_FW_FNC_AddItem;
+        [Ger_Weap_MG34] call Olsen_FW_FNC_AddItem; //Needs to be specified, as the MG30 is not combatible with the Tripod.
         [Ger_Mag_MG_50_Mixed_sS,1] call Olsen_FW_FNC_AddItem;
 
         //Extra
