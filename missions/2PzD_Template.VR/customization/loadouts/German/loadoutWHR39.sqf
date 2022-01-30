@@ -26,7 +26,6 @@
     //Weapon Truppen
 [this, WHR39_HMGSL] call Olsen_FW_FNC_GearScript;        HMG Truppführer
 [this, WHR39_HMGG] call Olsen_FW_FNC_GearScript;         HMG Richtschütze
-[this, WHR39_HMGA] call Olsen_FW_FNC_GearScript;         HMG Munitionsträger
 
     //Recon
 [this, WHR39_RCTL] call Olsen_FW_FNC_GearScript;         Recon Truppführer
@@ -431,7 +430,6 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_Leader_Equipment_Set;
-        [GEN_ace_sparebarrel] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
         WHR39_Weapon_Rifleman;
@@ -460,11 +458,11 @@
         WHR39_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_50_Mixed_sS,5] call Olsen_FW_FNC_AddItem;
-        [Ger_Weap_MG34] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_sS,20,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Ger_Weap_MG34] call Olsen_FW_FNC_AddItem; //Needs to be specified, as the MG30 is not combatible with the Tripod.
+        [Ger_Mag_MG_50_Mixed_sS,1] call Olsen_FW_FNC_AddItem;
 
         //Extra
+        [Ger_Mag_MG_50_Mixed_sS,10] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team leader

@@ -26,7 +26,6 @@
     //Weapon Truppen
 [this, WHR40_HMGSL] call Olsen_FW_FNC_GearScript;     HMG Truppführer
 [this, WHR40_HMGG] call Olsen_FW_FNC_GearScript;      HMG Richtschütze
-[this, WHR40_HMGA] call Olsen_FW_FNC_GearScript;      HMG Munitionsträger
 
     //Recon
 [this, WHR40_RCTL] call Olsen_FW_FNC_GearScript;      Recon Truppführer
@@ -389,7 +388,6 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_Leader_Equipment_Set;
-        [GEN_ace_sparebarrel] call Olsen_FW_FNC_AddItem;
 
         //Primary Weapon
         WHR40_Weapon_Rifleman;
@@ -406,7 +404,6 @@
         params ["_unit"];
 
         [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Vest_MG] call Olsen_FW_FNC_AddItem;
         [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
         [Ger_Helmet] call Olsen_FW_FNC_AddItem;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
@@ -418,34 +415,10 @@
         WHR40_Weapon_Secondary;
 
         //Primary Weapon
-        [Ger_Mag_MG_50_Mixed_sS,5] call Olsen_FW_FNC_AddItem;
-        [Ger_Weap_MG34] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_sS,5] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_sS,3] call Olsen_FW_FNC_AddItem;
+        WHR40_Weapon_MG;
 
         //Extra
         [Ger_Mag_MG_50_Mixed_sS,10] call Olsen_FW_FNC_AddItem;
-    }];
-
-    //HMG Munitionsträger
-    WHR40_HMGA = ["WHR40_HMGA", {
-        params ["_unit"];
-
-        [Ger_Uni_Rif_E_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Vest_K98] call Olsen_FW_FNC_AddItem;
-        [Ger_BP_r] call Olsen_FW_FNC_AddItemRandom;
-        [Ger_Helmet] call Olsen_FW_FNC_AddItem;
-        [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
-
-        //Assigned Items
-        GEN_Default_Equipment_Set;
-
-        //Primary Weapon
-        WHR40_Weapon_Rifleman;
-
-        //Extra
-        [Ger_Mag_MG_50_Mixed_sS,10] call Olsen_FW_FNC_AddItem;
-        [Ger_Mag_MG_50_Mixed_sS,5] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team leader

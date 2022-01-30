@@ -353,7 +353,7 @@
 
         [UK_Uni_Cpl] call Olsen_FW_FNC_AddItem;
         [UK_VestK_LeeEn] call Olsen_FW_FNC_AddItem;
-        [UK_BP] call Olsen_FW_FNC_AddItem;
+        [Pol_BP_Batoh] call Olsen_FW_FNC_AddItem;
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
@@ -376,20 +376,19 @@
 
         [UK_Uni_Pte] call Olsen_FW_FNC_AddItem;
         [UK_VestK_O] call Olsen_FW_FNC_AddItem;
-        [UK_BP] call Olsen_FW_FNC_AddItem;
+        [Pol_BP_Batoh] call Olsen_FW_FNC_AddItem;
         [UK_Helm_Mk2_r] call Olsen_FW_FNC_AddItemRandom;
         [GEN_Face_r] call Olsen_FW_FNC_AddItemRandom;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
 
-        //Secondary Weapon
-        UK44_Webley;
-
         //Primary Weapon
-        [UK_Mag_Boys,1] call Olsen_FW_FNC_AddItem;
-        [UK_Weap_Boys] call Olsen_FW_FNC_AddItem;
-        [UK_Mag_Boys,5] call Olsen_FW_FNC_AddItem;
+        UK44_LeeEn;
+
+        //Extra
+        [UK_Weap_Boys,1,"backpack"] call Olsen_FW_FNC_AddItem;
+        [UK_Mag_Boys,5,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
     //Recon Team Leader
