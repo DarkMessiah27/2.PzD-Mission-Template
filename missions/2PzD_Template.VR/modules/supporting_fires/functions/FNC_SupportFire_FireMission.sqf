@@ -59,26 +59,17 @@ Olsen_FW_FNC_SupportFire_FireMission = {
         _supportFire_adjustDir = "";
     };
 
-    if (supportFire_isZEUS) then {
-        _supportFire_ammoLeft = 99;
-    } else {
-        _supportFire_ammoLeft = [_supportFire_type, _supportFire_number] call Olsen_FW_FNC_SupportFire_RemoveAmmo;
-        // systemChat ("_supportFire_ammoLeft - " + str _supportFire_ammoLeft);
+    _supportFire_ammoLeft = [_supportFire_type, _supportFire_number] call Olsen_FW_FNC_SupportFire_RemoveAmmo;
+    // systemChat ("_supportFire_ammoLeft - " + str _supportFire_ammoLeft);
 
-        // cancel if not enough ammo
-        if (_supportFire_ammoLeft < 0) exitWith {
-            // systemChat "Fire mission canceled";
-            [[(format ["Negative, not enough %1 rounds available.", _supportFire_type])], true] call CBA_fnc_notify;
-            [] call Olsen_FW_FNC_SupportFire_AmmoCheck;
-        };
+    // cancel if not enough ammo
+    if (_supportFire_ammoLeft < 0) exitWith {
+        // systemChat "Fire mission canceled";
+        [[(format ["Negative, not enough %1 rounds available.", _supportFire_type])], true] call CBA_fnc_notify;
+        [] call Olsen_FW_FNC_SupportFire_AmmoCheck;
     };
 
     // make fire missions unavailable for that side
-    if (supportFire_isZEUS) then {
-        supportFire_fireMissionAvailableZEUS = False;
-        publicVariable "supportFire_fireMissionAvailableZEUS";
-        // systemChat "Fire missions disabled";
-    };
     if (supportFire_isWEST) then {
         supportFire_fireMissionAvailableWEST = False;
         publicVariable "supportFire_fireMissionAvailableWEST";
@@ -135,26 +126,14 @@ Olsen_FW_FNC_SupportFire_FireMission = {
                 "_supportFire_grammar"
             ];
             
-            if (supportFire_isZEUS) exitWith {
-                [
-                    [(format ["Rounds complete on %1.", _supportFire_targetName])],
-                    true
-                ] call CBA_fnc_notify;
-            } else {
-                [
-                    [(format ["Rounds complete on %1.", _supportFire_targetName])],
-                    [(format ["%1 %2 %3 remaining.", _supportFire_ammoLeft, _supportFire_grammar, _supportFire_type])],
-                    true
-                ] call CBA_fnc_notify;
-            }:
+            [
+                [(format ["Rounds complete on %1.", _supportFire_targetName])],
+                [(format ["%1 %2 %3 remaining.", _supportFire_ammoLeft, _supportFire_grammar, _supportFire_type])],
+                true
+            ] call CBA_fnc_notify;
             // systemChat "Rounds complete";
 
             // make fire missions available again for the players side
-            if (supportFire_isZEUS) exitWith {
-                supportFire_fireMissionAvailableZEUS = True;
-                publicVariable "supportFire_fireMissionAvailableZEUS";
-                // systemChat "Fire missions disabled";
-            };
             if (supportFire_isWEST) exitWith {
                 supportFire_fireMissionAvailableWEST = True;
                 publicVariable "supportFire_fireMissionAvailableWEST";
