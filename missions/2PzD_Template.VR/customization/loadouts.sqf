@@ -49,12 +49,13 @@
 // Vehicle Loadouts are in the loadoutsVeh folder.
 // Remove the // at the start of a line to enable that loadout set.
 // Delete all the loadout files you are not using in order to keep the filesize down.
+ 
+// Always load the Generic vehicle equipment first
+#include "loadoutsVeh\vehLoadoutGEN.sqf"
 
 //#include "loadoutsVeh\vehLoadoutFIN.sqf"
 
 //#include "loadoutsVeh\vehLoadoutFSJ.sqf"
-
-#include "loadoutsVeh\vehLoadoutGEN.sqf"
 
 //#include "loadoutsVeh\vehLoadoutNor.sqf"
 
