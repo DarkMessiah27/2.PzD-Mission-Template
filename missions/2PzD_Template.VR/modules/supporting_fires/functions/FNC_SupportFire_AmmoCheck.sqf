@@ -5,10 +5,6 @@ Olsen_FW_FNC_SupportFire_AmmoCheck = {
     // systemChat "ammo check started";
     // systemChat str supportFire_side;
 
-    if (supportFire_isZEUS) exitWith {
-        [["As Zeus you have unlimited rounds for all types."], true] call CBA_fnc_notify;
-    };
-
     if (supportFire_isWEST) then {
         // systemChat "west ammo counted";
         _supportFire_ammoCountHE = supportFire_shellsHE_AmmoCountWEST;
