@@ -92,9 +92,9 @@
     // If fewer than 5 rounds are available for those types then no interaction for that ammo will show up.
 
     // WEST/Blufor
-    supportFire_shellsHE_AmmoCountWEST = 110;
-    supportFire_shellsSmoke_AmmoCountWEST = 110;
-    supportFire_shellsFlare_AmmoCountWEST = 110;
+    supportFire_shellsHE_AmmoCountWEST = 0;
+    supportFire_shellsSmoke_AmmoCountWEST = 0;
+    supportFire_shellsFlare_AmmoCountWEST = 0;
 
     // East/Opfor
     supportFire_shellsHE_AmmoCountEAST = 0;
