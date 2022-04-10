@@ -26,14 +26,17 @@
     [GEN_TQ,4,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_Painkiller,10,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_SurgKit,1,"backpack"] call Olsen_FW_FNC_AddItem; \
-    [GEN_Saline1000,5,"backpack"] call Olsen_FW_FNC_AddItem; \
+    [GEN_Saline1000,3,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_Saline500,10,"vest"] call Olsen_FW_FNC_AddItem; \
+    [GEN_Saline250,8,"vest"] call Olsen_FW_FNC_AddItem; \
     [GEN_Gren_Smoke_B,2,"backpack"] call Olsen_FW_FNC_AddItem;
 
 #define GEN_MedicS_Equipment_Set \
     [GEN_BandageField,5,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_BandageElastic,10,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_BandagePacking,10,"backpack"] call Olsen_FW_FNC_AddItem; \
+    [GEN_Saline500,10,"backpack"] call Olsen_FW_FNC_AddItem; \
+    [GEN_Saline250,10,"vest"] call Olsen_FW_FNC_AddItem; \
     [GEN_TQ,5,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_Painkiller,10,"backpack"] call Olsen_FW_FNC_AddItem; \
     [GEN_Gren_Smoke_B,1,"backpack"] call Olsen_FW_FNC_AddItem;
