@@ -1,0 +1,11 @@
+version=54;
+name="!2PzD_UK_85";
+author="Thomas Brauer";
+category="!2PzD_British_ColdWar";
+requiredAddons[]=
+{
+	"cwr3_expansion_uk",
+	"cwr3_weapon_config",
+	"A3_Weapons_F",
+	"A3_Weapons_F_Items",
+};

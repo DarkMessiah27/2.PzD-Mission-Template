@@ -391,6 +391,8 @@
         [UK_Mag_Boys,5,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
+//Recon Team
+
     //Recon Team Leader
     UK44_RCTL = ["UK44_RCTL", {
         params ["_unit"];

@@ -7,6 +7,10 @@
 //#define winterUniforms true
 //#define africaUniforms true
 
+// Uncomment the line to load Cold War equipment for the British army.
+// Only use this when the unit is currently playing in a Cold War setting!
+//#define coldwarEnabled true
+
 //=== Gear Definitions ===
 
 //All definitions are in the geardefs folder. These should be always be in your mission.
@@ -35,6 +39,11 @@
     #include "geardefs\British\gearDefUKAfrica.sqf"
     #include "geardefs\German\gearDefGerAfrica.sqf"
     #include "geardefs\US\gearDefUSAfrica.sqf"
+#endif
+
+#ifdef coldwarEnabled
+    #include "geardefs\British_ColdWar\gearDefUKCW.sqf"
+    #include "geardefs\British_ColdWar\gearDefUKCWWeapons.sqf"
 #endif
 
 #include "geardefs\British\gearDefUK.sqf"

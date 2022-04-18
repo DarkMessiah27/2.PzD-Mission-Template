@@ -9,6 +9,10 @@
 //#include "loadouts\British\loadoutUK40.sqf"
 //#include "loadouts\British\loadoutUK44.sqf"
 
+    //=== British 1985 ===
+    //Army
+//#include "loadouts\British_ColdWar\loadoutUK85.sqf"
+
     //=== German ===
     //Fallschirmjäger
 //#include "loadouts\German\loadoutFSJ40.sqf"
@@ -63,6 +67,8 @@
 
 //#include "loadoutsVeh\vehLoadoutUK.sqf"
 
+//#include "loadoutsVeh\vehLoadoutUKColdWar.sqf"
+
 //#include "loadoutsVeh\vehLoadoutUS.sqf"
 
-#include "loadoutsVeh\vehLoadoutWHR.sqf"
+//#include "loadoutsVeh\vehLoadoutWHR.sqf"

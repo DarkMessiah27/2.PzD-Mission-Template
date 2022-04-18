@@ -6,7 +6,5 @@ texHeaders.bin
 *.swp
 *.swo
 *.biprivatekey
-*.jpg
-*.png
 Thumbs.db
 CHANGELOG.md
