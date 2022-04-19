@@ -4,12 +4,8 @@ author="Thomas Brauer";
 category="!2PzD_Essentials";
 requiredAddons[]=
 {
-	"WW2_Assets_c_Characters_Civilians_c_CIV_Civilians",
-	"WW2_Core_c_WW2_EditorPreviews_c",
-	"A3_Modules_F",
 	"A3_Characters_F",
+	"A3_Modules_F",
 	"A3_Modules_F_Curator_Curator",
-	"csa38ii_data",
 	"A3_Ui_F",
-	"WW2_Core_c_IF_Gui_c"
 };

@@ -8,7 +8,7 @@ class EditorData
 	toggles=13;
 	class ItemIDProvider
 	{
-		nextID=46839;
+		nextID=46919;
 	};
 	class MarkerIDProvider
 	{
@@ -16,67 +16,57 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=76;
+		nextID=83;
 	};
 	class Camera
 	{
-		pos[]={1439.384,26.82159,1487.6559};
-		dir[]={-0.89730722,-0.44129056,0.01012025};
-		up[]={-0.44126248,0.89736426,0.0049767643};
-		aside[]={0.01127775,0,0.9999364};
+		pos[]={1417.7913,14.344686,1504.064};
+		dir[]={0.044257786,-0.41439167,-0.90902483};
+		up[]={0.020151626,0.91010094,-0.41390142};
+		aside[]={-0.9988156,-1.131848e-007,-0.04862925};
 	};
 };
 binarizationWanted=0;
-sourceName="2PzD_Template_v3_0";
+sourceName="2PzD_Template";
 addons[]=
 {
-	"A3_Modules_F_Curator_Curator",
-	"WW2_Assets_c_Characters_Civilians_c_CIV_Civilians",
-	"WW2_Core_c_WW2_EditorPreviews_c",
 	"A3_Ui_F",
-	"csa38ii_data",
-	"WW2_Core_c_IF_Gui_c"
+	"A3_Characters_F",
+	"A3_Modules_F",
+	"A3_Modules_F_Curator_Curator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=6;
+		items=4;
 		class Item0
-		{
-			className="A3_Modules_F_Curator";
-			name="Arma 3 Zeus Update - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item1
-		{
-			className="WW2_Assets_c_Characters_Civilians_c_CIV_Civilians";
-			name="WW2_Assets_c_Characters_Civilians_c_CIV_Civilians";
-		};
-		class Item2
-		{
-			className="WW2_Core_c_WW2_EditorPreviews_c";
-			name="WW2_Core_c_WW2_EditorPreviews_c";
-		};
-		class Item3
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item1
 		{
-			className="csa38ii_data";
-			name="csa38ii_data";
-			author="CSA38 Team";
-			url="http://www.moddb.com/mods/csa38-czechoslovak-army-1938";
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item2
 		{
-			className="WW2_Core_c_IF_Gui_c";
-			name="WW2_Core_c_IF_Gui_c";
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -568,6 +558,15 @@ class Mission
 		items=2;
 		class Item0
 		{
+			dataType="Marker";
+			position[]={1426.755,5,1476.63};
+			name="marker_123";
+			text="Grid lock placement is turned on. Disable it with "";"" if you don't like it";
+			type="mil_dot";
+			id=45902;
+		};
+		class Item1
+		{
 			dataType="Layer";
 			name="!2PzD_!Essentials";
 			class Entities
@@ -579,16 +578,228 @@ class Mission
 					name="!2PzD_!Essentials";
 					class Entities
 					{
-						items=3;
+						items=10;
 						class Item0
+						{
+							dataType="Group";
+							side="Civilian";
+							class Entities
+							{
+								items=1;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={1418,5.0014391,1492.05};
+										angles[]={-0,3.1493893,0};
+									};
+									side="Civilian";
+									flags=6;
+									class Attributes
+									{
+										rank="CAPTAIN";
+										init="call{this setVariable [""ace_w_allow_dam"",false,true];" \n "this allowDamage false; " \n "this addItemToUniform ""NVGoggles_OPFOR""; " \n "this linkItem ""ItemWatch"";}";
+										name="God";
+										description="Zeus@Mount Olympus";
+										isPlayer=1;
+										isPlayable=1;
+									};
+									id=46841;
+									type="C_man_polo_1_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="acex_headless_blacklist";
+											expression="_this setVariable [""acex_headless_blacklist"", _value, true]";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"BOOL"
+														};
+													};
+													value=0;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="allowDamage";
+											expression="_this allowdamage _value;";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"BOOL"
+														};
+													};
+													value=0;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="Male01SU";
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"SCALAR"
+														};
+													};
+													value=1.03;
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="enableStamina";
+											expression="_this enablestamina _value;";
+											class Value
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"BOOL"
+														};
+													};
+													value=0;
+												};
+											};
+										};
+										nAttributes=5;
+									};
+								};
+							};
+							class Attributes
+							{
+							};
+							id=46840;
+						};
+						class Item1
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={1409,5,1490};
+								position[]={1415.9565,5,1489.7537};
+								angles[]={0,1.0976375,0};
+							};
+							name="fw_east_respawn";
+							id=46842;
+							type="Logic";
+						};
+						class Item2
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={1415.9507,5,1493.7605};
+								angles[]={0,0.81370723,0};
+							};
+							name="fw_guer_respawn";
+							id=46843;
+							type="Logic";
+						};
+						class Item3
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={1415.9478,5,1491.7727};
+								angles[]={0,1.0976419,0};
+							};
+							name="fw_west_respawn";
+							id=46844;
+							type="Logic";
+						};
+						class Item4
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={1418.0073,5,1496.2727};
+							};
+							name="HC";
+							init="call{this setGroupId [""Headless Client 01""];}";
+							isPlayable=1;
+							description="Headless Client 01";
+							id=46845;
+							type="HeadlessClient_F";
+						};
+						class Item5
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={1418.0073,5,1495.7727};
+							};
+							name="HC_1";
+							init="call{this setGroupId [""Headless Client 02""];}";
+							isPlayable=1;
+							description="Headless Client 02";
+							id=46846;
+							type="HeadlessClient_F";
+						};
+						class Item6
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={1418.0073,5,1495.2727};
+							};
+							name="HC_2";
+							init="call{this setGroupId [""Headless Client 03""];}";
+							isPlayable=1;
+							description="Headless Client 03";
+							id=46847;
+							type="HeadlessClient_F";
+						};
+						class Item7
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={1420.0151,5,1495.7737};
 							};
 							name="zeusAdmin";
-							id=45891;
+							id=46848;
 							type="ModuleCurator_F";
 							class CustomAttributes
 							{
@@ -690,15 +901,15 @@ class Mission
 								nAttributes=5;
 							};
 						};
-						class Item1
+						class Item8
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={1408.9248,5,1487.915};
+								position[]={1419.9399,5,1493.6887};
 							};
 							name="zeusCommander";
-							id=45893;
+							id=46849;
 							type="ModuleCurator_F";
 							class CustomAttributes
 							{
@@ -800,154 +1011,24 @@ class Mission
 								nAttributes=5;
 							};
 						};
-						class Item2
+						class Item9
 						{
-							dataType="Group";
-							side="Civilian";
-							class Entities
-							{
-								items=1;
-								class Item0
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={1406.6703,5.0014391,1487.9698};
-										angles[]={0,4.7260489,0};
-									};
-									side="Civilian";
-									flags=6;
-									class Attributes
-									{
-										rank="CAPTAIN";
-										init="call{this setVariable [""ace_w_allow_dam"",false,true];" \n "this allowDamage false; " \n "this addItemToUniform ""NVGoggles_OPFOR""; " \n "this linkItem ""ItemWatch"";}";
-										name="God";
-										description="Zeus@Mount Olympus";
-										isPlayer=1;
-										isPlayable=1;
-									};
-									id=45895;
-									type="LIB_CIV_Functionary_4";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="acex_headless_blacklist";
-											expression="_this setVariable [""acex_headless_blacklist"",  _value,  true]";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"BOOL"
-														};
-													};
-													value=0;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="allowDamage";
-											expression="_this allowdamage _value;";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"BOOL"
-														};
-													};
-													value=0;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"STRING"
-														};
-													};
-													value="Male01SU";
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"SCALAR"
-														};
-													};
-													value=1.03;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="enableStamina";
-											expression="_this enablestamina _value;";
-											class Value
-											{
-												class data
-												{
-													class type
-													{
-														type[]=
-														{
-															"BOOL"
-														};
-													};
-													value=0;
-												};
-											};
-										};
-										nAttributes=5;
-									};
-								};
-							};
-							class Attributes
-							{
-							};
-							id=45894;
+							dataType="Marker";
+							position[]={1418.0337,5,1493.6711};
+							name="ao";
+							markerType="RECTANGLE";
+							type="";
+							fillName="Border";
+							a=500;
+							b=500;
+							drawBorder=1;
+							id=46850;
 						};
 					};
-					id=45890;
+					id=46839;
 				};
 			};
-			id=45901;
-		};
-		class Item1
-		{
-			dataType="Marker";
-			position[]={1426.755,5,1476.63};
-			name="marker_123";
-			text="Grid lock placement is turned on. Disable it with "";"" if you don't like it";
-			type="mil_dot";
-			id=45902;
+			id=46851;
 		};
 	};
 };

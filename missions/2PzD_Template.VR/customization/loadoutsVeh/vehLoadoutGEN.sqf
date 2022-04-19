@@ -34,9 +34,9 @@
     [GEN_BandageElastic, 20] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_BandagePacking, 40] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Morp, 10] call Olsen_FW_FNC_AddItemVehicle; \
-    [GEN_Saline1000, 6] call Olsen_FW_FNC_AddItemVehicle; \
+    [GEN_Saline1000, 10] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Saline500, 30] call Olsen_FW_FNC_AddItemVehicle; \
-    [GEN_Saline250, 16] call Olsen_FW_FNC_AddItem; \
+    [GEN_Saline250, 16] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_TQ, 20] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Epi, 20] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Painkiller, 20] call Olsen_FW_FNC_AddItemVehicle;
