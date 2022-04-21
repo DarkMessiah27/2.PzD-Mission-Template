@@ -32,9 +32,6 @@
 #define Fin_BP_HMG_Tripod						"NORTH_Maxim_Tripod_Bag"
 #define Fin_BP_HMG_Gun							"NORTH_Maxim_Gun_Bag"
 
-#define Fin_BP_AT_Tripod						"NORTH_Lahti_L39_Tripod_Bag"
-#define Fin_BP_AT_Gun							"NORTH_Lahti_L39_Gun_Bag"
-
 //Facewear 
 #define Fin_MedicalBand							"G_NORTH_FIN_Medicalarmband"
 #define Fin_Gloves							    "G_NORTH_FIN_Gloves"

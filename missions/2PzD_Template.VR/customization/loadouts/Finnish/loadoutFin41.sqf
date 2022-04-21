@@ -442,7 +442,7 @@
 
         [Fin_Uni_TL] call Olsen_FW_FNC_AddItem;
         [Fin_Vest_SMG] call Olsen_FW_FNC_AddItem;
-        [Fin_BP_AT_Tripod] call Olsen_FW_FNC_AddItem;
+        [Pol_BP_Batoh] call Olsen_FW_FNC_AddItem;
         [Fin_Hat] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
 
@@ -456,7 +456,7 @@
         //Extra
         [Fin_Gren_Frag_M32,1] call Olsen_FW_FNC_AddItem;
 		[Rus_Gren_Smoke,1] call Olsen_FW_FNC_AddItem;
-		[Fin_Mag_AT_Rifle,1,"vest"] call Olsen_FW_FNC_AddItem;
+		[Rus_Mag_PTRD,20,"backpack"] call Olsen_FW_FNC_AddItem;
     }];
 
     //Anti-Tank Rifle Gunner
@@ -464,7 +464,7 @@
         params ["_unit"];
 
         [Fin_Uni_r] call Olsen_FW_FNC_AddItemRandom;
-        [Fin_BP_AT_Gun] call Olsen_FW_FNC_AddItem;
+        [Pol_BP_Batoh] call Olsen_FW_FNC_AddItem;
         [Fin_Helmet_Late_r] call Olsen_FW_FNC_AddItemRandom;
         Fin_Face;
 
@@ -475,7 +475,8 @@
         F41_Weapon_Rifleman;
 
 		//Extra
-		[Fin_Mag_AT_Rifle,3,"vest"] call Olsen_FW_FNC_AddItem;
+		[Rus_Weap_PTRD,1,"backpack"] call Olsen_FW_FNC_AddItem;
+        [Rus_Mag_PTRD,20,"backpack"] call Olsen_FW_FNC_AddItem;
 		Remove_Helm_If_Needed;
     }];
 

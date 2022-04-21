@@ -48,8 +48,6 @@
 
 #define Fin_Mag_Maxim_HMG					  "NORTH_200Rnd_762mm_Maxim_Inf"
 
-#define Fin_Mag_AT_Rifle					  "NORTH_10Rnd_20mm_L39_Inf"
-
 //Grenades
 #define Fin_Gren_Frag_M32					  "NORTH_M32Grenade_mag"
 #define Fin_Gren_Frag_M43					  "NORTH_M43Grenade_mag"
