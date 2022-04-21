@@ -47,7 +47,7 @@ Ger_Resupply_Early = ["Ger_Resupply_Early", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Medical;
     GEN_Medical;
 
@@ -60,7 +60,7 @@ Ger_Gruppe_Early = ["Ger_Gruppe_Early", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
 
     Ger_Infantry_Supplies;
 
@@ -70,7 +70,7 @@ Ger_Zug_Early = ["Ger_Zug_Early", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Medical;
 
     Ger_Infantry_Supplies;
@@ -83,7 +83,7 @@ Ger_Resupply_Late = ["Ger_Resupply_Late", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Medical;
     GEN_Medical;
 
@@ -98,7 +98,7 @@ Ger_Gruppe_Late = ["Ger_Gruppe_Late", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
 
     Ger_Infantry_Supplies;
     Ger_Late_War_Supplies;
@@ -109,7 +109,7 @@ Ger_Zug_Late = ["Ger_Zug_Late", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Medical;
 
     Ger_Infantry_Supplies;
@@ -123,7 +123,7 @@ Ger_Panzer = ["Ger_Panzer", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Tank;
 
     Ger_Panzer_Supplies;

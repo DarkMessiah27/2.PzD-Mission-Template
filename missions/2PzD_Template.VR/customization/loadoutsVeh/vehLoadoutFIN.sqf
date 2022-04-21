@@ -30,7 +30,7 @@
 Fin_Resupply = ["Fin_Resupply", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
     GEN_Medical;
     GEN_Medical;
@@ -43,7 +43,7 @@ Fin_Resupply = ["Fin_Resupply", {
 Fin_Squad = ["Fin_Squad", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
 
     Fin_Infantry_Supplies;
@@ -53,7 +53,7 @@ Fin_Squad = ["Fin_Squad", {
 Fin_Platoon = ["Fin_Platoon", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
     GEN_Medical;
 
@@ -64,7 +64,7 @@ Fin_Platoon = ["Fin_Platoon", {
 Fin_Tank = ["Fin_Tank", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
     GEN_Tank;
     
