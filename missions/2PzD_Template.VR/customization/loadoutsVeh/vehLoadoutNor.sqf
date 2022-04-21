@@ -20,7 +20,7 @@
 Nor_Resupply = ["Nor_Resupply", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
     GEN_Medical;
     GEN_Medical;
@@ -33,7 +33,7 @@ Nor_Resupply = ["Nor_Resupply", {
 Nor_Section = ["Nor_Section", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
 
     Nor_Infantry_Supplies;
@@ -43,7 +43,7 @@ Nor_Section = ["Nor_Section", {
 Nor_Platoon = ["Nor_Platoon", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
     GEN_Medical;
 

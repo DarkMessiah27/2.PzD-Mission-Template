@@ -38,7 +38,7 @@ US_Resupply = ["US_Resupply", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Medical;
     GEN_Medical;
 
@@ -51,7 +51,7 @@ US_Squad = ["US_Squad", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
 
     US_Infantry_Supplies;
 
@@ -61,7 +61,7 @@ US_Platoon = ["US_Platoon", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Medical;
 
     US_Infantry_Supplies;
@@ -75,7 +75,7 @@ US_Tank_Early = ["US_Tank_Early", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Tank;
 
     US_Tank_Supplies;
@@ -88,7 +88,7 @@ US_Tank_Late = ["US_Tank_Late", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Tank;
 
     US_Tank_Supplies;

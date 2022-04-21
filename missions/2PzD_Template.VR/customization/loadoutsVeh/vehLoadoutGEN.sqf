@@ -12,7 +12,7 @@
     [GEN_Gren_Smoke_R, 2] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Gren_Smoke_Y, 2] call Olsen_FW_FNC_AddItemVehicle;
 
-#define GEN_Flare \
+#define GEN_Flare_WW2 \
     [GEN_Flare_Pistol, 1] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Flare_W, 2] call Olsen_FW_FNC_AddItemVehicle; \
     [GEN_Flare_G, 2] call Olsen_FW_FNC_AddItemVehicle; \

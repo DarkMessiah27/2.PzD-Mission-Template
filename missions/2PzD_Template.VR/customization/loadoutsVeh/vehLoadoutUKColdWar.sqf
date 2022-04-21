@@ -59,7 +59,6 @@ UK85_Section = ["UK85_Section", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
 
     UK85_Infantry_Supplies;
 
@@ -69,7 +68,6 @@ UK85_Platoon = ["UK85_Platoon", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
 
     UK85_Infantry_Supplies;
 
@@ -90,7 +88,6 @@ UK85_Tank = ["UK85_Tank", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
     GEN_Tank;
 
     UK85_Tank_Supplies;

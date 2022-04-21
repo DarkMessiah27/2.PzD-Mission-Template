@@ -31,7 +31,7 @@
 Rus_Resupply = ["Rus_Resupply", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
     GEN_Medical;
     GEN_Medical;
@@ -44,7 +44,7 @@ Rus_Resupply = ["Rus_Resupply", {
 Rus_Squad = ["Rus_Squad", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
 
     Rus_Infantry_Supplies;
@@ -54,7 +54,7 @@ Rus_Squad = ["Rus_Squad", {
 Rus_Platoon = ["Rus_Platoon", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
     GEN_Medical;
 
@@ -65,7 +65,7 @@ Rus_Platoon = ["Rus_Platoon", {
 Rus_Tank = ["Rus_Tank", {
     params ["_vehicle"];
 
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Gren_Smoke;
     GEN_Tank;
     

@@ -32,7 +32,7 @@ UK_Resupply = ["UK_Resupply", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Medical;
     GEN_Medical;
 
@@ -45,7 +45,7 @@ UK_Section = ["UK_Section", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
 
     UK_Infantry_Supplies;
 
@@ -55,7 +55,7 @@ UK_Platoon = ["UK_Platoon", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Medical;
 
     UK_Infantry_Supplies;
@@ -66,7 +66,7 @@ UK_Tank = ["UK_Tank", {
     params ["_vehicle"];
 
     GEN_Gren_Smoke;
-    GEN_Flare;
+    GEN_Flare_WW2;
     GEN_Tank;
 
     UK_Tank_Supplies;
