@@ -84,6 +84,7 @@
         [UKCW_Gren_Frag,2] call Olsen_FW_FNC_AddItem;
 		[GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
 		[GEN_Gren_Smoke_B,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Radio_SR,1] call Olsen_FW_FNC_AddItem;
     }];
 
 	//Platoon Sergeant
@@ -104,6 +105,7 @@
         //Extra
         [UKCW_Gren_Frag,2] call Olsen_FW_FNC_AddItem;
 		[GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
+        [GEN_Radio_SR,1] call Olsen_FW_FNC_AddItem;
     }];
 
 	//Medic
@@ -147,6 +149,7 @@
         //Extra
         [UKCW_Gren_Frag,2] call Olsen_FW_FNC_AddItem;
 		[GEN_Gren_Smoke_W,2] call Olsen_FW_FNC_AddItem;
+        [GEN_Radio_SR,1] call Olsen_FW_FNC_AddItem;
         [UKCW_Mag_L7A2_100Rnd_Red,1] call Olsen_FW_FNC_AddItem;
     }];
 
