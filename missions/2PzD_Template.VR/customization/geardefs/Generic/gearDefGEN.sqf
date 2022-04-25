@@ -139,3 +139,4 @@
 
 //Radio
 #define GEN_Radio_BP            "ACRE_PRC77"
+#define GEN_Radio_SR            "ACRE_PRC148"
