@@ -31,7 +31,6 @@
 
 #define UKCW_Radio_LR \
     [UKCW_BP_Radio] call Olsen_FW_FNC_AddItemRandom; \
-    clearAllItemsFromBackpack _unit; \
     _unit addItemToBackpack UKCW_Radio_PRC117F;
 #define UK_Leader_Equipment_Set \
     [GEN_Bino] call Olsen_FW_FNC_AddItem; \
