@@ -16,7 +16,7 @@
 //Backpack
 #define UKCW_BP							"cwr3_b_uk_backpack"
 #define UKCW_BP_Medic					"cwr3_b_uk_backpack_medic_empty"
-#define UKCW_BP_Radio					"cwr3_b_backpack_radio"
+#define UKCW_BP_Radio					"cwr3_b_backpack_radio" // DO NOT USE THIS DIRECTLY. USE THE UKCW_Radio_LR defined below!
 
 //Headgear
 #define UKCW_Helm						"cwr3_b_uk_headgear_mk5_helmet_scrim"
@@ -26,6 +26,13 @@
 #define UKCW_Beret_Tank					"cwr3_b_uk_headgear_beret_headset_tank"
 
 //Misc
+#define UKCW_Radio_PRC117F              "ACRE_PRC117F"
+#define UKCW_CargoSling                 "slr_slingload_CargoSling"
+
+#define UKCW_Radio_LR \
+    [UKCW_BP_Radio] call Olsen_FW_FNC_AddItemRandom; \
+    clearAllItemsFromBackpack _unit; \
+    _unit addItemToBackpack UKCW_Radio_PRC117F;
 #define UK_Leader_Equipment_Set \
     [GEN_Bino] call Olsen_FW_FNC_AddItem; \
     [GEN_ace_maptools,1,"uniform"] call Olsen_FW_FNC_AddItem;
