@@ -44,6 +44,8 @@
 UK85_Resupply = ["UK85_Resupply", {
     params ["_vehicle"];
 
+    [UKCW_CargoSling, 2] call Olsen_FW_FNC_AddItemVehicle;
+
     GEN_Gren_Smoke;
     GEN_Medical;
     GEN_Medical;

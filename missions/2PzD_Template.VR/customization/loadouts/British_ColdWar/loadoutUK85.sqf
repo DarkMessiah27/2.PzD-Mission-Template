@@ -71,7 +71,7 @@
 		[UKCW_Uni] call Olsen_FW_FNC_AddItem;
 		[UKCW_Vest_Officer] call Olsen_FW_FNC_AddItem;
 		[UKCW_Helm_r] call Olsen_FW_FNC_AddItemRandom;
-		[UKCW_BP_Radio] call Olsen_FW_FNC_AddItemRandom;
+		UKCW_Radio_LR;
 
         //Assigned Items
         GEN_Default_Equipment_Set;
@@ -120,6 +120,7 @@
         //Assigned Items
         GEN_Default_Equipment_Set;
         GEN_MedicP_Equipment_Set;
+        UK_Leader_Equipment_Set;
 
         //Primary Weapon
         UK85_L2A3;
