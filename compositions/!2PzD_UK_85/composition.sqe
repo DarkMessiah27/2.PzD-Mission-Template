@@ -1,5 +1,5 @@
 version=54;
-center[]={6097.9438,5,3257.0317};
+center[]={1420.9934,5,1463.2543};
 class items
 {
 	items=7;
@@ -15,7 +15,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-11.000488,0.0014390945,4.8024902};
+					position[]={-10.993408,0.0014390945,4.7957764};
 					angles[]={0,1.6190023,0};
 				};
 				side="West";
@@ -111,7 +111,7 @@ class items
 						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim";
 					};
 				};
-				id=1;
+				id=48007;
 				type="cwr3_b_uk_officer";
 				class CustomAttributes
 				{
@@ -161,7 +161,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-11.000488,0.0014390945,2.8024902};
+					position[]={-10.993408,0.0014390945,2.7957764};
 					angles[]={0,1.5693477,0};
 				};
 				side="West";
@@ -173,7 +173,7 @@ class items
 					description="Platoon Sergeant@1 Platoon | HQ Section";
 					isPlayable=1;
 				};
-				id=2;
+				id=48008;
 				type="cwr3_b_uk_soldier_tl";
 				class CustomAttributes
 				{
@@ -223,7 +223,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-13.000977,0.0014390945,2.8022461};
+					position[]={-12.993896,0.0014390945,2.7955322};
 					angles[]={0,1.5712501,0};
 				};
 				side="West";
@@ -322,7 +322,7 @@ class items
 						headgear="cwr3_b_uk_headgear_beret_infantry";
 					};
 				};
-				id=3;
+				id=48009;
 				type="cwr3_b_uk_soldier_medic";
 				class CustomAttributes
 				{
@@ -391,7 +391,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-13.000977,0.0014390945,4.8022461};
+					position[]={-12.993896,0.0014390945,4.7955322};
 					angles[]={0,1.5712501,0};
 				};
 				side="West";
@@ -490,7 +490,7 @@ class items
 						headgear="cwr3_b_uk_headgear_beret_infantry";
 					};
 				};
-				id=4;
+				id=48010;
 				type="cwr3_b_uk_soldier_medic";
 				class CustomAttributes
 				{
@@ -558,7 +558,7 @@ class items
 		class Attributes
 		{
 		};
-		id=0;
+		id=48006;
 	};
 	class Item1
 	{
@@ -572,7 +572,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={0.99951172,0.0014390945,-3.1975098};
+					position[]={1.0065918,0.0014390945,12.795776};
 					angles[]={0,4.6645145,0};
 				};
 				side="West";
@@ -580,1867 +580,7 @@ class items
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;";
-					description="Section Leader@1 Platoon | 1 Section";
-					isPlayable=1;
-					class Inventory
-					{
-						class primaryWeapon
-						{
-							name="cwr3_arifle_l1a1";
-							firemode="cwr3_arifle_l1a1:Single";
-							class primaryMuzzleMag
-							{
-								name="CUP_20Rnd_762x51_FNFAL_M";
-								ammoLeft=20;
-							};
-						};
-						class handgun
-						{
-							name="CUP_hgun_Browning_HP";
-							class primaryMuzzleMag
-							{
-								name="CUP_13Rnd_9x19_Browning_HP";
-								ammoLeft=13;
-							};
-						};
-						class uniform
-						{
-							typeName="cwr3_b_uk_uniform_dpm_weathered_olive";
-							isBackpack=0;
-							class MagazineCargo
-							{
-								items=1;
-								class Item0
-								{
-									name="CUP_20Rnd_762x51_FNFAL_M";
-									count=2;
-									ammoLeft=20;
-								};
-							};
-							class ItemCargo
-							{
-								items=1;
-								class Item0
-								{
-									name="FirstAidKit";
-									count=1;
-								};
-							};
-						};
-						class vest
-						{
-							typeName="cwr3_b_uk_vest_58webbing_officer";
-							isBackpack=0;
-							class MagazineCargo
-							{
-								items=6;
-								class Item0
-								{
-									name="CUP_20Rnd_762x51_FNFAL_M";
-									count=5;
-									ammoLeft=20;
-								};
-								class Item1
-								{
-									name="CUP_13Rnd_9x19_Browning_HP";
-									count=3;
-									ammoLeft=13;
-								};
-								class Item2
-								{
-									name="CUP_HandGrenade_L109A1_HE";
-									count=2;
-									ammoLeft=1;
-								};
-								class Item3
-								{
-									name="SmokeShell";
-									count=1;
-									ammoLeft=1;
-								};
-								class Item4
-								{
-									name="SmokeShellRed";
-									count=1;
-									ammoLeft=1;
-								};
-								class Item5
-								{
-									name="SmokeShellBlue";
-									count=1;
-									ammoLeft=1;
-								};
-							};
-						};
-						map="ItemMap";
-						compass="ItemCompass";
-						watch="ItemWatch";
-						radio="ItemRadio";
-						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim";
-					};
-				};
-				id=6;
-				type="cwr3_b_uk_soldier_sl";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item1
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={3.0175781,0.0014390945,-3.2094727};
-					angles[]={0,4.7232623,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="AT Rifleman (L14A1)@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=7;
-				type="cwr3_b_uk_soldier_at_carlgustaf";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.97000003;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item2
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={4.9995117,0.0014390945,-3.1975098};
-					angles[]={0,4.7210636,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="AT Rifleman Asst.@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=8;
-				type="cwr3_b_uk_soldier_aat_carlgustaf";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male01ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item3
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={6.9995117,0.0014390945,-3.1975098};
-					angles[]={-0,4.7183928,0};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman (M72A3)@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=9;
-				type="cwr3_b_uk_soldier_at_law";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item4
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={8.9990234,0.0014390945,-3.1977539};
-					angles[]={-0,4.7183928,0};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman (Medic Asst.)@1 Platoon | 1 Section";
-					isPlayable=1;
-					class Inventory
-					{
-						class primaryWeapon
-						{
-							name="cwr3_arifle_l1a1";
-							firemode="cwr3_arifle_l1a1:Single";
-							class primaryMuzzleMag
-							{
-								name="CUP_20Rnd_762x51_FNFAL_M";
-								ammoLeft=20;
-							};
-						};
-						class uniform
-						{
-							typeName="cwr3_b_uk_uniform_dpm_weathered";
-							isBackpack=0;
-							class MagazineCargo
-							{
-								items=1;
-								class Item0
-								{
-									name="CUP_20Rnd_762x51_FNFAL_M";
-									count=2;
-									ammoLeft=20;
-								};
-							};
-							class ItemCargo
-							{
-								items=1;
-								class Item0
-								{
-									name="FirstAidKit";
-									count=1;
-								};
-							};
-						};
-						class vest
-						{
-							typeName="cwr3_b_uk_vest_58webbing_medic";
-							isBackpack=0;
-							class MagazineCargo
-							{
-								items=2;
-								class Item0
-								{
-									name="CUP_20Rnd_762x51_FNFAL_M";
-									count=5;
-									ammoLeft=20;
-								};
-								class Item1
-								{
-									name="CUP_HandGrenade_L109A1_HE";
-									count=4;
-									ammoLeft=1;
-								};
-							};
-						};
-						class backpack
-						{
-							typeName="cwr3_b_uk_backpack_medic_empty";
-							isBackpack=1;
-						};
-						map="ItemMap";
-						compass="ItemCompass";
-						watch="ItemWatch";
-						radio="ItemRadio";
-						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim_camo";
-					};
-				};
-				id=10;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="ace_isMedic";
-						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=3;
-				};
-			};
-			class Item5
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={10.999512,0.0014390945,-3.1975098};
-					angles[]={0,4.7168741,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=11;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item6
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={0.99951172,0.0014390945,-5.1975098};
-					angles[]={0,4.7129645,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					rank="CORPORAL";
-					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;";
-					description="Team Leader@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=12;
-				type="cwr3_b_uk_soldier_tl";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male05ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.97000003;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item7
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={2.9995117,0.0014390945,-5.1975098};
-					angles[]={0,4.7131572,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Machinegunner@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=13;
-				type="cwr3_b_uk_soldier_mg";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male02ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item8
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={4.9995117,0.0014390945,-5.1975098};
-					angles[]={0,4.7143259,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Machinegunner Asst.@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=14;
-				type="cwr3_b_uk_soldier_amg";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male02ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item9
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={6.9995117,0.0014390945,-5.1975098};
-					angles[]={-0,4.7183928,0};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman (M72A3)@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=15;
-				type="cwr3_b_uk_soldier_at_law";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item10
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={10.999512,0.0014390945,-5.1975098};
-					angles[]={0,4.7168741,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=16;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item11
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={8.9995117,0.0014390945,-5.1975098};
-					angles[]={0,4.7168741,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | 1 Section";
-					isPlayable=1;
-				};
-				id=17;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-		};
-		class Attributes
-		{
-		};
-		id=5;
-	};
-	class Item2
-	{
-		dataType="Group";
-		side="West";
-		class Entities
-		{
-			items=12;
-			class Item0
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={0.99951172,0.0014390945,4.8024902};
-					angles[]={0,4.6645145,0};
-				};
-				side="West";
-				flags=7;
-				class Attributes
-				{
-					rank="SERGEANT";
-					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;";
-					description="Section Leader@1 Platoon | 2 Section";
-					isPlayable=1;
-					class Inventory
-					{
-						class primaryWeapon
-						{
-							name="cwr3_arifle_l1a1";
-							firemode="cwr3_arifle_l1a1:Single";
-							class primaryMuzzleMag
-							{
-								name="CUP_20Rnd_762x51_FNFAL_M";
-								ammoLeft=20;
-							};
-						};
-						class handgun
-						{
-							name="CUP_hgun_Browning_HP";
-							class primaryMuzzleMag
-							{
-								name="CUP_13Rnd_9x19_Browning_HP";
-								ammoLeft=13;
-							};
-						};
-						class uniform
-						{
-							typeName="cwr3_b_uk_uniform_dpm_weathered_olive";
-							isBackpack=0;
-							class MagazineCargo
-							{
-								items=1;
-								class Item0
-								{
-									name="CUP_20Rnd_762x51_FNFAL_M";
-									count=2;
-									ammoLeft=20;
-								};
-							};
-							class ItemCargo
-							{
-								items=1;
-								class Item0
-								{
-									name="FirstAidKit";
-									count=1;
-								};
-							};
-						};
-						class vest
-						{
-							typeName="cwr3_b_uk_vest_58webbing_officer";
-							isBackpack=0;
-							class MagazineCargo
-							{
-								items=6;
-								class Item0
-								{
-									name="CUP_20Rnd_762x51_FNFAL_M";
-									count=5;
-									ammoLeft=20;
-								};
-								class Item1
-								{
-									name="CUP_13Rnd_9x19_Browning_HP";
-									count=3;
-									ammoLeft=13;
-								};
-								class Item2
-								{
-									name="CUP_HandGrenade_L109A1_HE";
-									count=2;
-									ammoLeft=1;
-								};
-								class Item3
-								{
-									name="SmokeShell";
-									count=1;
-									ammoLeft=1;
-								};
-								class Item4
-								{
-									name="SmokeShellRed";
-									count=1;
-									ammoLeft=1;
-								};
-								class Item5
-								{
-									name="SmokeShellBlue";
-									count=1;
-									ammoLeft=1;
-								};
-							};
-						};
-						map="ItemMap";
-						compass="ItemCompass";
-						watch="ItemWatch";
-						radio="ItemRadio";
-						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim";
-					};
-				};
-				id=19;
-				type="cwr3_b_uk_soldier_sl";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item1
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={3.0175781,0.0014390945,4.7905273};
-					angles[]={0,4.7232623,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="AT Rifleman (L14A1)@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=20;
-				type="cwr3_b_uk_soldier_at_carlgustaf";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.97000003;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item2
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={4.9995117,0.0014390945,4.8024902};
-					angles[]={0,4.7210636,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="AT Rifleman Asst.@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=21;
-				type="cwr3_b_uk_soldier_aat_carlgustaf";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male01ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item3
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={6.9995117,0.0014390945,4.8024902};
-					angles[]={-0,4.7183928,0};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman (M72A3)@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=22;
-				type="cwr3_b_uk_soldier_at_law";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item4
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={8.9990234,0.0014390945,4.8022461};
-					angles[]={-0,4.7183928,0};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman (Medic Asst.)@1 Platoon | 2 Section";
-					isPlayable=1;
-					class Inventory
-					{
-						class primaryWeapon
-						{
-							name="cwr3_arifle_l1a1";
-							firemode="cwr3_arifle_l1a1:Single";
-							class primaryMuzzleMag
-							{
-								name="CUP_20Rnd_762x51_FNFAL_M";
-								ammoLeft=20;
-							};
-						};
-						class uniform
-						{
-							typeName="cwr3_b_uk_uniform_dpm_weathered";
-							isBackpack=0;
-							class MagazineCargo
-							{
-								items=1;
-								class Item0
-								{
-									name="CUP_20Rnd_762x51_FNFAL_M";
-									count=2;
-									ammoLeft=20;
-								};
-							};
-							class ItemCargo
-							{
-								items=1;
-								class Item0
-								{
-									name="FirstAidKit";
-									count=1;
-								};
-							};
-						};
-						class vest
-						{
-							typeName="cwr3_b_uk_vest_58webbing_medic";
-							isBackpack=0;
-							class MagazineCargo
-							{
-								items=2;
-								class Item0
-								{
-									name="CUP_20Rnd_762x51_FNFAL_M";
-									count=5;
-									ammoLeft=20;
-								};
-								class Item1
-								{
-									name="CUP_HandGrenade_L109A1_HE";
-									count=4;
-									ammoLeft=1;
-								};
-							};
-						};
-						class backpack
-						{
-							typeName="cwr3_b_uk_backpack_medic_empty";
-							isBackpack=1;
-						};
-						map="ItemMap";
-						compass="ItemCompass";
-						watch="ItemWatch";
-						radio="ItemRadio";
-						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim_camo";
-					};
-				};
-				id=23;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="ace_isMedic";
-						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1;
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute2
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=3;
-				};
-			};
-			class Item5
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={10.999512,0.0014390945,4.8024902};
-					angles[]={0,4.7168741,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=24;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item6
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={0.99951172,0.0014390945,2.8024902};
-					angles[]={0,4.7129645,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					rank="CORPORAL";
-					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;";
-					description="Team Leader@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=25;
-				type="cwr3_b_uk_soldier_tl";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male05ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.97000003;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item7
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={2.9995117,0.0014390945,2.8024902};
-					angles[]={0,4.7131572,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Machinegunner@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=26;
-				type="cwr3_b_uk_soldier_mg";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male02ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item8
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={4.9995117,0.0014390945,2.8024902};
-					angles[]={0,4.7143259,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Machinegunner Asst.@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=27;
-				type="cwr3_b_uk_soldier_amg";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male02ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item9
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={6.9995117,0.0014390945,2.8024902};
-					angles[]={-0,4.7183928,0};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman (M72A3)@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=28;
-				type="cwr3_b_uk_soldier_at_law";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item10
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={10.999512,0.0014390945,2.8024902};
-					angles[]={0,4.7168741,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=29;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item11
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={8.9995117,0.0014390945,2.8024902};
-					angles[]={0,4.7168741,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | 2 Section";
-					isPlayable=1;
-				};
-				id=30;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-		};
-		class Attributes
-		{
-		};
-		id=18;
-	};
-	class Item3
-	{
-		dataType="Group";
-		side="West";
-		class Entities
-		{
-			items=12;
-			class Item0
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={0.99951172,0.0014390945,12.80249};
-					angles[]={0,4.6645145,0};
-				};
-				side="West";
-				flags=7;
-				class Attributes
-				{
-					rank="SERGEANT";
-					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;";
+					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
 					description="Section Leader@1 Platoon | 3 Section";
 					isPlayable=1;
 					class Inventory
@@ -2540,7 +680,7 @@ class items
 						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim";
 					};
 				};
-				id=32;
+				id=48038;
 				type="cwr3_b_uk_soldier_sl";
 				class CustomAttributes
 				{
@@ -2590,19 +730,19 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.0175781,0.0014390945,12.790527};
-					angles[]={0,4.7232623,0};
+					position[]={3.0065918,0.0014390945,12.795776};
+					angles[]={0,4.7131572,0};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="AT Rifleman (L14A1)@1 Platoon | 3 Section";
+					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Machinegunner@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
-				id=33;
-				type="cwr3_b_uk_soldier_at_carlgustaf";
+				id=48039;
+				type="cwr3_b_uk_soldier_mg";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2620,7 +760,7 @@ class items
 										"STRING"
 									};
 								};
-								value="Male04ENGB";
+								value="Male02ENGB";
 							};
 						};
 					};
@@ -2639,7 +779,7 @@ class items
 										"SCALAR"
 									};
 								};
-								value=0.97000003;
+								value=0.99000001;
 							};
 						};
 					};
@@ -2651,19 +791,19 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.9995117,0.0014390945,12.80249};
-					angles[]={0,4.7210636,0};
+					position[]={5.0065918,0.0014390945,12.795776};
+					angles[]={0,4.7143259,0};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="AT Rifleman Asst.@1 Platoon | 3 Section";
+					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Machinegunner Asst.@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
-				id=34;
-				type="cwr3_b_uk_soldier_aat_carlgustaf";
+				id=48040;
+				type="cwr3_b_uk_soldier_amg";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -2681,7 +821,7 @@ class items
 										"STRING"
 									};
 								};
-								value="Male01ENGB";
+								value="Male02ENGB";
 							};
 						};
 					};
@@ -2700,7 +840,7 @@ class items
 										"SCALAR"
 									};
 								};
-								value=1.03;
+								value=0.94999999;
 							};
 						};
 					};
@@ -2712,18 +852,18 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={6.9995117,0.0014390945,12.80249};
+					position[]={7.0065918,0.0014390945,12.795776};
 					angles[]={-0,4.7183928,0};
 				};
 				side="West";
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
 					description="Rifleman (M72A3)@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
-				id=35;
+				id=48041;
 				type="cwr3_b_uk_soldier_at_law";
 				class CustomAttributes
 				{
@@ -2773,14 +913,381 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={8.9990234,0.0014390945,12.802246};
+					position[]={11.006592,0.0014390945,12.795776};
+					angles[]={0,4.7168741,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | 3 Section";
+					isPlayable=1;
+				};
+				id=48042;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={9.0065918,0.0014390945,12.795776};
+					angles[]={0,4.7168741,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | 3 Section";
+					isPlayable=1;
+				};
+				id=48043;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.0065918,0.0014390945,10.795776};
+					angles[]={0,4.7129645,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					rank="CORPORAL";
+					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Team Leader@1 Platoon | 3 Section";
+					isPlayable=1;
+				};
+				id=48044;
+				type="cwr3_b_uk_soldier_tl";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.0065918,0.0014390945,10.795776};
+					angles[]={0,4.7232623,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="AT Rifleman (L14A1)@1 Platoon | 3 Section";
+					isPlayable=1;
+				};
+				id=48045;
+				type="cwr3_b_uk_soldier_at_carlgustaf";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.9886475,0.0014390945,10.807739};
+					angles[]={0,4.7210636,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="AT Rifleman Asst.@1 Platoon | 3 Section";
+					isPlayable=1;
+				};
+				id=48046;
+				type="cwr3_b_uk_soldier_aat_carlgustaf";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male01ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.9886475,0.0014390945,10.807739};
 					angles[]={-0,4.7183928,0};
 				};
 				side="West";
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman (M72A3)@1 Platoon | 3 Section";
+					isPlayable=1;
+				};
+				id=48047;
+				type="cwr3_b_uk_soldier_at_law";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.9875488,0.0014390945,10.807739};
+					angles[]={-0,4.7183928,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
 					description="Rifleman (Medic Asst.)@1 Platoon | 3 Section";
 					isPlayable=1;
 					class Inventory
@@ -2852,7 +1359,7 @@ class items
 						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim_camo";
 					};
 				};
-				id=36;
+				id=48048;
 				type="cwr3_b_uk_soldier";
 				class CustomAttributes
 				{
@@ -2916,390 +1423,23 @@ class items
 					nAttributes=3;
 				};
 			};
-			class Item5
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={10.999512,0.0014390945,12.80249};
-					angles[]={0,4.7168741,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | 3 Section";
-					isPlayable=1;
-				};
-				id=37;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item6
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={0.99951172,0.0014390945,10.80249};
-					angles[]={0,4.7129645,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					rank="CORPORAL";
-					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;";
-					description="Team Leader@1 Platoon | 3 Section";
-					isPlayable=1;
-				};
-				id=38;
-				type="cwr3_b_uk_soldier_tl";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male05ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.97000003;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item7
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={2.9995117,0.0014390945,10.80249};
-					angles[]={0,4.7131572,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Machinegunner@1 Platoon | 3 Section";
-					isPlayable=1;
-				};
-				id=39;
-				type="cwr3_b_uk_soldier_mg";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male02ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item8
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={4.9995117,0.0014390945,10.80249};
-					angles[]={0,4.7143259,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Machinegunner Asst.@1 Platoon | 3 Section";
-					isPlayable=1;
-				};
-				id=40;
-				type="cwr3_b_uk_soldier_amg";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male02ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item9
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={6.9995117,0.0014390945,10.80249};
-					angles[]={-0,4.7183928,0};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman (M72A3)@1 Platoon | 3 Section";
-					isPlayable=1;
-				};
-				id=41;
-				type="cwr3_b_uk_soldier_at_law";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item10
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={10.999512,0.0014390945,10.80249};
-					angles[]={0,4.7168741,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | 3 Section";
-					isPlayable=1;
-				};
-				id=42;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
 			class Item11
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={8.9995117,0.0014390945,10.80249};
+					position[]={10.988647,0.0014390945,10.807739};
 					angles[]={0,4.7168741,0};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
 					description="Rifleman@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
-				id=43;
+				id=48049;
 				type="cwr3_b_uk_soldier";
 				class CustomAttributes
 				{
@@ -3348,9 +1488,9 @@ class items
 		class Attributes
 		{
 		};
-		id=31;
+		id=48037;
 	};
-	class Item4
+	class Item2
 	{
 		dataType="Group";
 		side="West";
@@ -3362,7 +1502,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-11.000488,0.0014390945,-3.1975098};
+					position[]={-10.993408,0.0014390945,-3.2042236};
 					angles[]={0,1.5712153,0};
 				};
 				side="West";
@@ -3374,7 +1514,7 @@ class items
 					description="Recon Team Leader@1 Platoon | Recon Team";
 					isPlayable=1;
 				};
-				id=45;
+				id=48051;
 				type="cwr3_b_uk_soldier_spotter";
 				class CustomAttributes
 				{
@@ -3424,7 +1564,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-13.000488,0.0014390945,-3.1975098};
+					position[]={-12.993408,0.0014390945,-3.2042236};
 					angles[]={0,1.5624362,0};
 				};
 				side="West";
@@ -3435,7 +1575,7 @@ class items
 					description="Recon Team Sniper@1 Platoon | Recon Team";
 					isPlayable=1;
 				};
-				id=46;
+				id=48052;
 				type="cwr3_b_uk_soldier_sniper";
 				class CustomAttributes
 				{
@@ -3484,9 +1624,9 @@ class items
 		class Attributes
 		{
 		};
-		id=44;
+		id=48050;
 	};
-	class Item5
+	class Item3
 	{
 		dataType="Group";
 		side="West";
@@ -3498,7 +1638,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-11.000488,0.0014390945,11.80249};
+					position[]={-10.993408,0.0014390945,11.795776};
 					angles[]={0,1.5769747,0};
 				};
 				side="West";
@@ -3510,7 +1650,7 @@ class items
 					description="Tank Commander@Tank Crew";
 					isPlayable=1;
 				};
-				id=48;
+				id=48054;
 				type="cwr3_b_uk_soldier_crewman";
 				class CustomAttributes
 				{
@@ -3560,7 +1700,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-13.000488,0.0014390945,10.80249};
+					position[]={-12.993408,0.0014390945,10.795776};
 					angles[]={0,1.5769747,0};
 				};
 				side="West";
@@ -3571,7 +1711,7 @@ class items
 					description="Tank Crewman@Tank Crew";
 					isPlayable=1;
 				};
-				id=49;
+				id=48055;
 				type="cwr3_b_uk_soldier_crewman";
 				class CustomAttributes
 				{
@@ -3621,7 +1761,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-13.000488,0.0014390945,12.80249};
+					position[]={-12.993408,0.0014390945,12.795776};
 					angles[]={0,1.5769747,0};
 				};
 				side="West";
@@ -3632,7 +1772,7 @@ class items
 					description="Tank Crewman@Tank Crew";
 					isPlayable=1;
 				};
-				id=50;
+				id=48056;
 				type="cwr3_b_uk_soldier_crewman";
 				class CustomAttributes
 				{
@@ -3681,7 +1821,1867 @@ class items
 		class Attributes
 		{
 		};
-		id=47;
+		id=48053;
+	};
+	class Item4
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=12;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.0065918,0.0014390945,4.7957764};
+					angles[]={0,4.6645145,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Section Leader@1 Platoon | 2 Section";
+					isPlayable=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="cwr3_arifle_l1a1";
+							firemode="cwr3_arifle_l1a1:Single";
+							class primaryMuzzleMag
+							{
+								name="CUP_20Rnd_762x51_FNFAL_M";
+								ammoLeft=20;
+							};
+						};
+						class handgun
+						{
+							name="CUP_hgun_Browning_HP";
+							class primaryMuzzleMag
+							{
+								name="CUP_13Rnd_9x19_Browning_HP";
+								ammoLeft=13;
+							};
+						};
+						class uniform
+						{
+							typeName="cwr3_b_uk_uniform_dpm_weathered_olive";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="CUP_20Rnd_762x51_FNFAL_M";
+									count=2;
+									ammoLeft=20;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="cwr3_b_uk_vest_58webbing_officer";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=6;
+								class Item0
+								{
+									name="CUP_20Rnd_762x51_FNFAL_M";
+									count=5;
+									ammoLeft=20;
+								};
+								class Item1
+								{
+									name="CUP_13Rnd_9x19_Browning_HP";
+									count=3;
+									ammoLeft=13;
+								};
+								class Item2
+								{
+									name="CUP_HandGrenade_L109A1_HE";
+									count=2;
+									ammoLeft=1;
+								};
+								class Item3
+								{
+									name="SmokeShell";
+									count=1;
+									ammoLeft=1;
+								};
+								class Item4
+								{
+									name="SmokeShellRed";
+									count=1;
+									ammoLeft=1;
+								};
+								class Item5
+								{
+									name="SmokeShellBlue";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim";
+					};
+				};
+				id=48025;
+				type="cwr3_b_uk_soldier_sl";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.0065918,0.0014390945,4.7957764};
+					angles[]={0,4.7131572,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Machinegunner@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48026;
+				type="cwr3_b_uk_soldier_mg";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.0065918,0.0014390945,4.7957764};
+					angles[]={0,4.7143259,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Machinegunner Asst.@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48027;
+				type="cwr3_b_uk_soldier_amg";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.0065918,0.0014390945,4.7957764};
+					angles[]={-0,4.7183928,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman (M72A3)@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48028;
+				type="cwr3_b_uk_soldier_at_law";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.006592,0.0014390945,4.7957764};
+					angles[]={0,4.7168741,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48029;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={9.0065918,0.0014390945,4.7957764};
+					angles[]={0,4.7168741,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48030;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.0065918,0.0014390945,2.7957764};
+					angles[]={0,4.7129645,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					rank="CORPORAL";
+					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Team Leader@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48031;
+				type="cwr3_b_uk_soldier_tl";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.0065918,0.0014390945,2.7957764};
+					angles[]={0,4.7232623,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="AT Rifleman (L14A1)@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48032;
+				type="cwr3_b_uk_soldier_at_carlgustaf";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.9886475,0.0014390945,2.8077393};
+					angles[]={0,4.7210636,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="AT Rifleman Asst.@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48033;
+				type="cwr3_b_uk_soldier_aat_carlgustaf";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male01ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.9886475,0.0014390945,2.8077393};
+					angles[]={-0,4.7183928,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman (M72A3)@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48034;
+				type="cwr3_b_uk_soldier_at_law";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.9875488,0.0014390945,2.8077393};
+					angles[]={-0,4.7183928,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman (Medic Asst.)@1 Platoon | 2 Section";
+					isPlayable=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="cwr3_arifle_l1a1";
+							firemode="cwr3_arifle_l1a1:Single";
+							class primaryMuzzleMag
+							{
+								name="CUP_20Rnd_762x51_FNFAL_M";
+								ammoLeft=20;
+							};
+						};
+						class uniform
+						{
+							typeName="cwr3_b_uk_uniform_dpm_weathered";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="CUP_20Rnd_762x51_FNFAL_M";
+									count=2;
+									ammoLeft=20;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="cwr3_b_uk_vest_58webbing_medic";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="CUP_20Rnd_762x51_FNFAL_M";
+									count=5;
+									ammoLeft=20;
+								};
+								class Item1
+								{
+									name="CUP_HandGrenade_L109A1_HE";
+									count=4;
+									ammoLeft=1;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="cwr3_b_uk_backpack_medic_empty";
+							isBackpack=1;
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim_camo";
+					};
+				};
+				id=48035;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={10.988647,0.0014390945,2.8077393};
+					angles[]={0,4.7168741,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | 2 Section";
+					isPlayable=1;
+				};
+				id=48036;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=48024;
+	};
+	class Item5
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=12;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.0065918,0.0014390945,-3.2042236};
+					angles[]={0,4.6645145,0};
+				};
+				side="West";
+				flags=7;
+				class Attributes
+				{
+					rank="SERGEANT";
+					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Section Leader@1 Platoon | 1 Section";
+					isPlayable=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="cwr3_arifle_l1a1";
+							firemode="cwr3_arifle_l1a1:Single";
+							class primaryMuzzleMag
+							{
+								name="CUP_20Rnd_762x51_FNFAL_M";
+								ammoLeft=20;
+							};
+						};
+						class handgun
+						{
+							name="CUP_hgun_Browning_HP";
+							class primaryMuzzleMag
+							{
+								name="CUP_13Rnd_9x19_Browning_HP";
+								ammoLeft=13;
+							};
+						};
+						class uniform
+						{
+							typeName="cwr3_b_uk_uniform_dpm_weathered_olive";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="CUP_20Rnd_762x51_FNFAL_M";
+									count=2;
+									ammoLeft=20;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="cwr3_b_uk_vest_58webbing_officer";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=6;
+								class Item0
+								{
+									name="CUP_20Rnd_762x51_FNFAL_M";
+									count=5;
+									ammoLeft=20;
+								};
+								class Item1
+								{
+									name="CUP_13Rnd_9x19_Browning_HP";
+									count=3;
+									ammoLeft=13;
+								};
+								class Item2
+								{
+									name="CUP_HandGrenade_L109A1_HE";
+									count=2;
+									ammoLeft=1;
+								};
+								class Item3
+								{
+									name="SmokeShell";
+									count=1;
+									ammoLeft=1;
+								};
+								class Item4
+								{
+									name="SmokeShellRed";
+									count=1;
+									ammoLeft=1;
+								};
+								class Item5
+								{
+									name="SmokeShellBlue";
+									count=1;
+									ammoLeft=1;
+								};
+							};
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim";
+					};
+				};
+				id=48012;
+				type="cwr3_b_uk_soldier_sl";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.0065918,0.0014390945,-3.2042236};
+					angles[]={0,4.7131572,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Machinegunner@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48013;
+				type="cwr3_b_uk_soldier_mg";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={5.0065918,0.0014390945,-3.2042236};
+					angles[]={0,4.7143259,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Machinegunner Asst.@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48014;
+				type="cwr3_b_uk_soldier_amg";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.0065918,0.0014390945,-3.2042236};
+					angles[]={-0,4.7183928,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman (M72A3)@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48015;
+				type="cwr3_b_uk_soldier_at_law";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item4
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={11.006592,0.0014390945,-3.2042236};
+					angles[]={0,4.7168741,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48016;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={9.0065918,0.0014390945,-3.2042236};
+					angles[]={0,4.7168741,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48017;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.0065918,0.0014390945,-5.2042236};
+					angles[]={0,4.7129645,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					rank="CORPORAL";
+					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Team Leader@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48018;
+				type="cwr3_b_uk_soldier_tl";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.0065918,0.0014390945,-5.2042236};
+					angles[]={0,4.7232623,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="AT Rifleman (L14A1)@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48019;
+				type="cwr3_b_uk_soldier_at_carlgustaf";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.9886475,0.0014390945,-5.1922607};
+					angles[]={0,4.7210636,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="AT Rifleman Asst.@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48020;
+				type="cwr3_b_uk_soldier_aat_carlgustaf";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male01ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.9886475,0.0014390945,-5.1922607};
+					angles[]={-0,4.7183928,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman (M72A3)@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48021;
+				type="cwr3_b_uk_soldier_at_law";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.9875488,0.0014390945,-5.1922607};
+					angles[]={-0,4.7183928,0};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman (Medic Asst.)@1 Platoon | 1 Section";
+					isPlayable=1;
+					class Inventory
+					{
+						class primaryWeapon
+						{
+							name="cwr3_arifle_l1a1";
+							firemode="cwr3_arifle_l1a1:Single";
+							class primaryMuzzleMag
+							{
+								name="CUP_20Rnd_762x51_FNFAL_M";
+								ammoLeft=20;
+							};
+						};
+						class uniform
+						{
+							typeName="cwr3_b_uk_uniform_dpm_weathered";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="CUP_20Rnd_762x51_FNFAL_M";
+									count=2;
+									ammoLeft=20;
+								};
+							};
+							class ItemCargo
+							{
+								items=1;
+								class Item0
+								{
+									name="FirstAidKit";
+									count=1;
+								};
+							};
+						};
+						class vest
+						{
+							typeName="cwr3_b_uk_vest_58webbing_medic";
+							isBackpack=0;
+							class MagazineCargo
+							{
+								items=2;
+								class Item0
+								{
+									name="CUP_20Rnd_762x51_FNFAL_M";
+									count=5;
+									ammoLeft=20;
+								};
+								class Item1
+								{
+									name="CUP_HandGrenade_L109A1_HE";
+									count=4;
+									ammoLeft=1;
+								};
+							};
+						};
+						class backpack
+						{
+							typeName="cwr3_b_uk_backpack_medic_empty";
+							isBackpack=1;
+						};
+						map="ItemMap";
+						compass="ItemCompass";
+						watch="ItemWatch";
+						radio="ItemRadio";
+						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim_camo";
+					};
+				};
+				id=48022;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ace_isMedic";
+						expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=3;
+				};
+			};
+			class Item11
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={10.988647,0.0014390945,-5.1922607};
+					angles[]={0,4.7168741,0};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | 1 Section";
+					isPlayable=1;
+				};
+				id=48023;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=48011;
 	};
 	class Item6
 	{
@@ -3695,15 +3695,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.0004883,0.0014390945,-11.19751};
-					angles[]={0,6.2337399,0};
+					position[]={-4.9934082,0.0014390945,-11.204224};
 				};
 				side="West";
 				flags=7;
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;";
+					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
 					description="Section Leader@1 Platoon | Reserve Section";
 					isPlayable=1;
 					class Inventory
@@ -3803,7 +3802,7 @@ class items
 						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim";
 					};
 				};
-				id=52;
+				id=48058;
 				type="cwr3_b_uk_soldier_sl";
 				class CustomAttributes
 				{
@@ -3853,19 +3852,18 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-5.0092773,0.0014390945,-13.215576};
-					angles[]={0,0.0093026049,0};
+					position[]={-5.0024414,0.0014390945,-13.204224};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="AT Rifleman (L14A1)@1 Platoon | Reserve Section";
+					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Machinegunner@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
-				id=53;
-				type="cwr3_b_uk_soldier_at_carlgustaf";
+				id=48059;
+				type="cwr3_b_uk_soldier_mg";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -3883,7 +3881,7 @@ class items
 										"STRING"
 									};
 								};
-								value="Male04ENGB";
+								value="Male02ENGB";
 							};
 						};
 					};
@@ -3902,7 +3900,7 @@ class items
 										"SCALAR"
 									};
 								};
-								value=0.97000003;
+								value=0.99000001;
 							};
 						};
 					};
@@ -3914,19 +3912,18 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.9941406,0.0014390945,-15.19751};
-					angles[]={0,0.0071034902,0};
+					position[]={-5.0113525,0.0014390945,-15.204224};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="AT Rifleman Asst.@1 Platoon | Reserve Section";
+					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Machinegunner Asst.@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
-				id=54;
-				type="cwr3_b_uk_soldier_aat_carlgustaf";
+				id=48060;
+				type="cwr3_b_uk_soldier_amg";
 				class CustomAttributes
 				{
 					class Attribute0
@@ -3944,7 +3941,7 @@ class items
 										"STRING"
 									};
 								};
-								value="Male01ENGB";
+								value="Male02ENGB";
 							};
 						};
 					};
@@ -3963,7 +3960,7 @@ class items
 										"SCALAR"
 									};
 								};
-								value=1.03;
+								value=0.94999999;
 							};
 						};
 					};
@@ -3975,18 +3972,17 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.9902344,0.0014390945,-17.19751};
-					angles[]={-0,0.0044331364,0};
+					position[]={-5.0194092,0.0014390945,-17.204224};
 				};
 				side="West";
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
 					description="Rifleman (M72A3)@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
-				id=55;
+				id=48061;
 				type="cwr3_b_uk_soldier_at_law";
 				class CustomAttributes
 				{
@@ -4036,14 +4032,374 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.987793,0.0014390945,-19.197754};
-					angles[]={-0,0.0044331364,0};
+					position[]={-5.0373535,0.0014390945,-21.204224};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | Reserve Section";
+					isPlayable=1;
+				};
+				id=48062;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.0284424,0.0014390945,-19.204224};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman@1 Platoon | Reserve Section";
+					isPlayable=1;
+				};
+				id=48063;
+				type="cwr3_b_uk_soldier";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.9934082,0.0014390945,-11.19519};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					rank="CORPORAL";
+					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Team Leader@1 Platoon | Reserve Section";
+					isPlayable=1;
+				};
+				id=48064;
+				type="cwr3_b_uk_soldier_tl";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male05ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item7
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.0024414,0.0014390945,-13.19519};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="AT Rifleman (L14A1)@1 Platoon | Reserve Section";
+					isPlayable=1;
+				};
+				id=48065;
+				type="cwr3_b_uk_soldier_at_carlgustaf";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item8
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-6.9984131,0.0014390945,-15.177246};
+				};
+				side="West";
+				flags=5;
+				class Attributes
+				{
+					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="AT Rifleman Asst.@1 Platoon | Reserve Section";
+					isPlayable=1;
+				};
+				id=48066;
+				type="cwr3_b_uk_soldier_aat_carlgustaf";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male01ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item9
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.0074463,0.0014390945,-17.177246};
 				};
 				side="West";
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					description="Rifleman (M72A3)@1 Platoon | Reserve Section";
+					isPlayable=1;
+				};
+				id=48067;
+				type="cwr3_b_uk_soldier_at_law";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENGB";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item10
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.0163574,0.0014390945,-19.17627};
+				};
+				side="West";
+				flags=4;
+				class Attributes
+				{
+					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
 					description="Rifleman (Medic Asst.)@1 Platoon | Reserve Section";
 					isPlayable=1;
 					class Inventory
@@ -4115,7 +4471,7 @@ class items
 						headgear="cwr3_b_uk_headgear_mk5_helmet_scrim_camo";
 					};
 				};
-				id=56;
+				id=48068;
 				type="cwr3_b_uk_soldier";
 				class CustomAttributes
 				{
@@ -4179,390 +4535,22 @@ class items
 					nAttributes=3;
 				};
 			};
-			class Item5
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-4.984375,0.0014390945,-21.19751};
-					angles[]={0,0.0029146997,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | Reserve Section";
-					isPlayable=1;
-				};
-				id=57;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item6
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-7.0004883,0.0014390945,-11.200684};
-					angles[]={0,6.2821903,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					rank="CORPORAL";
-					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;";
-					description="Team Leader@1 Platoon | Reserve Section";
-					isPlayable=1;
-				};
-				id=58;
-				type="cwr3_b_uk_soldier_tl";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male05ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.97000003;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item7
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-6.9970703,0.0014390945,-13.200684};
-					angles[]={0,6.2823825,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Machinegunner@1 Platoon | Reserve Section";
-					isPlayable=1;
-				};
-				id=59;
-				type="cwr3_b_uk_soldier_mg";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male02ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.99000001;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item8
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-6.9941406,0.0014390945,-15.200684};
-					angles[]={0,0.00036651915,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Machinegunner Asst.@1 Platoon | Reserve Section";
-					isPlayable=1;
-				};
-				id=60;
-				type="cwr3_b_uk_soldier_amg";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male02ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item9
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-6.9902344,0.0014390945,-17.200439};
-					angles[]={-0,0.0044331364,0};
-				};
-				side="West";
-				flags=4;
-				class Attributes
-				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman (M72A3)@1 Platoon | Reserve Section";
-					isPlayable=1;
-				};
-				id=61;
-				type="cwr3_b_uk_soldier_at_law";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male04ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=0.94999999;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
-			class Item10
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-6.984375,0.0014390945,-21.200439};
-					angles[]={0,0.0029146997,0};
-				};
-				side="West";
-				flags=5;
-				class Attributes
-				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
-					description="Rifleman@1 Platoon | Reserve Section";
-					isPlayable=1;
-				};
-				id=62;
-				type="cwr3_b_uk_soldier";
-				class CustomAttributes
-				{
-					class Attribute0
-					{
-						property="speaker";
-						expression="_this setspeaker _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"STRING"
-									};
-								};
-								value="Male03ENGB";
-							};
-						};
-					};
-					class Attribute1
-					{
-						property="pitch";
-						expression="_this setpitch _value;";
-						class Value
-						{
-							class data
-							{
-								class type
-								{
-									type[]=
-									{
-										"SCALAR"
-									};
-								};
-								value=1.03;
-							};
-						};
-					};
-					nAttributes=2;
-				};
-			};
 			class Item11
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.9882813,0.0014390945,-19.200439};
-					angles[]={0,0.0029146997,0};
+					position[]={-7.0253906,0.0014390945,-21.177246};
 				};
 				side="West";
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
 					description="Rifleman@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
-				id=63;
+				id=48069;
 				type="cwr3_b_uk_soldier";
 				class CustomAttributes
 				{
@@ -4611,6 +4599,6 @@ class items
 		class Attributes
 		{
 		};
-		id=51;
+		id=48057;
 	};
 };
