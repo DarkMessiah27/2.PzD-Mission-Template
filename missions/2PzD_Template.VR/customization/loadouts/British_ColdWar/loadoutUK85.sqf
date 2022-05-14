@@ -58,7 +58,7 @@
 #define UK85_L42A1 \
         [UKCW_Mag_L41A1, 1] call Olsen_FW_FNC_AddItem; \
 		[UKCW_Weap_L42A1] call Olsen_FW_FNC_AddItem; \
-		[UKCW_Mag_L41A1, 10, "vest"] call Olsen_FW_FNC_AddItem;
+		[UKCW_Mag_L41A1, 20, "vest"] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
