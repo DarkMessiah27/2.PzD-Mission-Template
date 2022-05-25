@@ -4,7 +4,7 @@
 #define UKCW_Uni                  		"cwr3_b_uk_uniform_dpm"
 #define UKCW_Uni_Ghillie				"cwr3_b_vest_ghillie"
 #define UKCW_Uni_Ghillie_D				"cwr3_b_vest_ghillie_des"
-#define UKCW_Uni_VCrew					"cwr3_i_uniform_coverall_grey"
+#define UKCW_Uni_VCrew					"CUP_U_USNavy_LHD_crew_Brown"
 
 //Vests
 #define UKCW_Vest						"cwr3_b_uk_vest_58webbing"
