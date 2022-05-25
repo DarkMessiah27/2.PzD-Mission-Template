@@ -580,7 +580,7 @@ class items
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Section Leader@1 Platoon | 3 Section";
 					isPlayable=1;
 					class Inventory
@@ -737,7 +737,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Machinegunner@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -798,7 +798,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Machinegunner Asst.@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -859,7 +859,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman (M72A3)@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -920,7 +920,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -981,7 +981,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -1043,7 +1043,7 @@ class items
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Team Leader@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -1104,7 +1104,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="AT Rifleman (L14A1)@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -1165,7 +1165,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="AT Rifleman Asst.@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -1226,7 +1226,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman (M72A3)@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -1287,7 +1287,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman (Medic Asst.)@1 Platoon | 3 Section";
 					isPlayable=1;
 					class Inventory
@@ -1435,7 +1435,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman@1 Platoon | 3 Section";
 					isPlayable=1;
 				};
@@ -1843,7 +1843,7 @@ class items
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Section Leader@1 Platoon | 2 Section";
 					isPlayable=1;
 					class Inventory
@@ -2000,7 +2000,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Machinegunner@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2061,7 +2061,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Machinegunner Asst.@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2122,7 +2122,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman (M72A3)@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2183,7 +2183,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2244,7 +2244,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2306,7 +2306,7 @@ class items
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Team Leader@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2367,7 +2367,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="AT Rifleman (L14A1)@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2428,7 +2428,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="AT Rifleman Asst.@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2489,7 +2489,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman (M72A3)@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2550,7 +2550,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman (Medic Asst.)@1 Platoon | 2 Section";
 					isPlayable=1;
 					class Inventory
@@ -2698,7 +2698,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman@1 Platoon | 2 Section";
 					isPlayable=1;
 				};
@@ -2773,7 +2773,7 @@ class items
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Section Leader@1 Platoon | 1 Section";
 					isPlayable=1;
 					class Inventory
@@ -2930,7 +2930,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Machinegunner@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -2991,7 +2991,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Machinegunner Asst.@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3052,7 +3052,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman (M72A3)@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3113,7 +3113,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3174,7 +3174,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3236,7 +3236,7 @@ class items
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Team Leader@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3297,7 +3297,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="AT Rifleman (L14A1)@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3358,7 +3358,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="AT Rifleman Asst.@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3419,7 +3419,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman (M72A3)@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3480,7 +3480,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman (Medic Asst.)@1 Platoon | 1 Section";
 					isPlayable=1;
 					class Inventory
@@ -3628,7 +3628,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman@1 Platoon | 1 Section";
 					isPlayable=1;
 				};
@@ -3702,7 +3702,7 @@ class items
 				class Attributes
 				{
 					rank="SERGEANT";
-					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_SL] call Olsen_FW_FNC_GearScript;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Section Leader@1 Platoon | Reserve Section";
 					isPlayable=1;
 					class Inventory
@@ -3858,7 +3858,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MG] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Machinegunner@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -3918,7 +3918,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MGA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Machinegunner Asst.@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -3978,7 +3978,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman (M72A3)@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -4038,7 +4038,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -4098,7 +4098,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""BLUE""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""BLUE""} };";
 					description="Rifleman@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -4159,7 +4159,7 @@ class items
 				class Attributes
 				{
 					rank="CORPORAL";
-					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_TL] call Olsen_FW_FNC_GearScript;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Team Leader@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -4219,7 +4219,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_AT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="AT Rifleman (L14A1)@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -4279,7 +4279,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_ATA] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="AT Rifleman Asst.@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -4339,7 +4339,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_RifAT] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman (M72A3)@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
@@ -4399,7 +4399,7 @@ class items
 				flags=4;
 				class Attributes
 				{
-					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_MedS] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman (Medic Asst.)@1 Platoon | Reserve Section";
 					isPlayable=1;
 					class Inventory
@@ -4546,7 +4546,7 @@ class items
 				flags=5;
 				class Attributes
 				{
-					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "[this, ""RED""] call Olsen_FW_FNC_SetTeamColor;";
+					init="[this, UK85_Rif] call Olsen_FW_FNC_GearScript;" \n "this call Olsen_FW_FNC_removeMap;" \n "0 = this spawn {waitUntil {time > 1}; if (local _this) then {_this assignTeam ""RED""} };";
 					description="Rifleman@1 Platoon | Reserve Section";
 					isPlayable=1;
 				};
