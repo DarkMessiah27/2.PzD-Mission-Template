@@ -84,7 +84,6 @@
         [UKCW_Gren_Frag,2] call Olsen_FW_FNC_AddItem;
 		[GEN_Gren_Smoke_W,1] call Olsen_FW_FNC_AddItem;
 		[GEN_Gren_Smoke_B,1] call Olsen_FW_FNC_AddItem;
-        [GEN_Radio_SR,1] call Olsen_FW_FNC_AddItem;
     }];
 
 	//Platoon Sergeant

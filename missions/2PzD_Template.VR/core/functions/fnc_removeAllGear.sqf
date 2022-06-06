@@ -14,44 +14,14 @@
 
 params ["_unit"];
 
-switch (_unit call Olsen_FW_FNC_getOriginalSide) do {
-    case WEST : {
-        FW_Whitelist_Face = [
-            "","None",
-            "G_LIB_Watch1","G_LIB_Watch2", //watches
-            "G_LIB_Dienst_Brille","G_LIB_Dienst_Brille2", //glasses
-            "G_LIB_GER_Gloves1","G_LIB_GER_Gloves2","G_LIB_GER_Gloves3", //wool gloves
-            "G_LIB_GER_Gloves4" //leather gloves
-        ];
-    };
-    case EAST : {
-        FW_Whitelist_Face = [
-            "","None",
-            "G_LIB_Watch1","G_LIB_Watch2", //watches
-            "G_LIB_Dienst_Brille","G_LIB_Dienst_Brille2", //glasses
-            "G_LIB_GER_Gloves1","G_LIB_GER_Gloves2","G_LIB_GER_Gloves3", //wool gloves
-            "G_LIB_GER_Gloves4" //leather gloves
-        ];
-    };
-    case RESISTANCE : {
-        FW_Whitelist_Face = [
-            "","None","G_LIB_Mohawk",
-            "G_LIB_Watch1","G_LIB_Watch2", //watches
-            "G_Aviator", //glasses
-            "G_LIB_GER_Gloves1","G_LIB_GER_Gloves2","G_LIB_GER_Gloves3", //wool gloves
-            "G_LIB_GER_Gloves4","G_LIB_GER_Gloves5" //leather gloves
-        ];
-    };
-    default {
-        FW_Whitelist_Face = [
-            "","None",
-            "G_LIB_Watch1","G_LIB_Watch2", //watches
-            "G_Aviator","G_Spectacles","G_Squares_Tinted","G_Squares","G_Spectacles_Tinted","G_LIB_Dienst_Brille","G_LIB_Dienst_Brille2", //glasses
-            "G_LIB_GER_Gloves1","G_LIB_GER_Gloves2","G_LIB_GER_Gloves3", //wool gloves
-            "G_LIB_GER_Gloves4" //leather gloves
-        ];
-    };
-};
+FW_Whitelist_Face = [
+    "","None",
+    "G_LIB_Watch1","G_LIB_Watch2", //watches
+    "G_LIB_Dienst_Brille","G_LIB_Dienst_Brille2", //glasses
+    "G_LIB_GER_Gloves1","G_LIB_GER_Gloves2","G_LIB_GER_Gloves3", //wool gloves
+    "G_LIB_GER_Gloves4", //leather gloves
+    "CUP_Beard_Black", "CUP_Beard_Blonde", "CUP_Beard_Brown" //beards
+];
 
 if (
     !isPlayer _unit
