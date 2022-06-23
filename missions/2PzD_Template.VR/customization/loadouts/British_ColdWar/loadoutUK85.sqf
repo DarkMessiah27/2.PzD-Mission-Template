@@ -55,10 +55,12 @@
         [UKCW_Mag_CG_HEAT, 1, "backpack"] call Olsen_FW_FNC_AddItem; \
         [UKCW_Mag_CG_HEDP, 1, "backpack"] call Olsen_FW_FNC_AddItem;
 
-#define UK85_L42A1 \
-        [UKCW_Mag_L41A1, 1] call Olsen_FW_FNC_AddItem; \
-		[UKCW_Weap_L42A1] call Olsen_FW_FNC_AddItem; \
-		[UKCW_Mag_L41A1, 20, "vest"] call Olsen_FW_FNC_AddItem;
+#define UK85_M21 \
+        [UKCW_Mag_M21, 1] call Olsen_FW_FNC_AddItem; \
+		[UKCW_Weap_M21] call Olsen_FW_FNC_AddItem; \
+        [UKCW_Acc_M21_Scope, 1] call Olsen_FW_FNC_AddItem; \
+		[UKCW_Mag_M21, 5, "vest"] call Olsen_FW_FNC_AddItem; \
+        [UKCW_Mag_M21_Red, 5, "vest"] call Olsen_FW_FNC_AddItem;
 
 //======================== Loadouts ========================
 
@@ -352,7 +354,7 @@
         GEN_Default_Equipment_Set;
 
         //Primary Weapon
-        UK85_L42A1;
+        UK85_M21;
 
         //Extra
         [UKCW_Gren_Frag,1] call Olsen_FW_FNC_AddItem;
