@@ -3,7 +3,7 @@
     _statementTargetsMain = {
         [["Select a target,"],[format ["Current target is %1.", (supportFire_targetType call Olsen_FW_FNC_SupportFire_GetTargetName)]], true] call CBA_fnc_notify;
     };
-    _actionTargetsMain = ["Select Target","Select Target","Haas_WWII_Rebalance\UI\icon_supporting_fires_target.paa",_statementTargetsMain,_conditionTargets] call ace_interact_menu_fnc_createAction;
+    _actionTargetsMain = ["Select Target","Select Target","",_statementTargetsMain,_conditionTargets] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions","Supporting Fires"], _actionTargetsMain] call ace_interact_menu_fnc_addActionToObject;
 
     // ===== Add Targets
@@ -12,7 +12,7 @@
             [[(format ["Selected target is %1.<br/>Select the type of ammunition to use.",supportFire_target01_Name])], true] call CBA_fnc_notify;
             supportFire_targetType = "Target01";
         };
-        _actionTarget01 = [supportFire_target01_Name,supportFire_target01_Name,"Haas_WWII_Rebalance\UI\icon_supporting_fires_target.paa",_statementTarget01,{true}] call ace_interact_menu_fnc_createAction;
+        _actionTarget01 = [supportFire_target01_Name,supportFire_target01_Name,"",_statementTarget01,{true}] call ace_interact_menu_fnc_createAction;
         [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionTarget01] call ace_interact_menu_fnc_addActionToObject;
     };
     if (supportFire_target02 != "") then {
@@ -20,7 +20,7 @@
             [[(format ["Selected target is %1.<br/>Select the type of ammunition to use.",supportFire_target02_Name])], true] call CBA_fnc_notify;
             supportFire_targetType = "Target02";
         };
-        _actionTarget02 = [supportFire_target02_Name,supportFire_target02_Name,"Haas_WWII_Rebalance\UI\icon_supporting_fires_target.paa",_statementTarget02,{true}] call ace_interact_menu_fnc_createAction;
+        _actionTarget02 = [supportFire_target02_Name,supportFire_target02_Name,"",_statementTarget02,{true}] call ace_interact_menu_fnc_createAction;
         [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionTarget02] call ace_interact_menu_fnc_addActionToObject;
     };
     if (supportFire_target03 != "") then {
@@ -28,7 +28,7 @@
             [[(format ["Selected target is %1.<br/>Select the type of ammunition to use.",supportFire_target03_Name])], true] call CBA_fnc_notify;
             supportFire_targetType = "Target03";
         };
-        _actionTarget03 = [supportFire_target03_Name,supportFire_target03_Name,"Haas_WWII_Rebalance\UI\icon_supporting_fires_target.paa",_statementTarget03,{true}] call ace_interact_menu_fnc_createAction;
+        _actionTarget03 = [supportFire_target03_Name,supportFire_target03_Name,"",_statementTarget03,{true}] call ace_interact_menu_fnc_createAction;
         [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionTarget03] call ace_interact_menu_fnc_addActionToObject;
     };
     if (supportFire_target04 != "") then {
@@ -36,7 +36,7 @@
             [[(format ["Selected target is %1.<br/>Select the type of ammunition to use.",supportFire_target04_Name])], true] call CBA_fnc_notify;
             supportFire_targetType = "Target04";
         };
-        _actionTarget04 = [supportFire_target04_Name,supportFire_target04_Name,"Haas_WWII_Rebalance\UI\icon_supporting_fires_target.paa",_statementTarget04,{true}] call ace_interact_menu_fnc_createAction;
+        _actionTarget04 = [supportFire_target04_Name,supportFire_target04_Name,"",_statementTarget04,{true}] call ace_interact_menu_fnc_createAction;
         [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionTarget04] call ace_interact_menu_fnc_addActionToObject;
     };
     if (supportFire_target05 != "") then {
@@ -44,7 +44,7 @@
             [[(format ["Selected target is %1.<br/>Select the type of ammunition to use.",supportFire_target05_Name])], true] call CBA_fnc_notify;
             supportFire_targetType = "Target05";
         };
-        _actionTarget05 = [supportFire_target05_Name,supportFire_target05_Name,"Haas_WWII_Rebalance\UI\icon_supporting_fires_target.paa",_statementTarget05,{true}] call ace_interact_menu_fnc_createAction;
+        _actionTarget05 = [supportFire_target05_Name,supportFire_target05_Name,"",_statementTarget05,{true}] call ace_interact_menu_fnc_createAction;
         [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionTarget05] call ace_interact_menu_fnc_addActionToObject;
     };
     if (supportFire_target06 != "") then {
@@ -52,12 +52,12 @@
             [[(format ["Selected target is %1.<br/>Select the type of ammunition to use.",supportFire_target06_Name])], true] call CBA_fnc_notify;
             supportFire_targetType = "Target06";
         };
-        _actionTarget06 = [supportFire_target06_Name,supportFire_target06_Name,"Haas_WWII_Rebalance\UI\icon_supporting_fires_target.paa",_statementTarget06,{true}] call ace_interact_menu_fnc_createAction;
+        _actionTarget06 = [supportFire_target06_Name,supportFire_target06_Name,"",_statementTarget06,{true}] call ace_interact_menu_fnc_createAction;
         [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionTarget06] call ace_interact_menu_fnc_addActionToObject;
     };
 
     _statementGrid = {createDialog "Supporting_Fires_Dialog";};
-    _actionGrid = ["Grid","Grid","Haas_WWII_Rebalance\UI\icon_supporting_fires_target_grid.paa",_statementGrid,{true}] call ace_interact_menu_fnc_createAction; //TODO change to grid paa
+    _actionGrid = ["Grid","Grid","",_statementGrid,{true}] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionGrid] call ace_interact_menu_fnc_addActionToObject;
 
     _statementVisualLoc = {
@@ -83,7 +83,7 @@
 
         supportFire_targetType = "TargetVisual";
     };
-    _actionVisualLoc = ["Visual Location","Visual Location","Haas_WWII_Rebalance\UI\icon_supporting_fires_target_vis.paa",_statementVisualLoc,_conditionVisual] call ace_interact_menu_fnc_createAction;
+    _actionVisualLoc = ["Visual Location","Visual Location","",_statementVisualLoc,_conditionVisual] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionVisualLoc] call ace_interact_menu_fnc_addActionToObject;
 
     _statementRepeat = {
@@ -91,5 +91,5 @@
         supportFire_targetType = "TargetLast";
         supportFire_firstRepeat = True;
     };
-    _actionRepeat = ["Repeat Last Target","Repeat Last Target","Haas_WWII_Rebalance\UI\icon_supporting_fires_target_rep.paa",_statementRepeat,_conditionRepeat] call ace_interact_menu_fnc_createAction;
+    _actionRepeat = ["Repeat Last Target","Repeat Last Target","",_statementRepeat,_conditionRepeat] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions","Supporting Fires","Select Target"], _actionRepeat] call ace_interact_menu_fnc_addActionToObject;
