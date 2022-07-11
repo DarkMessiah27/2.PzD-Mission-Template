@@ -49,17 +49,17 @@ _supportingFireActions = call {
             [["Select a target, type of ammunition, and number of rounds, then call the fire mission."], true] call CBA_fnc_notify;
         };
     };
-    _actionFires = ["Supporting Fires","Supporting Fires","Haas_WWII_Rebalance\UI\icon_supporting_fires.paa",_statementFires,_conditionFires] call ace_interact_menu_fnc_createAction;
+    _actionFires = ["Supporting Fires","Supporting Fires","",_statementFires,_conditionFires] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions"], _actionFires] call ace_interact_menu_fnc_addActionToObject;
 
     // ===== Add action to check remaining ammunition
     _statementRounds = {[] call Olsen_FW_FNC_SupportFire_AmmoCheck;};
-    _actionRounds = ["Check Ammo Supply","Check Ammo Supply","Haas_WWII_Rebalance\UI\icon_supporting_fires_ammo.paa",_statementRounds,_conditionCheck] call ace_interact_menu_fnc_createAction;
+    _actionRounds = ["Check Ammo Supply","Check Ammo Supply","",_statementRounds,_conditionCheck] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions","Supporting Fires"], _actionRounds] call ace_interact_menu_fnc_addActionToObject;
 
     // ===== Add action to indicate fire mission is in progress.
     _statementFiring = {[["Fire mission is already underway."], true] call CBA_fnc_notify;};
-    _actionFiring = ["Fire Mission In Progress","Fire Mission In Progress","Haas_WWII_Rebalance\UI\icon_supporting_fires.paa",_statementFiring,_conditionFiring] call ace_interact_menu_fnc_createAction;
+    _actionFiring = ["Fire Mission In Progress","Fire Mission In Progress","",_statementFiring,_conditionFiring] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions","Supporting Fires"], _actionFiring] call ace_interact_menu_fnc_addActionToObject;
 
     // ===== Add Targets
@@ -78,14 +78,14 @@ _supportingFireActions = call {
     _statementSafety = {
         [["Select 'Confirm' to call the fire mission."], true] call CBA_fnc_notify
     };
-    _actionSafety = ["Call for Fire","Call for Fire","Haas_WWII_Rebalance\UI\icon_supporting_fires.paa",_statementSafety,_conditionTargets] call ace_interact_menu_fnc_createAction;
+    _actionSafety = ["Call for Fire","Call for Fire","",_statementSafety,_conditionTargets] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions","Supporting Fires"], _actionSafety] call ace_interact_menu_fnc_addActionToObject;
 
     // ===== Add Fire Mission
     _statementFireMission = {
         [supportFire_ammoType, supportFire_volumeOfFire, supportFire_targetType, supportFire_adjustmentCoords] call Olsen_FW_FNC_SupportFire_FireMission;
     };
-    _actionFireMission = ["Confirm!","Confirm!","Haas_WWII_Rebalance\UI\icon_supporting_fires.paa",_statementFireMission,{true}] call ace_interact_menu_fnc_createAction;
+    _actionFireMission = ["Confirm!","Confirm!","",_statementFireMission,{true}] call ace_interact_menu_fnc_createAction;
     [player, 1, ["ACE_SelfActions","Supporting Fires","Call for Fire"], _actionFireMission] call ace_interact_menu_fnc_addActionToObject;
 
 };
